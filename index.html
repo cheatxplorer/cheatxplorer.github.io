@@ -27,20 +27,19 @@
     /* Profile container styling */
     .profile-container {
       position: absolute;
-      top: 10%;
-      left: 2%;
-      display: flex;
-      align-items: center; /* Aligns the image and text vertically */
+      top: 50%; /* Center vertically */
+      left: 50%; /* Center horizontally */
+      transform: translate(-50%, -50%); /* Adjust to center exactly */
+      text-align: center;
       z-index: 1;
     }
 
-    /* Profile image styling without bouncing effect */
+    /* Profile image styling */
     .profile-image {
       border-radius: 15%;
       width: 150px;
       height: 150px;
       border: 5px solid #fff; /* White border around the profile image */
-      margin-right: 20px; /* Adds space between image and name */
     }
 
     /* Owner name styling */
@@ -48,7 +47,7 @@
       font-size: 30px; /* Adjust size of the text */
       color: white; /* Text color */
       font-weight: bold; /* Bold text */
-      margin-top: -120px; /* Move the name up */
+      margin-top: 20px; /* Space between the profile image and name */
     }
 
     /* Optional styling for the body (if you want to add content later) */
@@ -75,11 +74,6 @@
     <img class="profile-image" src="https://cdn.discordapp.com/attachments/1114899889025994794/1349508855721361438/4fc29000-6d51-4f22-a6bc-6c03be6bddb2-ezgif.com-webp-to-jpg-converter.jpg?ex=67d35b8f&is=67d20a0f&hm=73e91903cc8b5c27217e08f6765958f71c3b3c6bfea19769a45c0e356d28c646&" alt="Profile Image">
     <!-- Owner Name -->
     <div class="owner-name">CheatXplorer</div>
-  </div>
-
-  <!-- Optional content can be added here (empty for now) -->
-  <div class="content">
-    <!-- No text or content here for now -->
   </div>
 
 </body>
