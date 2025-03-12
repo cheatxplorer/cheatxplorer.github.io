@@ -1,60 +1,44 @@
-/* Basic Styling */
+/* Body and General Styles */
 body {
-    font-family: 'Courier New', monospace;
-    background-color: #000;
-    color: #00FF00;
     margin: 0;
     padding: 0;
+    font-family: 'Courier New', monospace;
+    height: 100vh;
     overflow: hidden;
+    background-color: black;
 }
 
-header {
-    position: absolute;
-    top: 20%;
-    left: 50%;
-    transform: translateX(-50%);
-    text-align: center;
-    z-index: 2;
-}
-
-header h1 {
-    font-size: 3em;
-}
-
-header p {
-    font-size: 1.5em;
-}
-
-/* Content Section */
-.content {
-    position: absolute;
-    top: 40%;
-    left: 50%;
-    transform: translateX(-50%);
-    text-align: center;
-    z-index: 2;
-}
-
-/* Hacker-style background animation */
+/* Set the background image */
 #hacker-background {
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: #000;
-    color: #00FF00;
-    font-family: 'Courier New', monospace;
+    background-image: url('your-image.jpg');  /* Replace with your background image URL */
+    background-size: cover;
+    background-position: center;
     z-index: 1;
-    pointer-events: none;
-    padding: 10px;
-    white-space: nowrap;
-    overflow: hidden;
-    font-size: 20px;
-    line-height: 30px;
+    opacity: 0.5;  /* Makes image slightly transparent to let code animation show clearly */
 }
 
-/* Scroll effect for the code */
+/* Hacker Code Animation Styling */
+#hacker-code {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #00FF00;
+    font-family: 'Courier New', monospace;
+    white-space: nowrap;
+    overflow: hidden;
+    z-index: 2;
+    font-size: 20px;
+    line-height: 30px;
+    animation: scroll 10s linear infinite;
+}
+
+/* Code Animation Effect (Scrolling) */
 @keyframes scroll {
     0% {
         transform: translateY(100%);
@@ -64,9 +48,20 @@ header p {
     }
 }
 
-#hacker-background code {
-    display: block;
-    animation: scroll 10s linear infinite;
-    font-size: 18px;
-    color: #00FF00;
+/* Style the body background */
+html, body {
+    height: 100%;
+    margin: 0;
+    overflow: hidden;
+}
+
+/* Fix the background image */
+#hacker-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
 }
