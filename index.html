@@ -11,104 +11,41 @@
       padding: 0;
       height: 100%;
       overflow: hidden;
-      font-family: monospace;
-      background-color: black;
     }
 
-    /* Set the container for the animation */
-    .matrix-container {
-      position: absolute;
+    /* Make sure the video covers the full page */
+    .video-background {
+      position: fixed; /* Fixed positioning to stay in the background */
       top: 0;
       left: 0;
       width: 100%;
       height: 100%;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      pointer-events: none;
+      object-fit: cover; /* Ensures the video covers the whole screen */
+      z-index: -1; /* Places the video behind all other content */
     }
 
-    /* Style each "column" in the matrix */
-    .column {
-      position: absolute;
-      display: flex;
-      flex-direction: column;
-      color: #00ff00; /* Green text color */
-      opacity: 0;
-      animation: drop 1.5s infinite, fade 1.5s infinite;
-    }
-
-    /* The falling effect animation */
-    @keyframes drop {
-      0% {
-        transform: translateY(-100%);
-        opacity: 1;
-      }
-      100% {
-        transform: translateY(100%);
-        opacity: 0;
-      }
-    }
-
-    /* The fade in and out effect */
-    @keyframes fade {
-      0%, 100% {
-        opacity: 1;
-      }
-      50% {
-        opacity: 0;
-      }
-    }
-
-    /* Styles for the matrix characters */
-    .digit {
-      font-size: 2rem;
-      white-space: nowrap;
-      margin: 2px;
-      animation: flicker 0.8s infinite;
-    }
-
-    /* The flicker effect for digits */
-    @keyframes flicker {
-      0%, 100% {
-        opacity: 1;
-      }
-      50% {
-        opacity: 0.1;
-      }
+    /* Styling for the body (optional: for styling page contents if added later) */
+    .content {
+      position: relative;
+      z-index: 1;
+      color: transparent; /* Removes any text or elements */
     }
   </style>
 </head>
 <body>
 
-  <div class="matrix-container">
-    <div class="column">
-      <div class="digit">0</div>
-      <div class="digit">1</div>
-      <div class="digit">0</div>
-      <div class="digit">0</div>
-      <div class="digit">1</div>
-      <div class="digit">1</div>
-      <div class="digit">0</div>
-      <div class="digit">1</div>
-      <div class="digit">0</div>
-    </div>
-    <div class="column">
-      <div class="digit">1</div>
-      <div class="digit">0</div>
-      <div class="digit">0</div>
-      <div class="digit">1</div>
-      <div class="digit">1</div>
-      <div class="digit">0</div>
-      <div class="digit">1</div>
-      <div class="digit">0</div>
-      <div class="digit">1</div>
-    </div>
-    <!-- Add more columns as needed -->
+  <!-- Video Background -->
+  <video class="video-background" autoplay loop muted>
+    <!-- Replace the 'your-video-file.mp4' with the link to your video -->
+    <source src="your-video-file.mp4" type="video/mp4">
+    <!-- Optional: Add fallback content if the video cannot be loaded -->
+    Your browser does not support the video tag.
+  </video>
+
+  <!-- Any additional content can go here, but we are keeping it empty for now -->
+  <div class="content">
+    <!-- No text here since you want to remove text -->
   </div>
 
-  <script>
-    // You can generate more columns or randomize the digits here if needed
-  </script>
 </body>
 </html>
