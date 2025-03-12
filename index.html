@@ -24,39 +24,31 @@
       z-index: -1; /* Places the video behind all other content */
     }
 
-    /* Profile image styling with bouncing effect */
-    .profile-image {
+    /* Profile container styling */
+    .profile-container {
       position: absolute;
-      top: 20%;
-      left: 10%;  /* Adjust this value to move the image to the left */
-      transform: translate(-50%, -50%);
+      top: 10%;
+      left: 2%;
+      display: flex;
+      align-items: center; /* Aligns the image and text vertically */
+      z-index: 1;
+    }
+
+    /* Profile image styling without bouncing effect */
+    .profile-image {
       border-radius: 15%;
       width: 150px;
       height: 150px;
       border: 5px solid #fff; /* White border around the profile image */
-      z-index: 1;
-
-      /* Add the bouncing zoom effect */
-      animation: bounce 3s ease-in-out infinite;
+      margin-right: 20px; /* Adds space between image and name */
     }
 
-    /* Bouncing animation for zoom effect */
-    @keyframes bounce {
-      0% {
-        transform: translate(-50%, -50%) scale(1);
-      }
-      25% {
-        transform: translate(-50%, -50%) scale(1.1); /* Slight zoom-in */
-      }
-      50% {
-        transform: translate(-50%, -50%) scale(1);
-      }
-      75% {
-        transform: translate(-50%, -50%) scale(1.1); /* Slight zoom-in */
-      }
-      100% {
-        transform: translate(-50%, -50%) scale(1);
-      }
+    /* Owner name styling */
+    .owner-name {
+      font-size: 30px; /* Adjust size of the text */
+      color: white; /* Text color */
+      font-weight: bold; /* Bold text */
+      margin-top: -120px; /* Move the name up */
     }
 
     /* Optional styling for the body (if you want to add content later) */
@@ -77,8 +69,13 @@
     Your browser does not support the video tag.
   </video>
 
-  <!-- Profile Image -->
-  <img class="profile-image" src="https://cdn.discordapp.com/attachments/1114899889025994794/1349508855721361438/4fc29000-6d51-4f22-a6bc-6c03be6bddb2-ezgif.com-webp-to-jpg-converter.jpg?ex=67d35b8f&is=67d20a0f&hm=73e91903cc8b5c27217e08f6765958f71c3b3c6bfea19769a45c0e356d28c646&" alt="Profile Image">
+  <!-- Profile Container -->
+  <div class="profile-container">
+    <!-- Profile Image -->
+    <img class="profile-image" src="https://cdn.discordapp.com/attachments/1114899889025994794/1349508855721361438/4fc29000-6d51-4f22-a6bc-6c03be6bddb2-ezgif.com-webp-to-jpg-converter.jpg?ex=67d35b8f&is=67d20a0f&hm=73e91903cc8b5c27217e08f6765958f71c3b3c6bfea19769a45c0e356d28c646&" alt="Profile Image">
+    <!-- Owner Name -->
+    <div class="owner-name">CheatXplorer</div>
+  </div>
 
   <!-- Optional content can be added here (empty for now) -->
   <div class="content">
