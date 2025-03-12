@@ -1,30 +1,36 @@
-// Create a simulated 'hacker' code effect
+// Generate hacker code animation
 const hackerBackground = document.getElementById("hacker-background");
 
-// Create random code for the effect
+// Define lines of code for the animation
 const codeLines = [
-    "Initializing System...",
-    "Accessing User Data...",
-    "Decrypting Files...",
-    "Bypassing Security...",
-    "Loading Resources...",
-    "Running Diagnostics...",
-    "Connecting to Remote Server...",
+    "Initializing system...",
+    "Accessing database...",
+    "Decrypting files...",
+    "Bypassing firewalls...",
     "Error: Unauthorized Access!",
-    "Password: ********",
-    "Login Successful...",
-    "Running Modifications..."
+    "Login successful...",
+    "Loading resources...",
+    "Running diagnostics...",
+    "Establishing remote connection...",
+    "Waiting for commands..."
 ];
 
-// Function to generate the hacker code animation
+// Create the code element and add it to the background
+const codeElement = document.createElement("div");
+codeElement.id = "hacker-code";
+
+// Function to generate and display hacker code
 function generateHackerCode() {
-    const codeElement = document.createElement("code");
-    for (let i = 0; i < codeLines.length; i++) {
+    for (let i = 0; i < 100; i++) {
         let randomLine = codeLines[Math.floor(Math.random() * codeLines.length)];
-        codeElement.innerHTML += randomLine + "<br/>";
+        let line = document.createElement("p");
+        line.innerText = randomLine;
+        codeElement.appendChild(line);
     }
 
+    // Append the hacker code element to the body
     hackerBackground.appendChild(codeElement);
 }
 
+// Run the code generation function
 generateHackerCode();
