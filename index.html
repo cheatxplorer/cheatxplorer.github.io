@@ -147,7 +147,8 @@
       left: 50%;
       transform: translate(-50%, -50%);
       z-index: 1000;
-      transition: transform 1s ease-in-out;
+      transition: opacity 1s ease-in-out;
+      opacity: 1;
     }
     @media (max-width: 768px) {
       .owner-name { font-size: 50px; padding: 4px 12px; }
@@ -294,21 +295,21 @@
   <script>
     window.addEventListener('load', function() {
       setTimeout(function() {
-        document.getElementById('ad1').style.transition = 'transform 0.5s ease-in-out';
-        document.getElementById('ad1').style.transform = 'translate(-500%, -50%)';
-      }, 2000); // Delay before starting the animation
+        document.getElementById('ad1').style.transition = 'opacity 1s ease-in-out';
+        document.getElementById('ad1').style.opacity = '0';
+      }, 2000); // Delay before starting the fade-out
       setTimeout(function() {
-        document.getElementById('ad2').style.transition = 'transform 0.5s ease-in-out';
-        document.getElementById('ad2').style.transform = 'translate(-500%, -50%)';
-      }, 3000); // Delay before starting the animation
+        document.getElementById('ad2').style.transition = 'opacity 1s ease-in-out';
+        document.getElementById('ad2').style.opacity = '0';
+      }, 5000); // Delay before starting the fade-out
       setTimeout(function() {
-        document.getElementById('ad3').style.transition = 'transform 0.5s ease-in-out';
-        document.getElementById('ad3').style.transform = 'translate(-1000%, -50%)';
-      }, 4000); // Delay before starting the animation
+        document.getElementById('ad3').style.transition = 'opacity 1s ease-in-out';
+        document.getElementById('ad3').style.opacity = '0';
+      }, 8000); // Delay before starting the fade-out
       setTimeout(function() {
-        document.getElementById('ad4').style.transition = 'transform 0.5s ease-in-out';
-        document.getElementById('ad4').style.transform = 'translate(-1000%, -50%)';
-      }, 5000); // Delay before starting the animation
+        document.getElementById('ad4').style.transition = 'opacity 1s ease-in-out';
+        document.getElementById('ad4').style.opacity = '0';
+      }, 11000); // Delay before starting the fade-out
     });
   </script>
   <style>
