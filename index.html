@@ -212,6 +212,11 @@
     font-size: 12px;  /* Optional font size change for mobile */
     z-index: 9999;    /* Ensures it is on top of other elements */
   }
+    .banner-ad {
+    left: 5px; /* Move it closer to the edge */
+    width: 250px; /* Reduce width */
+    height: 200px; /* Reduce height */
+  }
     }
 
     @media (max-width: 480px) {
@@ -224,6 +229,9 @@
       .site-info { font-size: 11px; }
       .ad-reminder { font-size: 14px; padding: 8px 0; }
       .profile-container { margin-top: 50px; }
+        .banner-ad {
+    display: none; /* Hide on very small screens */
+  }
     }
   </style>
 </head>
