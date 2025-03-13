@@ -141,13 +141,13 @@
       margin-top: 120px;
       text-align: center;
     }
-    .banner-ad, .banner-ad-2 {
+    .banner-ad, .banner-ad-2, .banner-ad-3, .banner-ad-4 {
       position: fixed;
       top: 50%;
       left: 50%;
       transform: translate(-50%, -50%);
       z-index: 1000;
-      transition: transform 2s ease-in-out;
+      transition: transform 1s ease-in-out;
     }
     @media (max-width: 768px) {
       .owner-name { font-size: 50px; padding: 4px 12px; }
@@ -221,6 +221,30 @@
     </script>
     <script type="text/javascript" src="//spareairless.com/ea6599a16f3b693209dfe4fa48a2c136/invoke.js"></script>
   </div>
+  <div class="banner-ad-3" id="ad3">
+    <script type="text/javascript">
+      atOptions = {
+        'key' : '9e0ee75e12dad61d735aff6c5568a14a',
+        'format' : 'iframe',
+        'height' : 600,
+        'width' : 160,
+        'params' : {}
+      };
+    </script>
+    <script type="text/javascript" src="//spareairless.com/9e0ee75e12dad61d735aff6c5568a14a/invoke.js"></script>
+  </div>
+  <div class="banner-ad-4" id="ad4">
+    <script type="text/javascript">
+      atOptions = {
+        'key' : 'b340eed6cd8c9ebb8da882d1629cc30c',
+        'format' : 'iframe',
+        'height' : 300,
+        'width' : 160,
+        'params' : {}
+      };
+    </script>
+    <script type="text/javascript" src="//spareairless.com/b340eed6cd8c9ebb8da882d1629cc30c/invoke.js"></script>
+  </div>
   <div class="profile-container">
     <div class="owner-name">CheatXplorer</div>
     <img class="profile-image" src="https://i.imgur.com/mNOODFN.jpeg" alt="Profile Image">
@@ -267,18 +291,26 @@
       'floating-chat.donateButton.text-color': '#fff'
     });
   </script>
-<script>
-  window.addEventListener('load', function() {
-    setTimeout(function() {
-      document.getElementById('ad1').style.transition = 'transform 0.5s ease-in-out'; // Adjusted to 1s
-      document.getElementById('ad1').style.transform = 'translate(-500%, -50%)';
-    }, 2000); // Delay before starting the animation
-    setTimeout(function() {
-      document.getElementById('ad2').style.transition = 'transform 0.5s ease-in-out'; // Adjusted to 1s
-      document.getElementById('ad2').style.transform = 'translate(-500%, -50%)';
-    }, 5000); // Delay before starting the animation
-  });
-</script>
+  <script>
+    window.addEventListener('load', function() {
+      setTimeout(function() {
+        document.getElementById('ad1').style.transition = 'transform 0.5s ease-in-out';
+        document.getElementById('ad1').style.transform = 'translate(-500%, -50%)';
+      }, 2000); // Delay before starting the animation
+      setTimeout(function() {
+        document.getElementById('ad2').style.transition = 'transform 0.5s ease-in-out';
+        document.getElementById('ad2').style.transform = 'translate(-500%, -50%)';
+      }, 5000); // Delay before starting the animation
+      setTimeout(function() {
+        document.getElementById('ad3').style.transition = 'transform 0.5s ease-in-out';
+        document.getElementById('ad3').style.transform = 'translate(-500%, -50%)';
+      }, 8000); // Delay before starting the animation
+      setTimeout(function() {
+        document.getElementById('ad4').style.transition = 'transform 0.5s ease-in-out';
+        document.getElementById('ad4').style.transform = 'translate(-500%, -50%)';
+      }, 11000); // Delay before starting the animation
+    });
+  </script>
   <style>
     @media (max-width: 480px) {
       #kofi-widget-overlay {
