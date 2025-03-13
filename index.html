@@ -169,11 +169,10 @@
     /* Additional Info */
     .site-info {
       font-size: 14px;
-      color: yellow;
+      color: white;
       font-weight: bold;
       margin-top: 15px;
       text-shadow: 1px 1px 2px rgba(0, 0, 0, 1);
-      
     }
 
     .site-info-container {
@@ -181,6 +180,18 @@
       text-align: center;
       
     }
+    
+    /* Banner Ad Styling */
+.banner-ad {
+  position: fixed; /* Stays in place */
+  left: 10px; /* Adjust to move closer/farther from the edge */
+  top: 50%; /* Center vertically */
+  transform: translateY(-50%); /* Perfect vertical centering */
+  width: 300px; /* Ad width */
+  height: 250px; /* Ad height */
+  z-index: 1000; /* Make sure it's on top */
+}
+
 
     /* Responsive Font Sizes */
     @media (max-width: 768px) {
@@ -235,6 +246,21 @@
   });
 </script>
 
+<!-- Banner Ad in Left Corner -->
+<div class="banner-ad">
+  <script type="text/javascript">
+    atOptions = {
+      'key': '2d891958b500e66c1cc2942bd0e45fc2',
+      'format': 'iframe',
+      'height': 250,
+      'width': 300,
+      'params': {}
+    };
+  </script>
+  <script type="text/javascript" src="//www.highperformanceformat.com/2d891958b500e66c1cc2942bd0e45fc2/invoke.js"></script>
+</div>
+
+
 <!-- Profile Container -->
 <div class="profile-container">
   <div class="owner-name">CheatXplorer</div>
@@ -259,7 +285,9 @@
   </div>
   
   <div class="site-info-container">
-    <div class="site-info">Site Created: 2025 | Owner: CheatXplorer | Contact: cheatxplorer@gmail.com</div>
+    <div class="site-info">Site Created: 2025</div>
+    <div class="site-info">Owner: CheatXplorer</div>
+    <div class="site-info">Contact: cheatxplorer@gmail.com</div>
   </div>
 </div>
 
