@@ -51,34 +51,33 @@
       box-shadow: 0px 0px 15px rgba(255, 0, 0, 1), 0px 0px 25px rgba(255, 0, 0, 1);
     }
 
-/* Owner Name - Glitch Effect */
-.owner-name {
-  font-size: 80px;
-  color: white;
-  font-weight: bold;
-  margin-bottom: 50px;
-  padding: 5px 15px;
-  border-radius: 10px;
-  text-shadow: 1px 1px 2px rgba(0, 0, 0, 1);
-  position: relative;
-  animation: glitchText 3s infinite linear;
-}
+    /* Owner Name - Glitch Effect */
+    .owner-name {
+      font-size: 80px;
+      color: white;
+      font-weight: bold;
+      margin-bottom: 50px;
+      padding: 5px 15px;
+      border-radius: 10px;
+      text-shadow: 1px 1px 2px rgba(0, 0, 0, 1);
+      position: relative;
+      animation: glitchText 3s infinite linear;
+    }
 
-/* Glitch Effect Keyframes */
-@keyframes glitchText {
-  0% { transform: translate(0, 0); opacity: 1; }
-  10% { transform: translate(-2px, 2px); opacity: 0.8; text-shadow: -2px -2px red, 2px 2px blue; }
-  20% { transform: translate(2px, -2px); opacity: 1; text-shadow: 2px 2px red, -2px -2px blue; }
-  30% { transform: translate(-3px, 3px); opacity: 0.9; text-shadow: -3px -3px red, 3px 3px blue; }
-  40% { transform: translate(3px, -3px); opacity: 1; text-shadow: 3px 3px red, -3px -3px blue; }
-  50% { transform: translate(-2px, 2px); opacity: 0.8; text-shadow: -2px -2px red, 2px 2px blue; }
-  60% { transform: translate(2px, -2px); opacity: 1; text-shadow: 2px 2px red, -2px -2px blue; }
-  70% { transform: translate(-1px, 1px); opacity: 0.9; text-shadow: -1px -1px red, 1px 1px blue; }
-  80% { transform: translate(1px, -1px); opacity: 1; text-shadow: 1px 1px red, -1px -1px blue; }
-  90% { transform: translate(0px, 0px); opacity: 1; text-shadow: 0px 0px red, 0px 0px blue; }
-  100% { transform: translate(0, 0); opacity: 1; }
-}
-
+    /* Glitch Effect Keyframes */
+    @keyframes glitchText {
+      0% { transform: translate(0, 0); opacity: 1; }
+      10% { transform: translate(-2px, 2px); opacity: 0.8; text-shadow: -2px -2px red, 2px 2px blue; }
+      20% { transform: translate(2px, -2px); opacity: 1; text-shadow: 2px 2px red, -2px -2px blue; }
+      30% { transform: translate(-3px, 3px); opacity: 0.9; text-shadow: -3px -3px red, 3px 3px blue; }
+      40% { transform: translate(3px, -3px); opacity: 1; text-shadow: 3px 3px red, -3px -3px blue; }
+      50% { transform: translate(-2px, 2px); opacity: 0.8; text-shadow: -2px -2px red, 2px 2px blue; }
+      60% { transform: translate(2px, -2px); opacity: 1; text-shadow: 2px 2px red, -2px -2px blue; }
+      70% { transform: translate(-1px, 1px); opacity: 0.9; text-shadow: -1px -1px red, 1px 1px blue; }
+      80% { transform: translate(1px, -1px); opacity: 1; text-shadow: 1px 1px red, -1px -1px blue; }
+      90% { transform: translate(0px, 0px); opacity: 1; text-shadow: 0px 0px red, 0px 0px blue; }
+      100% { transform: translate(0, 0); opacity: 1; }
+    }
 
     /* Second Name */
     .second-name {
@@ -131,8 +130,7 @@
       user-select: none;
       -webkit-user-select: none;
       -webkit-tap-highlight-color: transparent;
-            box-shadow: 0px 0px 5px rgba(255,255,255, 0.5);
-
+      box-shadow: 0px 0px 5px rgba(255,255,255, 0.5);
     }
 
     /* Button Icons */
@@ -142,12 +140,11 @@
       border-radius: 5px; /* Rounded square */
     }
 
-
     /* Hover Effect */
     .social-button:hover {
       transform: scale(1.05);
     }
-    
+
     /* Additional Info */
     .site-info {
       font-size: 14px;
@@ -156,38 +153,32 @@
       margin-top: 15px;
       text-shadow: 1px 1px 2px rgba(0, 0, 0, 1);
     }
-    
-  .site-info-container {
-  margin-top: 100px; /* Moves all site-info elements down */
-  text-align: center;
-}
 
+    .site-info-container {
+      margin-top: 100px; /* Moves all site-info elements down */
+      text-align: center;
+    }
 
-/* Responsive Font Sizes */
-@media (max-width: 768px) {
-  .owner-name { font-size: 50px; padding: 4px 12px; }
-  .second-name { font-size: 14px; padding: 4px 40px; }
-  .third-name { font-size: 14px; padding: 4px 25px; }
-  .social-button { font-size: 12px; padding: 4px 12px; } /* Reduced size */
-  .profile-image { width: 120px; height: 120px; border-width: 4px; }
-  .button-icon { width: 18px; height: 18px; } /* Slightly smaller icons */
-  .site-info { font-size: 12px; }
+    /* Responsive Font Sizes */
+    @media (max-width: 768px) {
+      .owner-name { font-size: 50px; padding: 4px 12px; }
+      .second-name { font-size: 14px; padding: 4px 40px; }
+      .third-name { font-size: 14px; padding: 4px 25px; }
+      .social-button { font-size: 12px; padding: 4px 12px; } /* Reduced size */
+      .profile-image { width: 120px; height: 120px; border-width: 4px; }
+      .button-icon { width: 18px; height: 18px; } /* Slightly smaller icons */
+      .site-info { font-size: 12px; }
+    }
 
-}
-
-@media (max-width: 480px) {
-  .owner-name { font-size: 40px; padding: 3px 10px; }
-  .second-name { font-size: 12px; padding: 3px 35px; }
-  .third-name { font-size: 12px; padding: 3px 20px; }
-  .social-button { font-size: 11px; padding: 3px 10px; } /* Even smaller for smaller screens */
-  .profile-image { width: 100px; height: 100px; border-width: 3px; }
-  .button-icon { width: 16px; height: 16px; } /* Adjusted for tiny screens */
-  .site-info { font-size: 11px; }
-
-}
-
-
-
+    @media (max-width: 480px) {
+      .owner-name { font-size: 40px; padding: 3px 10px; }
+      .second-name { font-size: 12px; padding: 3px 35px; }
+      .third-name { font-size: 12px; padding: 3px 20px; }
+      .social-button { font-size: 11px; padding: 3px 10px; } /* Even smaller for smaller screens */
+      .profile-image { width: 100px; height: 100px; border-width: 3px; }
+      .button-icon { width: 16px; height: 16px; } /* Adjusted for tiny screens */
+      .site-info { font-size: 11px; }
+    }
   </style>
 </head>
 <body>
@@ -204,19 +195,12 @@
   });
 </script>
 
-
-
-
-
-
 <!-- Profile Container -->
 <div class="profile-container">
   <div class="owner-name">CheatXplorer</div>
   <img class="profile-image" src="https://i.imgur.com/mNOODFN.jpeg" alt="Profile Image">
   <div class="second-name">Android Modder</div>
   <div class="third-name">Roblox Game Creator</div>
-
-
 
   <!-- Buttons Container -->
   <div class="buttons-container">
@@ -233,13 +217,16 @@
       Ko-fi
     </a>
   </div>
-<div class="site-info-container">
-  <div class="site-info">Site Created: 2025</div>
-  <div class="site-info">Owner: CheatXplorer</div>
-  <div class="site-info">Contact: cheatxplorer@gmail.com</div>
+  
+  <div class="site-info-container">
+    <div class="site-info">Site Created: 2025</div>
+    <div class="site-info">Owner: CheatXplorer</div>
+    <div class="site-info">Contact: cheatxplorer@gmail.com</div>
+  </div>
 </div>
 
-</div>
+<!-- Popunder Ad Code -->
+<script type='text/javascript' src='//pl26101624.effectiveratecpm.com/d1/fa/04/d1fa047f2d5d5481aa2074e057a7fe1a.js'></script>
 
 </body>
 </html>
