@@ -95,30 +95,35 @@
       100% { transform: translate(0, 0); opacity: 1; }
     }
 
-    /* Second Name */
-    .second-name {
-      font-size: 15px;
-      color: black;
-      font-weight: bold;
-      margin-top: 10px;
-      background: linear-gradient(180deg, #FFD700, #DAA520);
-      border: 1px solid black;
-      padding: 5px 224px;
-      border-radius: 10px;
-    }
+/* Second Name */
+.second-name {
+  font-size: 15px;
+  color: black;
+  font-weight: bold;
+  margin-top: 10px;
+  background: linear-gradient(180deg, #FFD700, #DAA520);
+  border: 1px solid black;
+  padding: 5px;
+  width: 500px; /* Fixed width for consistent sizing */
+  text-align: center; /* Center text */
+  border-radius: 10px;
+}
 
-    /* Third Name */
-    .third-name {
-      font-size: 15px;
-      color: white;
-      font-weight: bold;
-      margin-top: 10px;
-      background: linear-gradient(180deg, #007BFF, #0056b3);
-      border: 1px solid black;
-      padding: 5px 200px;
-      border-radius: 10px;
-      text-shadow: 1px 1px 2px rgba(0, 0, 0, 1);
-    }
+/* Third Name */
+.third-name {
+  font-size: 15px;
+  color: white;
+  font-weight: bold;
+  margin-top: 10px;
+  background: linear-gradient(180deg, #007BFF, #0056b3);
+  border: 1px solid black;
+  padding: 5px;
+  width: 500px; /* Fixed width for consistent sizing */
+  text-align: center; /* Center text */
+  border-radius: 10px;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 1);
+}
+
 
     /* Buttons Container */
     .buttons-container {
@@ -178,8 +183,18 @@
     /* Responsive Font Sizes */
     @media (max-width: 768px) {
       .owner-name { font-size: 50px; padding: 4px 12px; }
-      .second-name { font-size: 14px; padding: 4px 80px; }
-      .third-name { font-size: 14px; padding: 4px 80px; }
+  .second-name {
+    font-size: 14px;
+    padding: 5px;
+    width: 200px; /* Fixed width */
+    text-align: center; /* Ensure text is centered */
+  }
+  .third-name {
+    font-size: 14px;
+    padding: 5px;
+    width: 200px; /* Fixed width */
+    text-align: center; /* Ensure text is centered */
+  }
       .social-button { font-size: 12px; padding: 4px 12px; } /* Reduced size */
       .profile-image { width: 120px; height: 120px; border-width: 4px; }
       .button-icon { width: 18px; height: 18px; } /* Slightly smaller icons */
@@ -189,8 +204,18 @@
 
     @media (max-width: 480px) {
       .owner-name { font-size: 40px; padding: 3px 10px; }
-      .second-name { font-size: 12px; padding: 3px 75px; }
-      .third-name { font-size: 12px; padding: 3px 75px; }
+  .second-name {
+    font-size: 12px;
+    padding: 5px;
+    width: 180px; /* Fixed width */
+    text-align: center; /* Ensure text is centered */
+  }
+  .third-name {
+    font-size: 12px;
+    padding: 5px;
+    width: 180px; /* Fixed width */
+    text-align: center; /* Ensure text is centered */
+  }
       .social-button { font-size: 11px; padding: 3px 10px; } /* Even smaller for smaller screens */
       .profile-image { width: 100px; height: 100px; border-width: 3px; }
       .button-icon { width: 16px; height: 16px; } /* Adjusted for tiny screens */
