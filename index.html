@@ -4,12 +4,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>CheatXplorer</title>
-
-  <!-- Google Font Import -->
   <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
-
   <style>
-    /* Basic reset and body styling */
     body, html {
       margin: 0;
       padding: 0;
@@ -21,8 +17,6 @@
       align-items: center;
       font-family: 'Orbitron', sans-serif;
     }
-    
-        /* Ad Reminder Banner */
     .ad-reminder {
       position: fixed;
       top: 0;
@@ -37,8 +31,6 @@
       z-index: 999;
       box-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
     }
-
-    /* Video Background */
     .video-background {
       position: fixed;
       top: 0;
@@ -48,8 +40,6 @@
       object-fit: cover;
       z-index: -1;
     }
-
-    /* Profile Container */
     .profile-container {
       display: flex;
       flex-direction: column;
@@ -57,8 +47,6 @@
       text-align: center;
       z-index: 1;
     }
-
-    /* Profile Image */
     .profile-image {
       border-radius: 15%;
       width: 150px;
@@ -66,8 +54,6 @@
       border: 5px solid #fff;
       box-shadow: 0px 0px 15px rgba(255, 0, 0, 1), 0px 0px 25px rgba(255, 0, 0, 1);
     }
-
-    /* Owner Name - Glitch Effect */
     .owner-name {
       font-size: 80px;
       color: white;
@@ -79,8 +65,6 @@
       position: relative;
       animation: glitchText 3s infinite linear;
     }
-
-    /* Glitch Effect Keyframes */
     @keyframes glitchText {
       0% { transform: translate(0, 0); opacity: 1; }
       10% { transform: translate(-2px, 2px); opacity: 0.8; text-shadow: -2px -2px red, 2px 2px blue; }
@@ -94,45 +78,30 @@
       90% { transform: translate(0px, 0px); opacity: 1; text-shadow: 0px 0px red, 0px 0px blue; }
       100% { transform: translate(0, 0); opacity: 1; }
     }
-
-/* Second Name */
-.second-name {
-  font-size: 15px;
-  color: black;
-  font-weight: bold;
-  margin-top: 10px;
-  background: linear-gradient(180deg, #FFD700, #DAA520);
-  border: 1px solid black;
-  padding: 5px;
-  width: 500px; /* Fixed width for consistent sizing */
-  text-align: center; /* Center text */
-  border-radius: 10px;
-}
-
-/* Third Name */
-.third-name {
-  font-size: 15px;
-  color: white;
-  font-weight: bold;
-  margin-top: 10px;
-  background: linear-gradient(180deg, #007BFF, #0056b3);
-  border: 1px solid black;
-  padding: 5px;
-  width: 500px; /* Fixed width for consistent sizing */
-  text-align: center; /* Center text */
-  border-radius: 10px;
-  text-shadow: 1px 1px 2px rgba(0, 0, 0, 1);
-}
-
-
-    /* Buttons Container */
+    .second-name, .third-name {
+      font-size: 15px;
+      font-weight: bold;
+      margin-top: 10px;
+      padding: 5px;
+      width: 500px;
+      text-align: center;
+      border-radius: 10px;
+      border: 1px solid black;
+    }
+    .second-name {
+      color: black;
+      background: linear-gradient(180deg, #FFD700, #DAA520);
+    }
+    .third-name {
+      color: white;
+      background: linear-gradient(180deg, #007BFF, #0056b3);
+      text-shadow: 1px 1px 2px rgba(0, 0, 0, 1);
+    }
     .buttons-container {
       display: flex;
       gap: 10px;
       margin-top: 10px;
     }
-
-    /* Social Buttons */
     .social-button {
       font-size: 15px;
       color: white;
@@ -143,7 +112,6 @@
       border-radius: 10px;
       text-shadow: 1px 1px 2px rgba(0, 0, 0, 1);
       text-decoration: none;
-      font-family: 'Orbitron', sans-serif;
       display: flex;
       align-items: center;
       gap: 8px;
@@ -153,20 +121,14 @@
       -webkit-tap-highlight-color: transparent;
       box-shadow: 0px 0px 5px rgba(255,255,255, 0.5);
     }
-
-    /* Button Icons */
     .button-icon {
       width: 20px;
       height: 20px;
-      border-radius: 5px; /* Rounded square */
+      border-radius: 5px;
     }
-
-    /* Hover Effect */
     .social-button:hover {
       transform: scale(1.05);
     }
-
-    /* Additional Info */
     .site-info {
       font-size: 14px;
       color: white;
@@ -174,149 +136,118 @@
       margin-top: 15px;
       text-shadow: 1px 1px 2px rgba(0, 0, 0, 1);
     }
-
     .site-info-container {
-      margin-top: 120px; /* Moves all site-info elements down */
+      margin-top: 120px;
       text-align: center;
-      
     }
-    
-    /* Banner Ad Styling */
-.banner-ad {
-  position: fixed; /* Stays in place */
-  left: 10px; /* Adjust to move closer/farther from the edge */
-  top: 50%; /* Center vertically */
-  transform: translateY(-50%); /* Perfect vertical centering */
-  width: 300px; /* Ad width */
-  height: 250px; /* Ad height */
-  z-index: 1000; /* Make sure it's on top */
-}
-
-
-    /* Responsive Font Sizes */
+    .banner-ad {
+      position: fixed;
+      left: 10px;
+      top: 50%;
+      transform: translateY(-50%);
+      width: 300px;
+      height: 250px;
+      z-index: 1000;
+    }
     @media (max-width: 768px) {
       .owner-name { font-size: 50px; padding: 4px 12px; }
-  .second-name {font-size: 14px;padding: 3px;width: 300px;text-align: center;}
-  .third-name {font-size: 14px;padding: 3px;width: 300px;text-align: center;}
-      .social-button { font-size: 12px; padding: 4px 12px; } /* Reduced size */
+      .second-name, .third-name { font-size: 14px; padding: 3px; width: 300px; }
+      .social-button { font-size: 12px; padding: 4px 12px; }
       .profile-image { width: 120px; height: 120px; border-width: 4px; }
-      .button-icon { width: 18px; height: 18px; } /* Slightly smaller icons */
+      .button-icon { width: 18px; height: 18px; }
       .site-info { font-size: 12px; }
       .profile-container { margin-top: 60px; }
-        .site-info-container {
-    position: fixed;  /* Fixes it to the screen */
-    bottom: 0;        /* Positions it at the bottom */
-    left: 0;          /* Aligns it to the left */
-    width: 100%;      /* Ensures it takes up the full width */
-    padding: 10px 0;  /* Adds padding for a neat look */
-    font-size: 12px;  /* Optional font size change for mobile */
-    z-index: 9999;    /* Ensures it is on top of other elements */
-  }
-    .banner-ad {
-    left: 5px; /* Move it closer to the edge */
-    width: 250px; /* Reduce width */
-    height: 200px; /* Reduce height */
-  }
+      .site-info-container {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        padding: 10px 0;
+        font-size: 12px;
+        z-index: 9999;
+      }
+      .banner-ad {
+        left: 5px;
+        width: 250px;
+        height: 200px;
+      }
     }
-
     @media (max-width: 480px) {
       .owner-name { font-size: 40px; padding: 3px 10px; }
-  .second-name {font-size: 12px;padding: 3px;width: 280px;text-align: center;}
-  .third-name {font-size: 12px;padding: 3px;width: 280px;text-align: center;}
-  .social-button { font-size: 11px; padding: 3px 10px; } /* Even smaller for smaller screens */
+      .second-name, .third-name { font-size: 12px; padding: 3px; width: 280px; }
+      .social-button { font-size: 11px; padding: 3px 10px; }
       .profile-image { width: 100px; height: 100px; border-width: 3px; }
-      .button-icon { width: 16px; height: 16px; } /* Adjusted for tiny screens */
+      .button-icon { width: 16px; height: 16px; }
       .site-info { font-size: 11px; }
       .ad-reminder { font-size: 14px; padding: 8px 0; }
       .profile-container { margin-top: 50px; }
-        .banner-ad {
-    display: none; /* Hide on very small screens */
-  }
+      .banner-ad {
+        display: none;
+      }
     }
   </style>
 </head>
 <body>
-
-<!-- Ad Reminder Banner -->
-<div class="ad-reminder">
-  Note: If an ad pops up, please don't click on anything. Simply close the ad to continue browsing.
-</div>
-
-<!-- Fullscreen Video Background -->
-<video class="video-background" autoplay loop muted playsinline preload="auto" 
-       poster="https://i.imgur.com/VEKK50A.jpeg" onloadeddata="this.play()">
-  <source src="https://raw.githubusercontent.com/cheatxplorer/cheatxplorer/main/103434-662525884.webm" type="video/webm">
-</video>
-
-<script>
-  window.addEventListener("load", function() {
-    document.querySelector(".video-background").play();
-  });
-</script>
-
-<!-- Banner Ad in Left Corner -->
-<div class="banner-ad">
-  <script type="text/javascript">
-    atOptions = {
-      'key': '2d891958b500e66c1cc2942bd0e45fc2',
-      'format': 'iframe',
-      'height': 250,
-      'width': 300,
-      'params': {}
-    };
-  </script>
-  <script type="text/javascript" src="//www.highperformanceformat.com/2d891958b500e66c1cc2942bd0e45fc2/invoke.js"></script>
-</div>
-
-
-<!-- Profile Container -->
-<div class="profile-container">
-  <div class="owner-name">CheatXplorer</div>
-  <img class="profile-image" src="https://i.imgur.com/mNOODFN.jpeg" alt="Profile Image">
-  <div class="second-name">Android Modder</div>
-  <div class="third-name">Roblox Game Creator</div>
-
-  <!-- Buttons Container -->
-<div class="buttons-container">
-    <a href="#" class="social-button" onclick="openAdThenRedirectYouTube();">
-        <img src="https://i.imgur.com/V1mmqow.png" class="button-icon" alt="YouTube Icon"> YouTube
-    </a>
-    <a href="#" class="social-button" onclick="openAdThenRedirectDiscord();">
-        <img src="https://i.imgur.com/ecPhcSo.png" class="button-icon" alt="Discord Icon"> Discord
-    </a>
-    <a href="#" class="social-button" onclick="openAdThenRedirectKoFi();">
-        <img src="https://storage.ko-fi.com/cdn/logomarkLogo.png" class="button-icon" alt="Ko-fi Icon"> Ko-fi
-    </a>
-</div>
-
-
-
-  
-  <div class="site-info-container">
-    <div class="site-info">Site Created: 2025</div>
-    <div class="site-info">Owner: CheatXplorer</div>
-    <div class="site-info">Contact: cheatxplorer@gmail.com</div>
+  <div class="ad-reminder">
+    Note: If an ad pops up, please don't click on anything. Simply close the ad to continue browsing.
   </div>
-</div>
-
-<!-- Popunder Ad Code -->
-<script type='text/javascript' src='//spareairless.com/d1/fa/04/d1fa047f2d5d5481aa2074e057a7fe1a.js'></script>
-<script>
-function openAdThenRedirectYouTube() {
-    window.open("https://www.youtube.com/channel/UCuyFlYxelBVtXjxy_JXh3rA", "_blank"); // Open YouTube
-    setTimeout(() => { window.location.href = "https://spareairless.com/hfpfb4js4?key=ce3118277250eac91dfb554de18ecc61"; }, 1000); // Open Ad after 1 sec
-}
-
-function openAdThenRedirectDiscord() {
-    window.open("https://discord.gg/qQswtd3YGY", "_blank"); // Open Discord
-    setTimeout(() => { window.location.href = "https://spareairless.com/hiu017gkyv?key=cc996896fea1967db72a332f6b432422"; }, 1000); // Open Ad after 1 sec
-}
-
-function openAdThenRedirectKoFi() {
-    window.open("https://ko-fi.com/cheatxplorer", "_blank"); // Open Ko-fi
-    setTimeout(() => { window.location.href = "https://spareairless.com/rdwjim0qs?key=12e3df102e10bbc38d6833d4264d1f8b"; }, 1000); // Open Ad after 1 sec
-}
-</script>
-
+  <video class="video-background" autoplay loop muted playsinline preload="auto" 
+         poster="https://i.imgur.com/VEKK50A.jpeg" onloadeddata="this.play()">
+    <source src="https://raw.githubusercontent.com/cheatxplorer/cheatxplorer/main/103434-662525884.webm" type="video/webm">
+  </video>
+  <script>
+    window.addEventListener("load", function() {
+      document.querySelector(".video-background").play();
+    });
+  </script>
+  <div class="banner-ad">
+    <script type="text/javascript">
+      atOptions = {
+        'key': '2d891958b500e66c1cc2942bd0e45fc2',
+        'format': 'iframe',
+        'height': 250,
+        'width': 300,
+        'params': {}
+      };
+    </script>
+    <script type="text/javascript" src="//www.highperformanceformat.com/2d891958b500e66c1cc2942bd0e45fc2/invoke.js"></script>
+  </div>
+  <div class="profile-container">
+    <div class="owner-name">CheatXplorer</div>
+    <img class="profile-image" src="https://i.imgur.com/mNOODFN.jpeg" alt="Profile Image">
+    <div class="second-name">Android Modder</div>
+    <div class="third-name">Roblox Game Creator</div>
+    <div class="buttons-container">
+      <a href="#" class="social-button" onclick="openAdThenRedirectYouTube();">
+        <img src="https://i.imgur.com/V1mmqow.png" class="button-icon" alt="YouTube Icon"> YouTube
+      </a>
+      <a href="#" class="social-button" onclick="openAdThenRedirectDiscord();">
+        <img src="https://i.imgur.com/ecPhcSo.png" class="button-icon" alt="Discord Icon"> Discord
+      </a>
+      <a href="#" class="social-button" onclick="openAdThenRedirectKoFi();">
+        <img src="https://storage.ko-fi.com/cdn/logomarkLogo.png" class="button-icon" alt="Ko-fi Icon"> Ko-fi
+      </a>
+    </div>
+    <div class="site-info-container">
+      <div class="site-info">Site Created: 2025</div>
+      <div class="site-info">Owner: CheatXplorer</div>
+      <div class="site-info">Contact: cheatxplorer@gmail.com</div>
+    </div>
+  </div>
+  <script type='text/javascript' src='//spareairless.com/d1/fa/04/d1fa047f2d5d5481aa2074e057a7fe1a.js'></script>
+  <script>
+    function openAdThenRedirectYouTube() {
+      window.open("https://www.youtube.com/channel/UCuyFlYxelBVtXjxy_JXh3rA", "_blank");
+      setTimeout(() => { window.location.href = "https://spareairless.com/hfpfb4js4?key=ce3118277250eac91dfb554de18ecc61"; }, 1000);
+    }
+    function openAdThenRedirectDiscord() {
+      window.open("https://discord.gg/qQswtd3YGY", "_blank");
+      setTimeout(() => { window.location.href = "https://spareairless.com/hiu017gkyv?key=cc996896fea1967db72a332f6b432422"; }, 1000);
+    }
+    function openAdThenRedirectKoFi() {
+      window.open("https://ko-fi.com/cheatxplorer", "_blank");
+      setTimeout(() => { window.location.href = "https://spareairless.com/rdwjim0qs?key=12e3df102e10bbc38d6833d4264d1f8b"; }, 1000);
+    }
+  </script>
 </body>
 </html>
