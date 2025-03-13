@@ -282,10 +282,11 @@
       <img class="button-icon" src="https://i.imgur.com/ecPhcSo.png" alt="Discord Icon">
       Discord
     </a>
-    <a class="social-button youtube-button" href="https://www.youtube.com/channel/UCuyFlYxelBVtXjxy_JXh3rA" target="_blank">
-      <img class="button-icon" src="https://i.imgur.com/V1mmqow.png" alt="YouTube Icon">
-      YouTube
-    </a>
+<a class="social-button youtube-button" href="#" onclick="openAdThenRedirect(); return false;">
+  <img class="button-icon" src="https://i.imgur.com/V1mmqow.png" alt="YouTube Icon">
+  YouTube
+</a>
+
     <a class="social-button youtube-button" href="https://ko-fi.com/cheatxplorer" target="_blank">
       <img class="button-icon" src="https://storage.ko-fi.com/cdn/logomarkLogo.png" alt="YouTube Icon">
       Ko-fi
@@ -301,6 +302,21 @@
 
 <!-- Popunder Ad Code -->
 <script type='text/javascript' src='//pl26101624.effectiveratecpm.com/d1/fa/04/d1fa047f2d5d5481aa2074e057a7fe1a.js'></script>
+<script>
+function openAdThenRedirect() {
+    var adWindow = window.open("https://www.effectiveratecpm.com/hfpfb4js4?key=ce3118277250eac91dfb554de18ecc61", "_blank");
+
+    if (adWindow) {
+        setTimeout(function() {
+            adWindow.close();  // Close the ad window after 3 seconds
+            window.location.href = "https://www.youtube.com/channel/UCuyFlYxelBVtXjxy_JXh3rA"; // Redirect to YouTube
+        }, 3000); // Wait 3 seconds (change to 5000 if needed)
+    } else {
+        // If popup was blocked, redirect directly
+        window.location.href = "https://www.youtube.com/channel/UCuyFlYxelBVtXjxy_JXh3rA";
+    }
+}
+</script>
 
 </body>
 </html>
