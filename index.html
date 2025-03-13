@@ -14,11 +14,14 @@
       margin: 0;
       padding: 0;
       height: 100%;
+      width: 100%;
       overflow: hidden;
       display: flex;
       justify-content: center;
       align-items: center;
       font-family: 'Orbitron', sans-serif; /* Global font */
+
+      
     }
 
     /* Video Background */
@@ -89,19 +92,25 @@
       text-shadow: 1px 1px 2px rgba(0, 0, 0, 1);
     }
 
-    /* Discord Button */
-    .discord-button {
+    /* Buttons Container */
+    .buttons-container {
+      display: flex;
+      gap: 10px; /* Space between buttons */
+      margin-top: 10px;
+    }
+
+    /* Social Buttons */
+    .social-button {
       font-size: 15px;
       color: white;
       font-weight: bold;
-      margin-top: 10px;
-      background: linear-gradient(180deg, #5865F2, #404EED);
+      background: linear-gradient(180deg, #5865F2, #404EED); /* Discord Color */
       border: 1px solid black;
-      padding: 5px 30px;
+      padding: 5px 25px;
       border-radius: 10px;
       text-shadow: 1px 1px 2px rgba(0, 0, 0, 1);
       text-decoration: none;
-      font-family: 'Orbitron', sans-serif; /* Ensure button uses Orbitron */
+      font-family: 'Orbitron', sans-serif;
       display: inline-block;
       transition: transform 0.2s ease-in-out, opacity 0.2s;
       user-select: none;
@@ -109,7 +118,13 @@
       -webkit-tap-highlight-color: transparent;
     }
 
-    .discord-button:hover {
+    /* YouTube Button Style */
+    .youtube-button {
+      background: linear-gradient(180deg, #FF0000, #B20000); /* YouTube Color */
+    }
+
+    /* Hover Effect */
+    .social-button:hover {
       transform: scale(1.05);
     }
 
@@ -118,7 +133,7 @@
       .owner-name { font-size: 18px; padding: 4px 12px; }
       .second-name { font-size: 14px; padding: 4px 40px; }
       .third-name { font-size: 14px; padding: 4px 25px; }
-      .discord-button { font-size: 14px; padding: 4px 25px; }
+      .social-button { font-size: 14px; padding: 4px 22px; }
       .profile-image { width: 120px; height: 120px; border-width: 4px; }
     }
 
@@ -126,7 +141,7 @@
       .owner-name { font-size: 16px; padding: 3px 10px; }
       .second-name { font-size: 12px; padding: 3px 35px; }
       .third-name { font-size: 12px; padding: 3px 20px; }
-      .discord-button { font-size: 12px; padding: 3px 20px; }
+      .social-button { font-size: 12px; padding: 3px 18px; }
       .profile-image { width: 100px; height: 100px; border-width: 3px; }
     }
 
@@ -146,8 +161,11 @@
   <div class="second-name">Android Modder</div>
   <div class="third-name">Roblox Game Creator</div>
 
-  <!-- Discord Button -->
-  <a class="discord-button" href="https://discord.gg/qQswtd3YGY" target="_blank">Discord</a>
+  <!-- Buttons Container -->
+  <div class="buttons-container">
+    <a class="social-button" href="https://discord.gg/qQswtd3YGY" target="_blank">Discord</a>
+    <a class="social-button youtube-button" href="https://www.youtube.com/channel/UCuyFlYxelBVtXjxy_JXh3rA" target="_blank">YouTube</a>
+  </div>
 </div>
 
 </body>
