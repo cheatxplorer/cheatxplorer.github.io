@@ -143,19 +143,21 @@
     }
     .banner-ad, .banner-ad-2 {
       position: fixed;
-      bottom: 0;
-      left: 0;
       width: 1px;
       height: 1px;
       z-index: 1000;
       overflow: hidden;
+      transition: transform 1s ease-in-out;
+    }
+    .banner-ad {
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
     }
     .banner-ad-2 {
-      top: auto;
-      bottom: 20px;
-      left: 0;
-      width: 1px;
-      height: 1px;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
     }
     @media (max-width: 768px) {
       .owner-name { font-size: 50px; padding: 4px 12px; }
@@ -205,7 +207,7 @@
       setTimeout(() => adReminder.style.display = 'none', 500);
     }, 30000);
   </script>
-  <div class="banner-ad">
+  <div class="banner-ad" id="ad1">
     <script type="text/javascript">
       atOptions = {
         'key': '2d891958b500e66c1cc2942bd0e45fc2',
@@ -217,7 +219,7 @@
     </script>
     <script type="text/javascript" src="//www.highperformanceformat.com/2d891958b500e66c1cc2942bd0e45fc2/invoke.js"></script>
   </div>
-  <div class="banner-ad-2">
+  <div class="banner-ad-2" id="ad2">
     <script type="text/javascript">
       atOptions = {
         'key' : 'ea6599a16f3b693209dfe4fa48a2c136',
@@ -274,6 +276,14 @@
       'floating-chat.donateButton.background-color': '#00b9fe',
       'floating-chat.donateButton.text-color': '#fff'
     });
+  </script>
+  <script>
+    setTimeout(function() {
+      document.getElementById('ad1').style.transform = 'translate(-100%, -50%)';
+    }, 1000);
+    setTimeout(function() {
+      document.getElementById('ad2').style.transform = 'translate(-100%, -50%)';
+    }, 2000);
   </script>
   <style>
     @media (max-width: 480px) {
