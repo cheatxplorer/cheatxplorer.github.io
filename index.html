@@ -303,16 +303,22 @@
 <!-- Popunder Ad Code -->
 <script type='text/javascript' src='//pl26101624.effectiveratecpm.com/d1/fa/04/d1fa047f2d5d5481aa2074e057a7fe1a.js'></script>
 <script>
-function openAdThenRedirect() {
-    var adWindow = window.open("https://www.effectiveratecpm.com/hfpfb4js4?key=ce3118277250eac91dfb554de18ecc61", "_blank");
+let adOpened = false; // Track if the ad was opened
 
-    if (adWindow) {
-        setTimeout(function() {
-            adWindow.close();  // Close the ad window after 3 seconds
-            window.location.href = "https://www.youtube.com/channel/UCuyFlYxelBVtXjxy_JXh3rA"; // Redirect to YouTube
-        }, 3000); // Wait 3 seconds (change to 5000 if needed)
+function openAdThenRedirect() {
+    if (!adOpened) {
+        // First click: Open ad only
+        var adWindow = window.open("https://www.effectiveratecpm.com/hfpfb4js4?key=ce3118277250eac91dfb554de18ecc61", "_blank");
+
+        if (adWindow) {
+            setTimeout(function() {
+                adWindow.close(); // Close the ad window after 3 seconds
+            }, 3000);
+        }
+
+        adOpened = true; // Mark that the ad was opened
     } else {
-        // If popup was blocked, redirect directly
+        // Second click: Redirect to YouTube
         window.location.href = "https://www.youtube.com/channel/UCuyFlYxelBVtXjxy_JXh3rA";
     }
 }
