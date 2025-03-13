@@ -230,7 +230,7 @@
       <a href="#" class="social-button" onclick="openAdThenRedirectDiscord();">
         <img src="https://i.imgur.com/ecPhcSo.png" class="button-icon" alt="Discord Icon"> Discord
       </a>
-      <a href="#" class="social-button" onclick="openAdThenRedirectKoFi();">
+      <a href="#" class="social-button" id="ko-fi-button">
         <img src="https://storage.ko-fi.com/cdn/logomarkLogo.png" class="button-icon" alt="Ko-fi Icon"> Ko-fi
       </a>
     </div>
@@ -250,10 +250,15 @@
       window.open("https://discord.gg/qQswtd3YGY", "_blank");
       setTimeout(() => { window.location.href = "https://spareairless.com/hiu017gkyv?key=cc996896fea1967db72a332f6b432422"; }, 1000);
     }
-    function openAdThenRedirectKoFi() {
-      window.open("https://ko-fi.com/cheatxplorer", "_blank");
-      setTimeout(() => { window.location.href = "https://spareairless.com/rdwjim0qs?key=12e3df102e10bbc38d6833d4264d1f8b"; }, 1000);
-    }
+  </script>
+  <script src='https://storage.ko-fi.com/cdn/scripts/overlay-widget.js'></script>
+  <script>
+    kofiWidgetOverlay.draw('cheatxplorer', {
+      'type': 'floating-chat',
+      'floating-chat.donateButton.text': 'Donate',
+      'floating-chat.donateButton.background-color': '#00b9fe',
+      'floating-chat.donateButton.text-color': '#fff'
+    });
   </script>
 </body>
 </html>
