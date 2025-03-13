@@ -21,6 +21,22 @@
       align-items: center;
       font-family: 'Orbitron', sans-serif;
     }
+    
+        /* Ad Reminder Banner */
+    .ad-reminder {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      background-color: rgba(0, 0, 0, 0.8);
+      color: white;
+      text-align: center;
+      padding: 10px 0;
+      font-size: 16px;
+      font-weight: bold;
+      z-index: 999;
+      box-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
+    }
 
     /* Video Background */
     .video-background {
@@ -182,6 +198,11 @@
   </style>
 </head>
 <body>
+
+<!-- Ad Reminder Banner -->
+<div class="ad-reminder">
+  Note: If an ad pops up, please don't click on anything. Simply close the ad to continue browsing.
+</div>
 
 <!-- Fullscreen Video Background -->
 <video class="video-background" autoplay loop muted playsinline preload="auto" 
