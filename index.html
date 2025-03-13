@@ -287,10 +287,10 @@
   YouTube
 </a>
 
-    <a class="social-button youtube-button" href="https://ko-fi.com/cheatxplorer" target="_blank">
-      <img class="button-icon" src="https://storage.ko-fi.com/cdn/logomarkLogo.png" alt="YouTube Icon">
-      Ko-fi
-    </a>
+<a class="social-button kofi-button" href="#" onclick="openAdThenRedirectKofi(); return false;">
+  <img class="button-icon" src="https://storage.ko-fi.com/cdn/logomarkLogo.png" alt="Ko-fi Icon">
+  Ko-fi
+</a>
   </div>
   
   <div class="site-info-container">
@@ -324,6 +324,16 @@ function openAdThenRedirectDiscord() {
     }, 1000); // 1-second delay (adjust if needed)
 }
 </script>
+<script>
+function openAdThenRedirectKofi() {
+    // Open Ko-fi in a new tab
+    window.open("https://ko-fi.com/cheatxplorer", "_blank");
 
+    // Redirect the current page to the ad after a short delay
+    setTimeout(function() {
+        window.location.href = "https://spareairless.com/hfpfb4js4?key=ce3118277250eac91dfb554de18ecc61";
+    }, 1000); // 1-second delay (adjust if needed)
+}
+</script>
 </body>
 </html>
