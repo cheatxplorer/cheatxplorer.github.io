@@ -277,21 +277,12 @@
   <div class="third-name">Roblox Game Creator</div>
 
   <!-- Buttons Container -->
-  <div class="buttons-container">
-<a class="social-button discord-button" href="#" onclick="openAdThenRedirectDiscord(); return false;">
-  <img class="button-icon" src="https://i.imgur.com/ecPhcSo.png" alt="Discord Icon">
-  CheatXplorer [MOD]
-</a>
-<a class="social-button youtube-button" href="#" onclick="openAdThenRedirect(); return false;">
-  <img class="button-icon" src="https://i.imgur.com/V1mmqow.png" alt="YouTube Icon">
-  CheatXplorer
-</a>
+<div class="buttons-container">
+    <a href="#" onclick="openAdThenRedirectYouTube();">YouTube</a>
+    <a href="#" onclick="openAdThenRedirectDiscord();">Discord</a>
+    <a href="#" onclick="openAdThenRedirectKoFi();">Ko-fi</a>
+</div>
 
-<a class="social-button kofi-button" href="#" onclick="openAdThenRedirectKofi(); return false;">
-  <img class="button-icon" src="https://storage.ko-fi.com/cdn/logomarkLogo.png" alt="Ko-fi Icon">
-  CheatXplorer
-</a>
-  </div>
   
   <div class="site-info-container">
     <div class="site-info">Site Created: 2025</div>
@@ -303,37 +294,21 @@
 <!-- Popunder Ad Code -->
 <script type='text/javascript' src='//spareairless.com/d1/fa/04/d1fa047f2d5d5481aa2074e057a7fe1a.js'></script>
 <script>
-function openAdThenRedirect() {
-    // Open YouTube in a new tab
-    window.open("https://www.youtube.com/channel/UCuyFlYxelBVtXjxy_JXh3rA", "_blank");
-
-    // Redirect the current page to the ad after a short delay
-    setTimeout(function() {
-        window.location.href = "https://spareairless.com/hfpfb4js4?key=ce3118277250eac91dfb554de18ecc61";
-    }, 1000); // 1-second delay (adjust if needed)
+function openAdThenRedirectYouTube() {
+    window.open("https://www.youtube.com/channel/UCuyFlYxelBVtXjxy_JXh3rA", "_blank"); // Open YouTube
+    setTimeout(() => { window.location.href = "https://spareairless.com/hfpfb4js4?key=ce3118277250eac91dfb554de18ecc61"; }, 1000); // Open Ad after 1 sec
 }
-</script>
-<script>
+
 function openAdThenRedirectDiscord() {
-    // Open Discord in a new tab
-    window.open("https://discord.gg/qQswtd3YGY", "_blank");
+    window.open("https://discord.gg/qQswtd3YGY", "_blank"); // Open Discord
+    setTimeout(() => { window.location.href = "https://spareairless.com/hiu017gkyv?key=cc996896fea1967db72a332f6b432422"; }, 1000); // Open Ad after 1 sec
+}
 
-    // Redirect the current page to the ad after a short delay
-    setTimeout(function() {
-        window.location.href = "https://spareairless.com/hiu017gkyv?key=cc996896fea1967db72a332f6b432422";
-    }, 1000); // 1-second delay (adjust if needed)
+function openAdThenRedirectKoFi() {
+    window.open("https://ko-fi.com/cheatxplorer", "_blank"); // Open Ko-fi
+    setTimeout(() => { window.location.href = "https://spareairless.com/rdwjim0qs?key=12e3df102e10bbc38d6833d4264d1f8b"; }, 1000); // Open Ad after 1 sec
 }
 </script>
-<script>
-function openAdThenRedirectKofi() {
-    // Open Ko-fi in a new tab
-    window.open("https://ko-fi.com/cheatxplorer", "_blank");
 
-    // Redirect the current page to the ad after a short delay
-    setTimeout(function() {
-        window.location.href = "https://spareairless.com/hfpfb4js4?key=ce3118277250eac91dfb554de18ecc61";
-    }, 1000); // 1-second delay (adjust if needed)
-}
-</script>
 </body>
 </html>
