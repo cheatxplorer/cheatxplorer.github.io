@@ -19,9 +19,7 @@
       display: flex;
       justify-content: center;
       align-items: center;
-      font-family: 'Orbitron', sans-serif; /* Global font */
-
-      
+      font-family: 'Orbitron', sans-serif;
     }
 
     /* Video Background */
@@ -95,7 +93,7 @@
     /* Buttons Container */
     .buttons-container {
       display: flex;
-      gap: 10px; /* Space between buttons */
+      gap: 10px;
       margin-top: 10px;
     }
 
@@ -104,23 +102,32 @@
       font-size: 15px;
       color: white;
       font-weight: bold;
-      background: linear-gradient(180deg, #5865F2, #404EED); /* Discord Color */
+      background: linear-gradient(180deg, #5865F2, #404EED);
       border: 1px solid black;
-      padding: 5px 25px;
+      padding: 5px 10px;
       border-radius: 10px;
       text-shadow: 1px 1px 2px rgba(0, 0, 0, 1);
       text-decoration: none;
       font-family: 'Orbitron', sans-serif;
-      display: inline-block;
+      display: flex;
+      align-items: center;
+      gap: 8px;
       transition: transform 0.2s ease-in-out, opacity 0.2s;
       user-select: none;
       -webkit-user-select: none;
       -webkit-tap-highlight-color: transparent;
     }
 
+    /* Button Icons */
+    .button-icon {
+      width: 20px;
+      height: 20px;
+      border-radius: 5px; /* Rounded square */
+    }
+
     /* YouTube Button Style */
     .youtube-button {
-      background: linear-gradient(180deg, #FF0000, #B20000); /* YouTube Color */
+      background: linear-gradient(180deg, #FF0000, #B20000);
     }
 
     /* Hover Effect */
@@ -133,7 +140,7 @@
       .owner-name { font-size: 18px; padding: 4px 12px; }
       .second-name { font-size: 14px; padding: 4px 40px; }
       .third-name { font-size: 14px; padding: 4px 25px; }
-      .social-button { font-size: 14px; padding: 4px 22px; }
+      .social-button { font-size: 14px; padding: 4px 18px; }
       .profile-image { width: 120px; height: 120px; border-width: 4px; }
     }
 
@@ -141,7 +148,7 @@
       .owner-name { font-size: 16px; padding: 3px 10px; }
       .second-name { font-size: 12px; padding: 3px 35px; }
       .third-name { font-size: 12px; padding: 3px 20px; }
-      .social-button { font-size: 12px; padding: 3px 18px; }
+      .social-button { font-size: 12px; padding: 3px 15px; }
       .profile-image { width: 100px; height: 100px; border-width: 3px; }
     }
 
@@ -163,8 +170,14 @@
 
   <!-- Buttons Container -->
   <div class="buttons-container">
-    <a class="social-button" href="https://discord.gg/qQswtd3YGY" target="_blank">Discord</a>
-    <a class="social-button youtube-button" href="https://www.youtube.com/channel/UCuyFlYxelBVtXjxy_JXh3rA" target="_blank">YouTube</a>
+    <a class="social-button" href="https://discord.gg/qQswtd3YGY" target="_blank">
+      <img class="button-icon" src="https://i.imgur.com/ecPhcSo.png" alt="Discord Icon">
+      Discord
+    </a>
+    <a class="social-button youtube-button" href="https://www.youtube.com/channel/UCuyFlYxelBVtXjxy_JXh3rA" target="_blank">
+      <img class="button-icon" src="https://i.imgur.com/V1mmqow.png" alt="YouTube Icon">
+      YouTube
+    </a>
   </div>
 </div>
 
