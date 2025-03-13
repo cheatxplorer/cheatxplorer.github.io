@@ -4,6 +4,10 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Hacker Style Background</title>
+
+  <!-- Google Font Import -->
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
+
   <style>
     /* Basic reset and body styling */
     body, html {
@@ -13,67 +17,91 @@
       overflow: hidden;
     }
 
-    /* Make sure the video covers the full page */
+    /* Video Background */
     .video-background {
-      position: fixed; /* Fixed positioning to stay in the background */
+      position: fixed;
       top: 0;
       left: 0;
       width: 100%;
       height: 100%;
-      object-fit: cover; /* Ensures the video covers the whole screen */
-      z-index: -1; /* Places the video behind all other content */
+      object-fit: cover;
+      z-index: -1;
     }
 
-    /* Profile container styling */
+    /* Profile Container */
     .profile-container {
       position: absolute;
-      top: 50%; /* Center vertically */
-      left: 50%; /* Center horizontally */
-      transform: translate(-50%, -50%); /* Adjust to center exactly */
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
       text-align: center;
       z-index: 1;
     }
 
-    /* Profile image styling */
+    /* Profile Image */
     .profile-image {
       border-radius: 15%;
       width: 150px;
       height: 150px;
-      border: 5px solid #fff; /* White border around the profile image */
+      border: 5px solid #fff;
+      box-shadow: 0px 0px 15px rgba(255, 0, 0, 1), 0px 0px 25px rgba(255, 0, 0, 1);
     }
 
-    /* Owner name styling */
+    /* Owner Name */
     .owner-name {
-      font-size: 30px; /* Adjust size of the text */
-      color: white; /* Text color */
-      font-weight: bold; /* Bold text */
-      margin-top: 20px; /* Space between the profile image and name */
+      font-size: 20px;
+      color: white;
+      font-weight: bold;
+      margin-top: 10px;
+      background-color: rgba(255, 0, 0, 1);
+      border: 1px solid black;
+      padding: 5px 15px;
+      border-radius: 10px;
+      display: block;
+      width: fit-content;
+      text-shadow: 1px 1px 2px rgba(0, 0, 0, 1);
+      box-shadow: 0px 0px 10px rgba(255, 0, 0, 1);
     }
 
-    /* Optional styling for the body (if you want to add content later) */
-    .content {
-      position: relative;
-      z-index: 1;
-      text-align: center;
-      color: transparent; /* Removes any text or elements */
+    /* Second Name */
+    .second-name {
+      font-size: 20px;
+      color: black;
+      font-weight: bold;
+      margin-top: 5px;
+      background: linear-gradient(180deg, #FFD700, #DAA520);
+      border: 1px solid black;
+      padding: 5px 15px;
+      border-radius: 10px;
+      display: block;
+      width: fit-content;
+      box-shadow: 0px 0px 10px rgba(255, 215, 0, 1); /* Yellow glow */
     }
+
+    /* Font */
+    .owner-name, .second-name {
+      font-family: 'Orbitron', sans-serif;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
   </style>
 </head>
 <body>
 
-  <!-- Video Background -->
-  <video class="video-background" autoplay loop muted>
-    <source src="https://cdn.discordapp.com/attachments/1349511058821353504/1349511090865705037/103434-662525884.mp4?ex=67d35da4&is=67d20c24&hm=f40a050d3973f26b60af5bf5157373a530f383dd872f1ce1e826a358fba1caad&" type="video/mp4">
-    <!-- Optional: Add fallback content if the video cannot be loaded -->
-    Your browser does not support the video tag.
-  </video>
+<!-- Fullscreen Video Background -->
+<video class="video-background" autoplay loop muted playsinline>
+  <source src="https://raw.githubusercontent.com/cheatxplorer/cheatxplorer/main/103434-662525884.webm" type="video/webm">
+</video>
+
+
+
 
   <!-- Profile Container -->
   <div class="profile-container">
-    <!-- Profile Image -->
-    <img class="profile-image" src="https://cdn.discordapp.com/attachments/1114899889025994794/1349508855721361438/4fc29000-6d51-4f22-a6bc-6c03be6bddb2-ezgif.com-webp-to-jpg-converter.jpg?ex=67d35b8f&is=67d20a0f&hm=73e91903cc8b5c27217e08f6765958f71c3b3c6bfea19769a45c0e356d28c646&" alt="Profile Image">
-    <!-- Owner Name -->
+    <img class="profile-image" src="https://i.imgur.com/mNOODFN.jpeg" alt="Profile Image">
     <div class="owner-name">CheatXplorer</div>
+    <div class="second-name">Modder</div>
   </div>
 
 </body>
