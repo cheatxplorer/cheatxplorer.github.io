@@ -194,10 +194,16 @@
 
 <!-- Fullscreen Video Background -->
 <video class="video-background" autoplay loop muted playsinline preload="auto" 
-       poster="https://i.imgur.com/mNOODFN.jpeg">
+       poster="https://i.imgur.com/mNOODFN.jpeg" onloadeddata="this.play()">
   <source src="https://raw.githubusercontent.com/cheatxplorer/cheatxplorer/main/103434-662525884.webm" type="video/webm">
-  <source src="https://example.com/video.mp4" type="video/mp4"> <!-- MP4 fallback -->
 </video>
+
+<script>
+  window.addEventListener("load", function() {
+    document.querySelector(".video-background").play();
+  });
+</script>
+
 
 
 
