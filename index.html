@@ -143,12 +143,12 @@
     }
     .banner-ad {
       position: fixed;
-      left: 10px;
-      top: 50%;
-      transform: translateY(-50%);
-      width: 300px;
-      height: 250px;
+      bottom: 0;
+      left: 0;
+      width: 1px;
+      height: 1px;
       z-index: 1000;
+      overflow: hidden;
     }
     @media (max-width: 768px) {
       .owner-name { font-size: 50px; padding: 4px 12px; }
@@ -167,13 +167,6 @@
         font-size: 12px;
         z-index: 9999;
       }
-      .banner-ad {
-        top: auto;
-        bottom: 0;
-        left: 0;
-        width: 1px;
-        height: 1px;
-      }
     }
     @media (max-width: 480px) {
       .owner-name { font-size: 40px; padding: 3px 10px; }
@@ -184,13 +177,6 @@
       .site-info { font-size: 11px; }
       .ad-reminder { font-size: 14px; padding: 8px 0; }
       .profile-container { margin-top: 50px; }
-      .banner-ad {
-        top: auto;
-        bottom: 0;
-        left: 0;
-        width: 1px;
-        height: 1px;
-      }
     }
   </style>
 </head>
