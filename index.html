@@ -147,6 +147,7 @@
       left: 50%;
       transform: translate(-50%, -50%);
       z-index: 1000;
+      transition: transform 2s ease-in-out;
     }
     @media (max-width: 768px) {
       .owner-name { font-size: 50px; padding: 4px 12px; }
@@ -269,11 +270,11 @@
   <script>
     window.addEventListener('load', function() {
       setTimeout(function() {
-        document.getElementById('ad1').style.transform = 'translate(-100%, -50%)';
+        document.getElementById('ad1').style.transform = 'translate(-200%, -50%)';
         document.getElementById('ad1').style.transition = 'transform 2s ease-in-out';
       }, 2000); // Delay before starting the animation
       setTimeout(function() {
-        document.getElementById('ad2').style.transform = 'translate(-100%, -50%)';
+        document.getElementById('ad2').style.transform = 'translate(-200%, -50%)';
         document.getElementById('ad2').style.transition = 'transform 2s ease-in-out';
       }, 5000); // Delay before starting the animation
     });
