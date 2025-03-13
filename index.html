@@ -143,21 +143,10 @@
     }
     .banner-ad, .banner-ad-2 {
       position: fixed;
-      width: 1px;
-      height: 1px;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
       z-index: 1000;
-      overflow: hidden;
-      transition: transform 1s ease-in-out;
-    }
-    .banner-ad {
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-    }
-    .banner-ad-2 {
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
     }
     @media (max-width: 768px) {
       .owner-name { font-size: 50px; padding: 4px 12px; }
@@ -276,14 +265,6 @@
       'floating-chat.donateButton.background-color': '#00b9fe',
       'floating-chat.donateButton.text-color': '#fff'
     });
-  </script>
-  <script>
-    setTimeout(function() {
-      document.getElementById('ad1').style.transform = 'translate(-100%, -50%)';
-    }, 1000);
-    setTimeout(function() {
-      document.getElementById('ad2').style.transform = 'translate(-100%, -50%)';
-    }, 2000);
   </script>
   <style>
     @media (max-width: 480px) {
