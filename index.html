@@ -147,7 +147,7 @@
       height: 1px;
       z-index: 1000;
       overflow: hidden;
-      transition: transform 1s ease-in-out;
+      transition: transform 2s ease-in-out;
     }
     .banner-ad {
       top: 50%;
@@ -283,12 +283,14 @@
     });
   </script>
   <script>
-    setTimeout(function() {
-      document.getElementById('ad1').style.animation = 'moveToCorner 1s forwards';
-    }, 1000);
-    setTimeout(function() {
-      document.getElementById('ad2').style.animation = 'moveToCorner 1s forwards';
-    }, 3000);
+    window.addEventListener('load', function() {
+      setTimeout(function() {
+        document.getElementById('ad1').style.animation = 'moveToCorner 2s forwards';
+      }, 2000); // Changed to 2 seconds for smoother effect
+      setTimeout(function() {
+        document.getElementById('ad2').style.animation = 'moveToCorner 2s forwards';
+      }, 5000); // Changed to 5 seconds for smoother effect
+    });
   </script>
   <style>
     @media (max-width: 480px) {
