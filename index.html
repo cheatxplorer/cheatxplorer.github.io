@@ -30,6 +30,7 @@
       font-weight: bold;
       z-index: 999;
       box-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
+      transition: opacity 0.5s ease-in-out;
     }
     .video-background {
       position: fixed;
@@ -188,7 +189,7 @@
   </style>
 </head>
 <body>
-  <div class="ad-reminder">
+  <div class="ad-reminder" id="adReminder">
     Note: If an ad pops up, please don't click on anything. Simply close the ad to continue browsing.
   </div>
   <video class="video-background" autoplay loop muted playsinline preload="auto" 
@@ -199,6 +200,11 @@
     window.addEventListener("load", function() {
       document.querySelector(".video-background").play();
     });
+    setTimeout(function() {
+      const adReminder = document.getElementById('adReminder');
+      adReminder.style.opacity = '0';
+      setTimeout(() => adReminder.style.display = 'none', 500);
+    }, 30000);
   </script>
   <div class="banner-ad">
     <script type="text/javascript">
