@@ -34,8 +34,8 @@
     /* Profile Container */
     .profile-container {
       display: flex;
-      flex-direction: column; /* Stack items vertically */
-      align-items: center; /* Center horizontally */
+      flex-direction: column;
+      align-items: center;
       text-align: center;
       z-index: 1;
     }
@@ -49,48 +49,53 @@
       box-shadow: 0px 0px 15px rgba(255, 0, 0, 1), 0px 0px 25px rgba(255, 0, 0, 1);
     }
 
-    /* Owner Name (Above the Profile Image) */
-    .owner-name {
-      font-size: 20px;
-      color: white;
+    /* Name Styles */
+    .owner-name, .second-name, .third-name {
+      font-family: 'Orbitron', sans-serif;
       font-weight: bold;
-      margin-bottom: 10px; /* Moves it above the image */
-      background-color: rgba(255, 0, 0, 1);
-      border: 1px solid black;
       padding: 5px 15px;
       border-radius: 10px;
+      border: 1px solid black;
       text-shadow: 1px 1px 2px rgba(0, 0, 0, 1);
       box-shadow: 0px 0px 10px rgba(255, 0, 0, 1);
     }
 
-    /* Second Name (Modder) */
-    .second-name {
-      font-size: 15px;
-      color: black;
-      font-weight: bold;
-      margin-top: 10px; /* Moves it below the image */
-      background: linear-gradient(180deg, #FFD700, #DAA520);
-      border: 1px solid black;
-      padding: 5px 53px;
-      border-radius: 10px;
-    }
-
-    /* Third Name (Roblox Game Creator) */
-    .third-name {
-      font-size: 15px;
+    /* CheatXplorer Name */
+    .owner-name {
+      font-size: 4vw; /* Scales with screen size */
       color: white;
-      font-weight: bold;
-      margin-top: 10px; /* Moves it below "Modder" */
-      background: linear-gradient(180deg, #007BFF, #0056b3);
-      border: 1px solid black;
-      padding: 5px 30px;
-      border-radius: 10px;
-      text-shadow: 1px 1px 2px rgba(0, 0, 0, 1);
+      margin-bottom: 10px;
+      background-color: rgba(255, 0, 0, 1);
     }
 
-    /* Font */
-    .owner-name, .second-name, .third-name {
-      font-family: 'Orbitron', sans-serif;
+    /* Modder Name */
+    .second-name {
+      font-size: 3.5vw;
+      color: black;
+      margin-top: 10px;
+      background: linear-gradient(180deg, #FFD700, #DAA520);
+      box-shadow: 0px 0px 10px rgba(255, 215, 0, 1);
+    }
+
+    /* Roblox Game Creator Name */
+    .third-name {
+      font-size: 3.5vw;
+      color: white;
+      margin-top: 10px;
+      background: linear-gradient(180deg, #007BFF, #0056b3);
+    }
+
+    /* Responsive Design */
+    @media (max-width: 600px) {
+      .profile-image {
+        width: 120px;
+        height: 120px;
+      }
+
+      .owner-name, .second-name, .third-name {
+        font-size: 5vw; /* Adjusts better on small screens */
+        padding: 8px 20px;
+      }
     }
 
   </style>
