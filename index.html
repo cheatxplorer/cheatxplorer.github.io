@@ -429,5 +429,17 @@ async function updateViewCount() {
 
 updateViewCount();
 </script>
+<script>
+  fetch('https://api.countapi.xyz/hit/cheatxplorer.github.io/visits')
+    .then(response => response.json())
+    .then(data => {
+      document.getElementById("view-counter").innerText = `Visits: ${data.value}`;
+    })
+    .catch(error => {
+      document.getElementById("view-counter").innerText = "Visit counter unavailable";
+      console.error("Error fetching visit count:", error);
+    });
+</script>
+
 </body>
 </html>
