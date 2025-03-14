@@ -1,6 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-R4E6RHXWPB"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-R4E6RHXWPB');
+</script>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>CheatXplorer</title>
@@ -259,17 +267,19 @@
       </div>
       <div class="second-name">Android Modder</div>
       <div class="third-name">Roblox Game Creator</div>
-      <div class="buttons-container">
-        <a href="#" class="social-button" onclick="openAdThenRedirectYouTube();">
-          <img src="https://i.imgur.com/V1mmqow.png" class="button-icon" alt="YouTube Icon"> YouTube
-        </a>
-        <a href="#" class="social-button" onclick="openAdThenRedirectDiscord();">
-          <img src="https://i.imgur.com/ecPhcSo.png" class="button-icon" alt="Discord Icon"> Discord
-        </a>
-        <a href="#" class="social-button" onclick="openAdThenRedirectKoFi();">
-          <img src="https://storage.ko-fi.com/cdn/logomarkLogo.png" class="button-icon" alt="Ko-fi Icon"> Ko-fi
-        </a>
-      </div>
+<div class="buttons-container">
+  <a href="#" class="social-button" onclick="openAdThenRedirectYouTube();">
+    <img src="https://i.imgur.com/V1mmqow.png" class="button-icon" alt="YouTube Icon"> YouTube
+  </a>
+  <a href="#" class="social-button" onclick="openAdThenRedirectDiscord();">
+    <img src="https://i.imgur.com/ecPhcSo.png" class="button-icon" alt="Discord Icon"> Discord
+  </a>
+  <a href="#" class="social-button" onclick="openAdThenRedirectKoFi();">
+    <img src="https://storage.ko-fi.com/cdn/logomarkLogo.png" class="button-icon" alt="Ko-fi Icon"> Ko-fi
+  </a>
+</div>
+<div id="view-counter" class="view-counter">Loading view count...</div>
+
       <div class="site-info-container">
         <div class="site-info">Site Created: 2025</div>
         <div class="site-info">Owner: CheatXplorer</div>
@@ -401,5 +411,14 @@
       }, 3500);
     });
   </script>
+  <script>
+  async function updateViewCount() {
+    const response = await fetch('http://localhost:3000/view-count'); // Replace with your backend URL
+    const data = await response.json();
+    document.getElementById('view-counter').innerText = `View count: ${data.count}`;
+  }
+
+  updateViewCount();
+</script>
 </body>
 </html>
