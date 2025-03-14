@@ -159,23 +159,22 @@
       margin-top: 120px;
       text-align: center;
     }
-.banner-ad, .banner-ad-2, .banner-ad-3, .banner-ad-4, .banner-ad-5, .banner-ad-6 {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  z-index: 1000;
-  transition: transform 1s ease-in-out;
-}
-
-.content-wrapper {
-  position: relative;
-  z-index: 1;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-}
+    .banner-ad, .banner-ad-2, .banner-ad-3, .banner-ad-4, .banner-ad-5, .banner-ad-6 {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      z-index: 1000;
+      transition: transform 1s ease-in-out;
+    }
+    .content-wrapper {
+      position: relative;
+      z-index: 1;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
     @media (max-width: 768px) {
       .owner-name { font-size: 50px; padding: 4px 12px; }
       .second-name, .third-name { font-size: 14px; padding: 3px; width: 300px; }
@@ -184,15 +183,7 @@
       .button-icon { width: 18px; height: 18px; }
       .site-info { font-size: 12px; }
       .profile-container { margin-top: 60px; }
-      .site-info-container {
-        position: fixed;
-        bottom: 0;
-        left: 0;
-        width: 100%;
-        padding: 10px 0;
-        font-size: 12px;
-        z-index: 9999;
-      }
+      .site-info-container {position: fixed;bottom: 0;left: 0;width: 100%;padding: 10px 0;font-size: 12px;z-index: 9999;}
     }
     @media (max-width: 480px) {
       .owner-name { font-size: 40px; padding: 3px 10px; }
@@ -204,8 +195,6 @@
       .ad-reminder { font-size: 14px; padding: 8px 0; }
       .profile-container { margin-top: 50px; }
     }
-   }
-    
   </style>
 </head>
 <body>
@@ -227,34 +216,33 @@
     }, 30000);
   </script>
   <div class="profile-container">
-  <div class="content-wrapper">
-  <div class="profile-container">
-    <!-- Your existing profile-container content -->
-    <div class="owner-name">CheatXplorer</div>
-    <div class="avatar-wrapper">
+    <div class="content-wrapper">
+      <div class="owner-name">CheatXplorer</div>
+      <div class="avatar-wrapper">
         <!-- Avatar Decoration (Animated PNG) -->
         <img class="avatar-decoration" src="https://i.imgur.com/Oe4u8Qi.gif" alt=" ">
 
         <!-- Profile Picture -->
         <img class="avatar-profile" src="https://i.imgur.com/lcLA9Xs.gif" alt=" ">
-    </div>
-    <div class="second-name">Android Modder</div>
-    <div class="third-name">Roblox Game Creator</div>
-    <div class="buttons-container">
-      <a href="#" class="social-button" onclick="openAdThenRedirectYouTube();">
-        <img src="https://i.imgur.com/V1mmqow.png" class="button-icon" alt="YouTube Icon"> YouTube
-      </a>
-      <a href="#" class="social-button" onclick="openAdThenRedirectDiscord();">
-        <img src="https://i.imgur.com/ecPhcSo.png" class="button-icon" alt="Discord Icon"> Discord
-      </a>
-      <a href="#" class="social-button" onclick="openAdThenRedirectKoFi();">
-        <img src="https://storage.ko-fi.com/cdn/logomarkLogo.png" class="button-icon" alt="Ko-fi Icon"> Ko-fi
-      </a>
-    </div>
-    <div class="site-info-container">
-      <div class="site-info">Site Created: 2025</div>
-      <div class="site-info">Owner: CheatXplorer</div>
-      <div class="site-info">Contact: cheatxplorer@gmail.com</div>
+      </div>
+      <div class="second-name">Android Modder</div>
+      <div class="third-name">Roblox Game Creator</div>
+      <div class="buttons-container">
+        <a href="#" class="social-button" onclick="openAdThenRedirectYouTube();">
+          <img src="https://i.imgur.com/V1mmqow.png" class="button-icon" alt="YouTube Icon"> YouTube
+        </a>
+        <a href="#" class="social-button" onclick="openAdThenRedirectDiscord();">
+          <img src="https://i.imgur.com/ecPhcSo.png" class="button-icon" alt="Discord Icon"> Discord
+        </a>
+        <a href="#" class="social-button" onclick="openAdThenRedirectKoFi();">
+          <img src="https://storage.ko-fi.com/cdn/logomarkLogo.png" class="button-icon" alt="Ko-fi Icon"> Ko-fi
+        </a>
+      </div>
+      <div class="site-info-container">
+        <div class="site-info">Site Created: 2025</div>
+        <div class="site-info">Owner: CheatXplorer</div>
+        <div class="site-info">Contact: cheatxplorer@gmail.com</div>
+      </div>
     </div>
   </div>
 
@@ -311,34 +299,32 @@
   </div>
   
   <!-- 5th Banner Ad -->
-<div class="banner-ad-5" id="ad5">
-  <script type="text/javascript">
-    atOptions = {
-      'key' : 'fd863e4827886fa8a321726d3e97b850',
-      'format' : 'iframe',
-      'height' : 90,
-      'width' : 728,
-      'params' : {}
-    };
-  </script>
-  <script type="text/javascript" src="//spareairless.com/fd863e4827886fa8a321726d3e97b850/invoke.js"></script>
-</div>
+  <div class="banner-ad-5" id="ad5">
+    <script type="text/javascript">
+      atOptions = {
+        'key' : 'fd863e4827886fa8a321726d3e97b850',
+        'format' : 'iframe',
+        'height' : 90,
+        'width' : 728,
+        'params' : {}
+      };
+    </script>
+    <script type="text/javascript" src="//spareairless.com/fd863e4827886fa8a321726d3e97b850/invoke.js"></script>
+  </div>
 
-<!-- 6th Banner Ad -->
-<div class="banner-ad-6" id="ad6">
-  <script type="text/javascript">
-    atOptions = {
-      'key' : 'db0a8b485450734bfcd02192eefe4c1f',
-      'format' : 'iframe',
-      'height' : 50,
-      'width' : 320,
-      'params' : {}
-    };
-  </script>
-  <script type="text/javascript" src="//spareairless.com/db0a8b485450734bfcd02192eefe4c1f/invoke.js"></script>
-    </div>
-</div>
-
+  <!-- 6th Banner Ad -->
+  <div class="banner-ad-6" id="ad6">
+    <script type="text/javascript">
+      atOptions = {
+        'key' : 'db0a8b485450734bfcd02192eefe4c1f',
+        'format' : 'iframe',
+        'height' : 50,
+        'width' : 320,
+        'params' : {}
+      };
+    </script>
+    <script type="text/javascript" src="//spareairless.com/db0a8b485450734bfcd02192eefe4c1f/invoke.js"></script>
+  </div>
 
   <script type='text/javascript' src='//spareairless.com/d1/fa/04/d1fa047f2d5d5481aa2074e057a7fe1a.js'></script>
   <script>
@@ -405,6 +391,5 @@
       }
     }
   </style>
-  </div>
 </body>
 </html>
