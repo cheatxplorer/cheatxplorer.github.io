@@ -412,13 +412,22 @@
     });
   </script>
   <script>
-  async function updateViewCount() {
+async function updateViewCount() {
+  try {
     const response = await fetch('http://localhost:3000/view-count'); // Replace with your backend URL
+    if (!response.ok) {
+      console.error('Network response was not ok', response.statusText);
+      return;
+    }
+
     const data = await response.json();
     document.getElementById('view-counter').innerText = `View count: ${data.count}`;
+  } catch (error) {
+    console.error('There has been a problem with your fetch operation:', error);
   }
+}
 
-  updateViewCount();
+updateViewCount();
 </script>
 </body>
 </html>
