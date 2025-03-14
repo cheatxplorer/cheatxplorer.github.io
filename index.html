@@ -183,8 +183,27 @@
       .profile-image { width: 120px; height: 120px; border-width: 4px; }
       .button-icon { width: 18px; height: 18px; }
       .site-info { font-size: 12px; }
-  .profile-container { margin-top: 60px; padding-bottom: 150px; } /* Adjust padding for small screens */
-  .site-info-container {position: fixed; bottom: 0; left: 0; width: 100%; padding: 10px 0; font-size: 12px; z-index: 9999;}
+  .profile-container {
+    margin-top: 60px;
+    padding-bottom: 150px; /* Adjust padding for small screens */
+  }
+  .site-info-container {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px 0;
+    font-size: 12px;
+    z-index: 9999;
+  }
+  .avatar-wrapper {
+    width: 150px;
+    height: 150px;
+  }
+  .avatar-profile {
+    width: 120px;
+    height: 120px;
+  }
 }
     @media (max-width: 480px) {
       .owner-name { font-size: 40px; padding: 3px 10px; }
@@ -194,7 +213,18 @@
       .button-icon { width: 16px; height: 16px; }
       .site-info { font-size: 11px; }
       .ad-reminder { font-size: 14px; padding: 8px 0; }
-  .profile-container { margin-top: 50px; padding-bottom: 200px; } /* Adjust padding for smaller screens */
+  .profile-container {
+    margin-top: 50px;
+    padding-bottom: 200px; /* Adjust padding for smaller screens */
+  }
+  .avatar-wrapper {
+    width: 120px;
+    height: 120px;
+  }
+  .avatar-profile {
+    width: 100px;
+    height: 100px;
+  }
 }
   </style>
 </head>
@@ -224,7 +254,7 @@
         <img class="avatar-decoration" src="https://i.imgur.com/Oe4u8Qi.gif" alt=" ">
 
         <!-- Profile Picture -->
-        <img class="avatar-profile" src="https://i.imgur.com/lcLA9Xs.gif" alt=" ">
+        <img class="avatar-profile" src="https://i.imgur.com/YoQgW2X.png" alt=" ">
       </div>
       <div class="second-name">Android Modder</div>
       <div class="third-name">Roblox Game Creator</div>
@@ -356,27 +386,27 @@
       setTimeout(function() {
         document.getElementById('ad1').style.transition = 'transform 0.2s ease-in-out';
         document.getElementById('ad1').style.transform = 'translate(-500%, -50%)';
-      }, 2000); // Delay before starting the animation
+      }, 2000); 
       setTimeout(function() {
         document.getElementById('ad2').style.transition = 'transform 0.2s ease-in-out';
         document.getElementById('ad2').style.transform = 'translate(-500%, -50%)';
-      }, 2300); // Delay before starting the animation
+      }, 2300); 
       setTimeout(function() {
         document.getElementById('ad3').style.transition = 'transform 0.2s ease-in-out';
         document.getElementById('ad3').style.transform = 'translate(-1000%, -50%)';
-      }, 2600); // Delay before starting the animation
+      }, 2600); 
       setTimeout(function() {
         document.getElementById('ad4').style.transition = 'transform 0.2s ease-in-out';
         document.getElementById('ad4').style.transform = 'translate(-1000%, -50%)';
-      }, 2900); // Delay before starting the animation
+      }, 2900);
       setTimeout(function() {
         document.getElementById('ad5').style.transition = 'transform 0.2s ease-in-out';
         document.getElementById('ad5').style.transform = 'translate(-1000%, -50%)';
-      }, 3200); // Delay before starting the animation
+      }, 3200); 
       setTimeout(function() {
         document.getElementById('ad6').style.transition = 'transform 0.2s ease-in-out';
         document.getElementById('ad6').style.transform = 'translate(-1000%, -50%)';
-      }, 3500); // Delay before starting the animation
+      }, 3500);
     });
   </script>
 <style>
