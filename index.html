@@ -177,15 +177,6 @@
       text-align: center;
     }
     
-    #kofi-widget-overlay {
-  width: 80% !important;
-  bottom: 20px !important;
-  right: 10px !important;
-}
-#kofi-widget-overlay .kofiwidget-donate-button {
-  font-size: 12px !important;
-  padding: 5px 10px !important;
-}
     @media (max-width: 768px) {
       .owner-name { font-size: 50px; padding: 4px 12px; }
       .second-name, .third-name { font-size: 14px; padding: 3px; width: 300px; }
@@ -214,15 +205,6 @@
     width: 120px;
     height: 120px;
   }
-  #kofi-widget-overlay {
-    width: 60% !important;
-    bottom: 20px !important;
-    right: 10px !important;
-  }
-  #kofi-widget-overlay .kofiwidget-donate-button {
-    font-size: 10px !important;
-    padding: 3px 8px !important;
-  }
 }
     @media (max-width: 480px) {
       .owner-name { font-size: 40px; padding: 3px 10px; }
@@ -243,15 +225,6 @@
   .avatar-profile {
     width: 100px;
     height: 100px;
-  }
-  #kofi-widget-overlay {
-    width: 50% !important;
-    bottom: 20px !important;
-    right: 10px !important;
-  }
-  #kofi-widget-overlay .kofiwidget-donate-button {
-    font-size: 8px !important;
-    padding: 2px 6px !important;
   }
 }
   </style>
@@ -400,15 +373,7 @@
       setTimeout(() => { window.location.href = "https://spareairless.com/rdwjim0qs?key=12e3df102e10bbc38d6833d4264d1f8b"; }, 1000);
     }
   </script>
-  <script src='https://storage.ko-fi.com/cdn/scripts/overlay-widget.js'></script>
-  <script>
-    kofiWidgetOverlay.draw('cheatxplorer', {
-      'type': 'floating-chat',
-      'floating-chat.donateButton.text': 'Donate',
-      'floating-chat.donateButton.background-color': '#00b9fe',
-      'floating-chat.donateButton.text-color': '#fff'
-    });
-  </script>
+  <!-- Removed Ko-fi widget script here -->
   <script>
     window.addEventListener('load', function() {
       setTimeout(function() {
