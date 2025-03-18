@@ -28,12 +28,19 @@
         function redirect() {
             const urlParams = new URLSearchParams(window.location.search);
             const targetUrl = urlParams.get('link');
+            const countdownElement = document.getElementById("countdown");
+            let countdown = 5; // 5-second countdown
 
             if (targetUrl) {
                 document.getElementById("downloadLink").href = targetUrl;
-                setTimeout(() => {
-                    window.location.href = targetUrl;
-                }, 5000); // 5-second delay before redirect
+                const interval = setInterval(() => {
+                    countdown--;
+                    countdownElement.innerText = countdown;
+                    if (countdown <= 0) {
+                        clearInterval(interval);
+                        window.location.href = targetUrl;
+                    }
+                }, 1000); // Update every second
             } else {
                 document.getElementById("message").innerText = "Invalid link!";
             }
@@ -43,6 +50,7 @@
 <body onload="redirect()">
     <h1>Redirecting you to your download...</h1>
     <div class="loader"></div>
+    <p>Redirecting in <span id="countdown">5</span> seconds...</p>
     <p>If the page doesn't redirect, <a id="downloadLink" href="#">click here</a>.</p>
     <p id="message"></p>
 </body>
