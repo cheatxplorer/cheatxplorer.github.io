@@ -9,6 +9,8 @@
             font-family: Arial, sans-serif;
             text-align: center;
             padding: 50px;
+            position: relative;
+            min-height: 100vh;
         }
         .loader {
             border: 8px solid #f3f3f3;
@@ -24,83 +26,36 @@
             100% { transform: rotate(360deg); }
         }
         .buttons-container {
-            position: absolute;
-            bottom: 50px;
-            width: 100%;
             display: flex;
             justify-content: center;
             gap: 10px;
-            z-index: 3;
-            text-shadow: 2px 2px 4px rgba(0, 0, 0, 1);
+            position: fixed;
+            bottom: 40px;
+            width: 100%;
+            left: 0;
         }
         .buttons-container button {
             display: flex;
             align-items: center;
-            padding: 10px 20px;
-            font-size: 16px;
-            font-weight: bold;
+            gap: 5px;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
             cursor: pointer;
-            border: 2px solid #fff;
-            border-radius: 10px;
-            background: #000;
-            color: #fff;
-            transition: background 0.3s, box-shadow 0.3s;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-            text-shadow: 2px 2px 4px rgba(0, 0, 0, 1);
+            font-size: 16px;
         }
-        .buttons-container button img {
-            margin-right: 8px;
+        .buttons-container img {
             width: 20px;
             height: 20px;
         }
-        .buttons-container button:hover {
-            background: linear-gradient(45deg, #ff9900, #ffcc00);
-            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
-        }
         .details-container {
-            position: absolute;
-            bottom: 20px;
-            width: 100%;
-            text-align: center;
-            color: white;
-            z-index: 3;
-            font-size: 16px;
-            text-shadow: 2px 2px 4px rgba(0, 0, 0, 1);
-        }
-        @media (max-width: 768px) {
-            .header {
-                font-size: 40px;
-            }
-            .buttons-container {
-                bottom: 60px;
-            }
-            .buttons-container button {
-                padding: 8px 16px;
-                font-size: 14px;
-            }
-            .buttons-container button img {
-                width: 18px;
-                height: 18px;
-            }
-        }
-        @media (max-width: 480px) {
-            .header {
-                font-size: 30px;
-            }
-            .buttons-container {
-                bottom: 40px;
-            }
-            .buttons-container button {
-                padding: 6px 12px;
-                font-size: 12px;
-            }
-            .buttons-container button img {
-                width: 16px;
-                height: 16px;
-            }
-            .details-container {
-                font-size: 12px;
-            }
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px 0;
+    font-size: 12px;
+    z-index: 9999;
         }
     </style>
     <script>
