@@ -1,256 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CheatXplorer</title>
+    <title>Page Coming Soon</title>
     <style>
-        @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap');
-
-        body,
-        html {
-            margin: 0;
-            padding: 0;
-            height: 100%;
-            overflow: hidden;
+        body {
             font-family: Arial, sans-serif;
-        }
-
-        .video-background {
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-            z-index: -1;
-        }
-
-        .content {
-            position: relative;
-            z-index: 1;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100%;
-            color: white;
             text-align: center;
+            padding: 50px;
+            background-color: #f4f4f4;
         }
-
-        .header {
-            position: absolute;
-            top: 20px;
-            width: 100%;
-            text-align: center;
-            color: white;
-            font-size: 80px;
-            font-weight: bold;
-            font-family: 'Orbitron', sans-serif;
-            animation: glitchText 1.5s infinite;
+        h1 {
+            color: #333;
         }
-
-        @keyframes glitchText {
-            0% {
-                text-shadow: 2px 2px red, -2px -2px blue;
-            }
-
-            20% {
-                text-shadow: -2px -2px red, 2px 2px blue;
-            }
-
-            40% {
-                text-shadow: 2px -2px red, -2px 2px blue;
-            }
-
-            60% {
-                text-shadow: -2px 2px red, 2px -2px blue;
-            }
-
-            80% {
-                text-shadow: 2px 2px red, -2px -2px blue;
-            }
-
-            100% {
-                text-shadow: -2px -2px red, 2px 2px blue;
-            }
-        }
-
-        .buttons-container {
-            position: absolute;
-            bottom: 50px;
-            width: 100%;
-            display: flex;
-            justify-content: center;
-            gap: 10px;
-            z-index: 3;
-        }
-
-        .buttons-container button {
-            display: flex;
-            align-items: center;
-            padding: 10px 20px;
-            font-size: 16px;
-            font-weight: bold;
-            cursor: pointer;
-            border: none;
-            border-radius: 5px;
-            background: linear-gradient(45deg, #ffcc00, #ff9900);
-            color: #000;
-            transition: background 0.3s, box-shadow 0.3s;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-        }
-
-        .buttons-container button img {
-            margin-right: 8px;
-            width: 20px;
-            height: 20px;
-        }
-
-        .buttons-container button:hover {
-            background: linear-gradient(45deg, #ff9900, #ffcc00);
-            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
-        }
-
-        .details-container {
-            position: absolute;
-            bottom: 20px;
-            width: 100%;
-            text-align: center;
-            color: white;
-            z-index: 3;
-            font-size: 16px;
-        }
-
-        .vertical-buttons-container {
-            position: absolute;
-            bottom: 150px;
-            width: 100%;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            gap: 10px;
-            z-index: 3;
-        }
-
-        .vertical-buttons-container button {
-            width: 200px;
-            /* Fixed width for buttons */
-            padding: 10px;
-            font-size: 16px;
-            font-weight: bold;
-            cursor: pointer;
-            border: none;
-            border-radius: 5px;
-            background: linear-gradient(45deg, #ffcc00, #ff9900);
-            color: #000;
-            transition: background 0.3s, box-shadow 0.3s;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-        }
-
-        .vertical-buttons-container button:hover {
-            background: linear-gradient(45deg, #ff9900, #ffcc00);
-            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
-        }
-
-        @media (max-width: 768px) {
-            .header {
-                font-size: 40px;
-            }
-
-            .buttons-container {
-                bottom: 60px;
-            }
-
-            .buttons-container button {
-                padding: 8px 16px;
-                font-size: 14px;
-            }
-
-            .buttons-container button img {
-                width: 18px;
-                height: 18px;
-            }
-
-            .details-container {
-                font-size: 14px;
-            }
-
-            .vertical-buttons-container {
-                bottom: 100px;
-            }
-        }
-
-        @media (max-width: 480px) {
-            .header {
-                font-size: 30px;
-            }
-
-            .buttons-container {
-                bottom: 40px;
-            }
-
-            .buttons-container button {
-                padding: 6px 12px;
-                font-size: 12px;
-            }
-
-            .buttons-container button img {
-                width: 16px;
-                height: 16px;
-            }
-
-            .details-container {
-                font-size: 12px;
-            }
-
-            .vertical-buttons-container {
-                bottom: 80px;
-            }
-
-            .vertical-buttons-container button {
-                width: 150px;
-                /* Adjusted fixed width for smaller screens */
-                padding: 6px;
-                font-size: 12px;
-            }
+        p {
+            font-size: 18px;
+            color: #666;
         }
     </style>
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9422653444872706"
-        crossorigin="anonymous"></script>
 </head>
-
 <body>
-    <video autoplay muted loop class="video-background">
-        <source src="https://raw.githubusercontent.com/cheatxplorer/cheatxplorer/main/103434-662525884.webm"
-            type="video/webm">
-        Your browser does not support the video tag.
-    </video>
-    <div class="header">CheatXplorer</div>
-    <div class="content">
-    </div>
-    <div class="vertical-buttons-container">
-        <button onclick="window.open('https://cheatxplorer.github.io/androidmods/', '_blank')">Android Mods</button>
-        <button onclick="window.open('https://cheatxplorer.github.io/robloxstuff/', '_blank')">Roblox Stuff</button>
-    </div>
-    <div class="buttons-container">
-        <button onclick="window.open('https://discord.gg/qQswtd3YGY', '_blank')">
-            <img src="https://i.imgur.com/ecPhcSo.png" alt="Discord"> Discord
-        </button>
-        <button onclick="window.open('https://www.youtube.com/channel/UCuyFlYxelBVtXjxy_JXh3rA', '_blank')">
-            <img src="https://i.imgur.com/V1mmqow.png" alt="YouTube"> YouTube
-        </button>
-        <button onclick="window.open('https://ko-fi.com/cheatxplorer', '_blank')">
-            <img src="https://storage.ko-fi.com/cdn/logomarkLogo.png" alt="Ko-fi"> Ko-fi
-        </button>
-    </div>
-    <div class="details-container">
-        cheatxplorer@gmail.com
-    </div>
-    <script type="text/javascript">
-        window.onload = function() {
-            // Ad removal code, if any
-        };
-    </script>
+    <h1>This Page is Not Yet Available</h1>
+    <p>Soon, it will be available. Stay tuned!</p>
 </body>
 </html>
