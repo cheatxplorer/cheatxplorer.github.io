@@ -84,15 +84,16 @@
                 const interval = setInterval(() => {
                     countdown--;
                     countdownElement.innerText = countdown;
-                    if (countdown <= 1) {
+                    if (countdown <= 0) {
                         clearInterval(interval);
                         window.location.href = targetUrl;
                     }
                     if (countdown <= 1) {
                         downloadLinkElement.style.display = "inline";
                     }
-                    if (countdown <= 1) {
+                    if (countdown <= 9) {
                         downloadLinkWrapper.innerHTML = `If the page doesn't redirect, <a id="downloadLink" href="#">click here</a>.`;
+                        downloadLinkElement.style.display = "inline";
                     }
                 }, 1000); // Update every second
             } else {
