@@ -76,20 +76,6 @@
             }
         }
 
-        .ads-container {
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            z-index: 5;
-        }
-
-        .ads-container>div {
-            position: absolute;
-            top: 0;
-            left: 0;
-        }
-
         .buttons-container {
             position: absolute;
             bottom: 50px;
@@ -243,92 +229,18 @@
     <div class="header">CheatXplorer</div>
     <div class="content">
     </div>
-    <div class="ads-container">
-        <div id="ad1">
-            <script type="text/javascript">
-                atOptions = {
-                    'key': '2d891958b500e66c1cc2942bd0e45fc2',
-                    'format': 'iframe',
-                    'height': 250,
-                    'width': 300,
-                    'params': {}
-                };
-            </script>
-            <script type="text/javascript" src="//spareairless.com/2d891958b500e66c1cc2942bd0e45fc2/invoke.js"></script>
-        </div>
-        <div id="ad2">
-            <script type="text/javascript">
-                atOptions = {
-                    'key': 'ea6599a16f3b693209dfe4fa48a2c136',
-                    'format': 'iframe',
-                    'height': 60,
-                    'width': 468,
-                    'params': {}
-                };
-            </script>
-            <script type="text/javascript" src="//spareairless.com/ea6599a16f3b693209dfe4fa48a2c136/invoke.js"></script>
-        </div>
-        <div id="ad3">
-            <script type="text/javascript">
-                atOptions = {
-                    'key': '9e0ee75e12dad61d735aff6c5568a14a',
-                    'format': 'iframe',
-                    'height': 600,
-                    'width': 160,
-                    'params': {}
-                };
-            </script>
-            <script type="text/javascript" src="//spareairless.com/9e0ee75e12dad61d735aff6c5568a14a/invoke.js"></script>
-        </div>
-        <div id="ad4">
-            <script type="text/javascript">
-                atOptions = {
-                    'key': 'b340eed6cd8c9ebb8da882d1629cc30c',
-                    'format': 'iframe',
-                    'height': 300,
-                    'width': 160,
-                    'params': {}
-                };
-            </script>
-            <script type="text/javascript" src="//spareairless.com/b340eed6cd8c9ebb8da882d1629cc30c/invoke.js"></script>
-        </div>
-        <div id="ad5">
-            <script type="text/javascript">
-                atOptions = {
-                    'key': 'fd863e4827886fa8a321726d3e97b850',
-                    'format': 'iframe',
-                    'height': 90,
-                    'width': 728,
-                    'params': {}
-                };
-            </script>
-            <script type="text/javascript" src="//spareairless.com/fd863e4827886fa8a321726d3e97b850/invoke.js"></script>
-        </div>
-        <div id="ad6">
-            <script type="text/javascript">
-                atOptions = {
-                    'key': 'db0a8b485450734bfcd02192eefe4c1f',
-                    'format': 'iframe',
-                    'height': 50,
-                    'width': 320,
-                    'params': {}
-                };
-            </script>
-            <script type="text/javascript" src="//spareairless.com/db0a8b485450734bfcd02192eefe4c1f/invoke.js"></script>
-        </div>
-    </div>
     <div class="vertical-buttons-container">
-        <button onclick="openAdThenRedirectAndroidMods()">Android Mods</button>
-        <button onclick="openAdThenRedirectRobloxStuff()">Roblox Stuff</button>
+        <button onclick="window.open('https://cheatxplorer.github.io/androidmods/', '_blank')">Android Mods</button>
+        <button onclick="window.open('https://cheatxplorer.github.io/robloxstuff/', '_blank')">Roblox Stuff</button>
     </div>
     <div class="buttons-container">
-        <button onclick="openAdThenRedirectDiscord()">
+        <button onclick="window.open('https://discord.gg/qQswtd3YGY', '_blank')">
             <img src="https://i.imgur.com/ecPhcSo.png" alt="Discord"> Discord
         </button>
-        <button onclick="openAdThenRedirectYouTube()">
+        <button onclick="window.open('https://www.youtube.com/channel/UCuyFlYxelBVtXjxy_JXh3rA', '_blank')">
             <img src="https://i.imgur.com/V1mmqow.png" alt="YouTube"> YouTube
         </button>
-        <button onclick="openAdThenRedirectKoFi()">
+        <button onclick="window.open('https://ko-fi.com/cheatxplorer', '_blank')">
             <img src="https://storage.ko-fi.com/cdn/logomarkLogo.png" alt="Ko-fi"> Ko-fi
         </button>
     </div>
@@ -337,38 +249,8 @@
     </div>
     <script type="text/javascript">
         window.onload = function() {
-            const ads = ["ad1", "ad2", "ad3", "ad4", "ad5", "ad6"];
-            ads.forEach((ad, index) => {
-                setTimeout(() => {
-                    document.getElementById(ad).style.transform = "translateX(-5000px)";
-                }, 1000 * (index + 1));
-            });
+            // Ad removal code, if any, can be placed here
         };
-
-        function openAdThenRedirectDiscord() {
-            window.open("https://discord.gg/qQswtd3YGY", "_blank");
-            setTimeout(() => { window.location.href = "https://spareairless.com/hiu017gkyv?key=cc996896fea1967db72a332f6b432422"; }, 1000);
-        }
-
-        function openAdThenRedirectYouTube() {
-            window.open("https://www.youtube.com/channel/UCuyFlYxelBVtXjxy_JXh3rA", "_blank");
-            setTimeout(() => { window.location.href = "https://spareairless.com/hfpfb4js4?key=ce3118277250eac91dfb554de18ecc61"; }, 1000);
-        }
-
-        function openAdThenRedirectKoFi() {
-            window.open("https://ko-fi.com/cheatxplorer", "_blank");
-            setTimeout(() => { window.location.href = "https://spareairless.com/rdwjim0qs?key=12e3df102e10bbc38d6833d4264d1f8b"; }, 1000);
-        }
-
-        function openAdThenRedirectAndroidMods() {
-            window.open("https://cheatxplorer.github.io/androidmods/", "_blank");
-            setTimeout(() => { window.location.href = "https://spareairless.com/dqt2mbqiuh?key=a2d97bb19152f3ebc95ad19df8f629e1"; }, 1000);
-        }
-
-        function openAdThenRedirectRobloxStuff() {
-            window.open("https://cheatxplorer.github.io/robloxstuff/", "_blank");
-            setTimeout(() => { window.location.href = "https://spareairless.com/ivfefdww6q?key=9ab7ca3668fb85722edff3518f43a784"; }, 1000);
-        }
     </script>
 </body>
 
