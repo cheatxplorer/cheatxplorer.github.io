@@ -1,1 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Link Generator</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 20px;
+        }
+        input, button {
+            padding: 10px;
+            margin: 10px;
+            width: 80%;
+            max-width: 400px;
+        }
+        #output {
+            margin-top: 20px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
 
+    <h1>Redirect Link Generator</h1>
+    <p>Paste your APK link below:</p>
+    
+    <input type="text" id="apkLink" placeholder="Enter APKAdmin/ModsFire Link" />
+    <button onclick="generateLink()">Generate</button>
+    
+    <p id="output"></p>
+
+    <script>
+        function generateLink() {
+            const inputLink = document.getElementById("apkLink").value;
+            
+            if (!inputLink) {
+                alert("Please enter a link!");
+                return;
+            }
+
+            const encodedLink = encodeURIComponent(inputLink);
+            const shortLink = `https://cheatxplorer.github.io/redirect/?link=${encodedLink}`;
+
+            document.getElementById("output").innerHTML = 
+                `<p>Copy this link:</p>
+                <input type="text" value="${shortLink}" id="shortLink" readonly>
+                <button onclick="copyToClipboard()">Copy</button>`;
+        }
+
+        function copyToClipboard() {
+            const copyText = document.getElementById("shortLink");
+            copyText.select();
+            document.execCommand("copy");
+            alert("Link copied!");
+        }
+    </script>
+
+</body>
+</html>
