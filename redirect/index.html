@@ -33,6 +33,7 @@
 
             if (targetUrl) {
                 document.getElementById("downloadLink").href = targetUrl;
+                countdownElement.innerText = countdown;
                 const interval = setInterval(() => {
                     countdown--;
                     countdownElement.innerText = countdown;
