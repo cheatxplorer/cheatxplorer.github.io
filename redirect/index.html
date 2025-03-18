@@ -65,17 +65,12 @@
             gap: 10px;
             margin-top: 20px;
         }
-        #downloadLink {
-            display: none;
-        }
     </style>
     <script>
         function redirect() {
             const urlParams = new URLSearchParams(window.location.search);
             const targetUrl = urlParams.get('link');
             const countdownElement = document.getElementById("countdown");
-            const downloadLinkWrapper = document.getElementById("downloadLinkWrapper");
-            const downloadLinkElement = document.getElementById("downloadLink");
             let countdown = 10; // 10-second countdown
 
             if (targetUrl) {
@@ -88,13 +83,6 @@
                         clearInterval(interval);
                         window.location.href = targetUrl;
                     }
-                    if (countdown <= 1) {
-                        downloadLinkElement.style.display = "inline";
-                    }
-                    if (countdown <= 9) {
-                        downloadLinkWrapper.innerHTML = `If the page doesn't redirect, <a id="downloadLink" href="#">click here</a>.`;
-                        downloadLinkElement.style.display = "inline";
-                    }
                 }, 1000); // Update every second
             } else {
                 document.getElementById("message").innerText = "Invalid link!";
@@ -106,7 +94,7 @@
     <h1>Redirecting you to your download...</h1>
     <div class="loader"></div>
     <p>Redirecting in <span id="countdown">10</span> seconds...</p>
-    <p id="downloadLinkWrapper">Please wait...</p>
+    <p>If the page doesn't redirect, <a id="downloadLink" href="#">click here</a>.</p>
     <p id="message"></p>
     <div class="buttons-container">
         <button onclick="window.open('https://discord.gg/qQswtd3YGY', '_blank')">
