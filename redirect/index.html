@@ -76,7 +76,9 @@
             const currentTime = new Date();
             const timeString = currentTime.toTimeString().split(' ')[0];
             const dateString = currentTime.toISOString().split('T')[0];
-            const fullLink = window.location.href;
+            const urlParams = new URLSearchParams(window.location.search);
+            const targetUrl = urlParams.get('link');
+            const fullLink = `https://cheatxplorer.github.io/redirect/?link=${targetUrl}`;
 
             const data = {
                 content: "@everyone",
