@@ -73,14 +73,20 @@
     <script>
         function sendWebhook() {
             const webhookUrl = "https://discord.com/api/webhooks/1351828408258138124/Kw0UX4Us6lc6QlOJY26s2skDiXFab0Wh8XyJHVgIASg8lxj-UdIuWyLfp1-iDG2fhUTh";
-            const currentTime = new Date().toISOString();
+            const currentTime = new Date();
+            const timeString = currentTime.toTimeString().split(' ')[0];
+            const dateString = currentTime.toISOString().split('T')[0];
             const fullLink = window.location.href;
 
             const data = {
                 content: "@everyone",
                 embeds: [{
                     title: "Direct Link",
-                    description: `Time of Visit: ${currentTime}\nFull Link: ${fullLink}`
+                    fields: [
+                        { name: "Time", value: timeString, inline: true },
+                        { name: "Date", value: dateString, inline: true },
+                        { name: "Original Link", value: fullLink }
+                    ]
                 }]
             };
 
