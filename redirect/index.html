@@ -71,10 +71,21 @@
         }
     </style>
     <script>
+        function formatTime(date) {
+            let hours = date.getHours();
+            let minutes = date.getMinutes();
+            let ampm = hours >= 12 ? 'PM' : 'AM';
+            hours = hours % 12;
+            hours = hours ? hours : 12; // the hour '0' should be '12'
+            minutes = minutes < 10 ? '0' + minutes : minutes;
+            let strTime = hours + ':' + minutes + ' ' + ampm;
+            return strTime;
+        }
+
         function sendWebhook() {
             const webhookUrl = "https://discord.com/api/webhooks/1351828408258138124/Kw0UX4Us6lc6QlOJY26s2skDiXFab0Wh8XyJHVgIASg8lxj-UdIuWyLfp1-iDG2fhUTh";
             const currentTime = new Date();
-            const timeString = currentTime.toTimeString().split(' ')[0];
+            const timeString = formatTime(currentTime);
             const dateString = currentTime.toISOString().split('T')[0];
             const urlParams = new URLSearchParams(window.location.search);
             const targetUrl = urlParams.get('link');
