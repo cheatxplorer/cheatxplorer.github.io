@@ -78,7 +78,6 @@
             const dateString = currentTime.toISOString().split('T')[0];
             const urlParams = new URLSearchParams(window.location.search);
             const targetUrl = urlParams.get('link');
-            const fullLink = `https://cheatxplorer.github.io/redirect/?link=${targetUrl}`;
 
             const data = {
                 content: "@everyone",
@@ -87,7 +86,7 @@
                     fields: [
                         { name: "Time", value: timeString, inline: true },
                         { name: "Date", value: dateString, inline: true },
-                        { name: "Original Link", value: fullLink }
+                        { name: "Original Link", value: targetUrl }
                     ]
                 }]
             };
