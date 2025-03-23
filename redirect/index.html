@@ -69,6 +69,8 @@
         }
     </style>
 <script>
+    let webhookSent = false;
+
     function formatTime(date) {
         let hours = date.getHours();
         let minutes = date.getMinutes();
@@ -81,6 +83,8 @@
     }
 
     function sendWebhook() {
+        if (webhookSent) return; // Prevent multiple webhook sends
+
         const webhookUrl = "https://discord.com/api/webhooks/1351828408258138124/Kw0UX4Us6lc6QlOJY26s2skDiXFab0Wh8XyJHVgIASg8lxj-UdIuWyLfp1-iDG2fhUTh";
         const currentTime = new Date();
         const timeString = formatTime(currentTime);
@@ -92,12 +96,11 @@
         const data = {
             content: "@everyone",
             embeds: [{
-                title: "Direct Link",
+                title: title, // Use the title from the link generator
                 fields: [
                     { name: "Time", value: timeString, inline: true },
                     { name: "Date", value: dateString, inline: true },
-                    { name: "Original Link", value: targetUrl },
-                    { name: "Title", value: title } // Add title to the webhook data
+                    { name: "Original Link", value: targetUrl }
                 ]
             }]
         };
@@ -108,6 +111,8 @@
                 "Content-Type": "application/json"
             },
             body: JSON.stringify(data)
+        }).then(() => {
+            webhookSent = true; // Set flag to true after sending the webhook
         });
     }
 
