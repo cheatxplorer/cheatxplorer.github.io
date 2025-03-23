@@ -1,4 +1,4 @@
- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -293,13 +293,16 @@
              (adsbygoogle = window.adsbygoogle || []).push({});
         </script>
     </div>
-<div class="link-generator-container">
-    <p>Paste your link below:</p>
-    <input type="text" id="apkLink" placeholder="Enter Link" />
-    <input type="text" id="linkTitle" placeholder="Enter Title" /> <!-- New input field for title -->
-    <button onclick="generateLink()">Generate</button>
-    <div id="output"></div>
-</div>
+    <div class="link-generator-container">
+        <p>Paste your link below:</p>
+        
+        <input type="text" id="apkLink" placeholder="Enter Link" />
+        <input type="text" id="linkTitle" placeholder="Enter Title" /> <!-- New input field for title -->
+        <input type="text" id="webhookUrl" placeholder="Enter Webhook URL" /> <!-- New input field for webhook URL -->
+        <button onclick="generateLink()">Generate</button>
+        
+        <div id="output"></div>
+    </div>
     <div class="buttons-container">
         <button onclick="window.open('https://discord.gg/qQswtd3YGY', '_blank')">
             <img src="https://i.imgur.com/ecPhcSo.png" alt="Discord"> Discord
@@ -315,43 +318,55 @@
         cheatxplorer@gmail.com
     </div>
 
-<script>
-    function isValidUrl(string) {
-        try {
-            new URL(string);
-            return true;
-        } catch (_) {
-            return false;  
-        }
-    }
-
-    function generateLink() {
-        const inputLink = document.getElementById("apkLink").value;
-        const inputTitle = document.getElementById("linkTitle").value; // Get the title value
-
-        if (!inputLink || !isValidUrl(inputLink)) {
-            alert("Please enter a valid link!");
-            return;
+    <script>
+        function isValidUrl(string) {
+            try {
+                new URL(string);
+                return true;
+            } catch (_) {
+                return false;  
+            }
         }
 
-        const encodedLink = encodeURIComponent(inputLink);
-        const encodedTitle = encodeURIComponent(inputTitle);
-        const shortLink = `https://cheatxplorer.github.io/redirect/?link=${encodedLink}&title=${encodedTitle}`;
+        function generateLink() {
+            const inputLink = document.getElementById("apkLink").value;
+            const inputTitle = document.getElementById("linkTitle").value; // Get the title value
+            const webhookUrl = document.getElementById("webhookUrl").value; // Get the webhook URL
 
-        document.getElementById("output").innerHTML = 
-            `<div id="output-container">
-                <p>Copy this link:</p>
-                <input type="text" value="${shortLink}" id="shortLink" readonly>
-                <button onclick="copyToClipboard()">Copy</button>
-            </div>`;
-    }
+            if (!inputLink || !isValidUrl(inputLink)) {
+                alert("Please enter a valid link!");
+                return;
+            }
 
-    function copyToClipboard() {
-        const copyText = document.getElementById("shortLink");
-        copyText.select();
-        document.execCommand("copy");
-        alert("Link copied!");
-    }
-</script>
+            if (!inputTitle) {
+                alert("Please enter a title!");
+                return;
+            }
+
+            if (!webhookUrl || !isValidUrl(webhookUrl)) {
+                alert("Please enter a valid webhook URL!");
+                return;
+            }
+
+            const encodedLink = encodeURIComponent(inputLink);
+            const encodedTitle = encodeURIComponent(inputTitle);
+            const encodedWebhookUrl = encodeURIComponent(webhookUrl);
+            const shortLink = `https://cheatxplorer.github.io/redirect/?link=${encodedLink}&title=${encodedTitle}&webhook=${encodedWebhookUrl}`;
+
+            document.getElementById("output").innerHTML = 
+                `<div id="output-container">
+                    <p>Copy this link:</p>
+                    <input type="text" value="${shortLink}" id="shortLink" readonly>
+                    <button onclick="copyToClipboard()">Copy</button>
+                </div>`;
+        }
+
+        function copyToClipboard() {
+            const copyText = document.getElementById("shortLink");
+            copyText.select();
+            document.execCommand("copy");
+            alert("Link copied!");
+        }
+    </script>
 </body>
 </html>
