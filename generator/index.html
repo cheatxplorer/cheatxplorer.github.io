@@ -361,12 +361,13 @@
                 </div>`;
         }
 
-        function copyToClipboard() {
-            const copyText = document.getElementById("shortLink");
-            copyText.select();
-            document.execCommand("copy");
-            alert("Link copied!");
-        }
+function copyToClipboard() {
+    const copyText = document.getElementById("shortLink");
+    copyText.select();
+    document.execCommand("copy");
+    copyText.value = ""; // Clear the input field after copying
+    alert("Link copied!");
+}
     </script>
 </body>
 </html>
