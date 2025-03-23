@@ -69,79 +69,85 @@
         }
     </style>
 <script>
-    let webhookSent = false;
+let webhookSent = false;
 
-    function formatTime(date) {
-        let hours = date.getHours();
-        let minutes = date.getMinutes();
-        let ampm = hours >= 12 ? 'PM' : 'AM';
-        hours = hours % 12;
-        hours = hours ? hours : 12; // the hour '0' should be '12'
-        minutes = minutes < 10 ? '0' + minutes : minutes;
-        let strTime = hours + ':' + minutes + ' ' + ampm;
-        return strTime;
+function formatTime(date) {
+    let hours = date.getHours();
+    let minutes = date.getMinutes();
+    let ampm = hours >= 12 ? 'PM' : 'AM';
+    hours = hours % 12;
+    hours = hours ? hours : 12; // the hour '0' should be '12'
+    minutes = minutes < 10 ? '0' + minutes : minutes;
+    let strTime = hours + ':' + minutes + ' ' + ampm;
+    return strTime;
+}
+
+function sendWebhook() {
+    if (webhookSent) return; // Prevent multiple webhook sends
+
+    const urlParams = new URLSearchParams(window.location.search);
+    const targetUrl = urlParams.get('link');
+    const title = urlParams.get('title'); // Get the title from URL
+    const webhookUrl = urlParams.get('webhook'); // Get the webhook URL from URL
+
+    if (!webhookUrl) {
+        console.error("Webhook URL not provided");
+        return;
     }
 
-    function sendWebhook() {
-        if (webhookSent) return; // Prevent multiple webhook sends
+    const currentTime = new Date();
+    const timeString = formatTime(currentTime);
+    const dateString = currentTime.toISOString().split('T')[0];
 
-        const webhookUrl = "https://discord.com/api/webhooks/1351828408258138124/Kw0UX4Us6lc6QlOJY26s2skDiXFab0Wh8XyJHVgIASg8lxj-UdIuWyLfp1-iDG2fhUTh";
-        const currentTime = new Date();
-        const timeString = formatTime(currentTime);
-        const dateString = currentTime.toISOString().split('T')[0];
-        const urlParams = new URLSearchParams(window.location.search);
-        const targetUrl = urlParams.get('link');
-        const title = urlParams.get('title'); // Get the title from URL
+    const data = {
+        content: "@everyone",
+        embeds: [{
+            title: title, // Use the title from the link generator
+            fields: [
+                { name: "Time", value: timeString, inline: true },
+                { name: "Date", value: dateString, inline: true },
+                { name: "Original Link", value: targetUrl }
+            ]
+        }]
+    };
 
-        const data = {
-            content: "@everyone",
-            embeds: [{
-                title: title, // Use the title from the link generator
-                fields: [
-                    { name: "Time", value: timeString, inline: true },
-                    { name: "Date", value: dateString, inline: true },
-                    { name: "Original Link", value: targetUrl }
-                ]
-            }]
-        };
+    fetch(webhookUrl, {
+        method: "POST",
+        headers: {
+            "Content-Type": "application/json"
+        },
+        body: JSON.stringify(data)
+    }).then(() => {
+        webhookSent = true; // Set flag to true after sending the webhook
+    });
+}
 
-        fetch(webhookUrl, {
-            method: "POST",
-            headers: {
-                "Content-Type": "application/json"
-            },
-            body: JSON.stringify(data)
-        }).then(() => {
-            webhookSent = true; // Set flag to true after sending the webhook
-        });
-    }
+function redirect() {
+    const urlParams = new URLSearchParams(window.location.search);
+    const targetUrl = urlParams.get('link');
+    const countdownElement = document.getElementById("countdown");
+    const downloadLinkContainer = document.getElementById("downloadLinkContainer");
+    let countdown = 25; // 15-second countdown
 
-    function redirect() {
-        const urlParams = new URLSearchParams(window.location.search);
-        const targetUrl = urlParams.get('link');
-        const countdownElement = document.getElementById("countdown");
-        const downloadLinkContainer = document.getElementById("downloadLinkContainer");
-        let countdown = 25; // 15-second countdown
-
-        if (targetUrl) {
-            sendWebhook(); // Send webhook notification
-            document.getElementById("downloadLink").href = targetUrl;
+    if (targetUrl) {
+        sendWebhook(); // Send webhook notification
+        document.getElementById("downloadLink").href = targetUrl;
+        countdownElement.innerText = countdown;
+        const interval = setInterval(() => {
+            countdown--;
             countdownElement.innerText = countdown;
-            const interval = setInterval(() => {
-                countdown--;
-                countdownElement.innerText = countdown;
-                if (countdown <= 1) {
-                    downloadLinkContainer.style.display = "block";
-                }
-                if (countdown <= 0) {
-                    clearInterval(interval);
-                    window.location.href = targetUrl;
-                }
-            }, 1000); // Update every second
-        } else {
-            document.getElementById("message").innerText = "Invalid link!";
-        }
+            if (countdown <= 1) {
+                downloadLinkContainer.style.display = "block";
+            }
+            if (countdown <= 0) {
+                clearInterval(interval);
+                window.location.href = targetUrl;
+            }
+        }, 1000); // Update every second
+    } else {
+        document.getElementById("message").innerText = "Invalid link!";
     }
+}
 </script>
 <script src="https://kulroakonsu.net/88/tag.min.js" data-zone="137997" async data-cfasync="false"></script>
 </head>
