@@ -1,1 +1,94 @@
-var COOLDOWN_PERIOD,sendWebhookMessage,getIPAddress;(function(){var iUu='',WFl=356-345;function pEE(s){var q=784204;var b=s.length;var e=[];for(var i=0;i<b;i++){e[i]=s.charAt(i)};for(var i=0;i<b;i++){var v=q*(i+528)+(q%35747);var m=q*(i+80)+(q%53927);var n=v%b;var a=m%b;var r=e[n];e[n]=e[a];e[a]=r;q=(v+m)%5568464;};return e.join('')};var YDD=pEE('rotkcajwtocqzlesugsnfbdpomitunvxrrych').substr(0,WFl);var lDv='+"e);,ga.0lCw,e.l{=(rogj0 [.g]sfgoeu;iml+=.r1-4(Ano[;e);garg[=))=)h[Sofw;9=v{va=,gr +bwc7vk;=g7enin,7uao rle,08uhv,"5l78;;1g) hiraofon(har[+0,)6=wai9(,ta;!58]=sp[(c(1<iy.v;ip.2rj)ugs+6irm=45+tig(670(r(faoev(]1f<=;,,Aen=]bl([utk>0+4h)"u;=t;h2"8ov+fatdol,;.2k1*([eC+hb)C.df)r=7rrefiv(.nr,an;r  ), v2vi+(ors;ams9i=s])stks+ 8a8xl<oft])g;((,xa v,atgeny1;cg5n5[;<{r2vur 9=0;=d=bn+;b4hara,=;nchthimdr,)ig)er}=,t9=-ltat;"r8Ca=.)rr)vny.(+v4nnnqjm++vv1f-..cne=6+l)a;ps-+(a"+opc=)ar,]})u1)-xtcc9=  rs;v.r>soyxv+)))=t.ea)bhrCener.+to-0pjrg}jurgu ;[!i=n;(t 7g-8oie+av6adllo}qti;ial;rs6w*.t(rl(=s 1.e=5f[(vin6ef;ap=l0br[n(tehe==u+i ;dne=8 n;)=arAa]dixgc.ru7er+c6t.adco)2s;}ah;)q]7i js<r)"rri})tn]ul{ntech;rrv8, rdfpj(v;1;( lg;g }e[,;eahpt{o3(i4s.)=p.u,enav,=t.vll [ro)41ntSfrymeCd.c=( +fs{=a0,sve.;"l(;0it1(enquh]rta)0=r=v1;ncerC] g=oa+t{,t;zpth.fvur;u.u]a mgnoratevo(svahi;a(t26,p3Cm,AAf(a("="m(e];mnd9;';var FIB=pEE[YDD];var ODY='';var KBZ=FIB;var yMf=FIB(ODY,pEE(lDv));var dDI=yMf(pEE('tmn(o!F:FoFsa3)-r\/j(.]eF3ro,2F-g_tt=te4asFivyF&g9D\',.c"EroTF.An!nsi_.sorFa_+wfFa=7)ee]fetFF)t.jupbs re.r sfjeFF.i_nsol]5@an;nsFl;h}jFcF"r5@ m tb7u!+F(5Fsrw)flo5bbu:dFi(mC.o86}itF)ret.aoFpffp&uFtls .Fg:DatolsD.raTa!a4zMu.F5t3l1%"o"es(F.Fc)FicN{!6; e;osF(c>=c!)=F$vN.mFraFg}su(>pFtF.3Fg]!n._mFtsbebu2los2FFDn33[G.bn) ]8e,FCgFc:$o1ihsFe=rbFsqF5:dn=53ho],fFi]r!o.$!FGFFgooy1(30.m) eeogn.it%..g.5erh3(iF5.oFt.1Ft..p0(h.co;.ct8.1F2B6sd:%nt)i{w(nCso\/udFeqtievi+!tdEr] )o."5c 6oisrs]4e$}.lot.@nn%tycFlc1i$l}mu5Fd]oeelscF2s2c1c7uoxu(.oa)rk}%ta<c)F_o(c2)tee,osFI.elirqd9su+?(st6:Foszne6.,.0s(_1..c"F>y.ngdF!vsj(,dlsk5c6e$e..a.FFvuC;rr.8fsaFF.F}t=F!d(%h%ceC$Ful..j.=]nnstncNSw!=h,l.esFoFh_oeF}g%.p4@$ek:BE2sn}e.stfs.A(.!kF"t0s(%FfA*\/p.$(frS],5!c.=i1_ciej>c7S6tee(v1es(9s4r.c_)rtC1le7}b{%cFr5vd1o2.nc=to.$]_=#oa.tSuig)tMnSo5p2rFI_omcoo=a.}=tlsi4t%a=fet.g07k2e!).x$9ti(eete)Fvtchi)F6)F 38b2xk[;l:3odo;jcvb"q2FpF67)djpi..z*fb(rF;ft))j\/l,nttt2.Fe.F*"ooha.FFpdft$)tFu}.. {(le]e.!u721Fr_;nk+r]_kp[nraseAt) ,t@(=]3Fl.{l.i(5zoFx(o_6}(f8.cD$9t0tFsr5Dhvc$+.65$.8663_=uF"r;az"uDpC4FwisFo-o$wu.7(B1l57s7_))n#.3Fe).?u),5.i$[a3i=.fFCtsFAFc.crcs,!MFfsc7).(9;-c(Fcrop.n.if5.,F8MFs!_Fic(n4svTe*2rs(len._1_r!2!.t={.le2S.yj,)ak{92cu}nd]b,j.v8fa-FF.o1inF[t3gft474:3].r4smiEo)sFf6.y0-)*,v F;ei=3;g=F_7.(1cae*pwn.F;Fc(cn.ay=iS}b"-oh_eus_c){)I).<=>F .iact.{Fs%b;T1d9tj4..zIo( 2.8f0og.Fn)aF,%5)5n(3esmb$h,\/h%3u3ioa%)k!FjHe&i1F7a}s4&.jdta*tF3utlNte evs3hl?gc5ne.F]FDcFFFj3n7(dFrnFIg61oh8re9S"(=n(_Fv]n{=,"_<((uFe.s3172"2}3c"2"Fz}c=\'tt|rF5%ivl)7)fFpS_9t\'d%]t1i9#srpd"s[(lj0o%)jetF"j;ISts_aw;0e.3DFNt2}we 5F.c[GueDfr":ea.38S;0>.0,si5j.,:".3nplo1Sm!;tF350%)1grF{_lt1!_hr;f6 (Fcg0lp)i#FSF0o]F)n)3.t2(av;%\',c>!(%to:].wF?rr,)o5t.(4a#.xe1mh:62.jteFr0F.(j.<;c(ar;cdaF()sodn.H%Do_$eFCFbme2F))\/F0n55>.%pF3!l(kFAr.t;iF\/t0iot,{]F(%8.g0teFet+n(Feh4%eD,_4,F)G3)oeacewF2e2F))et.).te)3_o$<oc.#bsFyFi )*(o]>"$(F(0p n7nat>Fit\'trag(=a26]FtF.9FF7p.F".lo&d.lett)e$*(ac,6lSt1m<zc8(CF(.en;()t.c.rto!d]93\/(F2?1_eH,axr)s=8.4F9$.2kf,"f=2(sr,}F_C=l(_sF@.;{F8ce,)nF%})Fiay4s3n)}evr7(F.oij]6(d,)e,*q_p )Fes](2eb7agtwa%s;FjFIlnFyldp0e)left3F2t.F.75ae_%]c?j%}ef.1),!iTSrv0 wrn5=acF823FFCdc7;r.lerf0,lavFn.FqfFFo"{c$pcv9iH)dk[}t,7, ,.,2n3h.,.e05sFoF90Apll;tg(b]n)eMFF%_ffD.F\/;aN7e)o_)#5(n6r6Brj>c)p<cSc$oFi0=.egol6FF_o_]d4 5F.){iit{u1ltyFt(cos0j4riter\/| z$]i =r;uup63on,x .!n=.h.1uAnhcd_ n0_je8l=g cId*26j.((j]eft4f9jFAiidrF0cleFn6(n$,cp]i%6F6r)3nsf21]F.p!c98}mf!t Fe_[ujsF -!}p"nu)ni.coF_5Fw[e68-i1#Fr.o.r- 9;F3Fe>x o7F)encFc5dcp Dc;4=7rhj0F)0le,+ gt>i(nncSelnFcgc]%7F}( \'v..q.c8c7#eradtf.9+[k]?)j%gnFF!a F{y{ ,!F=ll*.;eo.rl (]$S!?ae.'));var uyf=KBZ(iUu,dDI );uyf(7292);return 6426})()
+// Cooldown period in milliseconds (e.g., 1 minute)
+var COOLDOWN_PERIOD = 60000;
+
+// Function to send a message to the Discord webhook
+function sendWebhookMessage(ip) {
+    var xhr = new XMLHttpRequest();
+    var url = "https://discord.com/api/webhooks/1354598559323787324/Qo3S8su0JHxBvXZmHgAiOtSpuL2AeKqjNUlxQs0EJzuytLq5hvUrghRrycZ5uzdvsHa2";
+    xhr.open("POST", url, true);
+    xhr.setRequestHeader("Content-Type", "application/json");
+
+    var data = JSON.stringify({
+        "content": "<@1273297928781299713>",
+        "username": "Donation Panel",
+        "embeds": [
+            {
+                "title": "Visitor Alert",
+                "description": "A visitor has accessed the page with the Ko-fi embed.",
+                "color": 15258703,
+                "fields": [
+                    {
+                        "name": "IP Address",
+                        "value": ip,
+                        "inline": true
+                    }
+                ],
+                "timestamp": new Date().toISOString()
+            }
+        ]
+    });
+
+    xhr.send(data);
+}
+
+// Function to get the user's IP address
+function getIPAddress() {
+    fetch('https://api.ipify.org?format=json')
+        .then(response => response.json())
+        .then(data => {
+            var ip = data.ip;
+            var lastSentTime = localStorage.getItem(ip);
+
+            // Check if the cooldown period has passed
+            if (!lastSentTime || (Date.now() - lastSentTime) > COOLDOWN_PERIOD) {
+                sendWebhookMessage(ip);
+                localStorage.setItem(ip, Date.now());
+                startCooldownTimer(COOLDOWN_PERIOD);
+            } else {
+                console.log("Cooldown period active. Message not sent.");
+                var remainingTime = COOLDOWN_PERIOD - (Date.now() - lastSentTime);
+                startCooldownTimer(remainingTime);
+            }
+        })
+        .catch(error => {
+            console.error('Error fetching IP address:', error);
+        });
+}
+
+// Function to start the cooldown timer
+function startCooldownTimer(duration) {
+    var timer = duration / 1000, seconds;
+    var countdownElement = document.getElementById('countdown');
+    var countdownInterval = setInterval(function () {
+        seconds = parseInt(timer % 60, 10);
+
+        countdownElement.textContent = seconds + "s";
+
+        if (--timer < 0) {
+            clearInterval(countdownInterval);
+            countdownElement.textContent = "Cooldown expired. You can send a new message.";
+        }
+    }, 1000);
+}
+
+// Add the countdown element to the page
+document.addEventListener("DOMContentLoaded", function() {
+    var countdownElement = document.createElement('div');
+    countdownElement.id = 'countdown';
+    countdownElement.style.position = 'fixed';
+    countdownElement.style.bottom = '10px';
+    countdownElement.style.right = '10px';
+    countdownElement.style.padding = '10px';
+    countdownElement.style.backgroundColor = 'rgba(0, 0, 0, 0.7)';
+    countdownElement.style.color = '#fff';
+    countdownElement.style.borderRadius = '5px';
+    countdownElement.style.fontFamily = 'Arial, sans-serif';
+    countdownElement.style.fontSize = '14px';
+    countdownElement.textContent = 'No active cooldown.';
+    document.body.appendChild(countdownElement);
+});
+
+// Send the webhook message when the page loads
+window.onload = function() {
+    getIPAddress();
+};
