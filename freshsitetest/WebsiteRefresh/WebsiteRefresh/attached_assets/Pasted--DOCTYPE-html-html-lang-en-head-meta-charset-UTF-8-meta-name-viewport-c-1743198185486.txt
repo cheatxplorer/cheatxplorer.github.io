@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CheatXplorer</title>
+    <link rel="icon" type="image/png" href="https://i.imgur.com/dSXdE4h.jpeg">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap');
+
+        body,
+        html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            overflow: hidden;
+            font-family: Arial, sans-serif;
+        }
+
+        .video-background {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            z-index: -1;
+        }
+
+        .content {
+            position: relative;
+            z-index: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100%;
+            color: white;
+            text-align: center;
+        }
+
+        .header {
+            position: absolute;
+            top: 20px;
+            width: 100%;
+            text-align: center;
+            color: white;
+            font-size: 80px;
+            font-weight: bold;
+            font-family: 'Orbitron', sans-serif;
+            animation: glitchText 1.5s infinite;
+        }
+
+        @keyframes glitchText {
+            0% {
+                text-shadow: 2px 2px red, -2px -2px blue;
+            }
+
+            20% {
+                text-shadow: -2px -2px red, 2px 2px blue;
+            }
+
+            40% {
+                text-shadow: 2px -2px red, -2px 2px blue;
+            }
+
+            60% {
+                text-shadow: -2px 2px red, 2px -2px blue;
+            }
+
+            80% {
+                text-shadow: 2px 2px red, -2px -2px blue;
+            }
+
+            100% {
+                text-shadow: -2px -2px red, 2px 2px blue;
+            }
+        }
+
+        .buttons-container {
+            position: absolute;
+            bottom: 50px;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            z-index: 3;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 1);
+        }
+
+        .buttons-container a {
+            display: flex;
+            align-items: center;
+            padding: 10px 20px;
+            font-size: 16px;
+            font-weight: bold;
+            cursor: pointer;
+            border: 2px solid #fff;
+            border-radius: 10px;
+            background: #000;
+            color: #fff;
+            transition: background 0.3s, box-shadow 0.3s;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 1);
+            text-decoration: none;
+        }
+
+        .buttons-container a img {
+            margin-right: 8px;
+            width: 20px;
+            height: 20px;
+        }
+
+        .buttons-container a:hover {
+            background: linear-gradient(45deg, #ff9900, #ffcc00);
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+        }
+
+        .details-container {
+            position: absolute;
+            bottom: 20px;
+            width: 100%;
+            text-align: center;
+            color: white;
+            z-index: 3;
+            font-size: 16px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 1);
+        }
+
+        .vertical-buttons-container {
+            position: absolute;
+            bottom: 150px;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 10px;
+            z-index: 3;
+        }
+
+        .vertical-buttons-container a {
+            width: 200px;
+            padding: 10px;
+            font-size: 16px;
+            font-weight: bold;
+            cursor: pointer;
+            border: 2px solid #fff;
+            border-radius: 10px;
+            background: #000;
+            color: #fff;
+            transition: background 0.3s, box-shadow 0.3s;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 1);
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .vertical-buttons-container a:nth-child(1) {
+            background: blue;
+        }
+
+        .vertical-buttons-container a:nth-child(2) {
+            background: red;
+        }
+
+        .vertical-buttons-container a:nth-child(3) {
+            background: linear-gradient(90deg, red, orange, yellow, green, blue, indigo, violet);
+        }
+
+        .vertical-buttons-container a:hover {
+            background: linear-gradient(45deg, #ff9900, #ffcc00);
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+        }
+
+  
+  .btn:hover {
+    background-color: darkblue;
+  }
+
+        @media (max-width: 768px) {
+            .header {
+                font-size: 40px;
+            }
+
+            .buttons-container {
+                bottom: 60px;
+            }
+
+            .buttons-container a {
+                padding: 8px 16px;
+                font-size: 14px;
+            }
+
+            .buttons-container a img {
+                width: 18px;
+                height: 18px;
+            }
+
+            .details-container {
+                font-size: 14px;
+            }
+
+            .vertical-buttons-container {
+                bottom: 100px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .header {
+                font-size: 30px;
+            }
+
+            .buttons-container {
+                bottom: 40px;
+            }
+
+            .buttons-container a {
+                padding: 6px 12px;
+                font-size: 12px;
+            }
+
+            .buttons-container a img {
+                width: 16px;
+                height: 16px;
+            }
+
+            .details-container {
+                font-size: 12px;
+            }
+
+            .vertical-buttons-container {
+                bottom: 80px;
+            }
+
+            .vertical-buttons-container a {
+                width: 150px;
+                padding: 6px;
+                font-size: 12px;
+            }
+        }
+    </style>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9422653444872706"
+        crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <video autoplay muted loop class="video-background">
+        <source src="https://raw.githubusercontent.com/cheatxplorer/cheatxplorer/main/103434-662525884.webm"
+            type="video/webm">
+        Your browser does not support the video tag.
+    </video>
+    <div class="header">CheatXplorer</div>
+    <div class="content">
+        <ins class="adsbygoogle"
+             style="display:block; text-align:center; width:100%; max-width:970px; height:90px; margin: 20px auto;"
+             data-ad-client="ca-pub-9422653444872706"
+             data-ad-slot="5846791848"
+             data-ad-format="horizontal"
+             data-full-width-responsive="true"></ins>
+        <script>
+             (adsbygoogle = window.adsbygoogle || []).push({});
+        </script>
+        
+        <ins class="adsbygoogle"
+             style="display:inline-block;width:120px;height:50px"
+             data-ad-client="ca-pub-9422653444872706"
+             data-ad-slot="3888178071"></ins>
+        <script>
+             (adsbygoogle = window.adsbygoogle || []).push({});
+        </script>
+    </div>
+    <div class="vertical-buttons-container">
+        <a href="https://Why" target="_blank">Android Mods</a>
+        <!-- <a href="https://cheatxplorer.github.io/robloxstuff/" target="_blank">Roblox Stuff</a> -->
+        <a href="https://ohnogen" target="_blank">Link Generator</a>
+        <a href="https://soceleboos" target="_blank">Social Boost</a>
+    </div>
+    <div class="buttons-container">
+        <a href="https://dcCord" target="_blank">
+            <img src="https://i.imgur.com/ecPhcSo.png" alt="Discord"> Discord
+        </a>
+        <a href="https://yt" target="_blank">
+            <img src="https://i.imgur.com/mJ68wac.png" alt="YouTube"> YouTube
+        </a>
+        <a href="https://kapekape" target="_blank">
+            <img src="https://storage.ko-fi.com/cdn/logomarkLogo.png" alt="Ko-fi"> Ko-fi
+        </a>
+    </div>
+    <div class="details-container">
+        cheatxplorer@gmail.com
+    </div>
+    <script src="jsfile/AndroidMods.js"></script>
+    <script src="jsfile/Generator.js"></script>
+    <script src="jsfile/MyYoutube.js"></script>
+    <script src="jsfile/Discord.js"></script>
+    <script src="jsfile/Kofi.js"></script>
+    <script src="jsfile/SocialMedia.js"></script>
+</body>
+</html>
