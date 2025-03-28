@@ -44,6 +44,7 @@
       border-radius: 4px;
       cursor: pointer;
       font-weight: 500;
+      border: none;
     }
     .form-input {
       background-color: #40444b;
@@ -59,6 +60,77 @@
       height: 40px;
       border-radius: 50%;
       margin-right: 16px;
+    }
+    .embed-author {
+      display: flex;
+      align-items: center;
+      margin-bottom: 8px;
+    }
+    .embed-author-icon {
+      width: 24px;
+      height: 24px;
+      border-radius: 50%;
+      margin-right: 8px;
+    }
+    .embed-image {
+      max-width: 100%;
+      max-height: 300px;
+      border-radius: 4px;
+      margin-top: 16px;
+    }
+    .embed-thumbnail {
+      width: 80px;
+      height: 80px;
+      border-radius: 4px;
+      float: right;
+      margin-left: 16px;
+    }
+    .embed-footer {
+      display: flex;
+      align-items: center;
+      margin-top: 8px;
+      font-size: 0.85em;
+      color: #72767d;
+    }
+    .embed-footer-icon {
+      width: 20px;
+      height: 20px;
+      border-radius: 50%;
+      margin-right: 8px;
+    }
+    .embed-fields {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+      gap: 8px;
+      margin-top: 8px;
+    }
+    .embed-field {
+      margin-bottom: 8px;
+    }
+    .embed-field-name {
+      font-weight: bold;
+      margin-bottom: 4px;
+    }
+    .tab {
+      cursor: pointer;
+      padding: 10px 16px;
+      border-radius: 4px 4px 0 0;
+      background-color: #2f3136;
+      margin-right: 4px;
+      transition: background-color 0.2s;
+    }
+    .tab.active {
+      background-color: #40444b;
+    }
+    .tab-content {
+      display: none;
+      background-color: #40444b;
+      padding: 16px;
+      border-radius: 0 4px 4px 4px;
+      margin-bottom: 16px;
+    }
+    .tab-content.active {
+      display: block;
     }
   </style>
 </head>
@@ -95,16 +167,75 @@
           <textarea id="content" class="form-input h-32" placeholder="Enter your message content here..."></textarea>
         </div>
         
-        <!-- Embed Editor -->
+        <!-- Embed Editor Tabs -->
         <div class="mb-4">
-          <label class="block mb-2">Embed Title</label>
-          <input type="text" id="embed-title" class="form-input" placeholder="Embed Title">
+          <div class="flex mb-0">
+            <div class="tab active" data-tab="basic">Basic</div>
+            <div class="tab" data-tab="author">Author</div>
+            <div class="tab" data-tab="images">Images</div>
+            <div class="tab" data-tab="footer">Footer</div>
+            <div class="tab" data-tab="fields">Fields</div>
+          </div>
           
-          <label class="block mb-2 mt-4">Embed Description</label>
-          <textarea id="embed-description" class="form-input h-24" placeholder="Enter embed description..."></textarea>
+          <!-- Basic Tab -->
+          <div class="tab-content active" id="basic-tab">
+            <label class="block mb-2">Embed Title</label>
+            <input type="text" id="embed-title" class="form-input" placeholder="Embed Title">
+            
+            <label class="block mb-2">Embed URL</label>
+            <input type="text" id="embed-url" class="form-input" placeholder="https://example.com">
+            
+            <label class="block mb-2">Embed Description</label>
+            <textarea id="embed-description" class="form-input h-24" placeholder="Enter embed description..."></textarea>
+            
+            <label class="block mb-2">Embed Color</label>
+            <input type="color" id="embed-color" class="bg-transparent h-10" value="#5865F2">
+            
+            <label class="block mb-2 mt-4">Timestamp</label>
+            <div class="flex">
+              <button id="current-timestamp" class="webhook-button button-secondary mr-2">Current Time</button>
+              <button id="clear-timestamp" class="webhook-button button-danger">Clear</button>
+            </div>
+          </div>
           
-          <label class="block mb-2 mt-4">Embed Color</label>
-          <input type="color" id="embed-color" class="bg-transparent h-10" value="#5865F2">
+          <!-- Author Tab -->
+          <div class="tab-content" id="author-tab">
+            <label class="block mb-2">Author Name</label>
+            <input type="text" id="author-name" class="form-input" placeholder="Author Name">
+            
+            <label class="block mb-2">Author URL</label>
+            <input type="text" id="author-url" class="form-input" placeholder="https://example.com">
+            
+            <label class="block mb-2">Author Icon URL</label>
+            <input type="text" id="author-icon" class="form-input" placeholder="https://example.com/icon.png">
+          </div>
+          
+          <!-- Images Tab -->
+          <div class="tab-content" id="images-tab">
+            <label class="block mb-2">Image URL</label>
+            <input type="text" id="image-url" class="form-input" placeholder="https://example.com/image.png">
+            
+            <label class="block mb-2">Thumbnail URL</label>
+            <input type="text" id="thumbnail-url" class="form-input" placeholder="https://example.com/thumbnail.png">
+          </div>
+          
+          <!-- Footer Tab -->
+          <div class="tab-content" id="footer-tab">
+            <label class="block mb-2">Footer Text</label>
+            <input type="text" id="footer-text" class="form-input" placeholder="Footer Text">
+            
+            <label class="block mb-2">Footer Icon URL</label>
+            <input type="text" id="footer-icon" class="form-input" placeholder="https://example.com/footer-icon.png">
+          </div>
+          
+          <!-- Fields Tab -->
+          <div class="tab-content" id="fields-tab">
+            <div id="fields-container">
+              <!-- Fields will be added here -->
+            </div>
+            
+            <button id="add-field" class="webhook-button button-primary mt-4">Add Field</button>
+          </div>
         </div>
         
         <!-- Buttons -->
@@ -132,8 +263,39 @@
           
           <!-- Embed Preview -->
           <div id="embed-preview" class="discord-embed mt-4 hidden">
-            <div id="preview-embed-title" class="font-bold"></div>
+            <!-- Author -->
+            <div id="preview-author" class="embed-author hidden">
+              <img id="preview-author-icon" class="embed-author-icon" src="" alt="">
+              <a id="preview-author-name" href="#" target="_blank"></a>
+            </div>
+            
+            <!-- Title -->
+            <div id="preview-embed-title-container">
+              <a id="preview-embed-title" href="#" target="_blank" class="font-bold"></a>
+            </div>
+            
+            <!-- Description -->
             <div id="preview-embed-description" class="mt-2"></div>
+            
+            <!-- Fields -->
+            <div id="preview-fields" class="embed-fields"></div>
+            
+            <!-- Image -->
+            <div id="preview-image-container" class="hidden">
+              <img id="preview-image" class="embed-image" src="" alt="">
+            </div>
+            
+            <!-- Thumbnail -->
+            <div id="preview-thumbnail-container" class="hidden">
+              <img id="preview-thumbnail" class="embed-thumbnail" src="" alt="">
+            </div>
+            
+            <!-- Footer -->
+            <div id="preview-footer" class="embed-footer hidden">
+              <img id="preview-footer-icon" class="embed-footer-icon hidden" src="" alt="">
+              <span id="preview-footer-text"></span>
+              <span id="preview-timestamp" class="ml-1"></span>
+            </div>
           </div>
         </div>
         
@@ -154,9 +316,33 @@
     const usernameInput = document.getElementById('username');
     const avatarUrlInput = document.getElementById('avatar-url');
     const contentInput = document.getElementById('content');
+    
+    // Embed elements
     const embedTitleInput = document.getElementById('embed-title');
+    const embedUrlInput = document.getElementById('embed-url');
     const embedDescriptionInput = document.getElementById('embed-description');
     const embedColorInput = document.getElementById('embed-color');
+    const currentTimestampBtn = document.getElementById('current-timestamp');
+    const clearTimestampBtn = document.getElementById('clear-timestamp');
+    
+    // Author elements
+    const authorNameInput = document.getElementById('author-name');
+    const authorUrlInput = document.getElementById('author-url');
+    const authorIconInput = document.getElementById('author-icon');
+    
+    // Image elements
+    const imageUrlInput = document.getElementById('image-url');
+    const thumbnailUrlInput = document.getElementById('thumbnail-url');
+    
+    // Footer elements
+    const footerTextInput = document.getElementById('footer-text');
+    const footerIconInput = document.getElementById('footer-icon');
+    
+    // Fields elements
+    const fieldsContainer = document.getElementById('fields-container');
+    const addFieldBtn = document.getElementById('add-field');
+    
+    // Buttons
     const sendButton = document.getElementById('send-button');
     const clearButton = document.getElementById('clear-button');
     
@@ -167,21 +353,144 @@
     const embedPreview = document.getElementById('embed-preview');
     const previewEmbedTitle = document.getElementById('preview-embed-title');
     const previewEmbedDescription = document.getElementById('preview-embed-description');
+    const previewAuthor = document.getElementById('preview-author');
+    const previewAuthorName = document.getElementById('preview-author-name');
+    const previewAuthorIcon = document.getElementById('preview-author-icon');
+    const previewImageContainer = document.getElementById('preview-image-container');
+    const previewImage = document.getElementById('preview-image');
+    const previewThumbnailContainer = document.getElementById('preview-thumbnail-container');
+    const previewThumbnail = document.getElementById('preview-thumbnail');
+    const previewFooter = document.getElementById('preview-footer');
+    const previewFooterText = document.getElementById('preview-footer-text');
+    const previewFooterIcon = document.getElementById('preview-footer-icon');
+    const previewTimestamp = document.getElementById('preview-timestamp');
+    const previewFields = document.getElementById('preview-fields');
+    
+    // State
+    let timestamp = null;
+    let fields = [];
     
     // Initialize with default values
     usernameInput.value = DEFAULT_USERNAME;
     avatarUrlInput.value = DEFAULT_AVATAR;
     updatePreview();
     
-    // Event listeners
+    // Tab navigation
+    const tabs = document.querySelectorAll('.tab');
+    tabs.forEach(tab => {
+      tab.addEventListener('click', () => {
+        // Remove active class from all tabs and tab contents
+        document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
+        document.querySelectorAll('.tab-content').forEach(c => c.classList.remove('active'));
+        
+        // Add active class to clicked tab
+        tab.classList.add('active');
+        
+        // Add active class to corresponding tab content
+        const tabName = tab.getAttribute('data-tab');
+        document.getElementById(`${tabName}-tab`).classList.add('active');
+      });
+    });
+    
+    // Event listeners for inputs
     usernameInput.addEventListener('input', updatePreview);
     avatarUrlInput.addEventListener('input', updatePreview);
     contentInput.addEventListener('input', updatePreview);
     embedTitleInput.addEventListener('input', updatePreview);
+    embedUrlInput.addEventListener('input', updatePreview);
     embedDescriptionInput.addEventListener('input', updatePreview);
     embedColorInput.addEventListener('input', updatePreview);
+    authorNameInput.addEventListener('input', updatePreview);
+    authorUrlInput.addEventListener('input', updatePreview);
+    authorIconInput.addEventListener('input', updatePreview);
+    imageUrlInput.addEventListener('input', updatePreview);
+    thumbnailUrlInput.addEventListener('input', updatePreview);
+    footerTextInput.addEventListener('input', updatePreview);
+    footerIconInput.addEventListener('input', updatePreview);
+    
+    // Timestamp buttons
+    currentTimestampBtn.addEventListener('click', () => {
+      timestamp = new Date().toISOString();
+      updatePreview();
+    });
+    
+    clearTimestampBtn.addEventListener('click', () => {
+      timestamp = null;
+      updatePreview();
+    });
+    
+    // Add field button
+    addFieldBtn.addEventListener('click', addField);
+    
+    // Send and clear buttons
     sendButton.addEventListener('click', sendMessage);
     clearButton.addEventListener('click', clearAll);
+    
+    // Add a new field
+    function addField() {
+      const fieldId = fields.length;
+      const fieldDiv = document.createElement('div');
+      fieldDiv.className = 'field-container mb-4 p-3 bg-gray-900 rounded';
+      fieldDiv.innerHTML = `
+        <div class="flex justify-between mb-2">
+          <label class="font-semibold">Field ${fieldId + 1}</label>
+          <button class="remove-field text-xs text-red-400" data-id="${fieldId}">Remove</button>
+        </div>
+        <input type="text" class="field-name form-input" data-id="${fieldId}" placeholder="Field Name">
+        <textarea class="field-value form-input mt-2" data-id="${fieldId}" placeholder="Field Value"></textarea>
+        <div class="mt-2">
+          <label class="inline-flex items-center">
+            <input type="checkbox" class="field-inline form-checkbox bg-gray-700 border-gray-600" data-id="${fieldId}">
+            <span class="ml-2">Inline</span>
+          </label>
+        </div>
+      `;
+      
+      fieldsContainer.appendChild(fieldDiv);
+      
+      // Add new field to fields array
+      fields.push({
+        name: '',
+        value: '',
+        inline: false
+      });
+      
+      // Add event listeners for new field
+      const nameInput = fieldDiv.querySelector(`.field-name[data-id="${fieldId}"]`);
+      const valueInput = fieldDiv.querySelector(`.field-value[data-id="${fieldId}"]`);
+      const inlineCheckbox = fieldDiv.querySelector(`.field-inline[data-id="${fieldId}"]`);
+      const removeButton = fieldDiv.querySelector(`.remove-field[data-id="${fieldId}"]`);
+      
+      nameInput.addEventListener('input', (e) => {
+        fields[fieldId].name = e.target.value;
+        updatePreview();
+      });
+      
+      valueInput.addEventListener('input', (e) => {
+        fields[fieldId].value = e.target.value;
+        updatePreview();
+      });
+      
+      inlineCheckbox.addEventListener('change', (e) => {
+        fields[fieldId].inline = e.target.checked;
+        updatePreview();
+      });
+      
+      removeButton.addEventListener('click', () => {
+        // Remove field from fields array
+        fields.splice(fieldId, 1);
+        
+        // Remove field from DOM
+        fieldDiv.remove();
+        
+        // Update other field IDs
+        document.querySelectorAll('.field-container').forEach((container, index) => {
+          container.querySelector('label').textContent = `Field ${index + 1}`;
+        });
+        
+        updatePreview();
+      });
+    }
     
     // Update preview
     function updatePreview() {
@@ -192,14 +501,120 @@
       // Update content
       previewContent.textContent = contentInput.value;
       
-      // Update embed
-      if (embedTitleInput.value || embedDescriptionInput.value) {
+      // Show/hide embed based on if there's any embed content
+      const hasEmbedContent = embedTitleInput.value || 
+                              embedDescriptionInput.value || 
+                              authorNameInput.value || 
+                              imageUrlInput.value || 
+                              thumbnailUrlInput.value || 
+                              footerTextInput.value || 
+                              fields.length > 0;
+      
+      if (hasEmbedContent) {
         embedPreview.style.display = 'block';
         embedPreview.style.borderLeftColor = embedColorInput.value;
-        previewEmbedTitle.textContent = embedTitleInput.value;
-        previewEmbedDescription.textContent = embedDescriptionInput.value;
       } else {
         embedPreview.style.display = 'none';
+      }
+      
+      // Update embed title
+      if (embedTitleInput.value) {
+        previewEmbedTitle.textContent = embedTitleInput.value;
+        previewEmbedTitle.style.display = 'inline';
+        
+        if (embedUrlInput.value) {
+          previewEmbedTitle.href = embedUrlInput.value;
+        } else {
+          previewEmbedTitle.removeAttribute('href');
+        }
+      } else {
+        previewEmbedTitle.style.display = 'none';
+      }
+      
+      // Update embed description
+      previewEmbedDescription.textContent = embedDescriptionInput.value;
+      
+      // Update author
+      if (authorNameInput.value) {
+        previewAuthor.style.display = 'flex';
+        previewAuthorName.textContent = authorNameInput.value;
+        
+        if (authorUrlInput.value) {
+          previewAuthorName.href = authorUrlInput.value;
+        } else {
+          previewAuthorName.removeAttribute('href');
+        }
+        
+        if (authorIconInput.value) {
+          previewAuthorIcon.src = authorIconInput.value;
+          previewAuthorIcon.style.display = 'inline';
+        } else {
+          previewAuthorIcon.style.display = 'none';
+        }
+      } else {
+        previewAuthor.style.display = 'none';
+      }
+      
+      // Update image
+      if (imageUrlInput.value) {
+        previewImageContainer.style.display = 'block';
+        previewImage.src = imageUrlInput.value;
+      } else {
+        previewImageContainer.style.display = 'none';
+      }
+      
+      // Update thumbnail
+      if (thumbnailUrlInput.value) {
+        previewThumbnailContainer.style.display = 'block';
+        previewThumbnail.src = thumbnailUrlInput.value;
+      } else {
+        previewThumbnailContainer.style.display = 'none';
+      }
+      
+      // Update footer
+      if (footerTextInput.value || timestamp) {
+        previewFooter.style.display = 'flex';
+        previewFooterText.textContent = footerTextInput.value;
+        
+        if (footerIconInput.value) {
+          previewFooterIcon.src = footerIconInput.value;
+          previewFooterIcon.style.display = 'inline';
+        } else {
+          previewFooterIcon.style.display = 'none';
+        }
+        
+        if (timestamp) {
+          const date = new Date(timestamp);
+          previewTimestamp.textContent = date.toLocaleString();
+        } else {
+          previewTimestamp.textContent = '';
+        }
+      } else {
+        previewFooter.style.display = 'none';
+      }
+      
+      // Update fields
+      previewFields.innerHTML = '';
+      
+      if (fields.length > 0) {
+        fields.forEach(field => {
+          if (field.name && field.value) {
+            const fieldDiv = document.createElement('div');
+            fieldDiv.className = `embed-field ${field.inline ? 'inline' : 'block'}`;
+            
+            const fieldName = document.createElement('div');
+            fieldName.className = 'embed-field-name';
+            fieldName.textContent = field.name;
+            
+            const fieldValue = document.createElement('div');
+            fieldValue.className = 'embed-field-value';
+            fieldValue.textContent = field.value;
+            
+            fieldDiv.appendChild(fieldName);
+            fieldDiv.appendChild(fieldValue);
+            previewFields.appendChild(fieldDiv);
+          }
+        });
       }
     }
     
@@ -217,13 +632,61 @@
         avatar_url: avatarUrlInput.value || DEFAULT_AVATAR
       };
       
-      // Add embed if fields are filled
-      if (embedTitleInput.value || embedDescriptionInput.value) {
-        message.embeds = [{
-          title: embedTitleInput.value,
-          description: embedDescriptionInput.value,
-          color: parseInt(embedColorInput.value.replace('#', ''), 16)
-        }];
+      // Add embed if there's any embed content
+      const hasEmbedContent = embedTitleInput.value || 
+                            embedDescriptionInput.value || 
+                            authorNameInput.value || 
+                            imageUrlInput.value || 
+                            thumbnailUrlInput.value || 
+                            footerTextInput.value || 
+                            fields.length > 0;
+      
+      if (hasEmbedContent) {
+        const embed = {};
+        
+        if (embedTitleInput.value) embed.title = embedTitleInput.value;
+        if (embedUrlInput.value) embed.url = embedUrlInput.value;
+        if (embedDescriptionInput.value) embed.description = embedDescriptionInput.value;
+        if (embedColorInput.value) embed.color = parseInt(embedColorInput.value.replace('#', ''), 16);
+        if (timestamp) embed.timestamp = timestamp;
+        
+        if (authorNameInput.value) {
+          embed.author = {
+            name: authorNameInput.value
+          };
+          
+          if (authorUrlInput.value) embed.author.url = authorUrlInput.value;
+          if (authorIconInput.value) embed.author.icon_url = authorIconInput.value;
+        }
+        
+        if (imageUrlInput.value) {
+          embed.image = {
+            url: imageUrlInput.value
+          };
+        }
+        
+        if (thumbnailUrlInput.value) {
+          embed.thumbnail = {
+            url: thumbnailUrlInput.value
+          };
+        }
+        
+        if (footerTextInput.value) {
+          embed.footer = {
+            text: footerTextInput.value
+          };
+          
+          if (footerIconInput.value) embed.footer.icon_url = footerIconInput.value;
+        }
+        
+        if (fields.length > 0) {
+          const validFields = fields.filter(field => field.name && field.value);
+          if (validFields.length > 0) {
+            embed.fields = validFields;
+          }
+        }
+        
+        message.embeds = [embed];
       }
       
       try {
@@ -251,12 +714,38 @@
       }
     }
     
-    // Clear all fields 
+    // Clear all fields
     function clearAll() {
+      // Clear message inputs
       contentInput.value = '';
+      
+      // Clear embed inputs
       embedTitleInput.value = '';
+      embedUrlInput.value = '';
       embedDescriptionInput.value = '';
       embedColorInput.value = '#5865F2';
+      
+      // Clear author inputs
+      authorNameInput.value = '';
+      authorUrlInput.value = '';
+      authorIconInput.value = '';
+      
+      // Clear image inputs
+      imageUrlInput.value = '';
+      thumbnailUrlInput.value = '';
+      
+      // Clear footer inputs
+      footerTextInput.value = '';
+      footerIconInput.value = '';
+      
+      // Clear timestamp
+      timestamp = null;
+      
+      // Clear fields
+      fields = [];
+      fieldsContainer.innerHTML = '';
+      
+      // Update preview
       updatePreview();
     }
   </script>
