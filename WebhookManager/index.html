@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Discord Webhook Tool</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css">
+  <style>
+    body {
+      background-color: #36393f;
+      color: #dcddde;
+      font-family: 'Whitney', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    }
+    .discord-embed {
+      background-color: #2f3136;
+      border-left: 4px solid #5865F2;
+      border-radius: 4px;
+      padding: 8px 16px;
+      margin-bottom: 16px;
+    }
+    .button-primary {
+      background-color: #5865F2;
+      color: white;
+    }
+    .button-secondary {
+      background-color: #4f545c;
+      color: white;
+    }
+    .button-success {
+      background-color: #43b581;
+      color: white;
+    }
+    .button-danger {
+      background-color: #f04747;
+      color: white;
+    }
+    .button-link {
+      background-color: #4f545c;
+      color: white;
+    }
+    .webhook-button {
+      margin-right: 8px;
+      padding: 8px 16px;
+      border-radius: 4px;
+      cursor: pointer;
+      font-weight: 500;
+    }
+    .form-input {
+      background-color: #40444b;
+      color: #dcddde;
+      border: none;
+      padding: 8px 16px;
+      border-radius: 4px;
+      width: 100%;
+      margin-bottom: 16px;
+    }
+    .avatar {
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      margin-right: 16px;
+    }
+  </style>
+</head>
+<body class="min-h-screen">
+  <div class="container mx-auto p-4">
+    <header class="mb-8">
+      <h1 class="text-2xl font-bold text-white">Discord Webhook Tool</h1>
+      <p class="text-gray-400">Create and send custom Discord webhook messages</p>
+    </header>
+
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+      <!-- Editor Panel -->
+      <div class="bg-gray-800 p-4 rounded-lg">
+        <h2 class="text-xl font-semibold mb-4">Message Editor</h2>
+        
+        <!-- Webhook URL -->
+        <div class="mb-4">
+          <label class="block mb-2">Webhook URL</label>
+          <input type="text" id="webhook-url" class="form-input" placeholder="https://discord.com/api/webhooks/...">
+        </div>
+        
+        <!-- Profile -->
+        <div class="mb-4">
+          <label class="block mb-2">Username</label>
+          <input type="text" id="username" class="form-input" placeholder="Webhook Username">
+          
+          <label class="block mb-2 mt-4">Avatar URL</label>
+          <input type="text" id="avatar-url" class="form-input" placeholder="https://example.com/avatar.png">
+        </div>
+        
+        <!-- Message Content -->
+        <div class="mb-4">
+          <label class="block mb-2">Message</label>
+          <textarea id="content" class="form-input h-32" placeholder="Enter your message content here..."></textarea>
+        </div>
+        
+        <!-- Embed Editor -->
+        <div class="mb-4">
+          <label class="block mb-2">Embed Title</label>
+          <input type="text" id="embed-title" class="form-input" placeholder="Embed Title">
+          
+          <label class="block mb-2 mt-4">Embed Description</label>
+          <textarea id="embed-description" class="form-input h-24" placeholder="Enter embed description..."></textarea>
+          
+          <label class="block mb-2 mt-4">Embed Color</label>
+          <input type="color" id="embed-color" class="bg-transparent h-10" value="#5865F2">
+        </div>
+        
+        <!-- Buttons -->
+        <div class="flex mt-8">
+          <button id="send-button" class="webhook-button button-success mr-4">Send Message</button>
+          <button id="clear-button" class="webhook-button button-danger">Clear All</button>
+        </div>
+      </div>
+
+      <!-- Preview Panel -->
+      <div class="bg-gray-800 p-4 rounded-lg">
+        <h2 class="text-xl font-semibold mb-4">Message Preview</h2>
+        
+        <div id="preview-container" class="bg-gray-700 p-4 rounded-lg">
+          <!-- Message Preview -->
+          <div id="message-preview" class="mb-4">
+            <div class="flex items-start">
+              <img id="preview-avatar" class="avatar" src="https://cdn.discordapp.com/embed/avatars/0.png" alt="Avatar">
+              <div>
+                <div id="preview-username" class="font-semibold text-white">Webhook Username</div>
+                <div id="preview-content" class="text-gray-300 mt-1"></div>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Embed Preview -->
+          <div id="embed-preview" class="discord-embed mt-4 hidden">
+            <div id="preview-embed-title" class="font-bold"></div>
+            <div id="preview-embed-description" class="mt-2"></div>
+          </div>
+        </div>
+        
+        <div class="mt-4 text-sm text-gray-400">
+          <p>⚠️ Note: On GitHub Pages, this tool can only send webhook messages; it cannot save webhooks. Enter your webhook URL each time you use the tool.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    // Default values
+    const DEFAULT_AVATAR = "https://cdn.discordapp.com/embed/avatars/0.png";
+    const DEFAULT_USERNAME = "WebhookTool.py";
+    
+    // Elements
+    const webhookUrlInput = document.getElementById('webhook-url');
+    const usernameInput = document.getElementById('username');
+    const avatarUrlInput = document.getElementById('avatar-url');
+    const contentInput = document.getElementById('content');
+    const embedTitleInput = document.getElementById('embed-title');
+    const embedDescriptionInput = document.getElementById('embed-description');
+    const embedColorInput = document.getElementById('embed-color');
+    const sendButton = document.getElementById('send-button');
+    const clearButton = document.getElementById('clear-button');
+    
+    // Preview elements
+    const previewUsername = document.getElementById('preview-username');
+    const previewAvatar = document.getElementById('preview-avatar');
+    const previewContent = document.getElementById('preview-content');
+    const embedPreview = document.getElementById('embed-preview');
+    const previewEmbedTitle = document.getElementById('preview-embed-title');
+    const previewEmbedDescription = document.getElementById('preview-embed-description');
+    
+    // Initialize with default values
+    usernameInput.value = DEFAULT_USERNAME;
+    avatarUrlInput.value = DEFAULT_AVATAR;
+    updatePreview();
+    
+    // Event listeners
+    usernameInput.addEventListener('input', updatePreview);
+    avatarUrlInput.addEventListener('input', updatePreview);
+    contentInput.addEventListener('input', updatePreview);
+    embedTitleInput.addEventListener('input', updatePreview);
+    embedDescriptionInput.addEventListener('input', updatePreview);
+    embedColorInput.addEventListener('input', updatePreview);
+    sendButton.addEventListener('click', sendMessage);
+    clearButton.addEventListener('click', clearAll);
+    
+    // Update preview
+    function updatePreview() {
+      // Update username and avatar
+      previewUsername.textContent = usernameInput.value || DEFAULT_USERNAME;
+      previewAvatar.src = avatarUrlInput.value || DEFAULT_AVATAR;
+      
+      // Update content
+      previewContent.textContent = contentInput.value;
+      
+      // Update embed
+      if (embedTitleInput.value || embedDescriptionInput.value) {
+        embedPreview.style.display = 'block';
+        embedPreview.style.borderLeftColor = embedColorInput.value;
+        previewEmbedTitle.textContent = embedTitleInput.value;
+        previewEmbedDescription.textContent = embedDescriptionInput.value;
+      } else {
+        embedPreview.style.display = 'none';
+      }
+    }
+    
+    // Send webhook message
+    async function sendMessage() {
+      const webhookUrl = webhookUrlInput.value;
+      if (!webhookUrl) {
+        alert('Please enter a webhook URL');
+        return;
+      }
+      
+      const message = {
+        content: contentInput.value,
+        username: usernameInput.value || DEFAULT_USERNAME,
+        avatar_url: avatarUrlInput.value || DEFAULT_AVATAR
+      };
+      
+      // Add embed if fields are filled
+      if (embedTitleInput.value || embedDescriptionInput.value) {
+        message.embeds = [{
+          title: embedTitleInput.value,
+          description: embedDescriptionInput.value,
+          color: parseInt(embedColorInput.value.replace('#', ''), 16)
+        }];
+      }
+      
+      try {
+        sendButton.textContent = 'Sending...';
+        sendButton.disabled = true;
+        
+        const response = await fetch(webhookUrl, {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json'
+          },
+          body: JSON.stringify(message)
+        });
+        
+        if (!response.ok) {
+          throw new Error(`Failed to send message: ${response.status} ${response.statusText}`);
+        }
+        
+        alert('Message sent successfully!');
+      } catch (error) {
+        alert(`Error: ${error.message}`);
+      } finally {
+        sendButton.textContent = 'Send Message';
+        sendButton.disabled = false;
+      }
+    }
+    
+    // Clear all fields
+    function clearAll() {
+      contentInput.value = '';
+      embedTitleInput.value = '';
+      embedDescriptionInput.value = '';
+      embedColorInput.value = '#5865F2';
+      updatePreview();
+    }
+  </script>
+</body>
+</html>
