@@ -110,9 +110,9 @@
       margin-right: 6px;
     }
     .form-input {
-      background-color: #40444b;
-      color: #dcddde;
-      border: none;
+      background-color: #2c2f33; /* Darker background */
+      color: #ffffff;
+      border: 1px solid #40444b; /* Added border */
       padding: 8px 16px;
       border-radius: 4px;
       width: 100%;
@@ -122,6 +122,10 @@
     .form-input:focus {
       outline: none;
       box-shadow: 0 0 0 2px rgba(88, 101, 242, 0.5);
+      border-color: #5865F2;
+    }
+    textarea.form-input {
+      min-height: 80px;
     }
     .avatar {
       width: 40px;
@@ -195,10 +199,11 @@
     }
     .tab-content {
       display: none;
-      background-color: #40444b;
+      background-color: #2f3136; /* Darker tab content background */
       padding: 16px;
       border-radius: 0 4px 4px 4px;
       margin-bottom: 16px;
+      border: 1px solid #40444b; /* Added border */
     }
     .tab-content.active {
       display: block;
@@ -296,6 +301,91 @@
         transform: rotate(360deg);
       }
     }
+    .color-input-wrapper {
+      background-color: #2c2f33;
+      border: 1px solid #40444b;
+      padding: 4px;
+      border-radius: 4px;
+      display: inline-block;
+    }
+    input[type="color"] {
+      -webkit-appearance: none;
+      border: none;
+      width: 60px;
+      height: 30px;
+      cursor: pointer;
+    }
+    input[type="color"]::-webkit-color-swatch-wrapper {
+      padding: 0;
+    }
+    input[type="color"]::-webkit-color-swatch {
+      border: none;
+      border-radius: 3px;
+    }
+    .form-checkbox {
+      width: 16px;
+      height: 16px;
+      background-color: #2c2f33;
+      border: 1px solid #40444b;
+      border-radius: 3px;
+      appearance: none;
+      -webkit-appearance: none;
+      cursor: pointer;
+      position: relative;
+    }
+    .form-checkbox:checked {
+      background-color: #5865F2;
+      border-color: #5865F2;
+    }
+    .form-checkbox:checked::after {
+      content: '✓';
+      position: absolute;
+      color: white;
+      font-size: 12px;
+      top: 0px;
+      left: 3px;
+    }
+    .field-container {
+      background-color: #2c2f33 !important;
+      border: 1px solid #40444b;
+    }
+    /* Label styling */
+    label {
+      color: #dcddde;
+      font-weight: 500;
+      margin-bottom: 6px;
+      display: block;
+    }
+    /* Input label highlights */
+    .input-label {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 6px;
+    }
+    .input-label .label-text {
+      font-weight: 500;
+      color: #dcddde;
+    }
+    .input-label .helper-text {
+      font-size: 0.8em;
+      color: #72767d;
+    }
+    /* Editor panel highlight */
+    .editor-panel {
+      background-color: #2f3136;
+      border: 1px solid #202225;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+    }
+    /* Section title */
+    .section-title {
+      font-size: 0.9em;
+      font-weight: 700;
+      text-transform: uppercase;
+      color: #72767d;
+      margin-bottom: 8px;
+      letter-spacing: 0.03em;
+    }
   </style>
 </head>
 <body class="min-h-screen">
@@ -307,37 +397,45 @@
 
     <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
       <!-- Editor Panel -->
-      <div class="bg-gray-800 p-4 rounded-lg">
+      <div class="editor-panel p-4 rounded-lg">
         <h2 class="text-xl font-semibold mb-4">Message Editor</h2>
         
         <!-- Webhook URL -->
         <div class="mb-4">
-          <label class="block mb-2 flex justify-between">
-            <span>Webhook URL</span>
+          <div class="input-label">
+            <span class="label-text">Webhook URL</span>
             <span class="copy-webhook text-xs hidden" id="paste-webhook">
               <i class="fas fa-clipboard"></i> Paste from clipboard
             </span>
-          </label>
+          </div>
           <input type="text" id="webhook-url" class="form-input" placeholder="https://discord.com/api/webhooks/...">
         </div>
         
         <!-- Profile -->
         <div class="mb-4">
-          <label class="block mb-2">Username</label>
+          <p class="section-title">Profile</p>
+          <label class="input-label">
+            <span class="label-text">Username</span>
+          </label>
           <input type="text" id="username" class="form-input" placeholder="Webhook Username">
           
-          <label class="block mb-2 mt-4">Avatar URL</label>
+          <label class="input-label">
+            <span class="label-text">Avatar URL</span>
+          </label>
           <input type="text" id="avatar-url" class="form-input" placeholder="https://example.com/avatar.png">
         </div>
         
         <!-- Message Content -->
         <div class="mb-4">
-          <label class="block mb-2">Message</label>
+          <label class="input-label">
+            <span class="label-text">Message</span>
+          </label>
           <textarea id="content" class="form-input h-32" placeholder="Enter your message content here..."></textarea>
         </div>
         
         <!-- Embed Editor Tabs -->
         <div class="mb-4">
+          <p class="section-title">Embed</p>
           <div class="flex mb-0 flex-wrap">
             <div class="tab active" data-tab="basic">Basic</div>
             <div class="tab" data-tab="author">Author</div>
@@ -348,17 +446,27 @@
           
           <!-- Basic Tab -->
           <div class="tab-content active" id="basic-tab">
-            <label class="block mb-2">Embed Title</label>
+            <label class="input-label">
+              <span class="label-text">Embed Title</span>
+            </label>
             <input type="text" id="embed-title" class="form-input" placeholder="Embed Title">
             
-            <label class="block mb-2">Embed URL</label>
+            <label class="input-label">
+              <span class="label-text">Embed URL</span>
+            </label>
             <input type="text" id="embed-url" class="form-input" placeholder="https://example.com">
             
-            <label class="block mb-2">Embed Description</label>
+            <label class="input-label">
+              <span class="label-text">Embed Description</span>
+            </label>
             <textarea id="embed-description" class="form-input h-24" placeholder="Enter embed description..."></textarea>
             
-            <label class="block mb-2">Embed Color</label>
-            <input type="color" id="embed-color" class="bg-transparent h-10" value="#5865F2">
+            <label class="input-label">
+              <span class="label-text">Embed Color</span>
+            </label>
+            <div class="color-input-wrapper">
+              <input type="color" id="embed-color" value="#5865F2">
+            </div>
             
             <label class="block mb-2 mt-4">Timestamp</label>
             <div class="flex">
@@ -376,31 +484,45 @@
           
           <!-- Author Tab -->
           <div class="tab-content" id="author-tab">
-            <label class="block mb-2">Author Name</label>
+            <label class="input-label">
+              <span class="label-text">Author Name</span>
+            </label>
             <input type="text" id="author-name" class="form-input" placeholder="Author Name">
             
-            <label class="block mb-2">Author URL</label>
+            <label class="input-label">
+              <span class="label-text">Author URL</span>
+            </label>
             <input type="text" id="author-url" class="form-input" placeholder="https://example.com">
             
-            <label class="block mb-2">Author Icon URL</label>
+            <label class="input-label">
+              <span class="label-text">Author Icon URL</span>
+            </label>
             <input type="text" id="author-icon" class="form-input" placeholder="https://example.com/icon.png">
           </div>
           
           <!-- Images Tab -->
           <div class="tab-content" id="images-tab">
-            <label class="block mb-2">Image URL</label>
+            <label class="input-label">
+              <span class="label-text">Image URL</span>
+            </label>
             <input type="text" id="image-url" class="form-input" placeholder="https://example.com/image.png">
             
-            <label class="block mb-2">Thumbnail URL</label>
+            <label class="input-label">
+              <span class="label-text">Thumbnail URL</span>
+            </label>
             <input type="text" id="thumbnail-url" class="form-input" placeholder="https://example.com/thumbnail.png">
           </div>
           
           <!-- Footer Tab -->
           <div class="tab-content" id="footer-tab">
-            <label class="block mb-2">Footer Text</label>
+            <label class="input-label">
+              <span class="label-text">Footer Text</span>
+            </label>
             <input type="text" id="footer-text" class="form-input" placeholder="Footer Text">
             
-            <label class="block mb-2">Footer Icon URL</label>
+            <label class="input-label">
+              <span class="label-text">Footer Icon URL</span>
+            </label>
             <input type="text" id="footer-icon" class="form-input" placeholder="https://example.com/footer-icon.png">
           </div>
           
@@ -428,7 +550,7 @@
       </div>
 
       <!-- Preview Panel -->
-      <div class="bg-gray-800 p-4 rounded-lg">
+      <div class="editor-panel p-4 rounded-lg">
         <h2 class="text-xl font-semibold mb-4">Message Preview</h2>
         
         <div id="preview-container" class="bg-gray-700 p-4 rounded-lg">
@@ -677,7 +799,7 @@
     function addField() {
       const fieldId = fields.length;
       const fieldDiv = document.createElement('div');
-      fieldDiv.className = 'field-container mb-4 p-3 bg-gray-900 rounded';
+      fieldDiv.className = 'field-container mb-4 p-3 rounded';
       fieldDiv.innerHTML = `
         <div class="flex justify-between mb-2">
           <label class="font-semibold">Field ${fieldId + 1}</label>
@@ -689,7 +811,7 @@
         <textarea class="field-value form-input mt-2" data-id="${fieldId}" placeholder="Field Value"></textarea>
         <div class="mt-2">
           <label class="inline-flex items-center">
-            <input type="checkbox" class="field-inline form-checkbox bg-gray-700 border-gray-600" data-id="${fieldId}">
+            <input type="checkbox" class="field-inline form-checkbox" data-id="${fieldId}">
             <span class="ml-2">Inline</span>
           </label>
         </div>
