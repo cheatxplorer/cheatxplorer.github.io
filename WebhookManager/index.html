@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Discord Webhook Tool</title>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
   <style>
     body {
       background-color: #36393f;
@@ -21,22 +22,72 @@
     .button-primary {
       background-color: #5865F2;
       color: white;
+      transition: all 0.2s ease;
+    }
+    .button-primary:hover {
+      background-color: #4752c4;
+      transform: translateY(-2px);
+      box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    }
+    .button-primary:active {
+      transform: translateY(0);
+      box-shadow: none;
     }
     .button-secondary {
       background-color: #4f545c;
       color: white;
+      transition: all 0.2s ease;
+    }
+    .button-secondary:hover {
+      background-color: #43474e;
+      transform: translateY(-2px);
+      box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    }
+    .button-secondary:active {
+      transform: translateY(0);
+      box-shadow: none;
     }
     .button-success {
       background-color: #43b581;
       color: white;
+      transition: all 0.2s ease;
+    }
+    .button-success:hover {
+      background-color: #3ca374;
+      transform: translateY(-2px);
+      box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    }
+    .button-success:active {
+      transform: translateY(0);
+      box-shadow: none;
     }
     .button-danger {
       background-color: #f04747;
       color: white;
+      transition: all 0.2s ease;
+    }
+    .button-danger:hover {
+      background-color: #dc3d3d;
+      transform: translateY(-2px);
+      box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    }
+    .button-danger:active {
+      transform: translateY(0);
+      box-shadow: none;
     }
     .button-link {
       background-color: #4f545c;
       color: white;
+      transition: all 0.2s ease;
+    }
+    .button-link:hover {
+      background-color: #43474e;
+      transform: translateY(-2px);
+      box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    }
+    .button-link:active {
+      transform: translateY(0);
+      box-shadow: none;
     }
     .webhook-button {
       margin-right: 8px;
@@ -45,6 +96,18 @@
       cursor: pointer;
       font-weight: 500;
       border: none;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .webhook-button:disabled {
+      opacity: 0.7;
+      cursor: not-allowed;
+      transform: none !important;
+      box-shadow: none !important;
+    }
+    .webhook-button i {
+      margin-right: 6px;
     }
     .form-input {
       background-color: #40444b;
@@ -54,6 +117,11 @@
       border-radius: 4px;
       width: 100%;
       margin-bottom: 16px;
+      transition: all 0.2s ease;
+    }
+    .form-input:focus {
+      outline: none;
+      box-shadow: 0 0 0 2px rgba(88, 101, 242, 0.5);
     }
     .avatar {
       width: 40px;
@@ -119,6 +187,9 @@
       margin-right: 4px;
       transition: background-color 0.2s;
     }
+    .tab:hover {
+      background-color: #36393f;
+    }
     .tab.active {
       background-color: #40444b;
     }
@@ -131,6 +202,99 @@
     }
     .tab-content.active {
       display: block;
+    }
+    .toast-container {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      z-index: 9999;
+    }
+    .toast {
+      max-width: 350px;
+      padding: 12px 16px;
+      border-radius: 5px;
+      margin-bottom: 10px;
+      animation: slideIn 0.2s ease, fadeOut 0.5s ease 2.5s forwards;
+      display: flex;
+      align-items: center;
+    }
+    .toast.success {
+      background-color: #43b581;
+      color: white;
+    }
+    .toast.error {
+      background-color: #f04747;
+      color: white;
+    }
+    .toast.info {
+      background-color: #5865F2;
+      color: white;
+    }
+    .toast-icon {
+      margin-right: 10px;
+      font-size: 1.2em;
+    }
+    .toast-message {
+      flex: 1;
+    }
+    .toast-close {
+      cursor: pointer;
+      opacity: 0.6;
+      transition: opacity 0.2s;
+    }
+    .toast-close:hover {
+      opacity: 1;
+    }
+    @keyframes slideIn {
+      from {
+        transform: translateX(100%);
+        opacity: 0;
+      }
+      to {
+        transform: translateX(0);
+        opacity: 1;
+      }
+    }
+    @keyframes fadeOut {
+      from {
+        opacity: 1;
+      }
+      to {
+        opacity: 0;
+        display: none;
+      }
+    }
+    .timestamp-badge {
+      display: inline-block;
+      padding: 4px 8px;
+      background-color: #2c2f33;
+      border-radius: 4px;
+      margin-top: 5px;
+      font-size: 0.8em;
+    }
+    .copy-webhook {
+      cursor: pointer;
+      color: #5865F2;
+      margin-left: 8px;
+      transition: color 0.2s;
+    }
+    .copy-webhook:hover {
+      color: #4752c4;
+    }
+    .loading-spinner {
+      display: inline-block;
+      width: 16px;
+      height: 16px;
+      border: 2px solid rgba(255,255,255,0.3);
+      border-radius: 50%;
+      border-top-color: white;
+      animation: spin 1s ease-in-out infinite;
+      margin-right: 8px;
+    }
+    @keyframes spin {
+      to {
+        transform: rotate(360deg);
+      }
     }
   </style>
 </head>
@@ -148,7 +312,12 @@
         
         <!-- Webhook URL -->
         <div class="mb-4">
-          <label class="block mb-2">Webhook URL</label>
+          <label class="block mb-2 flex justify-between">
+            <span>Webhook URL</span>
+            <span class="copy-webhook text-xs hidden" id="paste-webhook">
+              <i class="fas fa-clipboard"></i> Paste from clipboard
+            </span>
+          </label>
           <input type="text" id="webhook-url" class="form-input" placeholder="https://discord.com/api/webhooks/...">
         </div>
         
@@ -169,7 +338,7 @@
         
         <!-- Embed Editor Tabs -->
         <div class="mb-4">
-          <div class="flex mb-0">
+          <div class="flex mb-0 flex-wrap">
             <div class="tab active" data-tab="basic">Basic</div>
             <div class="tab" data-tab="author">Author</div>
             <div class="tab" data-tab="images">Images</div>
@@ -193,8 +362,15 @@
             
             <label class="block mb-2 mt-4">Timestamp</label>
             <div class="flex">
-              <button id="current-timestamp" class="webhook-button button-secondary mr-2">Current Time</button>
-              <button id="clear-timestamp" class="webhook-button button-danger">Clear</button>
+              <button id="current-timestamp" class="webhook-button button-secondary mr-2">
+                <i class="fas fa-clock"></i> Current Time
+              </button>
+              <button id="clear-timestamp" class="webhook-button button-danger">
+                <i class="fas fa-times"></i> Clear
+              </button>
+            </div>
+            <div id="timestamp-display" class="timestamp-badge hidden mt-2">
+              <i class="fas fa-clock"></i> <span id="timestamp-text"></span>
             </div>
           </div>
           
@@ -234,14 +410,20 @@
               <!-- Fields will be added here -->
             </div>
             
-            <button id="add-field" class="webhook-button button-primary mt-4">Add Field</button>
+            <button id="add-field" class="webhook-button button-primary mt-4">
+              <i class="fas fa-plus"></i> Add Field
+            </button>
           </div>
         </div>
         
         <!-- Buttons -->
-        <div class="flex mt-8">
-          <button id="send-button" class="webhook-button button-success mr-4">Send Message</button>
-          <button id="clear-button" class="webhook-button button-danger">Clear All</button>
+        <div class="flex mt-8 flex-wrap">
+          <button id="send-button" class="webhook-button button-success mr-4 mb-2">
+            <i class="fas fa-paper-plane"></i> Send Message
+          </button>
+          <button id="clear-button" class="webhook-button button-danger mb-2">
+            <i class="fas fa-trash"></i> Clear All
+          </button>
         </div>
       </div>
 
@@ -305,6 +487,9 @@
       </div>
     </div>
   </div>
+  
+  <!-- Toast Container -->
+  <div id="toast-container" class="toast-container"></div>
 
   <script>
     // Default values
@@ -313,6 +498,7 @@
     
     // Elements
     const webhookUrlInput = document.getElementById('webhook-url');
+    const pasteWebhookBtn = document.getElementById('paste-webhook');
     const usernameInput = document.getElementById('username');
     const avatarUrlInput = document.getElementById('avatar-url');
     const contentInput = document.getElementById('content');
@@ -324,6 +510,8 @@
     const embedColorInput = document.getElementById('embed-color');
     const currentTimestampBtn = document.getElementById('current-timestamp');
     const clearTimestampBtn = document.getElementById('clear-timestamp');
+    const timestampDisplay = document.getElementById('timestamp-display');
+    const timestampText = document.getElementById('timestamp-text');
     
     // Author elements
     const authorNameInput = document.getElementById('author-name');
@@ -366,9 +554,30 @@
     const previewTimestamp = document.getElementById('preview-timestamp');
     const previewFields = document.getElementById('preview-fields');
     
+    // Toast container
+    const toastContainer = document.getElementById('toast-container');
+    
     // State
     let timestamp = null;
     let fields = [];
+    
+    // Check if clipboard API is available
+    if (navigator.clipboard) {
+      pasteWebhookBtn.classList.remove('hidden');
+      pasteWebhookBtn.addEventListener('click', async () => {
+        try {
+          const text = await navigator.clipboard.readText();
+          if (text.includes('discord.com/api/webhooks/')) {
+            webhookUrlInput.value = text;
+            showToast('success', 'Webhook URL pasted from clipboard');
+          } else {
+            showToast('error', 'Clipboard content is not a valid webhook URL');
+          }
+        } catch (err) {
+          showToast('error', 'Could not read from clipboard: ' + err.message);
+        }
+      });
+    }
     
     // Initialize with default values
     usernameInput.value = DEFAULT_USERNAME;
@@ -411,11 +620,16 @@
     // Timestamp buttons
     currentTimestampBtn.addEventListener('click', () => {
       timestamp = new Date().toISOString();
+      timestampDisplay.classList.remove('hidden');
+      timestampText.textContent = new Date().toLocaleString();
+      showToast('info', 'Current timestamp added');
       updatePreview();
     });
     
     clearTimestampBtn.addEventListener('click', () => {
       timestamp = null;
+      timestampDisplay.classList.add('hidden');
+      showToast('info', 'Timestamp cleared');
       updatePreview();
     });
     
@@ -426,6 +640,39 @@
     sendButton.addEventListener('click', sendMessage);
     clearButton.addEventListener('click', clearAll);
     
+    // Create and show toast
+    function showToast(type, message) {
+      const toast = document.createElement('div');
+      toast.className = `toast ${type}`;
+      
+      let icon = 'info-circle';
+      if (type === 'success') icon = 'check-circle';
+      if (type === 'error') icon = 'exclamation-circle';
+      
+      toast.innerHTML = `
+        <div class="toast-icon">
+          <i class="fas fa-${icon}"></i>
+        </div>
+        <div class="toast-message">${message}</div>
+        <div class="toast-close">
+          <i class="fas fa-times"></i>
+        </div>
+      `;
+      
+      toastContainer.appendChild(toast);
+      
+      // Remove toast after animation
+      setTimeout(() => {
+        toast.remove();
+      }, 3000);
+      
+      // Close button
+      const closeBtn = toast.querySelector('.toast-close');
+      closeBtn.addEventListener('click', () => {
+        toast.remove();
+      });
+    }
+    
     // Add a new field
     function addField() {
       const fieldId = fields.length;
@@ -434,7 +681,9 @@
       fieldDiv.innerHTML = `
         <div class="flex justify-between mb-2">
           <label class="font-semibold">Field ${fieldId + 1}</label>
-          <button class="remove-field text-xs text-red-400" data-id="${fieldId}">Remove</button>
+          <button class="remove-field text-xs text-red-400" data-id="${fieldId}">
+            <i class="fas fa-trash"></i> Remove
+          </button>
         </div>
         <input type="text" class="field-name form-input" data-id="${fieldId}" placeholder="Field Name">
         <textarea class="field-value form-input mt-2" data-id="${fieldId}" placeholder="Field Value"></textarea>
@@ -454,6 +703,8 @@
         value: '',
         inline: false
       });
+      
+      showToast('success', 'Field added');
       
       // Add event listeners for new field
       const nameInput = fieldDiv.querySelector(`.field-name[data-id="${fieldId}"]`);
@@ -488,6 +739,7 @@
           container.querySelector('label').textContent = `Field ${index + 1}`;
         });
         
+        showToast('info', 'Field removed');
         updatePreview();
       });
     }
@@ -622,7 +874,7 @@
     async function sendMessage() {
       const webhookUrl = webhookUrlInput.value;
       if (!webhookUrl) {
-        alert('Please enter a webhook URL');
+        showToast('error', 'Please enter a webhook URL');
         return;
       }
       
@@ -690,7 +942,8 @@
       }
       
       try {
-        sendButton.textContent = 'Sending...';
+        // Show loading spinner
+        sendButton.innerHTML = '<div class="loading-spinner"></div> Sending...';
         sendButton.disabled = true;
         
         const response = await fetch(webhookUrl, {
@@ -702,14 +955,15 @@
         });
         
         if (!response.ok) {
-          throw new Error(`Failed to send message: ${response.status} ${response.statusText}`);
+          throw new Error(`${response.status} ${response.statusText}`);
         }
         
-        alert('Message sent successfully!');
+        showToast('success', 'Message sent successfully!');
       } catch (error) {
-        alert(`Error: ${error.message}`);
+        showToast('error', `Failed to send message: ${error.message}`);
       } finally {
-        sendButton.textContent = 'Send Message';
+        // Restore button
+        sendButton.innerHTML = '<i class="fas fa-paper-plane"></i> Send Message';
         sendButton.disabled = false;
       }
     }
@@ -740,6 +994,7 @@
       
       // Clear timestamp
       timestamp = null;
+      timestampDisplay.classList.add('hidden');
       
       // Clear fields
       fields = [];
@@ -747,6 +1002,8 @@
       
       // Update preview
       updatePreview();
+      
+      showToast('info', 'All fields cleared');
     }
   </script>
 </body>
