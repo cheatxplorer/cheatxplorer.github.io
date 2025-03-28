@@ -18,6 +18,7 @@
       border-radius: 4px;
       padding: 8px 16px;
       margin-bottom: 16px;
+      position: relative; /* Make this relative for absolute positioning */
     }
     .button-primary {
       background-color: #5865F2;
@@ -154,8 +155,9 @@
       width: 80px;
       height: 80px;
       border-radius: 4px;
-      float: right;
-      margin-left: 16px;
+      position: absolute; /* Position absolutely */
+      top: 8px; /* Position from top */
+      right: 16px; /* Position from right */
     }
     .embed-footer {
       display: flex;
@@ -386,6 +388,12 @@
       margin-bottom: 8px;
       letter-spacing: 0.03em;
     }
+    /* Embed content wrapper - for thumbnail positioning */
+    .embed-content-wrapper {
+      position: relative;
+      padding-right: 100px; /* Make room for thumbnail */
+      min-height: 80px; /* Ensure room for thumbnail */
+    }
   </style>
 </head>
 <body class="min-h-screen">
@@ -509,6 +517,7 @@
             
             <label class="input-label">
               <span class="label-text">Thumbnail URL</span>
+              <span class="helper-text">(shows in top-right corner)</span>
             </label>
             <input type="text" id="thumbnail-url" class="form-input" placeholder="https://example.com/thumbnail.png">
           </div>
@@ -573,25 +582,27 @@
               <a id="preview-author-name" href="#" target="_blank"></a>
             </div>
             
-            <!-- Title -->
-            <div id="preview-embed-title-container">
-              <a id="preview-embed-title" href="#" target="_blank" class="font-bold"></a>
+            <!-- Thumbnail -->
+            <div id="preview-thumbnail-container" class="hidden">
+              <img id="preview-thumbnail" class="embed-thumbnail" src="" alt="">
             </div>
             
-            <!-- Description -->
-            <div id="preview-embed-description" class="mt-2"></div>
-            
-            <!-- Fields -->
-            <div id="preview-fields" class="embed-fields"></div>
+            <div class="embed-content-wrapper">
+              <!-- Title -->
+              <div id="preview-embed-title-container">
+                <a id="preview-embed-title" href="#" target="_blank" class="font-bold"></a>
+              </div>
+              
+              <!-- Description -->
+              <div id="preview-embed-description" class="mt-2"></div>
+              
+              <!-- Fields -->
+              <div id="preview-fields" class="embed-fields"></div>
+            </div>
             
             <!-- Image -->
             <div id="preview-image-container" class="hidden">
               <img id="preview-image" class="embed-image" src="" alt="">
-            </div>
-            
-            <!-- Thumbnail -->
-            <div id="preview-thumbnail-container" class="hidden">
-              <img id="preview-thumbnail" class="embed-thumbnail" src="" alt="">
             </div>
             
             <!-- Footer -->
