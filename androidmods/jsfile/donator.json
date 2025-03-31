@@ -1,11 +1,27 @@
 {
   "games": [
     {
+      "id": 93,
+      "title": "Legend of Survivors",
+      "thumbnail": "https://play-lh.googleusercontent.com/wdD4ICcMROvDbazgKbloFjnYsgZZRYIoUYH5wmoh0XN_gkkTznHKXPiuVM1u2Sit6I8=s280",
+      "playStoreUrl": "https://play.google.com/store/apps/details?id=com.abi.legendofsurvivors",
+      "packageName": "com.abi.legendofsurvivors",
+      "version": "1.1.21",
+      "features": [
+        "Unlimited Drop Box",
+        "Freeze Enemy",
+        "Instant +5 Level (everytime you click FREE GOLD from the shop)"
+      ],
+      "downloadUrl": "https://ko-fi.com/s/10d7b9be59",
+      "previewUrl": "https://www.youtube.com/embed/511NHJjsIO8",
+      "modType": "donator"
+    },
+    {
       "id": 92,
       "title": "Pull Pull Pull Heroes TD Game",
-      "thumbnail": "https://play-lh.googleusercontent.com/_1DBStYUegNtqjI0SCeSs3KVnc34OlMBHxi_D2G4KWf3LbTdHbWQpdc57VmDQV7Ram4=w280",
-      "playStoreUrl": "https://play.google.com/store/apps/details?id=com.fortune.td.game.ru",
-      "packageName": "com.fortune.td.game.ru",
+      "thumbnail": "https://play-lh.googleusercontent.com/fk7QYDtC0StJdheElvUX2Km9GtEhnuve0Aw_5fHrwdC4EgM5SqOt9gUk7NHJN-iZovWE=w280",
+      "playStoreUrl": "https://play.google.com/store/apps/details?id=com.fortune.td.game.global",
+      "packageName": "com.fortune.td.game.global",
       "version": "1.5.0",
       "features": [
         "Freeze Enemy"
@@ -26,22 +42,6 @@
       ],
       "downloadUrl": "https://ko-fi.com/s/ce4db42c30",
       "previewUrl": "https://www.youtube.com/watch?v=xvQAcqC2F38",
-      "modType": "donator"
-    },
-    {
-      "id": 4,
-      "title": "Legend of Survivors",
-      "thumbnail": "https://play-lh.googleusercontent.com/wdD4ICcMROvDbazgKbloFjnYsgZZRYIoUYH5wmoh0XN_gkkTznHKXPiuVM1u2Sit6I8=s280",
-      "playStoreUrl": "https://play.google.com/store/apps/details?id=com.abi.legendofsurvivors",
-      "packageName": "com.abi.legendofsurvivors",
-      "version": "1.1.21",
-      "features": [
-        "Unlimited Drop Box",
-        "Freeze Enemy",
-        "Instant +5 Level (everytime you click FREE GOLD from the shop)"
-      ],
-      "downloadUrl": "https://ko-fi.com/s/10d7b9be59",
-      "previewUrl": "https://www.youtube.com/embed/511NHJjsIO8",
       "modType": "donator"
     },
     {
