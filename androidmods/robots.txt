@@ -1,6 +1,6 @@
 User-agent: *
-Disallow: /admin-login.html
-Disallow: /game-manager.html
-Disallow: /jsfile/adminAuth.js
-Disallow: /jsfile/games.json
-Disallow: /jsfile/gameManager.js
+Disallow: ./login/index.html
+Disallow: ./game-manager.html
+Disallow: ./jsfile/adminAuth.js
+Disallow: ./jsfile/games.json
+Disallow: ./jsfile/gameManager.js
