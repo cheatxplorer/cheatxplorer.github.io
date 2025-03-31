@@ -1,0 +1,20 @@
+{
+  "games": [
+    {
+      "id": 4,
+      "title": "Legend of Survivors",
+      "thumbnail": "https://play-lh.googleusercontent.com/wdD4ICcMROvDbazgKbloFjnYsgZZRYIoUYH5wmoh0XN_gkkTznHKXPiuVM1u2Sit6I8=s280",
+      "playStoreUrl": "https://play.google.com/store/apps/details?id=com.abi.legendofsurvivors",
+      "packageName": "com.abi.legendofsurvivors",
+      "version": "1.1.21",
+      "features": [
+        "Unlimited Drop Box",
+        "Freeze Enemy",
+        "Instant +5 Level (everytime you click FREE GOLD from the shop)"
+      ],
+      "downloadUrl": "https://ko-fi.com/s/10d7b9be59",
+      "previewUrl": "https://www.youtube.com/embed/511NHJjsIO8",
+      "modType": "donator"
+    }
+  ]
+}
