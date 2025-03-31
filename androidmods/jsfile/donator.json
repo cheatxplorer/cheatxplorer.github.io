@@ -1,6 +1,20 @@
 {
   "games": [
     {
+      "id": 92,
+      "title": "Pull Pull Pull Heroes TD Game",
+      "thumbnail": "https://play-lh.googleusercontent.com/_1DBStYUegNtqjI0SCeSs3KVnc34OlMBHxi_D2G4KWf3LbTdHbWQpdc57VmDQV7Ram4=w280",
+      "playStoreUrl": "https://play.google.com/store/apps/details?id=com.fortune.td.game.ru",
+      "packageName": "com.fortune.td.game.ru",
+      "version": "1.5.0",
+      "features": [
+        "Freeze Enemy"
+      ],
+      "downloadUrl": "https://ko-fi.com/s/0150787298",
+      "previewUrl": "https://www.youtube.com/watch?v=Hc_jIS73koo",
+      "modType": "donator"
+    },
+    {
       "id": 4,
       "title": "Legend of Survivors",
       "thumbnail": "https://play-lh.googleusercontent.com/wdD4ICcMROvDbazgKbloFjnYsgZZRYIoUYH5wmoh0XN_gkkTznHKXPiuVM1u2Sit6I8=s280",
@@ -14,6 +28,36 @@
       ],
       "downloadUrl": "https://ko-fi.com/s/10d7b9be59",
       "previewUrl": "https://www.youtube.com/embed/511NHJjsIO8",
+      "modType": "donator"
+    },
+    {
+      "id": 3,
+      "title": "Icy Village Survival Idle",
+      "thumbnail": "https://play-lh.googleusercontent.com/QV6ShMmj9jIFM701paYHvdk8c6CKLn4YLz7aqJesvWaHMttBp87n3BU4t3XN2VrKLA=s280",
+      "playStoreUrl": "https://play.google.com/store/apps/details?id=com.unimob.icy.village",
+      "packageName": "com.unimob.icy.village",
+      "version": "3.9.0",
+      "features": [
+        "Resources Multiplier (enabled)"
+      ],
+      "downloadUrl": "https://ko-fi.com/s/d4fa8d7c7b",
+      "previewUrl": "https://www.youtube.com/embed/T_wXp-PFJOU",
+      "modType": "donator"
+    },
+    {
+      "id": 1,
+      "title": "My Little Universe",
+      "thumbnail": "https://play-lh.googleusercontent.com/bMfPQkRdPaL0eD8GKVZdbKiiyDgDuZRQVYkhmi7vTWpW3l93wz_9lLf5UwMd__bEdZ8=s280",
+      "playStoreUrl": "https://play.google.com/store/apps/details?id=com.savetheworld.game",
+      "packageName": "com.savetheworld.game",
+      "version": "2.15.5",
+      "features": [
+        "Resources Drop Multiplier",
+        "Unlimited Claim Golden Tool",
+        "Tile Pass (Purchased)"
+      ],
+      "downloadUrl": "https://ko-fi.com/s/3c1de66ac8",
+      "previewUrl": null,
       "modType": "donator"
     }
   ]
