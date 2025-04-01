@@ -1,8 +1,1139 @@
-/***************************************************************************/
-/*                                                                         */
-/*  This obfuscated code was created by CheatXplorer Obfuscator            */
-/*  CheatXplorer Obfuscator can be downloaded here                         */
-/*  https://cheatxplorer.com/                                              */
-/*                                                                         */
-/***************************************************************************/
-var _$_ddbf=["","\x66\x72\x65\x65\x2D\x6D\x6F\x64\x73","\x61\x6C\x70\x68\x61\x62\x65\x74\x69\x63\x61\x6C","\x71\x75\x65\x72\x79\x53\x65\x6C\x65\x63\x74\x6F\x72","\x6C\x6F\x63\x61\x6C\x53\x74\x6F\x72\x61\x67\x65\x5F\x74\x65\x73\x74","\x74\x65\x73\x74","\x73\x65\x74\x49\x74\x65\x6D","\x72\x65\x6D\x6F\x76\x65\x49\x74\x65\x6D","\x6C\x6F\x63\x61\x6C\x53\x74\x6F\x72\x61\x67\x65\x20\x69\x73\x20\x6E\x6F\x74\x20\x61\x76\x61\x69\x6C\x61\x62\x6C\x65\x3A","\x77\x61\x72\x6E","\x63\x75\x72\x72\x65\x6E\x74\x53\x65\x63\x74\x69\x6F\x6E","\x61\x64\x6D\x69\x6E","\x63\x68\x65\x61\x74\x78\x70\x6C\x6F\x72\x65\x72\x5F\x61\x64\x6D\x69\x6E\x5F\x67\x61\x6D\x65\x73","\x67\x65\x74\x49\x74\x65\x6D","\x61\x6C\x6C\x47\x61\x6D\x65\x73","\x70\x61\x72\x73\x65","\x46\x61\x69\x6C\x65\x64\x20\x74\x6F\x20\x6C\x6F\x61\x64\x20\x61\x64\x6D\x69\x6E\x20\x67\x61\x6D\x65\x73\x3A","\x65\x72\x72\x6F\x72","\x41\x64\x6D\x69\x6E\x20\x67\x61\x6D\x65\x20\x64\x61\x74\x61\x20\x63\x61\x6E\x6E\x6F\x74\x20\x62\x65\x20\x73\x61\x76\x65\x64\x20\x2D\x20\x6C\x6F\x63\x61\x6C\x53\x74\x6F\x72\x61\x67\x65\x20\x6E\x6F\x74\x20\x61\x76\x61\x69\x6C\x61\x62\x6C\x65","\x45\x72\x72\x6F\x72\x20\x6C\x6F\x61\x64\x69\x6E\x67\x20\x67\x61\x6D\x65\x20\x64\x61\x74\x61\x3A","\x59\x6F\x75\x72\x20\x62\x72\x6F\x77\x73\x65\x72\x20\x68\x61\x73\x20\x6C\x6F\x63\x61\x6C\x53\x74\x6F\x72\x61\x67\x65\x20\x64\x69\x73\x61\x62\x6C\x65\x64\x20\x6F\x72\x20\x69\x6E\x20\x70\x72\x69\x76\x61\x74\x65\x20\x62\x72\x6F\x77\x73\x69\x6E\x67\x20\x6D\x6F\x64\x65\x2E\x20\x47\x61\x6D\x65\x20\x64\x61\x74\x61\x20\x63\x61\x6E\x6E\x6F\x74\x20\x62\x65\x20\x73\x61\x76\x65\x64\x2E","\x73\x74\x72\x69\x6E\x67\x69\x66\x79","\x46\x61\x69\x6C\x65\x64\x20\x74\x6F\x20\x73\x61\x76\x65\x20\x61\x64\x6D\x69\x6E\x20\x67\x61\x6D\x65\x73\x20\x74\x6F\x20\x6C\x6F\x63\x61\x6C\x53\x74\x6F\x72\x61\x67\x65\x3A","\x46\x61\x69\x6C\x65\x64\x20\x74\x6F\x20\x73\x61\x76\x65\x20\x67\x61\x6D\x65\x73\x2E\x20\x59\x6F\x75\x72\x20\x62\x72\x6F\x77\x73\x65\x72\x20\x6D\x61\x79\x20\x68\x61\x76\x65\x20\x6C\x6F\x63\x61\x6C\x53\x74\x6F\x72\x61\x67\x65\x20\x64\x69\x73\x61\x62\x6C\x65\x64\x2C\x20\x69\x6E\x20\x70\x72\x69\x76\x61\x74\x65\x20\x62\x72\x6F\x77\x73\x69\x6E\x67\x20\x6D\x6F\x64\x65\x2C\x20\x6F\x72\x20\x73\x74\x6F\x72\x61\x67\x65\x20\x69\x73\x20\x66\x75\x6C\x6C\x2E","\x66\x72\x65\x65\x47\x61\x6D\x65\x73","\x73\x74\x61\x74\x75\x73","\x66\x72\x65\x65","\x66\x69\x6C\x74\x65\x72","\x64\x6F\x6E\x61\x74\x6F\x72\x47\x61\x6D\x65\x73","\x65\x78\x63\x6C\x75\x73\x69\x76\x65","\x68\x69\x67\x68\x6C\x69\x67\x68\x74\x65\x64\x47\x61\x6D\x65","\x73\x65\x61\x72\x63\x68","\x6C\x6F\x63\x61\x74\x69\x6F\x6E","\x67\x61\x6D\x65","\x67\x65\x74","\x2F","\x69\x6E\x63\x6C\x75\x64\x65\x73","\x70\x61\x63\x6B\x61\x67\x65\x4E\x61\x6D\x65","\x73\x6F\x6D\x65","\x64\x6F\x6E\x61\x74\x6F\x72\x2D\x6D\x6F\x64\x73","\x73\x65\x61\x72\x63\x68\x54\x65\x72\x6D","\x74\x6F\x4C\x6F\x77\x65\x72\x43\x61\x73\x65","\x74\x69\x74\x6C\x65","\x44\x4F\x4D\x43\x6F\x6E\x74\x65\x6E\x74\x4C\x6F\x61\x64\x65\x64","\x63\x6C\x65\x61\x72\x53\x65\x61\x72\x63\x68","\x74\x72\x75\x65","\x76\x61\x6C\x75\x65","\x23\x73\x65\x61\x72\x63\x68\x2D\x69\x6E\x70\x75\x74","\x61\x64\x64\x45\x76\x65\x6E\x74\x4C\x69\x73\x74\x65\x6E\x65\x72","\x73\x65\x63\x74\x69\x6F\x6E","\x73\x70\x6C\x69\x74","\x61\x63\x74\x69\x76\x65","\x61\x64\x64","\x63\x6C\x61\x73\x73\x4C\x69\x73\x74","\x23\x66\x72\x65\x65\x2D\x6D\x6F\x64\x73\x2D\x62\x74\x6E","\x72\x65\x6D\x6F\x76\x65","\x23\x64\x6F\x6E\x61\x74\x6F\x72\x2D\x6D\x6F\x64\x73\x2D\x62\x74\x6E","\x23\x61\x64\x6D\x69\x6E\x2D\x62\x74\x6E","\x64\x6F\x6E\x61\x74\x6F\x72","\x6C\x65\x6E\x67\x74\x68","\x6C\x6F\x63\x61\x6C\x65\x43\x6F\x6D\x70\x61\x72\x65","\x73\x6F\x72\x74","\x69\x64","\x6E\x65\x77\x65\x73\x74","\x75\x70\x64\x61\x74\x65\x64\x44\x61\x74\x65","\x6C\x61\x74\x65\x73\x74","\x63\x6C\x69\x63\x6B","\x68\x69\x73\x74\x6F\x72\x79","\x70\x75\x73\x68\x53\x74\x61\x74\x65","\x70\x72\x6F\x74\x6F\x63\x6F\x6C","\x2F\x2F","\x68\x6F\x73\x74","\x70\x61\x74\x68\x6E\x61\x6D\x65","\x69\x6E\x70\x75\x74","\x23\x73\x65\x61\x72\x63\x68\x2D\x62\x74\x6E","\x23\x63\x6C\x65\x61\x72\x2D\x66\x6F\x72\x6D\x2D\x62\x74\x6E","\x23\x73\x61\x76\x65\x2D\x67\x61\x6D\x65\x2D\x62\x74\x6E","\x23\x65\x78\x70\x6F\x72\x74\x2D\x67\x61\x6D\x65\x73\x2D\x62\x74\x6E","\x23\x69\x6D\x70\x6F\x72\x74\x2D\x66\x69\x6C\x65","\x23\x69\x6D\x70\x6F\x72\x74\x2D\x67\x61\x6D\x65\x73\x2D\x62\x74\x6E","\x63\x68\x61\x6E\x67\x65","\x23\x61\x64\x64\x2D\x66\x65\x61\x74\x75\x72\x65\x2D\x62\x74\x6E","\x6B\x65\x79\x70\x72\x65\x73\x73","\x6B\x65\x79","\x45\x6E\x74\x65\x72","\x70\x72\x65\x76\x65\x6E\x74\x44\x65\x66\x61\x75\x6C\x74","\x23\x6E\x65\x77\x2D\x66\x65\x61\x74\x75\x72\x65\x2D\x69\x6E\x70\x75\x74","\x23\x67\x61\x6D\x65\x2D\x69\x64","\x23\x67\x61\x6D\x65\x2D\x75\x70\x64\x61\x74\x65\x64","\x54","\x74\x6F\x49\x53\x4F\x53\x74\x72\x69\x6E\x67","\x23\x67\x61\x6D\x65\x2D\x76\x65\x72\x73\x69\x6F\x6E","\x23\x76\x65\x72\x73\x69\x6F\x6E\x2D\x6C\x61\x74\x65\x73\x74","\x4F\x55\x54\x44\x41\x54\x45\x44","\x23\x76\x65\x72\x73\x69\x6F\x6E\x2D\x6F\x75\x74\x64\x61\x74\x65\x64","\x4E\x4F\x54\x20\x57\x4F\x52\x4B\x49\x4E\x47","\x23\x76\x65\x72\x73\x69\x6F\x6E\x2D\x6E\x6F\x74\x2D\x77\x6F\x72\x6B\x69\x6E\x67","\x66\x72\x65\x65\x53\x6F\x72\x74\x4F\x70\x74\x69\x6F\x6E","\x74\x61\x72\x67\x65\x74","\x66\x72\x65\x65\x43\x75\x72\x72\x65\x6E\x74\x50\x61\x67\x65","\x23\x66\x72\x65\x65\x2D\x73\x6F\x72\x74\x2D\x6F\x70\x74\x69\x6F\x6E\x73","\x64\x6F\x6E\x61\x74\x6F\x72\x53\x6F\x72\x74\x4F\x70\x74\x69\x6F\x6E","\x64\x6F\x6E\x61\x74\x6F\x72\x43\x75\x72\x72\x65\x6E\x74\x50\x61\x67\x65","\x23\x64\x6F\x6E\x61\x74\x6F\x72\x2D\x73\x6F\x72\x74\x2D\x6F\x70\x74\x69\x6F\x6E\x73","\x2E\x63\x6C\x6F\x73\x65\x2D\x6D\x6F\x64\x61\x6C","\x23\x79\x6F\x75\x74\x75\x62\x65\x2D\x6D\x6F\x64\x61\x6C","\x64\x69\x73\x70\x6C\x61\x79","\x73\x74\x79\x6C\x65","\x23\x66\x72\x65\x65\x2D\x6D\x6F\x64\x73\x2D\x73\x65\x63\x74\x69\x6F\x6E","\x6E\x6F\x6E\x65","\x23\x64\x6F\x6E\x61\x74\x6F\x72\x2D\x6D\x6F\x64\x73\x2D\x73\x65\x63\x74\x69\x6F\x6E","\x23\x61\x64\x6D\x69\x6E\x2D\x73\x65\x63\x74\x69\x6F\x6E","\x62\x6C\x6F\x63\x6B","\x66\x69\x6E\x64","\x23\x66\x72\x65\x65\x2D\x67\x61\x6D\x65\x73\x2D\x67\x72\x69\x64","\x23\x66\x72\x65\x65\x2D\x70\x61\x67\x69\x6E\x61\x74\x69\x6F\x6E","\x23\x64\x6F\x6E\x61\x74\x6F\x72\x2D\x67\x61\x6D\x65\x73\x2D\x67\x72\x69\x64","\x23\x64\x6F\x6E\x61\x74\x6F\x72\x2D\x70\x61\x67\x69\x6E\x61\x74\x69\x6F\x6E","\x69\x6E\x6E\x65\x72\x48\x54\x4D\x4C","\x67\x61\x6D\x65\x73\x50\x65\x72\x50\x61\x67\x65","\x63\x65\x69\x6C","\x73\x6C\x69\x63\x65","\x64\x69\x76","\x63\x72\x65\x61\x74\x65\x45\x6C\x65\x6D\x65\x6E\x74","\x63\x6C\x61\x73\x73\x4E\x61\x6D\x65","\x67\x61\x6D\x65\x2D\x63\x61\x72\x64","\x66\x72\x65\x65\x2D\x74\x61\x67","\x65\x78\x63\x6C\x75\x73\x69\x76\x65\x2D\x74\x61\x67","\x46\x52\x45\x45","\x45\x58\x43\x4C\x55\x53\x49\x56\x45","\x79\x6F\x75\x74\x75\x62\x65\x49\x64","\x79\x6F\x75\x74\x75\x62\x65\x2E\x63\x6F\x6D","\x79\x6F\x75\x74\x75\x2E\x62\x65","\x76\x3D","\x26","\x69\x6E\x64\x65\x78\x4F\x66","\x73\x75\x62\x73\x74\x72\x69\x6E\x67","\x79\x6F\x75\x74\x75\x2E\x62\x65\x2F","\x65\x6D\x62\x65\x64\x2F","\x76\x65\x72\x73\x69\x6F\x6E","\u221E\x20\x4C\x61\x74\x65\x73\x74","\x20","\x2D","\x72\x65\x70\x6C\x61\x63\x65","\x22\x3E","\x3C\x2F\x73\x70\x61\x6E\x3E","\x76","\x73\x74\x61\x72\x74\x73\x57\x69\x74\x68","\x64\x61\x74\x61\x2D\x70\x61\x63\x6B\x61\x67\x65","\x73\x65\x74\x41\x74\x74\x72\x69\x62\x75\x74\x65","\x68\x69\x67\x68\x6C\x69\x67\x68\x74\x65\x64","\x3C\x2F\x73\x70\x61\x6E\x3E\x0A\x20\x20\x20\x20\x20\x20\x3C\x62\x75\x74\x74\x6F\x6E\x20\x63\x6C\x61\x73\x73\x3D\x22\x63\x6F\x70\x79\x2D\x6C\x69\x6E\x6B\x2D\x62\x74\x6E\x22\x20\x74\x69\x74\x6C\x65\x3D\x22\x43\x6F\x70\x79\x20\x64\x69\x72\x65\x63\x74\x20\x6C\x69\x6E\x6B\x20\x74\x6F\x20\x74\x68\x69\x73\x20\x6D\x6F\x64\x22\x3E\x0A\x20\x20\x20\x20\x20\x20\x20\x20\x3C\x73\x76\x67\x20\x78\x6D\x6C\x6E\x73\x3D\x22\x68\x74\x74\x70\x3A\x2F\x2F\x77\x77\x77\x2E\x77\x33\x2E\x6F\x72\x67\x2F\x32\x30\x30\x30\x2F\x73\x76\x67\x22\x20\x77\x69\x64\x74\x68\x3D\x22\x31\x36\x22\x20\x68\x65\x69\x67\x68\x74\x3D\x22\x31\x36\x22\x20\x76\x69\x65\x77\x42\x6F\x78\x3D\x22\x30\x20\x30\x20\x32\x34\x20\x32\x34\x22\x20\x66\x69\x6C\x6C\x3D\x22\x6E\x6F\x6E\x65\x22\x20\x73\x74\x72\x6F\x6B\x65\x3D\x22\x63\x75\x72\x72\x65\x6E\x74\x43\x6F\x6C\x6F\x72\x22\x20\x73\x74\x72\x6F\x6B\x65\x2D\x77\x69\x64\x74\x68\x3D\x22\x32\x22\x20\x73\x74\x72\x6F\x6B\x65\x2D\x6C\x69\x6E\x65\x63\x61\x70\x3D\x22\x72\x6F\x75\x6E\x64\x22\x20\x73\x74\x72\x6F\x6B\x65\x2D\x6C\x69\x6E\x65\x6A\x6F\x69\x6E\x3D\x22\x72\x6F\x75\x6E\x64\x22\x3E\x0A\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x3C\x70\x61\x74\x68\x20\x64\x3D\x22\x4D\x31\x30\x20\x31\x33\x61\x35\x20\x35\x20\x30\x20\x30\x20\x30\x20\x37\x2E\x35\x34\x2E\x35\x34\x6C\x33\x2D\x33\x61\x35\x20\x35\x20\x30\x20\x30\x20\x30\x2D\x37\x2E\x30\x37\x2D\x37\x2E\x30\x37\x6C\x2D\x31\x2E\x37\x32\x20\x31\x2E\x37\x31\x22\x3E\x3C\x2F\x70\x61\x74\x68\x3E\x0A\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x3C\x70\x61\x74\x68\x20\x64\x3D\x22\x4D\x31\x34\x20\x31\x31\x61\x35\x20\x35\x20\x30\x20\x30\x20\x30\x2D\x37\x2E\x35\x34\x2D\x2E\x35\x34\x6C\x2D\x33\x20\x33\x61\x35\x20\x35\x20\x30\x20\x30\x20\x30\x20\x37\x2E\x30\x37\x20\x37\x2E\x30\x37\x6C\x31\x2E\x37\x31\x2D\x31\x2E\x37\x31\x22\x3E\x3C\x2F\x70\x61\x74\x68\x3E\x0A\x20\x20\x20\x20\x20\x20\x20\x20\x3C\x2F\x73\x76\x67\x3E\x0A\x20\x20\x20\x20\x20\x20\x3C\x2F\x62\x75\x74\x74\x6F\x6E\x3E\x0A\x20\x20\x20\x20\x20\x20\x3C\x61\x20\x68\x72\x65\x66\x3D\x22","\x22\x20\x74\x61\x72\x67\x65\x74\x3D\x22\x5F\x62\x6C\x61\x6E\x6B\x22\x20\x63\x6C\x61\x73\x73\x3D\x22\x67\x61\x6D\x65\x2D\x69\x6D\x61\x67\x65\x22\x20\x73\x74\x79\x6C\x65\x3D\x22\x62\x61\x63\x6B\x67\x72\x6F\x75\x6E\x64\x2D\x69\x6D\x61\x67\x65\x3A\x20\x75\x72\x6C\x28\x27","\x69\x6D\x61\x67\x65\x55\x72\x6C","\x27\x29\x3B\x22\x20\x74\x69\x74\x6C\x65\x3D\x22\x4F\x70\x65\x6E\x20","\x20\x6F\x6E\x20\x47\x6F\x6F\x67\x6C\x65\x20\x50\x6C\x61\x79\x20\x53\x74\x6F\x72\x65\x22\x3E\x0A\x20\x20\x20\x20\x20\x20\x20\x20\x3C\x21\x2D\x2D\x20\x47\x61\x6D\x65\x20\x69\x6D\x61\x67\x65\x20\x64\x69\x73\x70\x6C\x61\x79\x65\x64\x20\x61\x73\x20\x62\x61\x63\x6B\x67\x72\x6F\x75\x6E\x64\x2C\x20\x63\x6C\x69\x63\x6B\x61\x62\x6C\x65\x20\x74\x6F\x20\x50\x6C\x61\x79\x20\x53\x74\x6F\x72\x65\x20\x2D\x2D\x3E\x0A\x20\x20\x20\x20\x20\x20\x3C\x2F\x61\x3E\x0A\x20\x20\x20\x20\x20\x20\x3C\x64\x69\x76\x20\x63\x6C\x61\x73\x73\x3D\x22\x67\x61\x6D\x65\x2D\x63\x6F\x6E\x74\x65\x6E\x74\x22\x3E\x0A\x20\x20\x20\x20\x20\x20\x20\x20\x3C\x68\x33\x20\x63\x6C\x61\x73\x73\x3D\x22\x67\x61\x6D\x65\x2D\x74\x69\x74\x6C\x65\x22\x3E","\x3C\x2F\x68\x33\x3E\x0A\x20\x20\x20\x20\x20\x20\x20\x20\x3C\x64\x69\x76\x20\x63\x6C\x61\x73\x73\x3D\x22\x67\x61\x6D\x65\x2D\x69\x6E\x66\x6F\x22\x3E\x0A\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x3C\x73\x70\x61\x6E\x20\x63\x6C\x61\x73\x73\x3D\x22\x76\x65\x72\x73\x69\x6F\x6E\x22\x3E","\x3C\x2F\x73\x70\x61\x6E\x3E\x0A\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x3C\x73\x70\x61\x6E\x20\x63\x6C\x61\x73\x73\x3D\x22\x75\x70\x64\x61\x74\x65\x64\x22\x3E\x55\x70\x64\x61\x74\x65\x64\x3A\x20","\x3C\x2F\x73\x70\x61\x6E\x3E\x0A\x20\x20\x20\x20\x20\x20\x20\x20\x3C\x2F\x64\x69\x76\x3E\x0A\x20\x20\x20\x20\x20\x20\x20\x20\x3C\x64\x69\x76\x20\x63\x6C\x61\x73\x73\x3D\x22\x6D\x6F\x64\x2D\x66\x65\x61\x74\x75\x72\x65\x73\x22\x3E\x0A\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x3C\x70\x20\x63\x6C\x61\x73\x73\x3D\x22\x6D\x6F\x64\x2D\x66\x65\x61\x74\x75\x72\x65\x73\x2D\x74\x69\x74\x6C\x65\x22\x3E\x4D\x4F\x44\x20\x46\x45\x41\x54\x55\x52\x45\x53\x3A\x3C\x2F\x70\x3E\x0A\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x3C\x75\x6C\x3E\x0A\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20","\x6A\x6F\x69\x6E","\x3C\x2F\x6C\x69\x3E","\x6D\x61\x70","\x66\x65\x61\x74\x75\x72\x65\x73","\x0A\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x3C\x2F\x75\x6C\x3E\x0A\x20\x20\x20\x20\x20\x20\x20\x20\x3C\x2F\x64\x69\x76\x3E\x0A\x20\x20\x20\x20\x20\x20\x20\x20\x3C\x64\x69\x76\x20\x63\x6C\x61\x73\x73\x3D\x22\x63\x61\x72\x64\x2D\x61\x63\x74\x69\x6F\x6E\x73\x22\x3E\x0A\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x3C\x62\x75\x74\x74\x6F\x6E\x20\x63\x6C\x61\x73\x73\x3D\x22\x70\x72\x65\x76\x69\x65\x77\x2D\x62\x74\x6E\x22\x20\x64\x61\x74\x61\x2D\x79\x6F\x75\x74\x75\x62\x65\x3D\x22","\x22\x3E\x0A\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x3C\x69\x6D\x67\x20\x73\x72\x63\x3D\x22\x68\x74\x74\x70\x73\x3A\x2F\x2F\x69\x6D\x67\x2E\x69\x63\x6F\x6E\x73\x38\x2E\x63\x6F\x6D\x2F\x6D\x61\x74\x65\x72\x69\x61\x6C\x2D\x6F\x75\x74\x6C\x69\x6E\x65\x64\x2F\x31\x36\x2F\x46\x46\x46\x46\x46\x46\x2F\x70\x6C\x61\x79\x2D\x2D\x76\x31\x2E\x70\x6E\x67\x22\x20\x61\x6C\x74\x3D\x22\x50\x6C\x61\x79\x22\x3E\x0A\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x50\x72\x65\x76\x69\x65\x77\x0A\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x3C\x2F\x62\x75\x74\x74\x6F\x6E\x3E\x0A\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x3C\x61\x20\x68\x72\x65\x66\x3D\x22","\x64\x6F\x77\x6E\x6C\x6F\x61\x64\x55\x72\x6C","\x22\x20\x74\x61\x72\x67\x65\x74\x3D\x22\x5F\x62\x6C\x61\x6E\x6B\x22\x20\x63\x6C\x61\x73\x73\x3D\x22\x64\x6F\x77\x6E\x6C\x6F\x61\x64\x2D\x62\x74\x6E\x22\x3E\x0A\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x3C\x69\x6D\x67\x20\x73\x72\x63\x3D\x22\x68\x74\x74\x70\x73\x3A\x2F\x2F\x69\x6D\x67\x2E\x69\x63\x6F\x6E\x73\x38\x2E\x63\x6F\x6D\x2F\x6D\x61\x74\x65\x72\x69\x61\x6C\x2D\x6F\x75\x74\x6C\x69\x6E\x65\x64\x2F\x31\x36\x2F\x46\x46\x46\x46\x46\x46\x2F\x64\x6F\x77\x6E\x6C\x6F\x61\x64\x2D\x2D\x76\x31\x2E\x70\x6E\x67\x22\x20\x61\x6C\x74\x3D\x22\x44\x6F\x77\x6E\x6C\x6F\x61\x64\x22\x3E\x0A\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x44\x6F\x77\x6E\x6C\x6F\x61\x64\x0A\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x3C\x2F\x61\x3E\x0A\x20\x20\x20\x20\x20\x20\x20\x20\x3C\x2F\x64\x69\x76\x3E\x0A\x20\x20\x20\x20\x20\x20\x3C\x2F\x64\x69\x76\x3E\x0A\x20\x20\x20\x20","\x2E\x70\x72\x65\x76\x69\x65\x77\x2D\x62\x74\x6E","\x2E\x64\x6F\x77\x6E\x6C\x6F\x61\x64\x2D\x62\x74\x6E","\x64\x6F\x77\x6E\x6C\x6F\x61\x64\x2D\x62\x74\x6E\x2D\x66\x75\x6C\x6C","\x2E\x63\x6F\x70\x79\x2D\x6C\x69\x6E\x6B\x2D\x62\x74\x6E","\x73\x74\x6F\x70\x50\x72\x6F\x70\x61\x67\x61\x74\x69\x6F\x6E","\x68\x72\x65\x66","\x74\x6F\x53\x74\x72\x69\x6E\x67","\x43\x6F\x75\x6C\x64\x20\x6E\x6F\x74\x20\x63\x6F\x70\x79\x20\x6C\x69\x6E\x6B\x3A\x20","\x46\x61\x69\x6C\x65\x64\x20\x74\x6F\x20\x63\x6F\x70\x79\x20\x6C\x69\x6E\x6B\x2E\x20\x50\x6C\x65\x61\x73\x65\x20\x74\x72\x79\x20\x61\x67\x61\x69\x6E\x2E","\x63\x61\x74\x63\x68","\x73\x75\x63\x63\x65\x73\x73","\x74\x68\x65\x6E","\x77\x72\x69\x74\x65\x54\x65\x78\x74","\x63\x6C\x69\x70\x62\x6F\x61\x72\x64","\x61\x70\x70\x65\x6E\x64\x43\x68\x69\x6C\x64","\x66\x6F\x72\x45\x61\x63\x68","\x62\x75\x74\x74\x6F\x6E","\x70\x61\x67\x65\x2D\x62\x74\x6E","\x26\x6C\x74\x3B","\x73\x6D\x6F\x6F\x74\x68","\x73\x63\x72\x6F\x6C\x6C\x54\x6F","\x74\x65\x78\x74\x43\x6F\x6E\x74\x65\x6E\x74","\x26\x67\x74\x3B","\x23\x67\x61\x6D\x65\x73\x2D\x74\x61\x62\x6C\x65\x2D\x62\x6F\x64\x79","\x74\x72","\x3C\x2F\x74\x64\x3E\x0A\x20\x20\x20\x20\x20\x20\x3C\x74\x64\x3E","\x46\x72\x65\x65","\x45\x78\x63\x6C\x75\x73\x69\x76\x65","\x3C\x2F\x74\x64\x3E\x0A\x20\x20\x20\x20\x20\x20\x3C\x74\x64\x20\x63\x6C\x61\x73\x73\x3D\x22\x74\x61\x62\x6C\x65\x2D\x61\x63\x74\x69\x6F\x6E\x73\x22\x3E\x0A\x20\x20\x20\x20\x20\x20\x20\x20\x3C\x62\x75\x74\x74\x6F\x6E\x20\x63\x6C\x61\x73\x73\x3D\x22\x61\x64\x6D\x69\x6E\x2D\x62\x74\x6E\x22\x20\x64\x61\x74\x61\x2D\x61\x63\x74\x69\x6F\x6E\x3D\x22\x65\x64\x69\x74\x22\x20\x64\x61\x74\x61\x2D\x69\x64\x3D\x22","\x22\x3E\x45\x64\x69\x74\x3C\x2F\x62\x75\x74\x74\x6F\x6E\x3E\x0A\x20\x20\x20\x20\x20\x20\x20\x20\x3C\x62\x75\x74\x74\x6F\x6E\x20\x63\x6C\x61\x73\x73\x3D\x22\x61\x64\x6D\x69\x6E\x2D\x62\x74\x6E\x20\x64\x61\x6E\x67\x65\x72\x2D\x62\x74\x6E\x22\x20\x64\x61\x74\x61\x2D\x61\x63\x74\x69\x6F\x6E\x3D\x22\x64\x65\x6C\x65\x74\x65\x22\x20\x64\x61\x74\x61\x2D\x69\x64\x3D\x22","\x22\x3E\x44\x65\x6C\x65\x74\x65\x3C\x2F\x62\x75\x74\x74\x6F\x6E\x3E\x0A\x20\x20\x20\x20\x20\x20\x3C\x2F\x74\x64\x3E\x0A\x20\x20\x20\x20","\x5B\x64\x61\x74\x61\x2D\x61\x63\x74\x69\x6F\x6E\x3D\x22\x65\x64\x69\x74\x22\x5D","\x5B\x64\x61\x74\x61\x2D\x61\x63\x74\x69\x6F\x6E\x3D\x22\x64\x65\x6C\x65\x74\x65\x22\x5D","\x55\x70\x64\x61\x74\x65\x20\x47\x61\x6D\x65","\x41\x64\x64\x20\x47\x61\x6D\x65","\x74\x72\x69\x6D","\x23\x66\x65\x61\x74\x75\x72\x65\x73\x2D\x63\x6F\x6E\x74\x61\x69\x6E\x65\x72","\x66\x65\x61\x74\x75\x72\x65\x2D\x69\x74\x65\x6D","\x3C\x2F\x73\x70\x61\x6E\x3E\x0A\x20\x20\x20\x20\x3C\x62\x75\x74\x74\x6F\x6E\x20\x63\x6C\x61\x73\x73\x3D\x22\x72\x65\x6D\x6F\x76\x65\x2D\x66\x65\x61\x74\x75\x72\x65\x22\x20\x74\x69\x74\x6C\x65\x3D\x22\x52\x65\x6D\x6F\x76\x65\x20\x74\x68\x69\x73\x20\x66\x65\x61\x74\x75\x72\x65\x22\x3E\x26\x74\x69\x6D\x65\x73\x3B\x3C\x2F\x62\x75\x74\x74\x6F\x6E\x3E\x0A\x20\x20","\x72\x65\x6D\x6F\x76\x65\x43\x68\x69\x6C\x64","\x2E\x72\x65\x6D\x6F\x76\x65\x2D\x66\x65\x61\x74\x75\x72\x65","\x66\x6F\x63\x75\x73","\x2E\x66\x65\x61\x74\x75\x72\x65\x2D\x69\x74\x65\x6D","\x71\x75\x65\x72\x79\x53\x65\x6C\x65\x63\x74\x6F\x72\x41\x6C\x6C","\x2E\x66\x65\x61\x74\x75\x72\x65\x2D\x74\x65\x78\x74","\x70\x75\x73\x68","\x23\x67\x61\x6D\x65\x2D\x74\x69\x74\x6C\x65","\x23\x67\x61\x6D\x65\x2D\x70\x61\x63\x6B\x61\x67\x65","\x23\x67\x61\x6D\x65\x2D\x74\x68\x75\x6D\x62\x6E\x61\x69\x6C","\x23\x67\x61\x6D\x65\x2D\x79\x6F\x75\x74\x75\x62\x65","\x23\x67\x61\x6D\x65\x2D\x64\x6F\x77\x6E\x6C\x6F\x61\x64","\x23\x67\x61\x6D\x65\x2D\x73\x74\x61\x74\x75\x73","\x65\x64\x69\x74\x69\x6E\x67\x47\x61\x6D\x65","\x3C\x2F\x73\x70\x61\x6E\x3E\x0A\x20\x20\x20\x20\x20\x20\x3C\x62\x75\x74\x74\x6F\x6E\x20\x63\x6C\x61\x73\x73\x3D\x22\x72\x65\x6D\x6F\x76\x65\x2D\x66\x65\x61\x74\x75\x72\x65\x22\x20\x74\x69\x74\x6C\x65\x3D\x22\x52\x65\x6D\x6F\x76\x65\x20\x74\x68\x69\x73\x20\x66\x65\x61\x74\x75\x72\x65\x22\x3E\x26\x74\x69\x6D\x65\x73\x3B\x3C\x2F\x62\x75\x74\x74\x6F\x6E\x3E\x0A\x20\x20\x20\x20","\x73\x63\x72\x6F\x6C\x6C\x49\x6E\x74\x6F\x56\x69\x65\x77","\x41\x72\x65\x20\x79\x6F\x75\x20\x73\x75\x72\x65\x20\x79\x6F\x75\x20\x77\x61\x6E\x74\x20\x74\x6F\x20\x64\x65\x6C\x65\x74\x65\x20\x74\x68\x69\x73\x20\x67\x61\x6D\x65\x3F","\x50\x6C\x65\x61\x73\x65\x20\x65\x6E\x74\x65\x72\x20\x61\x20\x74\x69\x74\x6C\x65\x20\x66\x6F\x72\x20\x74\x68\x65\x20\x67\x61\x6D\x65","\x50\x6C\x65\x61\x73\x65\x20\x65\x6E\x74\x65\x72\x20\x61\x20\x70\x61\x63\x6B\x61\x67\x65\x20\x6E\x61\x6D\x65\x20\x66\x6F\x72\x20\x74\x68\x65\x20\x67\x61\x6D\x65","\x50\x6C\x65\x61\x73\x65\x20\x73\x65\x6C\x65\x63\x74\x20\x61\x6E\x20\x75\x70\x64\x61\x74\x65\x64\x20\x64\x61\x74\x65","\x50\x6C\x65\x61\x73\x65\x20\x70\x72\x6F\x76\x69\x64\x65\x20\x61\x20\x74\x68\x75\x6D\x62\x6E\x61\x69\x6C\x20\x55\x52\x4C","\x50\x6C\x65\x61\x73\x65\x20\x70\x72\x6F\x76\x69\x64\x65\x20\x61\x20\x64\x6F\x77\x6E\x6C\x6F\x61\x64\x20\x55\x52\x4C","\x50\x6C\x65\x61\x73\x65\x20\x61\x64\x64\x20\x61\x74\x20\x6C\x65\x61\x73\x74\x20\x6F\x6E\x65\x20\x6D\x6F\x64\x20\x66\x65\x61\x74\x75\x72\x65","\x66\x69\x6E\x64\x49\x6E\x64\x65\x78","\x6D\x61\x78","\x22\x20","\x75\x70\x64\x61\x74\x65\x64","\x61\x64\x64\x65\x64","\x20\x73\x75\x63\x63\x65\x73\x73\x66\x75\x6C\x6C\x79\x21","\x44\x6F\x20\x79\x6F\x75\x20\x77\x61\x6E\x74\x20\x74\x6F\x20\x65\x78\x70\x6F\x72\x74\x20\x61\x73\x20\x67\x61\x6D\x65\x64\x61\x74\x61\x2E\x6A\x73\x20\x66\x69\x6C\x65\x20\x66\x6F\x72\x20\x64\x69\x72\x65\x63\x74\x20\x75\x73\x65\x20\x69\x6E\x20\x74\x68\x65\x20\x77\x65\x62\x73\x69\x74\x65\x3F\x0A\x0A","\x43\x6C\x69\x63\x6B\x20\x22\x4F\x4B\x22\x20\x66\x6F\x72\x20\x67\x61\x6D\x65\x64\x61\x74\x61\x2E\x6A\x73\x20\x66\x6F\x72\x6D\x61\x74\x20\x28\x72\x65\x63\x6F\x6D\x6D\x65\x6E\x64\x65\x64\x29\x0A","\x43\x6C\x69\x63\x6B\x20\x22\x43\x61\x6E\x63\x65\x6C\x22\x20\x66\x6F\x72\x20\x4A\x53\x4F\x4E\x20\x66\x6F\x72\x6D\x61\x74","\x6A\x73","\x6A\x73\x6F\x6E","\x3B","\x61\x70\x70\x6C\x69\x63\x61\x74\x69\x6F\x6E\x2F\x6A\x61\x76\x61\x73\x63\x72\x69\x70\x74","\x61\x70\x70\x6C\x69\x63\x61\x74\x69\x6F\x6E\x2F\x6A\x73\x6F\x6E","\x2E\x6A\x73\x6F\x6E","\x3B\x63\x68\x61\x72\x73\x65\x74\x3D\x75\x74\x66\x2D\x38\x2C","\x61","\x64\x6F\x77\x6E\x6C\x6F\x61\x64","\x62\x6F\x64\x79","\x67\x61\x6D\x65\x64\x61\x74\x61\x2E\x6A\x73\x20\x66\x69\x6C\x65\x20\x68\x61\x73\x20\x62\x65\x65\x6E\x20\x65\x78\x70\x6F\x72\x74\x65\x64\x2E\x20\x54\x6F\x20\x75\x70\x64\x61\x74\x65\x20\x79\x6F\x75\x72\x20\x77\x65\x62\x73\x69\x74\x65\x3A\x0A\x0A","\x31\x2E\x20\x55\x70\x6C\x6F\x61\x64\x20\x74\x68\x69\x73\x20\x66\x69\x6C\x65\x20\x74\x6F\x20\x79\x6F\x75\x72\x20\x47\x69\x74\x48\x75\x62\x20\x72\x65\x70\x6F\x73\x69\x74\x6F\x72\x79\x0A","\x32\x2E\x20\x52\x65\x70\x6C\x61\x63\x65\x20\x74\x68\x65\x20\x65\x78\x69\x73\x74\x69\x6E\x67\x20\x67\x61\x6D\x65\x64\x61\x74\x61\x2E\x6A\x73\x20\x66\x69\x6C\x65\x0A","\x33\x2E\x20\x41\x6C\x6C\x20\x75\x73\x65\x72\x73\x20\x77\x69\x6C\x6C\x20\x73\x65\x65\x20\x74\x68\x65\x20\x75\x70\x64\x61\x74\x65\x64\x20\x67\x61\x6D\x65\x20\x6C\x69\x73\x74\x20\x77\x68\x65\x6E\x20\x74\x68\x65\x79\x20\x76\x69\x73\x69\x74\x20\x79\x6F\x75\x72\x20\x73\x69\x74\x65","\x23\x6D\x6F\x64\x61\x6C\x2D\x67\x61\x6D\x65\x2D\x74\x69\x74\x6C\x65","\x23\x79\x6F\x75\x74\x75\x62\x65\x2D\x69\x66\x72\x61\x6D\x65","\x73\x72\x63","\x6F\x76\x65\x72\x66\x6C\x6F\x77","\x68\x69\x64\x64\x65\x6E","\x61\x75\x74\x6F","\x66\x69\x6C\x65\x73","\x6F\x6E\x6C\x6F\x61\x64","\x72\x65\x73\x75\x6C\x74","\x63\x6F\x6E\x73\x74\x20\x47\x41\x4D\x45\x5F\x44\x41\x54\x41\x20\x3D","\x76\x61\x72\x20\x47\x41\x4D\x45\x5F\x44\x41\x54\x41\x20\x3D","\x5B","\x5D","\x6C\x61\x73\x74\x49\x6E\x64\x65\x78\x4F\x66","\x49\x6E\x76\x61\x6C\x69\x64\x20\x67\x61\x6D\x65\x64\x61\x74\x61\x2E\x6A\x73\x20\x66\x6F\x72\x6D\x61\x74\x3A\x20\x43\x61\x6E\x6E\x6F\x74\x20\x66\x69\x6E\x64\x20\x74\x68\x65\x20\x67\x61\x6D\x65\x20\x64\x61\x74\x61\x20\x61\x72\x72\x61\x79","\x69\x73\x41\x72\x72\x61\x79","\x49\x6E\x76\x61\x6C\x69\x64\x20\x66\x6F\x72\x6D\x61\x74\x3A\x20\x65\x78\x70\x65\x63\x74\x65\x64\x20\x61\x6E\x20\x61\x72\x72\x61\x79\x20\x6F\x66\x20\x67\x61\x6D\x65\x73","\x65\x76\x65\x72\x79","\x49\x6E\x76\x61\x6C\x69\x64\x20\x66\x6F\x72\x6D\x61\x74\x3A\x20\x73\x6F\x6D\x65\x20\x67\x61\x6D\x65\x73\x20\x61\x72\x65\x20\x6D\x69\x73\x73\x69\x6E\x67\x20\x72\x65\x71\x75\x69\x72\x65\x64\x20\x66\x69\x65\x6C\x64\x73","\x20\x67\x61\x6D\x65\x73\x3F\x20\x54\x68\x69\x73\x20\x77\x69\x6C\x6C\x20\x72\x65\x70\x6C\x61\x63\x65\x20\x61\x6C\x6C\x20\x65\x78\x69\x73\x74\x69\x6E\x67\x20\x67\x61\x6D\x65\x73\x20\x69\x6E\x20\x74\x68\x65\x20\x61\x64\x6D\x69\x6E\x20\x70\x61\x6E\x65\x6C\x2E","\x47\x61\x6D\x65\x73\x20\x69\x6D\x70\x6F\x72\x74\x65\x64\x20\x73\x75\x63\x63\x65\x73\x73\x66\x75\x6C\x6C\x79\x21\x0A\x0A\x52\x65\x6D\x65\x6D\x62\x65\x72\x3A\x20\x54\x68\x65\x73\x65\x20\x63\x68\x61\x6E\x67\x65\x73\x20\x61\x72\x65\x20\x6F\x6E\x6C\x79\x20\x76\x69\x73\x69\x62\x6C\x65\x20\x69\x6E\x20\x74\x68\x65\x20\x61\x64\x6D\x69\x6E\x20\x70\x61\x6E\x65\x6C\x2E\x20\x54\x6F\x20\x6D\x61\x6B\x65\x20\x74\x68\x65\x6D\x20\x70\x75\x62\x6C\x69\x63\x2C\x20\x65\x78\x70\x6F\x72\x74\x20\x61\x73\x20\x67\x61\x6D\x65\x64\x61\x74\x61\x2E\x6A\x73\x20\x61\x6E\x64\x20\x75\x70\x6C\x6F\x61\x64\x20\x74\x6F\x20\x47\x69\x74\x48\x75\x62\x2E","\x6D\x65\x73\x73\x61\x67\x65","\x72\x65\x61\x64\x41\x73\x54\x65\x78\x74"];const state={allGames:[],freeGames:[],donatorGames:[],freeCurrentPage:1,donatorCurrentPage:1,gamesPerPage:20,searchTerm:_$_ddbf[0],currentSection:_$_ddbf[1],editingGame:null,highlightedGame:null,freeSortOption:_$_ddbf[2],donatorSortOption:_$_ddbf[2]};const elementsCache={};function $(_0x16945){if(!elementsCache[_0x16945]){elementsCache[_0x16945]= document[_$_ddbf[3]](_0x16945)};return elementsCache[_0x16945]}function loadGames(){let _0x17797=false;try{localStorage[_$_ddbf[6]](_$_ddbf[4],_$_ddbf[5]);localStorage[_$_ddbf[7]](_$_ddbf[4]);_0x17797= true}catch(e){console[_$_ddbf[9]](_$_ddbf[8],e)};if(state[_$_ddbf[10]]=== _$_ddbf[11]){if(_0x17797){try{const _0x177F5=localStorage[_$_ddbf[13]](_$_ddbf[12]);if(_0x177F5){state[_$_ddbf[14]]= JSON[_$_ddbf[15]](_0x177F5)}else {state[_$_ddbf[14]]= []}}catch(error){console[_$_ddbf[17]](_$_ddbf[16],error);state[_$_ddbf[14]]= []}}else {state[_$_ddbf[14]]= [];console[_$_ddbf[9]](_$_ddbf[18])}}else {try{state[_$_ddbf[14]]= [...GAME_DATA]}catch(error){console[_$_ddbf[17]](_$_ddbf[19],error);state[_$_ddbf[14]]= []}};filterGamesByStatus()}function saveGames(){let _0x17797=false;try{localStorage[_$_ddbf[6]](_$_ddbf[4],_$_ddbf[5]);localStorage[_$_ddbf[7]](_$_ddbf[4]);_0x17797= true}catch(e){console[_$_ddbf[9]](_$_ddbf[8],e);alert(_$_ddbf[20]);return};if(_0x17797){try{localStorage[_$_ddbf[6]](_$_ddbf[12],JSON[_$_ddbf[21]](state[_$_ddbf[14]]))}catch(error){console[_$_ddbf[17]](_$_ddbf[22],error);alert(_$_ddbf[23])}}}function filterGamesByStatus(){state[_$_ddbf[24]]= state[_$_ddbf[14]][_$_ddbf[27]]((_0x16DAD)=>{return _0x16DAD[_$_ddbf[25]]=== _$_ddbf[26]});state[_$_ddbf[28]]= state[_$_ddbf[14]][_$_ddbf[27]]((_0x16DAD)=>{return _0x16DAD[_$_ddbf[25]]=== _$_ddbf[29]});if(state[_$_ddbf[30]]){const _0x16C93= new URLSearchParams(window[_$_ddbf[32]][_$_ddbf[31]]);const _0x16B79=_0x16C93[_$_ddbf[34]](_$_ddbf[33]);if(_0x16B79&&  !_0x16B79[_$_ddbf[36]](_$_ddbf[35])){const _0x171B7=state[_$_ddbf[24]][_$_ddbf[38]]((_0x16DAD)=>{return _0x16DAD[_$_ddbf[37]]=== state[_$_ddbf[30]]});const _0x17159=state[_$_ddbf[28]][_$_ddbf[38]]((_0x16DAD)=>{return _0x16DAD[_$_ddbf[37]]=== state[_$_ddbf[30]]});if(_0x171B7&& state[_$_ddbf[10]]!== _$_ddbf[1]){setTimeout(()=>{return switchSection(_$_ddbf[1])},0)}else {if(_0x17159&& state[_$_ddbf[10]]!== _$_ddbf[39]){setTimeout(()=>{return switchSection(_$_ddbf[39])},0)}}}}}function filterGamesBySearch(_0x170FB){if(!state[_$_ddbf[40]]){return _0x170FB};return _0x170FB[_$_ddbf[27]]((_0x16DAD)=>{return _0x16DAD[_$_ddbf[42]][_$_ddbf[41]]()[_$_ddbf[36]](state[_$_ddbf[40]][_$_ddbf[41]]())|| _0x16DAD[_$_ddbf[37]][_$_ddbf[41]]()[_$_ddbf[36]](state[_$_ddbf[40]][_$_ddbf[41]]())})}document[_$_ddbf[48]](_$_ddbf[43],()=>{if(sessionStorage[_$_ddbf[13]](_$_ddbf[44])=== _$_ddbf[45]){$(_$_ddbf[47])[_$_ddbf[46]]= _$_ddbf[0];state[_$_ddbf[40]]= _$_ddbf[0];sessionStorage[_$_ddbf[7]](_$_ddbf[44])};checkUrlParameters();loadGames();initEventListeners();renderFreeGames()});function checkUrlParameters(){const _0x16C93= new URLSearchParams(window[_$_ddbf[32]][_$_ddbf[31]]);const _0x16B79=_0x16C93[_$_ddbf[34]](_$_ddbf[33]);const _0x16C35=_0x16C93[_$_ddbf[34]](_$_ddbf[49]);if(_0x16B79){if(_0x16B79[_$_ddbf[36]](_$_ddbf[35])){const [_0x16B1B,_0x16BD7]=_0x16B79[_$_ddbf[50]](_$_ddbf[35]);state[_$_ddbf[30]]= _0x16BD7;if(_0x16B1B=== _$_ddbf[26]){setTimeout(()=>{switchSection(_$_ddbf[1]);$(_$_ddbf[54])[_$_ddbf[53]][_$_ddbf[52]](_$_ddbf[51]);$(_$_ddbf[56])[_$_ddbf[53]][_$_ddbf[55]](_$_ddbf[51]);$(_$_ddbf[57])[_$_ddbf[53]][_$_ddbf[55]](_$_ddbf[51])},100)}else {if(_0x16B1B=== _$_ddbf[58]){setTimeout(()=>{switchSection(_$_ddbf[39]);$(_$_ddbf[56])[_$_ddbf[53]][_$_ddbf[52]](_$_ddbf[51]);$(_$_ddbf[54])[_$_ddbf[53]][_$_ddbf[55]](_$_ddbf[51]);$(_$_ddbf[57])[_$_ddbf[53]][_$_ddbf[55]](_$_ddbf[51])},100)}}}else {state[_$_ddbf[30]]= _0x16B79}};if(_0x16C35=== _$_ddbf[58]){setTimeout(()=>{switchSection(_$_ddbf[39]);$(_$_ddbf[56])[_$_ddbf[53]][_$_ddbf[52]](_$_ddbf[51]);$(_$_ddbf[54])[_$_ddbf[53]][_$_ddbf[55]](_$_ddbf[51]);$(_$_ddbf[57])[_$_ddbf[53]][_$_ddbf[55]](_$_ddbf[51])},100)}}function sortGames(_0x170FB,_0x18647){if(!_0x170FB|| _0x170FB[_$_ddbf[59]]=== 0){return _0x170FB};let _0x185E9=[..._0x170FB];switch(_0x18647){case _$_ddbf[2]:_0x185E9[_$_ddbf[61]]((_0x186A5,_0x18703)=>{return _0x186A5[_$_ddbf[42]][_$_ddbf[60]](_0x18703[_$_ddbf[42]])});break;case _$_ddbf[63]:_0x185E9[_$_ddbf[61]]((_0x186A5,_0x18703)=>{return _0x18703[_$_ddbf[62]]- _0x186A5[_$_ddbf[62]]});break;case _$_ddbf[65]:_0x185E9[_$_ddbf[61]]((_0x186A5,_0x18703)=>{return  new Date(_0x18703[_$_ddbf[64]])-  new Date(_0x186A5[_$_ddbf[64]])});break;default:_0x185E9[_$_ddbf[61]]((_0x186A5,_0x18703)=>{return _0x186A5[_$_ddbf[42]][_$_ddbf[60]](_0x18703[_$_ddbf[42]])})};return _0x185E9}function initEventListeners(){$(_$_ddbf[54])[_$_ddbf[48]](_$_ddbf[66],()=>{state[_$_ddbf[30]]= null;$(_$_ddbf[47])[_$_ddbf[46]]= _$_ddbf[0];state[_$_ddbf[40]]= _$_ddbf[0];if(window[_$_ddbf[67]]&& window[_$_ddbf[67]][_$_ddbf[68]]){const _0x176DB=window[_$_ddbf[32]][_$_ddbf[69]]+ _$_ddbf[70]+ window[_$_ddbf[32]][_$_ddbf[71]]+ window[_$_ddbf[32]][_$_ddbf[72]];window[_$_ddbf[67]][_$_ddbf[68]]({path:_0x176DB},_$_ddbf[0],_0x176DB)};switchSection(_$_ddbf[1])});$(_$_ddbf[56])[_$_ddbf[48]](_$_ddbf[66],()=>{state[_$_ddbf[30]]= null;$(_$_ddbf[47])[_$_ddbf[46]]= _$_ddbf[0];state[_$_ddbf[40]]= _$_ddbf[0];if(window[_$_ddbf[67]]&& window[_$_ddbf[67]][_$_ddbf[68]]){const _0x176DB=window[_$_ddbf[32]][_$_ddbf[69]]+ _$_ddbf[70]+ window[_$_ddbf[32]][_$_ddbf[71]]+ window[_$_ddbf[32]][_$_ddbf[72]];window[_$_ddbf[67]][_$_ddbf[68]]({path:_0x176DB},_$_ddbf[0],_0x176DB)};switchSection(_$_ddbf[39])});$(_$_ddbf[57])[_$_ddbf[48]](_$_ddbf[66],()=>{state[_$_ddbf[30]]= null;$(_$_ddbf[47])[_$_ddbf[46]]= _$_ddbf[0];state[_$_ddbf[40]]= _$_ddbf[0];if(window[_$_ddbf[67]]&& window[_$_ddbf[67]][_$_ddbf[68]]){const _0x176DB=window[_$_ddbf[32]][_$_ddbf[69]]+ _$_ddbf[70]+ window[_$_ddbf[32]][_$_ddbf[71]]+ window[_$_ddbf[32]][_$_ddbf[72]];window[_$_ddbf[67]][_$_ddbf[68]]({path:_0x176DB},_$_ddbf[0],_0x176DB)};switchSection(_$_ddbf[11])});$(_$_ddbf[47])[_$_ddbf[48]](_$_ddbf[73],handleSearch);$(_$_ddbf[74])[_$_ddbf[48]](_$_ddbf[66],handleSearch);$(_$_ddbf[75])[_$_ddbf[48]](_$_ddbf[66],clearGameForm);$(_$_ddbf[76])[_$_ddbf[48]](_$_ddbf[66],saveGameData);$(_$_ddbf[77])[_$_ddbf[48]](_$_ddbf[66],exportGames);$(_$_ddbf[79])[_$_ddbf[48]](_$_ddbf[66],()=>{return $(_$_ddbf[78])[_$_ddbf[66]]()});$(_$_ddbf[78])[_$_ddbf[48]](_$_ddbf[80],importGames);$(_$_ddbf[81])[_$_ddbf[48]](_$_ddbf[66],addFeature);$(_$_ddbf[86])[_$_ddbf[48]](_$_ddbf[82],(_0x17449)=>{if(_0x17449[_$_ddbf[83]]=== _$_ddbf[84]){_0x17449[_$_ddbf[85]]();addFeature()}});$(_$_ddbf[87])[_$_ddbf[48]](_$_ddbf[73],updateSaveButtonText);if(!$(_$_ddbf[88])[_$_ddbf[46]]){const _0x1767D= new Date()[_$_ddbf[90]]()[_$_ddbf[50]](_$_ddbf[89])[0];$(_$_ddbf[88])[_$_ddbf[46]]= _0x1767D};$(_$_ddbf[92])[_$_ddbf[48]](_$_ddbf[66],()=>{$(_$_ddbf[91])[_$_ddbf[46]]= _$_ddbf[0];resetVersionButtons();$(_$_ddbf[92])[_$_ddbf[53]][_$_ddbf[52]](_$_ddbf[51])});$(_$_ddbf[94])[_$_ddbf[48]](_$_ddbf[66],()=>{$(_$_ddbf[91])[_$_ddbf[46]]= _$_ddbf[93];resetVersionButtons();$(_$_ddbf[94])[_$_ddbf[53]][_$_ddbf[52]](_$_ddbf[51])});$(_$_ddbf[96])[_$_ddbf[48]](_$_ddbf[66],()=>{$(_$_ddbf[91])[_$_ddbf[46]]= _$_ddbf[95];resetVersionButtons();$(_$_ddbf[96])[_$_ddbf[53]][_$_ddbf[52]](_$_ddbf[51])});$(_$_ddbf[91])[_$_ddbf[48]](_$_ddbf[73],()=>{resetVersionButtons()});$(_$_ddbf[100])[_$_ddbf[48]](_$_ddbf[80],(_0x17449)=>{state[_$_ddbf[97]]= _0x17449[_$_ddbf[98]][_$_ddbf[46]];state[_$_ddbf[99]]= 1;renderFreeGames()});$(_$_ddbf[103])[_$_ddbf[48]](_$_ddbf[80],(_0x17449)=>{state[_$_ddbf[101]]= _0x17449[_$_ddbf[98]][_$_ddbf[46]];state[_$_ddbf[102]]= 1;renderDonatorGames()});$(_$_ddbf[104])[_$_ddbf[48]](_$_ddbf[66],closeYoutubeModal);window[_$_ddbf[48]](_$_ddbf[66],(_0x1732F)=>{const _0x17739=$(_$_ddbf[105]);if(_0x1732F[_$_ddbf[98]]=== _0x17739){closeYoutubeModal()}})}function switchSection(_0x18761){state[_$_ddbf[10]]= _0x18761;state[_$_ddbf[99]]= 1;state[_$_ddbf[102]]= 1;$(_$_ddbf[108])[_$_ddbf[107]][_$_ddbf[106]]= _$_ddbf[109];$(_$_ddbf[110])[_$_ddbf[107]][_$_ddbf[106]]= _$_ddbf[109];$(_$_ddbf[111])[_$_ddbf[107]][_$_ddbf[106]]= _$_ddbf[109];$(_$_ddbf[54])[_$_ddbf[53]][_$_ddbf[55]](_$_ddbf[51]);$(_$_ddbf[56])[_$_ddbf[53]][_$_ddbf[55]](_$_ddbf[51]);$(_$_ddbf[57])[_$_ddbf[53]][_$_ddbf[55]](_$_ddbf[51]);loadGames();switch(_0x18761){case _$_ddbf[1]:$(_$_ddbf[108])[_$_ddbf[107]][_$_ddbf[106]]= _$_ddbf[112];$(_$_ddbf[54])[_$_ddbf[53]][_$_ddbf[52]](_$_ddbf[51]);renderFreeGames();break;case _$_ddbf[39]:$(_$_ddbf[110])[_$_ddbf[107]][_$_ddbf[106]]= _$_ddbf[112];$(_$_ddbf[56])[_$_ddbf[53]][_$_ddbf[52]](_$_ddbf[51]);renderDonatorGames();break;case _$_ddbf[11]:$(_$_ddbf[111])[_$_ddbf[107]][_$_ddbf[106]]= _$_ddbf[112];$(_$_ddbf[57])[_$_ddbf[53]][_$_ddbf[52]](_$_ddbf[51]);renderAdminGameTable();break}}function handleSearch(){state[_$_ddbf[40]]= $(_$_ddbf[47])[_$_ddbf[46]][_$_ddbf[41]]();state[_$_ddbf[99]]= 1;state[_$_ddbf[102]]= 1;if(state[_$_ddbf[10]]=== _$_ddbf[1]){renderFreeGames()}else {if(state[_$_ddbf[10]]=== _$_ddbf[39]){renderDonatorGames()}}}function renderFreeGames(){let _0x17AE5=filterGamesBySearch(state[_$_ddbf[24]]);if(state[_$_ddbf[30]]){const _0x17B43=_0x17AE5[_$_ddbf[113]]((_0x16DAD)=>{return _0x16DAD[_$_ddbf[37]]=== state[_$_ddbf[30]]});if(_0x17B43){_0x17AE5= [_0x17B43];state[_$_ddbf[99]]= 1}}else {_0x17AE5= sortGames(_0x17AE5,state[_$_ddbf[97]]);$(_$_ddbf[100])[_$_ddbf[46]]= state[_$_ddbf[97]]};renderGamesList(_0x17AE5,$(_$_ddbf[114]),$(_$_ddbf[115]),state[_$_ddbf[99]],_$_ddbf[26])}function renderDonatorGames(){let _0x17AE5=filterGamesBySearch(state[_$_ddbf[28]]);if(state[_$_ddbf[30]]){const _0x17B43=_0x17AE5[_$_ddbf[113]]((_0x16DAD)=>{return _0x16DAD[_$_ddbf[37]]=== state[_$_ddbf[30]]});if(_0x17B43){_0x17AE5= [_0x17B43];state[_$_ddbf[102]]= 1}}else {_0x17AE5= sortGames(_0x17AE5,state[_$_ddbf[101]]);$(_$_ddbf[103])[_$_ddbf[46]]= state[_$_ddbf[101]]};renderGamesList(_0x17AE5,$(_$_ddbf[116]),$(_$_ddbf[117]),state[_$_ddbf[102]],_$_ddbf[29])}function renderGamesList(_0x170FB,_0x17C5D,_0x17CBB,_0x17BFF,_0x17D19){_0x17C5D[_$_ddbf[118]]= _$_ddbf[0];if(_0x170FB[_$_ddbf[59]]=== 0){_0x17C5D[_$_ddbf[118]]= "\x0A\x20\x20\x20\x20\x20\x20\x3C\x64\x69\x76\x20\x63\x6C\x61\x73\x73\x3D\x22\x65\x6D\x70\x74\x79\x2D\x73\x74\x61\x74\x65\x22\x3E\x0A\x20\x20\x20\x20\x20\x20\x20\x20\x3C\x68\x33\x3E\x4E\x6F\x20\x47\x61\x6D\x65\x73\x20\x46\x6F\x75\x6E\x64\x3C\x2F\x68\x33\x3E\x0A\x20\x20\x20\x20\x20\x20\x20\x20\x3C\x70\x3E\x54\x72\x79\x20\x61\x64\x6A\x75\x73\x74\x69\x6E\x67\x20\x79\x6F\x75\x72\x20\x73\x65\x61\x72\x63\x68\x2E\x3C\x2F\x70\x3E\x0A\x20\x20\x20\x20\x20\x20\x3C\x2F\x64\x69\x76\x3E\x0A\x20\x20\x20\x20";_0x17CBB[_$_ddbf[118]]= _$_ddbf[0];return};const _0x17D77=Math[_$_ddbf[120]](_0x170FB[_$_ddbf[59]]/ state[_$_ddbf[119]]);const _0x1761F=(_0x17BFF- 1)* state[_$_ddbf[119]];const _0x174A7=_0x1761F+ state[_$_ddbf[119]];const _0x17BA1=_0x170FB[_$_ddbf[121]](_0x1761F,_0x174A7);_0x17BA1[_$_ddbf[182]]((_0x16DAD)=>{const _0x17EEF=document[_$_ddbf[123]](_$_ddbf[122]);_0x17EEF[_$_ddbf[124]]= _$_ddbf[125];const _0x17F4D=("\x68\x74\x74\x70\x73\x3A\x2F\x2F\x70\x6C\x61\x79\x2E\x67\x6F\x6F\x67\x6C\x65\x2E\x63\x6F\x6D\x2F\x73\x74\x6F\x72\x65\x2F\x61\x70\x70\x73\x2F\x64\x65\x74\x61\x69\x6C\x73\x3F\x69\x64\x3D"+_0x16DAD[_$_ddbf[37]]+_$_ddbf[0]);const _0x18009=_0x17D19=== _$_ddbf[26]?_$_ddbf[126]:_$_ddbf[127];const _0x18067=_0x17D19=== _$_ddbf[26]?_$_ddbf[128]:_$_ddbf[129];let _0x1790F=_0x16DAD[_$_ddbf[130]];if(_0x1790F&& _0x1790F[_$_ddbf[36]](_$_ddbf[131])|| _0x1790F[_$_ddbf[36]](_$_ddbf[132])){if(_0x1790F[_$_ddbf[36]](_$_ddbf[133])){_0x1790F= _0x1790F[_$_ddbf[50]](_$_ddbf[133])[1];const _0x17853=_0x1790F[_$_ddbf[135]](_$_ddbf[134]);if(_0x17853!==  -1){_0x1790F= _0x1790F[_$_ddbf[136]](0,_0x17853)}}else {if(_0x1790F[_$_ddbf[36]](_$_ddbf[137])){_0x1790F= _0x1790F[_$_ddbf[50]](_$_ddbf[137])[1]}else {if(_0x1790F[_$_ddbf[36]](_$_ddbf[138])){_0x1790F= _0x1790F[_$_ddbf[50]](_$_ddbf[138])[1]}}}};let _0x17E91;if(!_0x16DAD[_$_ddbf[139]]|| _0x16DAD[_$_ddbf[139]]=== _$_ddbf[0]){_0x17E91= _$_ddbf[140]}else {if(_0x16DAD[_$_ddbf[139]]=== _$_ddbf[93]|| _0x16DAD[_$_ddbf[139]]=== _$_ddbf[95]){_0x17E91= ("\x3C\x73\x70\x61\x6E\x20\x63\x6C\x61\x73\x73\x3D\x22\x76\x65\x72\x73\x69\x6F\x6E\x2D"+_0x16DAD[_$_ddbf[139]][_$_ddbf[41]]()[_$_ddbf[143]](_$_ddbf[141],_$_ddbf[142])+_$_ddbf[144]+_0x16DAD[_$_ddbf[139]]+_$_ddbf[145])}else {_0x17E91= _0x16DAD[_$_ddbf[139]][_$_ddbf[147]](_$_ddbf[146])?_0x16DAD[_$_ddbf[139]]:("\x76"+_0x16DAD[_$_ddbf[139]]+_$_ddbf[0])}};_0x17EEF[_$_ddbf[149]](_$_ddbf[148],_0x16DAD[_$_ddbf[37]]);if(state[_$_ddbf[30]]=== _0x16DAD[_$_ddbf[37]]){_0x17EEF[_$_ddbf[53]][_$_ddbf[52]](_$_ddbf[150])};_0x17EEF[_$_ddbf[118]]= ("\x0A\x20\x20\x20\x20\x20\x20\x3C\x73\x70\x61\x6E\x20\x63\x6C\x61\x73\x73\x3D\x22\x74\x61\x67\x20"+_0x18009+_$_ddbf[144]+_0x18067+_$_ddbf[151]+_0x17F4D+_$_ddbf[152]+_0x16DAD[_$_ddbf[153]]+_$_ddbf[154]+_0x16DAD[_$_ddbf[42]]+_$_ddbf[155]+_0x16DAD[_$_ddbf[42]]+_$_ddbf[156]+_0x17E91+_$_ddbf[157]+_0x16DAD[_$_ddbf[64]]+_$_ddbf[158]+_0x16DAD[_$_ddbf[162]][_$_ddbf[161]]((_0x16E69)=>{return ("\x3C\x6C\x69\x3E"+_0x16E69+_$_ddbf[160])})[_$_ddbf[159]](_$_ddbf[0])+_$_ddbf[163]+_0x1790F+_$_ddbf[164]+_0x16DAD[_$_ddbf[165]]+_$_ddbf[166]);const _0x17FAB=_0x17EEF[_$_ddbf[3]](_$_ddbf[167]);const _0x17E33=_0x17EEF[_$_ddbf[3]](_$_ddbf[168]);if(!_0x16DAD[_$_ddbf[130]]){_0x17FAB[_$_ddbf[107]][_$_ddbf[106]]= _$_ddbf[109];_0x17E33[_$_ddbf[53]][_$_ddbf[52]](_$_ddbf[169])}else {_0x17FAB[_$_ddbf[48]](_$_ddbf[66],()=>{openYoutubeModal(_0x16DAD[_$_ddbf[42]],_0x1790F)})};const _0x17DD5=_0x17EEF[_$_ddbf[3]](_$_ddbf[170]);_0x17DD5[_$_ddbf[48]](_$_ddbf[66],(_0x17449)=>{_0x17449[_$_ddbf[171]]();const _0x180C5= new URL(window[_$_ddbf[32]][_$_ddbf[172]]);const _0x16B1B=_0x17D19=== _$_ddbf[26]?_$_ddbf[26]:_$_ddbf[58];_0x180C5[_$_ddbf[31]]= ("\x3F\x67\x61\x6D\x65\x3D"+_0x16B1B+_$_ddbf[35]+_0x16DAD[_$_ddbf[37]]+_$_ddbf[0]);const _0x18123=_0x180C5[_$_ddbf[173]]();navigator[_$_ddbf[180]][_$_ddbf[179]](_0x18123)[_$_ddbf[178]](()=>{_0x17DD5[_$_ddbf[53]][_$_ddbf[52]](_$_ddbf[177]);setTimeout(()=>{_0x17DD5[_$_ddbf[53]][_$_ddbf[55]](_$_ddbf[177])},1500);alert(("\x4C\x69\x6E\x6B\x20\x63\x6F\x70\x69\x65\x64\x20\x74\x6F\x20\x63\x6C\x69\x70\x62\x6F\x61\x72\x64\x21\x6E\x6E\x44\x69\x72\x65\x63\x74\x20\x6C\x69\x6E\x6B\x3A\x20"+_0x18123+_$_ddbf[0]))})[_$_ddbf[176]]((_0x18181)=>{console[_$_ddbf[17]](_$_ddbf[174],_0x18181);alert(_$_ddbf[175])})});_0x17C5D[_$_ddbf[181]](_0x17EEF)});renderPaginationControls(_0x170FB,_0x17CBB,_0x17BFF,_0x17D19)}function renderPaginationControls(_0x170FB,_0x17CBB,_0x17BFF,_0x17D19){const _0x17D77=Math[_$_ddbf[120]](_0x170FB[_$_ddbf[59]]/ state[_$_ddbf[119]]);_0x17CBB[_$_ddbf[118]]= _$_ddbf[0];if(_0x17D77<= 1){return};if(_0x17BFF> 1){const _0x182F9=document[_$_ddbf[123]](_$_ddbf[183]);_0x182F9[_$_ddbf[124]]= _$_ddbf[184];_0x182F9[_$_ddbf[118]]= _$_ddbf[185];_0x182F9[_$_ddbf[48]](_$_ddbf[66],()=>{if(_0x17D19=== _$_ddbf[26]){state[_$_ddbf[99]]--;renderFreeGames()}else {state[_$_ddbf[102]]--;renderDonatorGames()};window[_$_ddbf[187]]({top:0,behavior:_$_ddbf[186]})});_0x17CBB[_$_ddbf[181]](_0x182F9)};for(let _0x181DF=1;_0x181DF<= _0x17D77;_0x181DF++){const _0x1829B=document[_$_ddbf[123]](_$_ddbf[183]);_0x1829B[_$_ddbf[124]]= ("\x70\x61\x67\x65\x2D\x62\x74\x6E\x20"+(_0x181DF=== _0x17BFF?_$_ddbf[51]:_$_ddbf[0])+_$_ddbf[0]);_0x1829B[_$_ddbf[188]]= _0x181DF;_0x1829B[_$_ddbf[48]](_$_ddbf[66],()=>{if(_0x181DF!== _0x17BFF){if(_0x17D19=== _$_ddbf[26]){state[_$_ddbf[99]]= _0x181DF;renderFreeGames()}else {state[_$_ddbf[102]]= _0x181DF;renderDonatorGames()};window[_$_ddbf[187]]({top:0,behavior:_$_ddbf[186]})}});_0x17CBB[_$_ddbf[181]](_0x1829B)};if(_0x17BFF< _0x17D77){const _0x1823D=document[_$_ddbf[123]](_$_ddbf[183]);_0x1823D[_$_ddbf[124]]= _$_ddbf[184];_0x1823D[_$_ddbf[118]]= _$_ddbf[189];_0x1823D[_$_ddbf[48]](_$_ddbf[66],()=>{if(_0x17D19=== _$_ddbf[26]){state[_$_ddbf[99]]++;renderFreeGames()}else {state[_$_ddbf[102]]++;renderDonatorGames()};window[_$_ddbf[187]]({top:0,behavior:_$_ddbf[186]})});_0x17CBB[_$_ddbf[181]](_0x1823D)}}function renderAdminGameTable(){const _0x17A29=$(_$_ddbf[190]);_0x17A29[_$_ddbf[118]]= _$_ddbf[0];if(state[_$_ddbf[14]][_$_ddbf[59]]=== 0){const _0x179CB=document[_$_ddbf[123]](_$_ddbf[191]);_0x179CB[_$_ddbf[118]]= "\x0A\x20\x20\x20\x20\x20\x20\x3C\x74\x64\x20\x63\x6F\x6C\x73\x70\x61\x6E\x3D\x22\x34\x22\x20\x63\x6C\x61\x73\x73\x3D\x22\x65\x6D\x70\x74\x79\x2D\x74\x61\x62\x6C\x65\x2D\x6D\x65\x73\x73\x61\x67\x65\x22\x3E\x0A\x20\x20\x20\x20\x20\x20\x20\x20\x4E\x6F\x20\x67\x61\x6D\x65\x73\x20\x61\x64\x64\x65\x64\x20\x79\x65\x74\x2E\x20\x55\x73\x65\x20\x74\x68\x65\x20\x66\x6F\x72\x6D\x20\x62\x65\x6C\x6F\x77\x20\x74\x6F\x20\x61\x64\x64\x20\x67\x61\x6D\x65\x73\x20\x6F\x72\x20\x69\x6D\x70\x6F\x72\x74\x20\x66\x72\x6F\x6D\x20\x61\x20\x66\x69\x6C\x65\x2E\x0A\x20\x20\x20\x20\x20\x20\x3C\x2F\x74\x64\x3E\x0A\x20\x20\x20\x20";_0x17A29[_$_ddbf[181]](_0x179CB);return};state[_$_ddbf[14]][_$_ddbf[182]]((_0x16DAD)=>{const _0x17A87=document[_$_ddbf[123]](_$_ddbf[191]);_0x17A87[_$_ddbf[118]]= ("\x0A\x20\x20\x20\x20\x20\x20\x3C\x74\x64\x3E"+_0x16DAD[_$_ddbf[62]]+_$_ddbf[192]+_0x16DAD[_$_ddbf[42]]+_$_ddbf[192]+(_0x16DAD[_$_ddbf[25]]=== _$_ddbf[26]?_$_ddbf[193]:_$_ddbf[194])+_$_ddbf[195]+_0x16DAD[_$_ddbf[62]]+_$_ddbf[196]+_0x16DAD[_$_ddbf[62]]+_$_ddbf[197]);_0x17A87[_$_ddbf[3]](_$_ddbf[198])[_$_ddbf[48]](_$_ddbf[66],()=>{return editGame(_0x16DAD[_$_ddbf[62]])});_0x17A87[_$_ddbf[3]](_$_ddbf[199])[_$_ddbf[48]](_$_ddbf[66],()=>{return deleteGame(_0x16DAD[_$_ddbf[62]])});_0x17A29[_$_ddbf[181]](_0x17A87)})}function updateSaveButtonText(){const _0x187BF=$(_$_ddbf[76]);const _0x183B5=$(_$_ddbf[87])[_$_ddbf[46]];if(_0x183B5){_0x187BF[_$_ddbf[188]]= _$_ddbf[200]}else {_0x187BF[_$_ddbf[188]]= _$_ddbf[201]}}function addFeature(){const _0x169A3=$(_$_ddbf[86]);const _0x16ABD=_0x169A3[_$_ddbf[46]][_$_ddbf[202]]();if(!_0x16ABD){return};const _0x16A5F=$(_$_ddbf[203]);const _0x16A01=document[_$_ddbf[123]](_$_ddbf[122]);_0x16A01[_$_ddbf[124]]= _$_ddbf[204];_0x16A01[_$_ddbf[118]]= ("\x0A\x20\x20\x20\x20\x3C\x73\x70\x61\x6E\x20\x63\x6C\x61\x73\x73\x3D\x22\x66\x65\x61\x74\x75\x72\x65\x2D\x74\x65\x78\x74\x22\x3E"+_0x16ABD+_$_ddbf[205]);_0x16A01[_$_ddbf[3]](_$_ddbf[207])[_$_ddbf[48]](_$_ddbf[66],()=>{_0x16A5F[_$_ddbf[206]](_0x16A01)});_0x16A5F[_$_ddbf[181]](_0x16A01);_0x169A3[_$_ddbf[46]]= _$_ddbf[0];_0x169A3[_$_ddbf[208]]()}function getFeatures(){const _0x17273=[];const _0x17215=$(_$_ddbf[203])[_$_ddbf[210]](_$_ddbf[209]);_0x17215[_$_ddbf[182]]((_0x172D1)=>{const _0x16ABD=_0x172D1[_$_ddbf[3]](_$_ddbf[211])[_$_ddbf[188]][_$_ddbf[202]]();if(_0x16ABD){_0x17273[_$_ddbf[212]](_0x16ABD)}});return _0x17273}function resetVersionButtons(){$(_$_ddbf[92])[_$_ddbf[53]][_$_ddbf[55]](_$_ddbf[51]);$(_$_ddbf[94])[_$_ddbf[53]][_$_ddbf[55]](_$_ddbf[51]);$(_$_ddbf[96])[_$_ddbf[53]][_$_ddbf[55]](_$_ddbf[51])}function clearGameForm(){$(_$_ddbf[213])[_$_ddbf[46]]= _$_ddbf[0];$(_$_ddbf[91])[_$_ddbf[46]]= _$_ddbf[0];$(_$_ddbf[214])[_$_ddbf[46]]= _$_ddbf[0];$(_$_ddbf[88])[_$_ddbf[46]]=  new Date()[_$_ddbf[90]]()[_$_ddbf[50]](_$_ddbf[89])[0];$(_$_ddbf[215])[_$_ddbf[46]]= _$_ddbf[0];$(_$_ddbf[216])[_$_ddbf[46]]= _$_ddbf[0];$(_$_ddbf[217])[_$_ddbf[46]]= _$_ddbf[0];$(_$_ddbf[218])[_$_ddbf[46]]= _$_ddbf[26];$(_$_ddbf[87])[_$_ddbf[46]]= _$_ddbf[0];$(_$_ddbf[203])[_$_ddbf[118]]= _$_ddbf[0];state[_$_ddbf[219]]= null;updateSaveButtonText()}function editGame(_0x16D4F){const _0x16DAD=state[_$_ddbf[14]][_$_ddbf[113]]((_0x16E0B)=>{return _0x16E0B[_$_ddbf[62]]=== _0x16D4F});if(!_0x16DAD){return};$(_$_ddbf[213])[_$_ddbf[46]]= _0x16DAD[_$_ddbf[42]];$(_$_ddbf[91])[_$_ddbf[46]]= _0x16DAD[_$_ddbf[139]];$(_$_ddbf[214])[_$_ddbf[46]]= _0x16DAD[_$_ddbf[37]];$(_$_ddbf[88])[_$_ddbf[46]]= _0x16DAD[_$_ddbf[64]];$(_$_ddbf[215])[_$_ddbf[46]]= _0x16DAD[_$_ddbf[153]];$(_$_ddbf[216])[_$_ddbf[46]]= _0x16DAD[_$_ddbf[130]];$(_$_ddbf[217])[_$_ddbf[46]]= _0x16DAD[_$_ddbf[165]];$(_$_ddbf[218])[_$_ddbf[46]]= _0x16DAD[_$_ddbf[25]];$(_$_ddbf[87])[_$_ddbf[46]]= _0x16DAD[_$_ddbf[62]];$(_$_ddbf[203])[_$_ddbf[118]]= _$_ddbf[0];_0x16DAD[_$_ddbf[162]][_$_ddbf[182]]((_0x16E69)=>{const _0x16A01=document[_$_ddbf[123]](_$_ddbf[122]);_0x16A01[_$_ddbf[124]]= _$_ddbf[204];_0x16A01[_$_ddbf[118]]= ("\x0A\x20\x20\x20\x20\x20\x20\x3C\x73\x70\x61\x6E\x20\x63\x6C\x61\x73\x73\x3D\x22\x66\x65\x61\x74\x75\x72\x65\x2D\x74\x65\x78\x74\x22\x3E"+_0x16E69+_$_ddbf[220]);_0x16A01[_$_ddbf[3]](_$_ddbf[207])[_$_ddbf[48]](_$_ddbf[66],()=>{$(_$_ddbf[203])[_$_ddbf[206]](_0x16A01)});$(_$_ddbf[203])[_$_ddbf[181]](_0x16A01)});state[_$_ddbf[219]]= _0x16DAD;updateSaveButtonText();$(_$_ddbf[213])[_$_ddbf[221]]({behavior:_$_ddbf[186]})}function deleteGame(_0x16D4F){if(!confirm(_$_ddbf[222])){return};state[_$_ddbf[14]]= state[_$_ddbf[14]][_$_ddbf[27]]((_0x16DAD)=>{return _0x16DAD[_$_ddbf[62]]!== _0x16D4F});saveGames();filterGamesByStatus();renderAdminGameTable()}function saveGameData(){const _0x184CF=$(_$_ddbf[213])[_$_ddbf[46]][_$_ddbf[202]]();let _0x1858B=$(_$_ddbf[91])[_$_ddbf[46]][_$_ddbf[202]]();const _0x16BD7=$(_$_ddbf[214])[_$_ddbf[46]][_$_ddbf[202]]();const _0x1852D=$(_$_ddbf[88])[_$_ddbf[46]][_$_ddbf[202]]();const _0x18413=$(_$_ddbf[215])[_$_ddbf[46]][_$_ddbf[202]]();const _0x1796D=$(_$_ddbf[216])[_$_ddbf[46]][_$_ddbf[202]]();const _0x18357=$(_$_ddbf[217])[_$_ddbf[46]][_$_ddbf[202]]();const _0x17D19=$(_$_ddbf[218])[_$_ddbf[46]];const _0x183B5=$(_$_ddbf[87])[_$_ddbf[46]];const _0x17273=getFeatures();if(!_0x184CF){alert(_$_ddbf[223]);$(_$_ddbf[213])[_$_ddbf[208]]();return};if(!_0x16BD7){alert(_$_ddbf[224]);$(_$_ddbf[214])[_$_ddbf[208]]();return};if(!_0x1852D){alert(_$_ddbf[225]);$(_$_ddbf[88])[_$_ddbf[208]]();return};if(!_0x18413){alert(_$_ddbf[226]);$(_$_ddbf[215])[_$_ddbf[208]]();return};if(!_0x18357){alert(_$_ddbf[227]);$(_$_ddbf[217])[_$_ddbf[208]]();return};if(_0x17273[_$_ddbf[59]]=== 0){alert(_$_ddbf[228]);$(_$_ddbf[86])[_$_ddbf[208]]();return};if(_0x1858B&&  !_0x1858B[_$_ddbf[147]](_$_ddbf[146])&& _0x1858B!== _$_ddbf[93]&& _0x1858B!== _$_ddbf[95]){_0x1858B= _$_ddbf[146]+ _0x1858B};const _0x16DAD={title,version,packageName,updatedDate:_0x1852D||  new Date()[_$_ddbf[90]]()[_$_ddbf[121]](0,10),imageUrl,youtubeId,downloadUrl,features,status};if(_0x183B5&& state[_$_ddbf[219]]){_0x16DAD[_$_ddbf[62]]= parseInt(_0x183B5);const _0x18471=state[_$_ddbf[14]][_$_ddbf[229]]((_0x16E0B)=>{return _0x16E0B[_$_ddbf[62]]=== _0x16DAD[_$_ddbf[62]]});if(_0x18471!==  -1){state[_$_ddbf[14]][_0x18471]= _0x16DAD}}else {_0x16DAD[_$_ddbf[62]]= Math[_$_ddbf[230]](0,...state[_$_ddbf[14]][_$_ddbf[161]]((_0x16E0B)=>{return _0x16E0B[_$_ddbf[62]]}))+ 1;state[_$_ddbf[14]][_$_ddbf[212]](_0x16DAD)};saveGames();filterGamesByStatus();renderAdminGameTable();clearGameForm();alert(("\x47\x61\x6D\x65\x20\x22"+_0x184CF+_$_ddbf[231]+(_0x183B5?_$_ddbf[232]:_$_ddbf[233])+_$_ddbf[234]))}function exportGames(){const _0x16F83=confirm(_$_ddbf[235]+ _$_ddbf[236]+ _$_ddbf[237])?_$_ddbf[238]:_$_ddbf[239];let _0x16EC7,_0x1709D,_0x16FE1;if(_0x16F83=== _$_ddbf[238]){_0x16EC7= ("\x2F\x2F\x20\x47\x61\x6D\x65\x20\x64\x61\x74\x61\x20\x66\x6F\x72\x20\x43\x68\x65\x61\x74\x58\x70\x6C\x6F\x72\x65\x72\x0A\x2F\x2F\x20\x54\x68\x69\x73\x20\x66\x69\x6C\x65\x20\x63\x61\x6E\x20\x62\x65\x20\x67\x65\x6E\x65\x72\x61\x74\x65\x64\x20\x66\x72\x6F\x6D\x20\x74\x68\x65\x20\x61\x64\x6D\x69\x6E\x20\x70\x61\x6E\x65\x6C\x20\x61\x6E\x64\x20\x75\x70\x6C\x6F\x61\x64\x65\x64\x20\x74\x6F\x20\x47\x69\x74\x48\x75\x62\x0A\x63\x6F\x6E\x73\x74\x20\x47\x41\x4D\x45\x5F\x44\x41\x54\x41\x20\x3D\x20"+JSON[_$_ddbf[21]](state[_$_ddbf[14]],null,2)+_$_ddbf[240]);_0x1709D= _$_ddbf[241];_0x16FE1= "\x67\x61\x6D\x65\x64\x61\x74\x61\x2E\x6A\x73"}else {_0x16EC7= JSON[_$_ddbf[21]](state[_$_ddbf[14]],null,2);_0x1709D= _$_ddbf[242];_0x16FE1= ("\x63\x68\x65\x61\x74\x78\x70\x6C\x6F\x72\x65\x72\x5F\x67\x61\x6D\x65\x73\x5F"+ new Date()[_$_ddbf[90]]()[_$_ddbf[121]](0,10)+_$_ddbf[243])};const _0x16F25=("\x64\x61\x74\x61\x3A"+_0x1709D+_$_ddbf[244]+encodeURIComponent(_0x16EC7)+_$_ddbf[0]);const _0x1703F=document[_$_ddbf[123]](_$_ddbf[245]);_0x1703F[_$_ddbf[149]](_$_ddbf[172],_0x16F25);_0x1703F[_$_ddbf[149]](_$_ddbf[246],_0x16FE1);_0x1703F[_$_ddbf[107]][_$_ddbf[106]]= _$_ddbf[109];document[_$_ddbf[247]][_$_ddbf[181]](_0x1703F);_0x1703F[_$_ddbf[66]]();document[_$_ddbf[247]][_$_ddbf[206]](_0x1703F);if(_0x16F83=== _$_ddbf[238]){alert(_$_ddbf[248]+ _$_ddbf[249]+ _$_ddbf[250]+ _$_ddbf[251])}}function openYoutubeModal(_0x178B1,_0x1796D){$(_$_ddbf[252])[_$_ddbf[188]]= _0x178B1;let _0x1790F=_0x1796D;if(_0x1790F&& (_0x1790F[_$_ddbf[36]](_$_ddbf[131])|| _0x1790F[_$_ddbf[36]](_$_ddbf[132]))){if(_0x1790F[_$_ddbf[36]](_$_ddbf[133])){_0x1790F= _0x1790F[_$_ddbf[50]](_$_ddbf[133])[1];const _0x17853=_0x1790F[_$_ddbf[135]](_$_ddbf[134]);if(_0x17853!==  -1){_0x1790F= _0x1790F[_$_ddbf[136]](0,_0x17853)}}else {if(_0x1790F[_$_ddbf[36]](_$_ddbf[137])){_0x1790F= _0x1790F[_$_ddbf[50]](_$_ddbf[137])[1]}else {if(_0x1790F[_$_ddbf[36]](_$_ddbf[138])){_0x1790F= _0x1790F[_$_ddbf[50]](_$_ddbf[138])[1]}}}};const _0x16CF1=$(_$_ddbf[253]);_0x16CF1[_$_ddbf[254]]= ("\x68\x74\x74\x70\x73\x3A\x2F\x2F\x77\x77\x77\x2E\x79\x6F\x75\x74\x75\x62\x65\x2E\x63\x6F\x6D\x2F\x65\x6D\x62\x65\x64\x2F"+_0x1790F+_$_ddbf[0]);$(_$_ddbf[105])[_$_ddbf[107]][_$_ddbf[106]]= _$_ddbf[112];document[_$_ddbf[247]][_$_ddbf[107]][_$_ddbf[255]]= _$_ddbf[256]}function closeYoutubeModal(){$(_$_ddbf[105])[_$_ddbf[107]][_$_ddbf[106]]= _$_ddbf[109];const _0x16CF1=$(_$_ddbf[253]);_0x16CF1[_$_ddbf[254]]= _$_ddbf[0];document[_$_ddbf[247]][_$_ddbf[107]][_$_ddbf[255]]= _$_ddbf[257]}function importGames(_0x1732F){const _0x1738D=_0x1732F[_$_ddbf[98]][_$_ddbf[258]][0];if(!_0x1738D){return};const _0x173EB= new FileReader();_0x173EB[_$_ddbf[259]]= function(_0x17449){try{let _0x170FB;const _0x17505=_0x17449[_$_ddbf[98]][_$_ddbf[260]];if(_0x17505[_$_ddbf[36]](_$_ddbf[261])|| _0x17505[_$_ddbf[36]](_$_ddbf[262])){const _0x1761F=_0x17505[_$_ddbf[135]](_$_ddbf[263]);const _0x174A7=_0x17505[_$_ddbf[265]](_$_ddbf[264])+ 1;if(_0x1761F===  -1|| _0x174A7===  -1){throw  new Error(_$_ddbf[266])};const _0x175C1=_0x17505[_$_ddbf[136]](_0x1761F,_0x174A7);_0x170FB= JSON[_$_ddbf[15]](_0x175C1)}else {_0x170FB= JSON[_$_ddbf[15]](_0x17505)};if(!Array[_$_ddbf[267]](_0x170FB)){throw  new Error(_$_ddbf[268])};const _0x17563=_0x170FB[_$_ddbf[269]]((_0x16DAD)=>{return _0x16DAD[_$_ddbf[42]]&& _0x16DAD[_$_ddbf[37]]&& Array[_$_ddbf[267]](_0x16DAD[_$_ddbf[162]])&& _0x16DAD[_$_ddbf[162]][_$_ddbf[59]]> 0&& (_0x16DAD[_$_ddbf[25]]=== _$_ddbf[26]|| _0x16DAD[_$_ddbf[25]]=== _$_ddbf[29])});if(!_0x17563){throw  new Error(_$_ddbf[270])};if(confirm(("\x49\x6D\x70\x6F\x72\x74\x20"+_0x170FB[_$_ddbf[59]]+_$_ddbf[271]))){state[_$_ddbf[14]]= _0x170FB;saveGames();filterGamesByStatus();renderAdminGameTable();alert(_$_ddbf[272])}}catch(error){alert(("\x45\x72\x72\x6F\x72\x20\x69\x6D\x70\x6F\x72\x74\x69\x6E\x67\x20\x67\x61\x6D\x65\x73\x3A\x20"+error[_$_ddbf[273]]+_$_ddbf[0]))}};_0x173EB[_$_ddbf[274]](_0x1738D);_0x1732F[_$_ddbf[98]][_$_ddbf[46]]= _$_ddbf[0]}
+// Game data comes from the gamedata.js file which defines GAME_DATA
+// No default games needed here
+
+// Application state
+const state = {
+  allGames: [], // All games from localStorage or default
+  freeGames: [], // Filtered free games
+  donatorGames: [], // Filtered donator (exclusive) games
+  freeCurrentPage: 1,
+  donatorCurrentPage: 1,
+  gamesPerPage: 20,
+  searchTerm: '',
+  currentSection: 'free-mods', // Current active section: 'free-mods', 'donator-mods', 'admin'
+  editingGame: null, // Game being edited in the admin panel
+  highlightedGame: null, // Store highlighted game when accessed via direct link
+  freeSortOption: 'alphabetical', // Default sort for free games
+  donatorSortOption: 'alphabetical' // Default sort for donator games
+};
+
+// DOM Elements cache for performance
+const elementsCache = {};
+
+// Utility function to get DOM elements with caching
+function $(selector) {
+  if (!elementsCache[selector]) {
+    elementsCache[selector] = document.querySelector(selector);
+  }
+  return elementsCache[selector];
+}
+
+// Load games from GAME_DATA in gamedata.js for public viewing
+// In admin mode, load games from localStorage (separate from public display)
+function loadGames() {
+  // Test if localStorage is available and working (Firefox compatibility fix)
+  let localStorageAvailable = false;
+  try {
+    localStorage.setItem('localStorage_test', 'test');
+    localStorage.removeItem('localStorage_test');
+    localStorageAvailable = true;
+  } catch (e) {
+    console.warn('localStorage is not available:', e);
+    // Will proceed with default behavior
+  }
+
+  if (state.currentSection === 'admin') {
+    // For admin mode, load from localStorage admin games if available
+    if (localStorageAvailable) {
+      try {
+        const savedAdminGames = localStorage.getItem('cheatxplorer_admin_games');
+        if (savedAdminGames) {
+          state.allGames = JSON.parse(savedAdminGames);
+        } else {
+          // Start with empty admin games if nothing saved
+          state.allGames = [];
+        }
+      } catch (error) {
+        console.error('Failed to load admin games:', error);
+        state.allGames = [];  // Start with empty array if error
+      }
+    } else {
+      // If localStorage is not available, use empty array
+      state.allGames = [];
+      console.warn('Admin game data cannot be saved - localStorage not available');
+    }
+  } else {
+    // For public viewing (free and donator sections), always use GAME_DATA
+    // This ensures all users see the same games from the gamedata.js file
+    try {
+      state.allGames = [...GAME_DATA];
+    } catch (error) {
+      console.error('Error loading game data:', error);
+      state.allGames = []; // Use empty array if GAME_DATA is not available or valid
+    }
+  }
+
+  // Filter games by status
+  filterGamesByStatus();
+}
+
+// Save admin games to localStorage - doesn't affect display games
+function saveGames() {
+  // First check if localStorage is available (Firefox compatibility)
+  let localStorageAvailable = false;
+  try {
+    localStorage.setItem('localStorage_test', 'test');
+    localStorage.removeItem('localStorage_test');
+    localStorageAvailable = true;
+  } catch (e) {
+    console.warn('localStorage is not available:', e);
+    alert('Your browser has localStorage disabled or in private browsing mode. Game data cannot be saved.');
+    return;
+  }
+
+  if (localStorageAvailable) {
+    try {
+      localStorage.setItem('cheatxplorer_admin_games', JSON.stringify(state.allGames));
+    } catch (error) {
+      console.error('Failed to save admin games to localStorage:', error);
+      alert('Failed to save games. Your browser may have localStorage disabled, in private browsing mode, or storage is full.');
+    }
+  }
+}
+
+// Filter games by status (free vs exclusive/donator)
+function filterGamesByStatus() {
+  state.freeGames = state.allGames.filter(game => game.status === 'free');
+  state.donatorGames = state.allGames.filter(game => game.status === 'exclusive');
+
+  // If there's a highlighted game, auto-switch to the right section
+  // Note: This is only used for legacy URL format support without category prefix
+  // New URL format (free/packageName or donator/packageName) handles section switching directly
+  if (state.highlightedGame) {
+    // Get URL parameters to check if we're using the new or old format
+    const urlParams = new URLSearchParams(window.location.search);
+    const gameParam = urlParams.get('game');
+
+    // Only perform auto-section detection for legacy URLs (without category prefix)
+    if (gameParam && !gameParam.includes('/')) {
+      const inFreeGames = state.freeGames.some(game => game.packageName === state.highlightedGame);
+      const inDonatorGames = state.donatorGames.some(game => game.packageName === state.highlightedGame);
+
+      if (inFreeGames && state.currentSection !== 'free-mods') {
+        // Defer execution to avoid loops
+        setTimeout(() => switchSection('free-mods'), 0);
+      } else if (inDonatorGames && state.currentSection !== 'donator-mods') {
+        // Defer execution to avoid loops
+        setTimeout(() => switchSection('donator-mods'), 0);
+      }
+    }
+  }
+}
+
+// Filter games based on search term
+function filterGamesBySearch(games) {
+  if (!state.searchTerm) {
+    return games;
+  }
+
+  return games.filter(game => {
+    return game.title.toLowerCase().includes(state.searchTerm.toLowerCase()) ||
+           game.packageName.toLowerCase().includes(state.searchTerm.toLowerCase());
+  });
+}
+
+// Initialize the application
+document.addEventListener('DOMContentLoaded', () => {
+  // Check if we need to clear the search (after navigation refresh)
+  if (sessionStorage.getItem('clearSearch') === 'true') {
+    // Clear the search input
+    $('#search-input').value = '';
+    state.searchTerm = '';
+    // Reset the flag
+    sessionStorage.removeItem('clearSearch');
+  }
+
+  // Check for game in URL parameters
+  checkUrlParameters();
+
+  // Load games
+  loadGames();
+
+  // Initialize event listeners
+  initEventListeners();
+
+  // Render initial game cards (free games)
+  renderFreeGames();
+});
+
+// Check URL parameters for direct game link
+function checkUrlParameters() {
+  const urlParams = new URLSearchParams(window.location.search);
+  const gameParam = urlParams.get('game');
+  const section = urlParams.get('section');
+
+  if (gameParam) {
+    // Check if the game parameter has the new format (free/packageName or donator/packageName)
+    if (gameParam.includes('/')) {
+      const [category, packageName] = gameParam.split('/');
+      state.highlightedGame = packageName;
+
+      // Auto-switch to the correct section based on category
+      if (category === 'free') {
+        setTimeout(() => {
+          switchSection('free-mods');
+          $('#free-mods-btn').classList.add('active');
+          $('#donator-mods-btn').classList.remove('active');
+          $('#admin-btn').classList.remove('active');
+        }, 100);
+      } else if (category === 'donator') {
+        setTimeout(() => {
+          switchSection('donator-mods');
+          $('#donator-mods-btn').classList.add('active');
+          $('#free-mods-btn').classList.remove('active');
+          $('#admin-btn').classList.remove('active');
+        }, 100);
+      }
+    } else {
+      // Legacy format support (just packageName without category)
+      state.highlightedGame = gameParam;
+      // Will check after games are loaded which section it belongs to
+    }
+  }
+
+  // If the URL has a section parameter, switch to that section
+  if (section === 'donator') {
+    // After short delay, switch to donator section
+    setTimeout(() => {
+      switchSection('donator-mods');
+      // Select the donator tab
+      $('#donator-mods-btn').classList.add('active');
+      $('#free-mods-btn').classList.remove('active');
+      $('#admin-btn').classList.remove('active');
+    }, 100);
+  }
+}
+
+// Sort games based on selected option
+function sortGames(games, sortOption) {
+  if (!games || games.length === 0) return games;
+  
+  let sortedGames = [...games]; // Create a copy to avoid mutating the original array
+  
+  switch(sortOption) {
+    case 'alphabetical':
+      // Sort alphabetically by title (A-Z)
+      sortedGames.sort((a, b) => a.title.localeCompare(b.title));
+      break;
+    case 'newest':
+      // Sort by ID (newest first)
+      sortedGames.sort((a, b) => b.id - a.id);
+      break;
+    case 'latest':
+      // Sort by date (latest first) - assuming the date is in format YYYY-MM-DD
+      sortedGames.sort((a, b) => new Date(b.updatedDate) - new Date(a.updatedDate));
+      break;
+    default:
+      // Default to alphabetical
+      sortedGames.sort((a, b) => a.title.localeCompare(b.title));
+  }
+  
+  return sortedGames;
+}
+
+// Initialize all event listeners
+function initEventListeners() {
+  // Navigation between sections
+  $('#free-mods-btn').addEventListener('click', () => {
+    // Clear the highlighted game when navigating
+    state.highlightedGame = null;
+
+    // Clear search bar and reset search state
+    $('#search-input').value = '';
+    state.searchTerm = '';
+
+    // Clear URL parameters
+    if (window.history && window.history.pushState) {
+      const newUrl = window.location.protocol + "//" + window.location.host + window.location.pathname;
+      window.history.pushState({ path: newUrl }, '', newUrl);
+    }
+
+    switchSection('free-mods');
+  });
+
+  $('#donator-mods-btn').addEventListener('click', () => {
+    // Clear the highlighted game when navigating
+    state.highlightedGame = null;
+
+    // Clear search bar and reset search state
+    $('#search-input').value = '';
+    state.searchTerm = '';
+
+    // Clear URL parameters
+    if (window.history && window.history.pushState) {
+      const newUrl = window.location.protocol + "//" + window.location.host + window.location.pathname;
+      window.history.pushState({ path: newUrl }, '', newUrl);
+    }
+
+    switchSection('donator-mods');
+  });
+
+  $('#admin-btn').addEventListener('click', () => {
+    // Clear the highlighted game when navigating
+    state.highlightedGame = null;
+
+    // Clear search bar and reset search state
+    $('#search-input').value = '';
+    state.searchTerm = '';
+
+    // Clear URL parameters
+    if (window.history && window.history.pushState) {
+      const newUrl = window.location.protocol + "//" + window.location.host + window.location.pathname;
+      window.history.pushState({ path: newUrl }, '', newUrl);
+    }
+
+    switchSection('admin');
+  });
+
+  // Search functionality
+  $('#search-input').addEventListener('input', handleSearch);
+  $('#search-btn').addEventListener('click', handleSearch);
+
+  // Admin panel functionality
+  $('#clear-form-btn').addEventListener('click', clearGameForm);
+  $('#save-game-btn').addEventListener('click', saveGameData);
+  $('#export-games-btn').addEventListener('click', exportGames);
+  $('#import-games-btn').addEventListener('click', () => $('#import-file').click());
+  $('#import-file').addEventListener('change', importGames);
+
+  // Features form functionality
+  $('#add-feature-btn').addEventListener('click', addFeature);
+  $('#new-feature-input').addEventListener('keypress', (e) => {
+    if (e.key === 'Enter') {
+      e.preventDefault();
+      addFeature();
+    }
+  });
+
+  // Update button text based on edit state
+  $('#game-id').addEventListener('input', updateSaveButtonText);
+
+  // Date picker default to today
+  if (!$('#game-updated').value) {
+    const today = new Date().toISOString().split('T')[0];
+    $('#game-updated').value = today;
+  }
+
+  // Version buttons functionality
+  $('#version-latest').addEventListener('click', () => {
+    $('#game-version').value = '';
+    resetVersionButtons();
+    $('#version-latest').classList.add('active');
+  });
+
+  $('#version-outdated').addEventListener('click', () => {
+    $('#game-version').value = 'OUTDATED';
+    resetVersionButtons();
+    $('#version-outdated').classList.add('active');
+  });
+
+  $('#version-not-working').addEventListener('click', () => {
+    $('#game-version').value = 'NOT WORKING';
+    resetVersionButtons();
+    $('#version-not-working').classList.add('active');
+  });
+
+  // When typing in the version field, remove active class from buttons
+  $('#game-version').addEventListener('input', () => {
+    resetVersionButtons();
+  });
+
+  // Sorting controls
+  $('#free-sort-options').addEventListener('change', (e) => {
+    state.freeSortOption = e.target.value;
+    state.freeCurrentPage = 1; // Reset to first page when changing sort
+    renderFreeGames();
+  });
+  
+  $('#donator-sort-options').addEventListener('change', (e) => {
+    state.donatorSortOption = e.target.value;
+    state.donatorCurrentPage = 1; // Reset to first page when changing sort
+    renderDonatorGames();
+  });
+
+  // YouTube modal close button
+  $('.close-modal').addEventListener('click', closeYoutubeModal);
+
+  // Close modal when clicking outside of it
+  window.addEventListener('click', (event) => {
+    const modal = $('#youtube-modal');
+    if (event.target === modal) {
+      closeYoutubeModal();
+    }
+  });
+}
+
+// Switch between the main sections (free mods, donator mods, admin)
+function switchSection(sectionId) {
+  // Update state
+  state.currentSection = sectionId;
+  
+  // Reset to page 1 when switching sections
+  state.freeCurrentPage = 1;
+  state.donatorCurrentPage = 1;
+
+  // Hide all sections
+  $('#free-mods-section').style.display = 'none';
+  $('#donator-mods-section').style.display = 'none';
+  $('#admin-section').style.display = 'none';
+
+  // Remove active class from all navigation buttons
+  $('#free-mods-btn').classList.remove('active');
+  $('#donator-mods-btn').classList.remove('active');
+  $('#admin-btn').classList.remove('active');
+
+  // Load the right data depending on the section
+  loadGames(); // This now loads from GAME_DATA for display, or from localStorage for admin
+
+  // Show selected section and update active button
+  switch (sectionId) {
+    case 'free-mods':
+      $('#free-mods-section').style.display = 'block';
+      $('#free-mods-btn').classList.add('active');
+      renderFreeGames();
+      break;
+    case 'donator-mods':
+      $('#donator-mods-section').style.display = 'block';
+      $('#donator-mods-btn').classList.add('active');
+      renderDonatorGames();
+      break;
+    case 'admin':
+      $('#admin-section').style.display = 'block';
+      $('#admin-btn').classList.add('active');
+      renderAdminGameTable();
+      break;
+  }
+}
+
+// Handle search input
+function handleSearch() {
+  state.searchTerm = $('#search-input').value.toLowerCase();
+  state.freeCurrentPage = 1; // Reset to first page on new search
+  state.donatorCurrentPage = 1;
+
+  // Render the current section
+  if (state.currentSection === 'free-mods') {
+    renderFreeGames();
+  } else if (state.currentSection === 'donator-mods') {
+    renderDonatorGames();
+  }
+}
+
+// Render free games
+function renderFreeGames() {
+  let filteredGames = filterGamesBySearch(state.freeGames);
+
+  // If there's a highlighted game, only show that game
+  if (state.highlightedGame) {
+    // Check if the highlighted game is in this section
+    const highlightedGame = filteredGames.find(game => game.packageName === state.highlightedGame);
+    if (highlightedGame) {
+      filteredGames = [highlightedGame];
+      state.freeCurrentPage = 1; // Reset to first page
+    }
+  } else {
+    // Apply sorting (skip if highlighting a specific game)
+    filteredGames = sortGames(filteredGames, state.freeSortOption);
+    
+    // Update the sort select to match the current state
+    $('#free-sort-options').value = state.freeSortOption;
+  }
+
+  renderGamesList(filteredGames, $('#free-games-grid'), $('#free-pagination'), state.freeCurrentPage, 'free');
+}
+
+// Render donator games
+function renderDonatorGames() {
+  let filteredGames = filterGamesBySearch(state.donatorGames);
+
+  // If there's a highlighted game, only show that game
+  if (state.highlightedGame) {
+    // Check if the highlighted game is in this section
+    const highlightedGame = filteredGames.find(game => game.packageName === state.highlightedGame);
+    if (highlightedGame) {
+      filteredGames = [highlightedGame];
+      state.donatorCurrentPage = 1; // Reset to first page
+    }
+  } else {
+    // Apply sorting (skip if highlighting a specific game)
+    filteredGames = sortGames(filteredGames, state.donatorSortOption);
+    
+    // Update the sort select to match the current state
+    $('#donator-sort-options').value = state.donatorSortOption;
+  }
+
+  renderGamesList(filteredGames, $('#donator-games-grid'), $('#donator-pagination'), state.donatorCurrentPage, 'exclusive');
+}
+
+// Generic function to render a list of games
+function renderGamesList(games, gridElement, paginationElement, currentPage, status) {
+  // Clear current content
+  gridElement.innerHTML = '';
+
+  // Show empty state if no games match
+  if (games.length === 0) {
+    gridElement.innerHTML = `
+      <div class="empty-state">
+        <h3>No Games Found</h3>
+        <p>Try adjusting your search.</p>
+      </div>
+    `;
+    // Hide pagination when no results
+    paginationElement.innerHTML = '';
+    return;
+  }
+
+  // Calculate pagination
+  const totalPages = Math.ceil(games.length / state.gamesPerPage);
+  const startIndex = (currentPage - 1) * state.gamesPerPage;
+  const endIndex = startIndex + state.gamesPerPage;
+  const currentGames = games.slice(startIndex, endIndex);
+
+  // Render each game card
+  currentGames.forEach(game => {
+    const gameCard = document.createElement('div');
+    gameCard.className = 'game-card';
+
+    // Generate play store url from package name
+    const playStoreUrl = `https://play.google.com/store/apps/details?id=${game.packageName}`;
+
+    // Set tag class based on status
+    const tagClass = status === 'free' ? 'free-tag' : 'exclusive-tag';
+    const tagText = status === 'free' ? 'FREE' : 'EXCLUSIVE';
+
+    // Extract YouTube video ID if full URL is provided
+    let videoId = game.youtubeId;
+
+    // Check if it's a YouTube URL
+    if (videoId && videoId.includes('youtube.com') || videoId.includes('youtu.be')) {
+      // Extract video ID from different YouTube URL formats
+      if (videoId.includes('v=')) {
+        // Format: https://www.youtube.com/watch?v=VIDEO_ID
+        videoId = videoId.split('v=')[1];
+        // Remove additional parameters if any
+        const ampersandPosition = videoId.indexOf('&');
+        if (ampersandPosition !== -1) {
+          videoId = videoId.substring(0, ampersandPosition);
+        }
+      } else if (videoId.includes('youtu.be/')) {
+        // Format: https://youtu.be/VIDEO_ID
+        videoId = videoId.split('youtu.be/')[1];
+      } else if (videoId.includes('embed/')) {
+        // Format: https://www.youtube.com/embed/VIDEO_ID
+        videoId = videoId.split('embed/')[1];
+      }
+    }
+
+    // Format version with special handling
+    let formattedVersion;
+    if (!game.version || game.version === '') {
+      formattedVersion = '∞ Latest';
+    } else if (game.version === 'OUTDATED' || game.version === 'NOT WORKING') {
+      formattedVersion = `<span class="version-${game.version.toLowerCase().replace(' ', '-')}">${game.version}</span>`;
+    } else {
+      formattedVersion = game.version.startsWith('v') ? game.version : `v${game.version}`;
+    }
+
+    // Add data-package attribute for linking
+    gameCard.setAttribute('data-package', game.packageName);
+
+    // Set highlighted class if this is the game from the URL
+    if (state.highlightedGame === game.packageName) {
+      gameCard.classList.add('highlighted');
+    }
+
+    gameCard.innerHTML = `
+      <span class="tag ${tagClass}">${tagText}</span>
+      <button class="copy-link-btn" title="Copy direct link to this mod">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path>
+          <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path>
+        </svg>
+      </button>
+      <a href="${playStoreUrl}" target="_blank" class="game-image" style="background-image: url('${game.imageUrl}');" title="Open ${game.title} on Google Play Store">
+        <!-- Game image displayed as background, clickable to Play Store -->
+      </a>
+      <div class="game-content">
+        <h3 class="game-title">${game.title}</h3>
+        <div class="game-info">
+          <span class="version">${formattedVersion}</span>
+          <span class="updated">Updated: ${game.updatedDate}</span>
+        </div>
+        <div class="mod-features">
+          <p class="mod-features-title">MOD FEATURES:</p>
+          <ul>
+            ${game.features.map(feature => `<li>${feature}</li>`).join('')}
+          </ul>
+        </div>
+        <div class="card-actions">
+          <button class="preview-btn" data-youtube="${videoId}">
+            <img src="https://img.icons8.com/material-outlined/16/FFFFFF/play--v1.png" alt="Play">
+            Preview
+          </button>
+          <a href="${game.downloadUrl}" target="_blank" class="download-btn">
+            <img src="https://img.icons8.com/material-outlined/16/FFFFFF/download--v1.png" alt="Download">
+            Download
+          </a>
+        </div>
+      </div>
+    `;
+
+    // Handle YouTube preview button - hide if no YouTube ID
+    const previewBtn = gameCard.querySelector('.preview-btn');
+    const downloadBtn = gameCard.querySelector('.download-btn');
+
+    if (!game.youtubeId) {
+      // Hide preview button if no YouTube ID is available
+      previewBtn.style.display = 'none';
+      // Make download button take full width
+      downloadBtn.classList.add('download-btn-full');
+    } else {
+      // Add event listener for YouTube preview
+      previewBtn.addEventListener('click', () => {
+        openYoutubeModal(game.title, videoId);
+      });
+    }
+
+    // Add event listener for the copy link button
+    const copyLinkBtn = gameCard.querySelector('.copy-link-btn');
+    copyLinkBtn.addEventListener('click', (e) => {
+      e.stopPropagation();
+
+      // Create the direct link with the game package name and category
+      const currentUrl = new URL(window.location.href);
+
+      // Add category prefix based on status (free or donator/exclusive)
+      const category = status === 'free' ? 'free' : 'donator';
+      currentUrl.search = `?game=${category}/${game.packageName}`;
+      const directLink = currentUrl.toString();
+
+      // Copy to clipboard
+      navigator.clipboard.writeText(directLink).then(() => {
+        // Show a temporary success message
+        copyLinkBtn.classList.add('success');
+        setTimeout(() => {
+          copyLinkBtn.classList.remove('success');
+        }, 1500);
+
+        // Alert to notify user (can be replaced with a nicer notification)
+        alert(`Link copied to clipboard!\n\nDirect link: ${directLink}`);
+      }).catch(err => {
+        console.error('Could not copy link: ', err);
+        alert('Failed to copy link. Please try again.');
+      });
+    });
+
+    gridElement.appendChild(gameCard);
+  });
+
+  // Render pagination
+  renderPaginationControls(games, paginationElement, currentPage, status);
+}
+
+// Render pagination controls
+function renderPaginationControls(games, paginationElement, currentPage, status) {
+  const totalPages = Math.ceil(games.length / state.gamesPerPage);
+  paginationElement.innerHTML = '';
+
+  if (totalPages <= 1) return;
+
+  // Previous button
+  if (currentPage > 1) {
+    const prevBtn = document.createElement('button');
+    prevBtn.className = 'page-btn';
+    prevBtn.innerHTML = '&lt;';
+    prevBtn.addEventListener('click', () => {
+      if (status === 'free') {
+        state.freeCurrentPage--;
+        renderFreeGames();
+      } else {
+        state.donatorCurrentPage--;
+        renderDonatorGames();
+      }
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+    paginationElement.appendChild(prevBtn);
+  }
+
+  // Page numbers
+  for (let i = 1; i <= totalPages; i++) {
+    const pageBtn = document.createElement('button');
+    pageBtn.className = `page-btn ${i === currentPage ? 'active' : ''}`;
+    pageBtn.textContent = i;
+
+    pageBtn.addEventListener('click', () => {
+      if (i !== currentPage) {
+        if (status === 'free') {
+          state.freeCurrentPage = i;
+          renderFreeGames();
+        } else {
+          state.donatorCurrentPage = i;
+          renderDonatorGames();
+        }
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+      }
+    });
+
+    paginationElement.appendChild(pageBtn);
+  }
+
+  // Next button
+  if (currentPage < totalPages) {
+    const nextBtn = document.createElement('button');
+    nextBtn.className = 'page-btn';
+    nextBtn.innerHTML = '&gt;';
+    nextBtn.addEventListener('click', () => {
+      if (status === 'free') {
+        state.freeCurrentPage++;
+        renderFreeGames();
+      } else {
+        state.donatorCurrentPage++;
+        renderDonatorGames();
+      }
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+    paginationElement.appendChild(nextBtn);
+  }
+}
+
+//
+// ADMIN PANEL FUNCTIONALITY - Completely separate from the Mods Page display
+//
+
+// Render the admin game table
+function renderAdminGameTable() {
+  const tableBody = $('#games-table-body');
+  tableBody.innerHTML = '';
+
+  // Show message if no games exist
+  if (state.allGames.length === 0) {
+    const emptyRow = document.createElement('tr');
+    emptyRow.innerHTML = `
+      <td colspan="4" class="empty-table-message">
+        No games added yet. Use the form below to add games or import from a file.
+      </td>
+    `;
+    tableBody.appendChild(emptyRow);
+    return;
+  }
+
+  state.allGames.forEach(game => {
+    const row = document.createElement('tr');
+    row.innerHTML = `
+      <td>${game.id}</td>
+      <td>${game.title}</td>
+      <td>${game.status === 'free' ? 'Free' : 'Exclusive'}</td>
+      <td class="table-actions">
+        <button class="admin-btn" data-action="edit" data-id="${game.id}">Edit</button>
+        <button class="admin-btn danger-btn" data-action="delete" data-id="${game.id}">Delete</button>
+      </td>
+    `;
+
+    // Add event listeners to buttons
+    row.querySelector('[data-action="edit"]').addEventListener('click', () => editGame(game.id));
+    row.querySelector('[data-action="delete"]').addEventListener('click', () => deleteGame(game.id));
+
+    tableBody.appendChild(row);
+  });
+}
+
+// Update the Save button text based on whether we're editing or adding
+function updateSaveButtonText() {
+  const saveBtn = $('#save-game-btn');
+  const gameId = $('#game-id').value;
+
+  if (gameId) {
+    saveBtn.textContent = 'Update Game';
+  } else {
+    saveBtn.textContent = 'Add Game';
+  }
+}
+
+// Function to add a new feature from the input
+function addFeature() {
+  const featureInput = $('#new-feature-input');
+  const featureText = featureInput.value.trim();
+
+  if (!featureText) {
+    return; // Don't add empty features
+  }
+
+  // Create a new feature item
+  const featuresContainer = $('#features-container');
+  const featureItem = document.createElement('div');
+  featureItem.className = 'feature-item';
+
+  featureItem.innerHTML = `
+    <span class="feature-text">${featureText}</span>
+    <button class="remove-feature" title="Remove this feature">&times;</button>
+  `;
+
+  // Add event listener to remove button
+  featureItem.querySelector('.remove-feature').addEventListener('click', () => {
+    featuresContainer.removeChild(featureItem);
+  });
+
+  // Add the feature to the container
+  featuresContainer.appendChild(featureItem);
+
+  // Clear the input for next feature
+  featureInput.value = '';
+  featureInput.focus();
+}
+
+// Get all features from the features container
+function getFeatures() {
+  const features = [];
+  const featureItems = $('#features-container').querySelectorAll('.feature-item');
+
+  featureItems.forEach(item => {
+    const featureText = item.querySelector('.feature-text').textContent.trim();
+    if (featureText) {
+      features.push(featureText);
+    }
+  });
+
+  return features;
+}
+
+// Helper function to reset active state on version buttons
+function resetVersionButtons() {
+  $('#version-latest').classList.remove('active');
+  $('#version-outdated').classList.remove('active');
+  $('#version-not-working').classList.remove('active');
+}
+
+// Clear the game form
+function clearGameForm() {
+  $('#game-title').value = '';
+  $('#game-version').value = '';
+  $('#game-package').value = '';
+  // Set current date for updated
+  $('#game-updated').value = new Date().toISOString().split('T')[0];
+  $('#game-thumbnail').value = '';
+  $('#game-youtube').value = '';
+  $('#game-download').value = '';
+  $('#game-status').value = 'free';
+  $('#game-id').value = '';
+
+  // Clear features container
+  $('#features-container').innerHTML = '';
+
+  state.editingGame = null;
+  updateSaveButtonText();
+}
+
+// Edit a game
+function editGame(id) {
+  const game = state.allGames.find(g => g.id === id);
+  if (!game) return;
+
+  // Set the form values
+  $('#game-title').value = game.title;
+  $('#game-version').value = game.version;
+  $('#game-package').value = game.packageName;
+  $('#game-updated').value = game.updatedDate;
+  $('#game-thumbnail').value = game.imageUrl;
+  $('#game-youtube').value = game.youtubeId;
+  $('#game-download').value = game.downloadUrl;
+  $('#game-status').value = game.status;
+  $('#game-id').value = game.id;
+
+  // Clear existing features and add each feature from game
+  $('#features-container').innerHTML = '';
+  game.features.forEach(feature => {
+    const featureItem = document.createElement('div');
+    featureItem.className = 'feature-item';
+
+    featureItem.innerHTML = `
+      <span class="feature-text">${feature}</span>
+      <button class="remove-feature" title="Remove this feature">&times;</button>
+    `;
+
+    // Add event listener to remove button
+    featureItem.querySelector('.remove-feature').addEventListener('click', () => {
+      $('#features-container').removeChild(featureItem);
+    });
+
+    $('#features-container').appendChild(featureItem);
+  });
+
+  state.editingGame = game;
+  updateSaveButtonText();
+
+  // Scroll to the form
+  $('#game-title').scrollIntoView({ behavior: 'smooth' });
+}
+
+// Delete a game
+function deleteGame(id) {
+  if (!confirm('Are you sure you want to delete this game?')) return;
+
+  state.allGames = state.allGames.filter(game => game.id !== id);
+  saveGames();
+  filterGamesByStatus();
+  renderAdminGameTable();
+}
+
+// Save game data from the form
+function saveGameData() {
+  // Get form values
+  const title = $('#game-title').value.trim();
+  let version = $('#game-version').value.trim();
+  const packageName = $('#game-package').value.trim();
+  const updatedDate = $('#game-updated').value.trim();
+  const imageUrl = $('#game-thumbnail').value.trim();
+  const youtubeId = $('#game-youtube').value.trim();
+  const downloadUrl = $('#game-download').value.trim();
+  const status = $('#game-status').value;
+  const gameId = $('#game-id').value;
+
+  // Get features from the container
+  const features = getFeatures();
+
+  // Basic validation
+  if (!title) {
+    alert('Please enter a title for the game');
+    $('#game-title').focus();
+    return;
+  }
+
+  if (!packageName) {
+    alert('Please enter a package name for the game');
+    $('#game-package').focus();
+    return;
+  }
+
+  if (!updatedDate) {
+    alert('Please select an updated date');
+    $('#game-updated').focus();
+    return;
+  }
+
+  if (!imageUrl) {
+    alert('Please provide a thumbnail URL');
+    $('#game-thumbnail').focus();
+    return;
+  }
+
+  if (!downloadUrl) {
+    alert('Please provide a download URL');
+    $('#game-download').focus();
+    return;
+  }
+
+  if (features.length === 0) {
+    alert('Please add at least one mod feature');
+    $('#new-feature-input').focus();
+    return;
+  }
+
+  // Format version for display when needed
+  // Note: version can be empty (will display as "∞ Latest")
+  if (version && !version.startsWith('v') && 
+      version !== 'OUTDATED' && version !== 'NOT WORKING') {
+    version = 'v' + version;
+  }
+
+  // Create game object with the updated format
+  const game = {
+    title,
+    version,
+    packageName,
+    updatedDate: updatedDate || new Date().toISOString().slice(0, 10),
+    imageUrl,
+    youtubeId,
+    downloadUrl,
+    features,
+    status
+  };
+
+  // Update existing or add new
+  if (gameId && state.editingGame) {
+    // Update existing game
+    game.id = parseInt(gameId);
+
+    const index = state.allGames.findIndex(g => g.id === game.id);
+    if (index !== -1) {
+      state.allGames[index] = game;
+    }
+  } else {
+    // Add new game with new ID
+    game.id = Math.max(0, ...state.allGames.map(g => g.id)) + 1;
+    state.allGames.push(game);
+  }
+
+  // Save and update UI
+  saveGames();
+  filterGamesByStatus();
+  renderAdminGameTable();
+  clearGameForm();
+
+  // Show confirmation
+  alert(`Game "${title}" ${gameId ? 'updated' : 'added'} successfully!`);
+}
+
+// Export games to either gamedata.js or JSON file
+function exportGames() {
+  // Get export format preference
+  const exportFormat = confirm(
+    'Do you want to export as gamedata.js file for direct use in the website?\n\n' +
+    'Click "OK" for gamedata.js format (recommended)\n' +
+    'Click "Cancel" for JSON format'
+  ) ? 'js' : 'json';
+
+  let dataStr, mimeType, fileName;
+
+  if (exportFormat === 'js') {
+    // Export as gamedata.js with proper JavaScript syntax
+    dataStr = `// Game data for CheatXplorer
+// This file can be generated from the admin panel and uploaded to GitHub
+const GAME_DATA = ${JSON.stringify(state.allGames, null, 2)};`;
+    mimeType = 'application/javascript';
+    fileName = `gamedata.js`;
+  } else {
+    // Export as regular JSON
+    dataStr = JSON.stringify(state.allGames, null, 2);
+    mimeType = 'application/json';
+    fileName = `cheatxplorer_games_${new Date().toISOString().slice(0, 10)}.json`;
+  }
+
+  const dataUri = `data:${mimeType};charset=utf-8,${encodeURIComponent(dataStr)}`;
+
+  const linkElement = document.createElement('a');
+  linkElement.setAttribute('href', dataUri);
+  linkElement.setAttribute('download', fileName);
+  linkElement.style.display = 'none';
+  document.body.appendChild(linkElement);
+  linkElement.click();
+  document.body.removeChild(linkElement);
+
+  if (exportFormat === 'js') {
+    alert(
+      'gamedata.js file has been exported. To update your website:\n\n' +
+      '1. Upload this file to your GitHub repository\n' +
+      '2. Replace the existing gamedata.js file\n' +
+      '3. All users will see the updated game list when they visit your site'
+    );
+  }
+}
+
+// YouTube Modal Functions
+function openYoutubeModal(gameTitle, youtubeId) {
+  // Set the game title in the modal
+  $('#modal-game-title').textContent = gameTitle;
+
+  // Process YouTube ID if it's a full URL
+  let videoId = youtubeId;
+  if (videoId && (videoId.includes('youtube.com') || videoId.includes('youtu.be'))) {
+    // Extract video ID from different YouTube URL formats
+    if (videoId.includes('v=')) {
+      // Format: https://www.youtube.com/watch?v=VIDEO_ID
+      videoId = videoId.split('v=')[1];
+      // Remove additional parameters if any
+      const ampersandPosition = videoId.indexOf('&');
+      if (ampersandPosition !== -1) {
+        videoId = videoId.substring(0, ampersandPosition);
+      }
+    } else if (videoId.includes('youtu.be/')) {
+      // Format: https://youtu.be/VIDEO_ID
+      videoId = videoId.split('youtu.be/')[1];
+    } else if (videoId.includes('embed/')) {
+      // Format: https://www.youtube.com/embed/VIDEO_ID
+      videoId = videoId.split('embed/')[1];
+    }
+  }
+
+  // Set the YouTube iframe src
+  const iframe = $('#youtube-iframe');
+  iframe.src = `https://www.youtube.com/embed/${videoId}`;
+
+  // Display the modal
+  $('#youtube-modal').style.display = 'block';
+
+  // Prevent scrolling on the body
+  document.body.style.overflow = 'hidden';
+}
+
+function closeYoutubeModal() {
+  // Hide the modal
+  $('#youtube-modal').style.display = 'none';
+
+  // Stop the video by clearing the iframe src
+  const iframe = $('#youtube-iframe');
+  iframe.src = '';
+
+  // Re-enable scrolling on the body
+  document.body.style.overflow = 'auto';
+}
+
+// Import games from gamedata.js or JSON file
+function importGames(event) {
+  const file = event.target.files[0];
+  if (!file) return;
+
+  const reader = new FileReader();
+  reader.onload = function(e) {
+    try {
+      let games;
+      const fileContent = e.target.result;
+
+      // Check if this is a gamedata.js file by looking for GAME_DATA definition
+      if (fileContent.includes('const GAME_DATA =') || fileContent.includes('var GAME_DATA =')) {
+        // Extract the JSON part from the JavaScript file
+        const startIndex = fileContent.indexOf('[');
+        const endIndex = fileContent.lastIndexOf(']') + 1;
+
+        if (startIndex === -1 || endIndex === -1) {
+          throw new Error('Invalid gamedata.js format: Cannot find the game data array');
+        }
+
+        const jsonContent = fileContent.substring(startIndex, endIndex);
+        games = JSON.parse(jsonContent);
+      } else {
+        // Treat as regular JSON
+        games = JSON.parse(fileContent);
+      }
+
+      if (!Array.isArray(games)) {
+        throw new Error('Invalid format: expected an array of games');
+      }
+
+      // Validate required fields
+      const isValid = games.every(game => 
+        game.title && game.packageName && 
+        Array.isArray(game.features) && game.features.length > 0 &&
+        (game.status === 'free' || game.status === 'exclusive')
+      );
+
+      if (!isValid) {
+        throw new Error('Invalid format: some games are missing required fields');
+      }
+
+      // Confirm overwrite
+      if (confirm(`Import ${games.length} games? This will replace all existing games in the admin panel.`)) {
+        state.allGames = games;
+        saveGames();
+        filterGamesByStatus();
+        renderAdminGameTable();
+        alert('Games imported successfully!\n\nRemember: These changes are only visible in the admin panel. To make them public, export as gamedata.js and upload to GitHub.');
+      }
+    } catch (error) {
+      alert(`Error importing games: ${error.message}`);
+    }
+  };
+  reader.readAsText(file);
+
+  // Reset the input
+  event.target.value = '';
+}
