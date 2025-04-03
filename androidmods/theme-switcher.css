@@ -1,0 +1,254 @@
+/* Theme Switcher Styles */
+:root {
+  /* Default comic theme variables */
+  --transition-theme: 0.4s ease-in-out;
+}
+
+/* Cyberpunk Theme Variables - Original Design */
+.cyberpunk-theme {
+  --background: #0a0a14 !important;
+  --text: #ffffff !important;
+  --text-muted: #8f98d9 !important;
+  --primary: #00ffff !important;
+  --secondary: #f844fc !important;
+  --accent: #ff2a6d !important;
+  --card-bg: #141428 !important;
+  --card-border: #252540 !important;
+  --button-active: #00d9ff !important;
+  --button-bg: #00a2ff !important;
+  --button-red: #ff003c !important;
+  --tag-bg: #1e1e33 !important;
+  --border-radius: 4px !important;
+  --box-shadow: 0 4px 6px rgba(0, 255, 255, 0.1), 0 1px 3px rgba(0, 255, 255, 0.08) !important;
+  --border-width: 1px !important;
+  --border-style: solid !important;
+  --outline-color: #2a2a40 !important;
+  
+  /* Donator section colors */
+  --donator-primary: #c724b1 !important;
+  --donator-secondary: #ff00e4 !important;
+  --donator-accent: #ff4dff !important;
+  --donator-card-bg: #1e1433 !important;
+  --donator-card-border: #3a1e5e !important;
+  
+  /* Admin section colors */
+  --admin-bg: #111122 !important;
+  --admin-border: #2a2a40 !important;
+  --admin-input-bg: #1a1a30 !important;
+  --admin-button: #2d4b8e !important;
+  --admin-button-hover: #3a5ca0 !important;
+  --admin-save-button: #006622 !important;
+  --admin-save-button-hover: #00802b !important;
+  --admin-danger-button: #8e1e1e !important;
+  --admin-danger-button-hover: #a02c2c !important;
+}
+
+/* Comic Theme Variables */
+.comic-theme {
+  --background: #2E3192 !important;
+  --text: #FFFFFF !important;
+  --text-muted: #BDC7FF !important;
+  --primary: #FFD800 !important;
+  --secondary: #FF5BAC !important;
+  --accent: #00E676 !important;
+  --card-bg: #3D52D5 !important;
+  --card-border: #8269FF !important;
+  --button-active: #FF9100 !important;
+  --button-bg: #FF3D00 !important;
+  --button-red: #FF1744 !important;
+  --tag-bg: #7C4DFF !important;
+  --border-radius: 12px !important;
+  --box-shadow: 4px 4px 0px rgba(0, 0, 0, 0.5) !important;
+  --border-width: 3px !important;
+  --border-style: solid !important;
+  --outline-color: #000000 !important;
+  
+  /* Donator section colors */
+  --donator-primary: #FF0000 !important;
+  --donator-secondary: #FFEA00 !important;
+  --donator-accent: #FF9E80 !important;
+  --donator-card-bg: #7B1FA2 !important;
+  --donator-card-border: #CE93D8 !important;
+  
+  /* Admin section colors */
+  --admin-bg: #263238 !important;
+  --admin-border: #4DD0E1 !important;
+  --admin-input-bg: #37474F !important;
+  --admin-button: #4CAF50 !important;
+  --admin-button-hover: #81C784 !important;
+  --admin-save-button: #1E88E5 !important;
+  --admin-save-button-hover: #64B5F6 !important;
+  --admin-danger-button: #F44336 !important;
+  --admin-danger-button-hover: #E57373 !important;
+}
+
+/* Theme Switcher Button */
+.theme-switcher {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1000;
+  padding: 12px 18px;
+  border-radius: var(--border-radius);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  font-weight: bold;
+  transition: all 0.3s;
+  box-shadow: var(--box-shadow);
+  border: var(--border-width) var(--border-style) var(--outline-color);
+  font-size: 1rem;
+}
+
+/* Cyberpunk Theme Switcher - Original Design */
+.cyberpunk-theme .theme-switcher {
+  background: linear-gradient(90deg, #00a2ff, #00ffff);
+  color: #000;
+  box-shadow: 0 0 15px rgba(0, 255, 255, 0.7);
+  text-transform: uppercase;
+  font-family: 'Rajdhani', sans-serif;
+  border: 1px solid cyan;
+}
+
+.cyberpunk-theme .theme-switcher:hover {
+  background: linear-gradient(90deg, #00ffff, #00a2ff);
+  transform: translateY(-3px);
+  box-shadow: 0 0 20px rgba(0, 255, 255, 0.9);
+}
+
+.cyberpunk-theme .theme-switcher .icon {
+  color: #000;
+  text-shadow: 0 0 5px rgba(0, 255, 255, 0.8);
+}
+
+/* Comic Theme Switcher */
+.comic-theme .theme-switcher {
+  background-color: #FFD800;
+  color: #000;
+  font-family: 'Bangers', cursive;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  transform: rotate(-2deg);
+  border: 3px solid #000;
+}
+
+.comic-theme .theme-switcher:hover {
+  transform: translateY(-3px) rotate(-2deg);
+  box-shadow: 6px 6px 0px rgba(0, 0, 0, 0.6);
+  background-color: #FFEA00;
+}
+
+/* Font adjustments for themes */
+.cyberpunk-theme body {
+  font-family: 'Rajdhani', sans-serif !important;
+}
+
+.cyberpunk-theme h1, 
+.cyberpunk-theme h2, 
+.cyberpunk-theme h3, 
+.cyberpunk-theme .title, 
+.cyberpunk-theme .section-title,
+.cyberpunk-theme .welcome-message,
+.cyberpunk-theme .nav-link {
+  font-family: 'Orbitron', sans-serif !important;
+}
+
+.comic-theme body {
+  font-family: 'Comic Neue', cursive !important;
+}
+
+.comic-theme h1, 
+.comic-theme h2, 
+.comic-theme h3, 
+.comic-theme .title, 
+.comic-theme .section-title,
+.comic-theme .welcome-message,
+.comic-theme .nav-link {
+  font-family: 'Bangers', cursive !important;
+  letter-spacing: 1px !important;
+}
+
+/* Transition for smooth theme change */
+body, 
+.container, 
+.card, 
+.card-header, 
+.card-body, 
+button, 
+input, 
+.title, 
+.game-card, 
+.menu, 
+.section-title,
+.header,
+.footer,
+.game-title,
+.game-subtitle,
+.search-input,
+.modal-content,
+.notification,
+.welcome-message,
+.sidebar,
+.search-container,
+.logo {
+  transition: 
+    background-color var(--transition-theme),
+    color var(--transition-theme),
+    border-color var(--transition-theme),
+    box-shadow var(--transition-theme),
+    transform var(--transition-theme);
+}
+
+/* Animation for the theme toggle */
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.theme-switcher .icon {
+  display: inline-block;
+  transition: transform 0.5s;
+}
+
+.theme-switcher:hover .icon {
+  animation: spin 0.5s;
+}
+
+/* Theme-specific elements that need special handling */
+.cyberpunk-theme .new-save-badge,
+.cyberpunk-theme .version-outdated,
+.cyberpunk-theme .version-not-working,
+.cyberpunk-theme .version-patched,
+.cyberpunk-theme .success-message,
+.cyberpunk-theme .error-message,
+.cyberpunk-theme .warning-message,
+.cyberpunk-theme .copy-notification,
+.cyberpunk-theme .modal-header h2,
+.cyberpunk-theme .close-modal,
+.cyberpunk-theme .admin-btn {
+  transform: none !important;
+  font-family: 'Rajdhani', sans-serif !important;
+  letter-spacing: normal !important;
+  border-width: 1px !important;
+  box-shadow: 0 4px 6px rgba(0, 255, 255, 0.1), 0 1px 3px rgba(0, 255, 255, 0.08) !important;
+}
+
+.cyberpunk-theme .game-card,
+.cyberpunk-theme .modal-content {
+  transform: none !important;
+}
+
+.cyberpunk-theme .success-message::after {
+  display: none !important;
+}
+
+/* Additional theme-specific display differences */
+.comic-theme .cyberpunk-only {
+  display: none !important;
+}
+
+.cyberpunk-theme .comic-only {
+  display: none !important;
+}
