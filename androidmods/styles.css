@@ -63,7 +63,7 @@ body {
   align-items: center;
   padding: 15px 0;
   border-bottom: 1px solid #1a1a30;
-  margin-bottom: 20px;
+  margin-bottom: 35px; /* Increased spacing here */
   justify-content: space-between;
   flex-wrap: wrap;
 }
@@ -398,7 +398,7 @@ body {
 }
 
 /* Special version states in game cards */
-.version-outdated, .version-not-working {
+.version-outdated, .version-not-working, .version-patched {
   color: #ffffff;
   padding: 2px 6px;
   border-radius: var(--border-radius);
@@ -411,6 +411,10 @@ body {
 
 .version-not-working {
   background-color: #cc0000;
+}
+
+.version-patched {
+  background-color: #00aa55;
 }
 
 .mod-features-title {
@@ -495,6 +499,11 @@ body {
 .download-btn {
   background-color: var(--button-bg);
   color: white;
+}
+
+.unavailable-btn {
+  background-color: #666666;
+  cursor: default;
 }
 
 .preview-btn:hover, .download-btn:hover {
@@ -690,6 +699,22 @@ body {
   color: white;
 }
 
+.version-btn-patched {
+  background-color: #00aa55;
+  color: white;
+}
+
+/* For Download URL with No Link button */
+.download-url-container {
+  display: flex;
+  gap: 10px;
+  width: 100%;
+}
+
+.download-url-container input {
+  flex: 1;
+}
+
 .version-btn.active {
   box-shadow: 0 0 0 2px white;
   transform: scale(1.05);
@@ -775,6 +800,79 @@ body {
   display: flex;
   gap: 10px;
   margin-top: 20px;
+  align-items: center;
+}
+
+.success-message {
+  color: #4CAF50;
+  font-weight: 600;
+  margin-left: 10px;
+  animation: fadeInOut 3s;
+  padding: 5px 10px;
+  border-radius: var(--border-radius);
+  background-color: rgba(76, 175, 80, 0.1);
+}
+
+.error-message {
+  color: #f44336;
+  font-weight: 600;
+  margin-left: 10px;
+  padding: 5px 10px;
+  border-radius: var(--border-radius);
+  background-color: rgba(244, 67, 54, 0.1);
+  border-left: 3px solid #f44336;
+}
+
+.warning-message {
+  color: #ff9800;
+  font-weight: 600;
+  margin-left: 10px;
+  padding: 5px 10px;
+  border-radius: var(--border-radius);
+  background-color: rgba(255, 152, 0, 0.1);
+  border-left: 3px solid #ff9800;
+}
+
+.message-actions {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+/* Copy link notification */
+.copy-notification {
+  position: fixed;
+  background-color: rgba(76, 175, 80, 0.9);
+  color: white;
+  padding: 8px 12px;
+  border-radius: 4px;
+  font-size: 0.9rem;
+  z-index: 1000;
+  animation: fadeIn 0.3s, fadeOut 0.3s 1.7s;
+  pointer-events: none;
+  white-space: nowrap;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+.copy-notification.error {
+  background-color: rgba(244, 67, 54, 0.9);
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(-10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes fadeOut {
+  from { opacity: 1; transform: translateY(0); }
+  to { opacity: 0; transform: translateY(-10px); }
+}
+
+@keyframes fadeInOut {
+  0% { opacity: 0; }
+  20% { opacity: 1; }
+  80% { opacity: 1; }
+  100% { opacity: 0; }
 }
 
 .admin-btn {
@@ -838,6 +936,57 @@ body {
 
 #games-table tbody tr:hover {
   background-color: rgba(255, 255, 255, 0.05);
+}
+
+/* New save highlight in admin table */
+.new-save-row {
+  background-color: rgba(76, 175, 80, 0.07);
+  animation: pulse 2s infinite;
+}
+
+.new-save-row:hover {
+  background-color: rgba(76, 175, 80, 0.1) !important;
+}
+
+.new-save-badge {
+  background-color: #4CAF50;
+  color: white;
+  font-size: 0.7rem;
+  padding: 2px 6px;
+  border-radius: 3px;
+  margin-left: 5px;
+  animation: pulse 2s infinite;
+  display: inline-block;
+}
+
+@keyframes pulse {
+  0% { opacity: 0.8; }
+  50% { opacity: 1; }
+  100% { opacity: 0.8; }
+}
+
+/* Version indicators in Admin panel */
+.version-outdated, .version-not-working, .version-patched {
+  display: inline-block;
+  padding: 2px 6px;
+  border-radius: 3px;
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+
+.version-outdated {
+  background-color: #FFA500;
+  color: #000;
+}
+
+.version-not-working {
+  background-color: #FF4500;
+  color: white;
+}
+
+.version-patched {
+  background-color: #4169E1;
+  color: white;
 }
 
 .table-actions {
