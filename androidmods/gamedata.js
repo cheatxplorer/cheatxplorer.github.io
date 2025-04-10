@@ -2025,10 +2025,27 @@ const GAME_DATA = [
     "features": [
       "HIGH DAMAGE",
       "GOD MODE",
-      "Gold Drop Multiplier"
+      "Gold Drop Multiplier",
+      "Speed Game Multiplier"
+    ],
+    "status": "exclusive",
+    "isNewSave": false,
+    "id": 120
+  },
+  {
+    "title": "Prison Guard Simulator",
+    "version": "v1.0",
+    "packageName": "com.prisoner.guard.simulator",
+    "updatedDate": "2025-04-11",
+    "imageUrl": "https://play-lh.googleusercontent.com/QDFZEVVcpzgXBCbE8fF4IBrwc1ELl7_cOunH-DJigTag4tVaKxOLUQ1sLCB8UeazTCw=w280",
+    "youtubeId": "",
+    "downloadUrl": "https://ko-fi.com/s/a100c426c3",
+    "features": [
+      "Unlimited Money",
+      "NO ADS"
     ],
     "status": "exclusive",
     "isNewSave": true,
-    "id": 120
+    "id": 121
   }
 ];
