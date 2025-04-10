@@ -122,7 +122,7 @@ const GAME_DATA = [
     "updatedDate": "2025-04-01",
     "imageUrl": "https://play-lh.googleusercontent.com/kYqBgsX7_QQlshPMN-MpMvum2MbOJp3qnG4-zDcPDTOTQy2fwOHh-tdLjvJUz6b1e5Sa=s280",
     "youtubeId": "",
-	"downloadUrl": "https://shrinkme.ink/Obsidian-Knight-RPG",
+    "downloadUrl": "https://shrinkme.ink/Obsidian-Knight-RPG",
     "features": [
       "Free In-App Purchase"
     ],
@@ -137,7 +137,7 @@ const GAME_DATA = [
     "updatedDate": "2025-04-01",
     "imageUrl": "https://play-lh.googleusercontent.com/KJ8_UwiIpZ8gbrs2RNXOHy61x-KJqlK8cwYyiJWaw2KFJWbQMimBwyYjwxS6ishBejg=s280",
     "youtubeId": "",
-	"downloadUrl": "https://shrinkme.ink/CarX-Drift-Racing-2",
+    "downloadUrl": "https://shrinkme.ink/CarX-Drift-Racing-2",
     "features": [
       "Unlimited gold and cash",
       "Max player level",
@@ -157,7 +157,7 @@ const GAME_DATA = [
     "updatedDate": "2025-04-01",
     "imageUrl": "https://play-lh.googleusercontent.com/DbrBTFtew8YIgJBkJc-Hfp3Wj8pFHaNcB-X3n3zia9G5AQFSR1iZBt827D4vscZ-mg=w280",
     "youtubeId": "",
-	"downloadUrl": "https://shrinkme.ink/Idle-Dragons",
+    "downloadUrl": "https://shrinkme.ink/Idle-Dragons",
     "features": [
       "Free In-App Purchase"
     ],
@@ -172,7 +172,7 @@ const GAME_DATA = [
     "updatedDate": "2025-04-01",
     "imageUrl": "https://play-lh.googleusercontent.com/xIG3ztkPVfsCfxUJvqUW2ivyBBivQvroI6Dy4sTSt4_I-Txr5amrn0tGejnWevyLAEp7=s280",
     "youtubeId": "",
-	"downloadUrl": "https://shrinkme.ink/Idle-Weapon-Shop",
+    "downloadUrl": "https://shrinkme.ink/Idle-Weapon-Shop",
     "features": [
       "Get Rewards without Ads"
     ],
@@ -187,7 +187,7 @@ const GAME_DATA = [
     "updatedDate": "2025-04-01",
     "imageUrl": "https://play-lh.googleusercontent.com/OWt4jJoG6FaPem8pruJA_Qw358lPGVTsPBTEXnuTN3ZRBWx5gSIjylhASpLyrXRa-TM=s280",
     "youtubeId": "",
-	"downloadUrl": "https://shrinkme.ink/Scarlet-Girls",
+    "downloadUrl": "https://shrinkme.ink/Scarlet-Girls",
     "features": [
       "Global Speed Multiplier"
     ],
@@ -202,7 +202,7 @@ const GAME_DATA = [
     "updatedDate": "2025-04-01",
     "imageUrl": "https://play-lh.googleusercontent.com/tL1BEmHbM-Gcrh2CdjadRes6FN-DUErm66N0c0Ukw0s1Iz4JYtQyKHdCbOgZEI4aURc=w280",
     "youtubeId": "",
-	"downloadUrl": "https://shrinkme.ink/Sword-Paladin-Legend",
+    "downloadUrl": "https://shrinkme.ink/Sword-Paladin-Legend",
     "features": [
       "Damage Multiplier",
       "Unlimited Gold",
@@ -223,7 +223,7 @@ const GAME_DATA = [
     "updatedDate": "2025-04-01",
     "imageUrl": "https://play-lh.googleusercontent.com/tDRSxFkEK59P1UigJ2u7Yy-QKTG-CiTWbztHzMUmfOEnyhEdX_6ilsqgyauDaDjitw8=w280",
     "youtubeId": "",
-	"downloadUrl": "https://shrinkme.ink/Dark-War-Survival",
+    "downloadUrl": "https://shrinkme.ink/Dark-War-Survival",
     "features": [
       "Global Speed Multiplier"
     ],
@@ -238,7 +238,7 @@ const GAME_DATA = [
     "updatedDate": "2025-04-01",
     "imageUrl": "https://play-lh.googleusercontent.com/mVaKjfL8yFiWEsph6KvRsG8YExq94Ojivq1mm5l8KScU3DT9VsQ1Wv09XgeXGOZ5-g=w280",
     "youtubeId": "",
-	"downloadUrl": "https://shrinkme.ink/Immortal-World-Chaos",
+    "downloadUrl": "https://shrinkme.ink/Immortal-World-Chaos",
     "features": [
       "Global Speed Multiplier"
     ],
@@ -253,7 +253,7 @@ const GAME_DATA = [
     "updatedDate": "2025-04-01",
     "imageUrl": "https://play-lh.googleusercontent.com/S_rLQEHfz80Qd9iZCc2Yhs6yzcEDiBZ2c1GWFFWC-tC3iCN8-YlSYCBq_Q0bz1HAnQ=s280",
     "youtubeId": "",
-	"downloadUrl": "https://shrinkme.ink/Idle-Ant-Colony",
+    "downloadUrl": "https://shrinkme.ink/Idle-Ant-Colony",
     "features": [
       "Unlimited Resources"
     ],
@@ -268,7 +268,7 @@ const GAME_DATA = [
     "updatedDate": "2025-04-01",
     "imageUrl": "https://play-lh.googleusercontent.com/evPGBvVopk0kQPnpbrl2XeC9tT8tXgksrXIxrnazXSyFz2Ozto1c5gV9_RmAIDpLKKI=s280",
     "youtubeId": "",
-	"downloadUrl": "https://shrinkme.ink/Arcane-Quest-Legends-2-Offline",
+    "downloadUrl": "https://shrinkme.ink/Arcane-Quest-Legends-2-Offline",
     "features": [
       "Damage Multiplier",
       "God Mode",
@@ -286,7 +286,7 @@ const GAME_DATA = [
     "updatedDate": "2025-04-01",
     "imageUrl": "https://play-lh.googleusercontent.com/_5vlilQ3ovp6Uva5CC0HJs7Y2yEJuLZxBaPIdlQxF9C3C2GdKxM_utoji8ni3OfACw=w280",
     "youtubeId": "",
-	"downloadUrl": "https://shrinkme.ink/Heros-Of-Lighthalzen",
+    "downloadUrl": "https://shrinkme.ink/Heros-Of-Lighthalzen",
     "features": [
       "Damage Multiplier",
       "God Mode"
@@ -302,7 +302,7 @@ const GAME_DATA = [
     "updatedDate": "2025-04-01",
     "imageUrl": "https://play-lh.googleusercontent.com/P6nZ1iOA9bCUU3TwFAGwLDwUiSPyGqC5tccJl4HJzalScXPlWBrOmJQmBj42jw-HD0Bt=s280",
     "youtubeId": "",
-	"downloadUrl": "https://shrinkme.ink/Skating-Rink-Story",
+    "downloadUrl": "https://shrinkme.ink/Skating-Rink-Story",
     "features": [
       "Money Always Increase",
       "Generate Points",
@@ -319,7 +319,7 @@ const GAME_DATA = [
     "updatedDate": "2025-04-01",
     "imageUrl": "https://play-lh.googleusercontent.com/sNfKTtCOcCbjLhhPUBH-dozndE8JPM2EzVhzaqct9ZPmmiVcCvi6QcUh8A4tzljKMpp3=s280",
     "youtubeId": "",
-	"downloadUrl": "https://shrinkme.ink/EvoCreo-2-Monster-Trainer-RPG",
+    "downloadUrl": "https://shrinkme.ink/EvoCreo-2-Monster-Trainer-RPG",
     "features": [
       "Damage Multiplier",
       "Move Speed Multiplier",
@@ -338,7 +338,7 @@ const GAME_DATA = [
     "updatedDate": "2025-04-01",
     "imageUrl": "https://play-lh.googleusercontent.com/nNott_agJnQn0vkVj94oXzH5gBLlYCaYU7gTeRL_vFWauTjNVp4OTFqJBiGwLsYapRoe=w280",
     "youtubeId": "",
-	"downloadUrl": "https://shrinkme.ink/Shinobi-Heir",
+    "downloadUrl": "https://shrinkme.ink/Shinobi-Heir",
     "features": [
       "Damage Multiplier",
       "Defense Multiplier"
@@ -354,7 +354,7 @@ const GAME_DATA = [
     "updatedDate": "2025-04-01",
     "imageUrl": "https://play-lh.googleusercontent.com/xK1qKYt0LANlOBATgY43Z0uFF6NHlDS7YyuI1ID602dSvFpJnwsdXJW_FxSC_9ZdpCg=s280",
     "youtubeId": "",
-	"downloadUrl": "https://shrinkme.ink/Dreamio-Rush",
+    "downloadUrl": "https://shrinkme.ink/Dreamio-Rush",
     "features": [
       "Damage Multiplier",
       "Defense Multiplier"
@@ -370,7 +370,7 @@ const GAME_DATA = [
     "updatedDate": "2025-04-01",
     "imageUrl": "https://play-lh.googleusercontent.com/bh2Y_wu3vE0alM_-5Rgl30no5InMubpM3zhgKRafD6n3EmLyTo7dANtlpaeNU_KZHvs=s280",
     "youtubeId": "",
-	"downloadUrl": "https://shrinkme.ink/Idle-Yokai-Girl-Visual-Novel",
+    "downloadUrl": "https://shrinkme.ink/Idle-Yokai-Girl-Visual-Novel",
     "features": [
       "Generate Gems"
     ],
@@ -385,7 +385,7 @@ const GAME_DATA = [
     "updatedDate": "2025-04-01",
     "imageUrl": "https://play-lh.googleusercontent.com/90_lEet-xQC1Vvl46lDchN4Ebq5zcZpi1G5j8qbh4pW1E47c5joJiNxQb0r7BxeA3g=s280",
     "youtubeId": "",
-	"downloadUrl": "https://shrinkme.ink/My-Bakery-Story",
+    "downloadUrl": "https://shrinkme.ink/My-Bakery-Story",
     "features": [
       "Money Always Increase",
       "Gem Multiplier",
@@ -402,7 +402,7 @@ const GAME_DATA = [
     "updatedDate": "2025-04-01",
     "imageUrl": "https://play-lh.googleusercontent.com/dI-ezB02488ZB9CtGkekA1BR-mrD1Z2NGPg26t4P-0TnjfAaXRDHlwAVzQpWpqFJmIY=w280",
     "youtubeId": "",
-	"downloadUrl": "https://shrinkme.ink/Pixel-Clan-Dungeon-Squad",
+    "downloadUrl": "https://shrinkme.ink/Pixel-Clan-Dungeon-Squad",
     "features": [
       "Unlimited Currency"
     ],
@@ -417,7 +417,7 @@ const GAME_DATA = [
     "updatedDate": "2025-04-01",
     "imageUrl": "https://play-lh.googleusercontent.com/WcKRj1D6FcbtUvMryY1MFdi8sTmwtz5I_6CxY0RcFc-7uCwb-FT75smPe9jC-lCo_A=s280",
     "youtubeId": "",
-	"downloadUrl": "https://shrinkme.ink/WIND-BREAKER",
+    "downloadUrl": "https://shrinkme.ink/WIND-BREAKER",
     "features": [
       "Damage Multiplier",
       "Defense Multiplier",
@@ -434,7 +434,7 @@ const GAME_DATA = [
     "updatedDate": "2025-04-01",
     "imageUrl": "https://play-lh.googleusercontent.com/U13NvIWoTc1rS2-67blbtut0-sooRq3E08N5D_j1yU_5Z-Gx91vb-eyxy5uyMsFn_JuT=s280",
     "youtubeId": "",
-	"downloadUrl": "https://shrinkme.ink/Catstaurant-Cat-Chefs",
+    "downloadUrl": "https://shrinkme.ink/Catstaurant-Cat-Chefs",
     "features": [
       "Currency Always Increase"
     ],
@@ -449,7 +449,7 @@ const GAME_DATA = [
     "updatedDate": "2025-04-01",
     "imageUrl": "https://play-lh.googleusercontent.com/Y5-3eQUarlAuC5tnZ-d26YmgQvawiM_XomRUnkrKRclkGRfaLDl-jmf0ftBxqJrEggs=w280",
     "youtubeId": "",
-	"downloadUrl": "https://shrinkme.ink/Bingbing-Knights-Action-Merge",
+    "downloadUrl": "https://shrinkme.ink/Bingbing-Knights-Action-Merge",
     "features": [
       "Damage Multiplier",
       "Defense Multiplier",
@@ -467,7 +467,7 @@ const GAME_DATA = [
     "updatedDate": "2025-04-01",
     "imageUrl": "https://play-lh.googleusercontent.com/JGwB6WgD3aBiiZ63K22HIzk2colfDFlAXlpgSQgHdcOSD1BLV0Ady9U9ShpPSjx0WSM=w280",
     "youtubeId": "",
-	"downloadUrl": "https://shrinkme.ink/Paw-Crusaders-Idle-RPG",
+    "downloadUrl": "https://shrinkme.ink/Paw-Crusaders-Idle-RPG",
     "features": [
       "Damage",
       "God Mode"
@@ -483,7 +483,7 @@ const GAME_DATA = [
     "updatedDate": "2025-04-01",
     "imageUrl": "https://play-lh.googleusercontent.com/RluekWvM42H_crLmV4pIsYJUVU6IulzhZN-wb153lSH3hiLglDFEYsyCHecsc4Y3dtY=s280",
     "youtubeId": "",
-	"downloadUrl": "https://shrinkme.ink/Frozen-War-Endless-Frost",
+    "downloadUrl": "https://shrinkme.ink/Frozen-War-Endless-Frost",
     "features": [
       "Damage Multiplier"
     ],
@@ -498,7 +498,7 @@ const GAME_DATA = [
     "updatedDate": "2025-04-01",
     "imageUrl": "https://play-lh.googleusercontent.com/qfa1kRkeO3gyzckMW0GojsO-MwQPwq-NygTM-u_Zj5nh-9lErt0DKTSUb4-RvyoKpfBW=w280",
     "youtubeId": "",
-	"downloadUrl": "https://shrinkme.ink/Mini-Heroes-Magic-Throne",
+    "downloadUrl": "https://shrinkme.ink/Mini-Heroes-Magic-Throne",
     "features": [
       "Damage Multiplier",
       "Defense Multiplier"
@@ -514,7 +514,7 @@ const GAME_DATA = [
     "updatedDate": "2025-04-01",
     "imageUrl": "https://play-lh.googleusercontent.com/kTxdHdgKNUiD5_ZnUYFjk9M9_G7vwv5SJGeUGyz-ECvwW-Mq5h0EQ52HEc2WmUphfYs=w280",
     "youtubeId": "",
-	"downloadUrl": "https://shrinkme.ink/Go-Go-Samkok",
+    "downloadUrl": "https://shrinkme.ink/Go-Go-Samkok",
     "features": [
       "Damage Multiplier",
       "Defense Multiplier",
@@ -531,7 +531,7 @@ const GAME_DATA = [
     "updatedDate": "2025-04-01",
     "imageUrl": "https://play-lh.googleusercontent.com/x78w2a5O_UpBritr4apd06WewGNgLiiCtoUnyZ0viqjHBHkj6lZJtVsqMnIHTUbcTg=s280",
     "youtubeId": "",
-	"downloadUrl": "https://shrinkme.ink/Stick-World-Z-Zombie-War-TD",
+    "downloadUrl": "https://shrinkme.ink/Stick-World-Z-Zombie-War-TD",
     "features": [
       "Damage Multiplier",
       "God Mode",
@@ -555,7 +555,7 @@ const GAME_DATA = [
     "updatedDate": "2025-04-01",
     "imageUrl": "https://play-lh.googleusercontent.com/XseP14sppH-FaquxHm2TYSiNmZVJ_JD4gXbOlWChLKAg0wiLGmiF4znov79eXQsJ9Q4=s280",
     "youtubeId": "",
-	"downloadUrl": "https://shrinkme.ink/Bullet-Echo-PVP-Shooter",
+    "downloadUrl": "https://shrinkme.ink/Bullet-Echo-PVP-Shooter",
     "features": [
       "DRONE VIEW"
     ],
@@ -570,7 +570,7 @@ const GAME_DATA = [
     "updatedDate": "2025-04-01",
     "imageUrl": "https://play-lh.googleusercontent.com/de_c_t7HIj1lS2DCC7f48vyiewweWR9sgWtFfga2UpFNfqjLY276yQV1vYvgChwKS5w=s280",
     "youtubeId": "",
-	"downloadUrl": "https://shrinkme.ink/Eternal-Hero-Action-RPG",
+    "downloadUrl": "https://shrinkme.ink/Eternal-Hero-Action-RPG",
     "features": [
       "Damage Multiplier",
       "God Mode",
@@ -590,7 +590,7 @@ const GAME_DATA = [
     "updatedDate": "2025-04-01",
     "imageUrl": "https://play-lh.googleusercontent.com/3JY_GPt05SvV4VfGRoVQgIS2w9-a-DpkbdoRElnlkv0bIDSpAKLvirHdhux0hFtnNIhx=w280",
     "youtubeId": "",
-	"downloadUrl": "https://shrinkme.ink/DungeonDrop",
+    "downloadUrl": "https://shrinkme.ink/DungeonDrop",
     "features": [
       "Damage Multiplier",
       "Defense Multiplier",
@@ -607,7 +607,7 @@ const GAME_DATA = [
     "updatedDate": "2025-04-01",
     "imageUrl": "https://play-lh.googleusercontent.com/knOnysc_88YESR7AR4ruKebKGS5Oc2jj4NPYGt_7f26_gwM-X5esU5rqcr2aX7gKXw=w280",
     "youtubeId": "",
-	"downloadUrl": "https://shrinkme.ink/Potato-Hero-Zombie-Survival",
+    "downloadUrl": "https://shrinkme.ink/Potato-Hero-Zombie-Survival",
     "features": [
       "Battle Speed x3"
     ],
@@ -622,7 +622,7 @@ const GAME_DATA = [
     "updatedDate": "2025-04-01",
     "imageUrl": "https://play-lh.googleusercontent.com/gUxNM25FceRqD7Pc1MC0BxTxV_Zh2nothTwiGaQvSv3A017nBwDfrKYVGkhQ06Z4tQ=w280",
     "youtubeId": "",
-	"downloadUrl": "https://shrinkme.ink/Slime-Castle-Idle-TD-Game",
+    "downloadUrl": "https://shrinkme.ink/Slime-Castle-Idle-TD-Game",
     "features": [
       "God Mode",
       "Unlimited Gems",
@@ -640,7 +640,7 @@ const GAME_DATA = [
     "updatedDate": "2025-04-01",
     "imageUrl": "https://play-lh.googleusercontent.com/CuUVz-vc_0wIYHT8mg0jaQqBDkLtRXauXf0aOf6VAQ9xM7-jXOCW8OFSoGPIEe0SDpEE=w280",
     "youtubeId": "",
-	"downloadUrl": "https://shrinkme.ink/Idle-Cat-Live-Concert",
+    "downloadUrl": "https://shrinkme.ink/Idle-Cat-Live-Concert",
     "features": [
       "Increased Gold",
       "Increased Gems"
@@ -656,7 +656,7 @@ const GAME_DATA = [
     "updatedDate": "2025-04-01",
     "imageUrl": "https://play-lh.googleusercontent.com/hC8c6fO7679rI_-qOVh1eZNqC7i_sqpMX2FHYmqxWTEUF74zUrIPJ_C_xQRSY8afUWo=s280",
     "youtubeId": "",
-	"downloadUrl": "https://shrinkme.ink/Bleach-Brave-Souls-Anime-Games",
+    "downloadUrl": "https://shrinkme.ink/Bleach-Brave-Souls-Anime-Games",
     "features": [
       "Massive Defense",
       "One Hit Kill",
@@ -673,7 +673,7 @@ const GAME_DATA = [
     "updatedDate": "2025-04-01",
     "imageUrl": "https://play-lh.googleusercontent.com/qInmXy-Qd10RFVmCGD10NugRcSN3ahB1r7kIRM3GwOjUtJGL2EVyrPhd0aROPS1p6ec=s280",
     "youtubeId": "",
-	"downloadUrl": "https://shrinkme.ink/Fortias-Saga-Idle-RPG",
+    "downloadUrl": "https://shrinkme.ink/Fortias-Saga-Idle-RPG",
     "features": [
       "Damage Multiplier",
       "Defense Multiplier",
@@ -693,7 +693,7 @@ const GAME_DATA = [
     "updatedDate": "2025-04-01",
     "imageUrl": "https://play-lh.googleusercontent.com/HZjZpltFEeLrMoX7f4TZ2jNY6FiYCgt0mFkws6hupaXpEAgP4ZEs_Bo8YRfe1pdPrGBN=s280",
     "youtubeId": "",
-	"downloadUrl": "https://shrinkme.ink/Nightfall-Kingdom-Frontier-TD",
+    "downloadUrl": "https://shrinkme.ink/Nightfall-Kingdom-Frontier-TD",
     "features": [
       "Damage Multiplier",
       "God Mode",
@@ -715,7 +715,7 @@ const GAME_DATA = [
     "updatedDate": "2025-04-01",
     "imageUrl": "https://play-lh.googleusercontent.com/V5Oys37amuxPq-rcn0beA61bXp0EiSQUmVig1GW2LoR463vS37pfE9n6haKpPqW9Nw=s280",
     "youtubeId": "",
-	"downloadUrl": "https://shrinkme.ink/Raising-the-Guardians",
+    "downloadUrl": "https://shrinkme.ink/Raising-the-Guardians",
     "features": [
       "Damage Multiplier",
       "Attack Speed",
@@ -734,7 +734,7 @@ const GAME_DATA = [
     "updatedDate": "2025-04-01",
     "imageUrl": "https://play-lh.googleusercontent.com/KzlFvOvNYb9_d1XlXebrh5wzIp0cTlEt5kgCLJF7gUtGjyKQ_wyNpc_Fnnbe5jZ_0Q=s280",
     "youtubeId": "",
-	"downloadUrl": "https://shrinkme.ink/Backpack-Hero-Merge-Weapon",
+    "downloadUrl": "https://shrinkme.ink/Backpack-Hero-Merge-Weapon",
     "features": [
       "Unlimited Gem",
       "God Mode"
@@ -750,7 +750,7 @@ const GAME_DATA = [
     "updatedDate": "2025-04-01",
     "imageUrl": "https://play-lh.googleusercontent.com/Sdpy9xWqYXGyPxURig7VfJWq-ljcmAoTEyg75Am5Bzqs4nRKzKRRPpyR9Vz9hMwHX2Q=w280",
     "youtubeId": "",
-	"downloadUrl": "https://shrinkme.ink/Anime-Lover-Perfect-Match",
+    "downloadUrl": "https://shrinkme.ink/Anime-Lover-Perfect-Match",
     "features": [
       "Unlimited Diamond"
     ],
@@ -765,7 +765,7 @@ const GAME_DATA = [
     "updatedDate": "2025-04-01",
     "imageUrl": "https://play-lh.googleusercontent.com/IGQFHDAWD6vSBQOcePfLtUpz4_ahJP4mrcJzX2lppTVJuNhgH87XaotLJEt0JWxnmRQ=w280",
     "youtubeId": "",
-	"downloadUrl": "https://shrinkme.ink/Running-Kingdom",
+    "downloadUrl": "https://shrinkme.ink/Running-Kingdom",
     "features": [
       "Weak Enemy"
     ],
@@ -780,7 +780,7 @@ const GAME_DATA = [
     "updatedDate": "2025-04-01",
     "imageUrl": "https://play-lh.googleusercontent.com/Rj0bn10ME6Jw4pc0Holge4oJmVZxbX4l62NPRyA2KiU2B1o5wLUl-RCIG-jY7i_krczh=s280",
     "youtubeId": "",
-	"downloadUrl": "https://shrinkme.ink/Shadow-Rival-Action-War-RPG",
+    "downloadUrl": "https://shrinkme.ink/Shadow-Rival-Action-War-RPG",
     "features": [
       "Damage Multiplier",
       "Defense Multiplier",
@@ -799,7 +799,7 @@ const GAME_DATA = [
     "updatedDate": "2025-04-01",
     "imageUrl": "https://play-lh.googleusercontent.com/FVS7BbTNVpiFz-9g1qhQgP-a4NifIc7uQiBOhzOkPfb7nIs_G64iU2S13QAbFGK2hC4=w280",
     "youtubeId": "",
-	"downloadUrl": "https://shrinkme.ink/Mushroom-Legend",
+    "downloadUrl": "https://shrinkme.ink/Mushroom-Legend",
     "features": [
       "HIGH DAMAGE",
       "DECREASE CD SKILL",
@@ -816,7 +816,7 @@ const GAME_DATA = [
     "updatedDate": "2025-04-01",
     "imageUrl": "https://play-lh.googleusercontent.com/q27YmLWvEETb8K0IZ7_tz7rc-VC7cF7N09Ee1bTnIABJM5FYcpYxxEt10Xx55c7zPoc=s280",
     "youtubeId": "",
-	"downloadUrl": "https://shrinkme.ink/Battle-Ranker-in-Another-World",
+    "downloadUrl": "https://shrinkme.ink/Battle-Ranker-in-Another-World",
     "features": [
       "Damage Multiplier",
       "Defense Multiplier",
@@ -834,7 +834,7 @@ const GAME_DATA = [
     "updatedDate": "2025-04-01",
     "imageUrl": "https://play-lh.googleusercontent.com/uu6D9UyBPo-2B7DcVmMQ8VkhJHfZm-lQex6hoc4QxyPNQqiK5SdWQBHGKmnzOkNcCu4=w280",
     "youtubeId": "",
-	"downloadUrl": "https://shrinkme.ink/Capybara-Survivor-Idle-Battle",
+    "downloadUrl": "https://shrinkme.ink/Capybara-Survivor-Idle-Battle",
     "features": [
       "Damage Multiplier",
       "Defense Multiplier",
@@ -852,7 +852,7 @@ const GAME_DATA = [
     "updatedDate": "2025-04-01",
     "imageUrl": "https://play-lh.googleusercontent.com/Fp-viUU3PelRpCtSjEvfXH4trleoTrFtcEeuHm28jisBBhDEgCoSsy908Ojp4RR-3Hk=s280",
     "youtubeId": "",
-	"downloadUrl": "https://shrinkme.ink/Hunter-Ignition-Idle-RPG",
+    "downloadUrl": "https://shrinkme.ink/Hunter-Ignition-Idle-RPG",
     "features": [
       "Damage Multiplier"
     ],
@@ -867,7 +867,7 @@ const GAME_DATA = [
     "updatedDate": "2025-04-01",
     "imageUrl": "https://play-lh.googleusercontent.com/GTlsgbzMaZhYMTa88pgAZEQ_0DsArZAvksyXGRiPyy4kjEL1J_rYR4XGGCoti4dXD3o=s280",
     "youtubeId": "",
-	"downloadUrl": "https://shrinkme.ink/Mythic-Summon-Idle-RPG",
+    "downloadUrl": "https://shrinkme.ink/Mythic-Summon-Idle-RPG",
     "features": [
       "Damage Multiplier",
       "Defense Multiplier"
@@ -883,7 +883,7 @@ const GAME_DATA = [
     "updatedDate": "2025-04-01",
     "imageUrl": "https://play-lh.googleusercontent.com/JQbGD7PTMwaMSRmFj79FazN_DMfjXMGltLPF8flB3oZC_zrWtaMnVjg5bEF-Lk1W_A=s280",
     "youtubeId": "",
-	"downloadUrl": "https://shrinkme.ink/Raising-Slime-Hunters",
+    "downloadUrl": "https://shrinkme.ink/Raising-Slime-Hunters",
     "features": [
       "God Mode",
       "Loot Multiplier"
@@ -899,7 +899,7 @@ const GAME_DATA = [
     "updatedDate": "2025-04-01",
     "imageUrl": "https://play-lh.googleusercontent.com/dkYy4Yo3yvnNKoigq15YKeJPQYZ2eG1Pn2y03EMihY-OJMdNpkWLGWk3WZHEKGOS81s=s280",
     "youtubeId": "",
-	"downloadUrl": "https://shrinkme.ink/Dungeon-Knight",
+    "downloadUrl": "https://shrinkme.ink/Dungeon-Knight",
     "features": [
       "Damage Multiplier",
       "Attack Speed Multiplier",
@@ -916,7 +916,7 @@ const GAME_DATA = [
     "updatedDate": "2025-04-01",
     "imageUrl": "https://play-lh.googleusercontent.com/mv_oOKrg7q2bqUT3PX_cq85FrN-OiRGNtKDpHL1DIfFFRWFyfETB73nYdvF_3gM15bBK=s280",
     "youtubeId": "",
-	"downloadUrl": "https://shrinkme.ink/Pocket-Tales-Survival-Game",
+    "downloadUrl": "https://shrinkme.ink/Pocket-Tales-Survival-Game",
     "features": [
       "Resources Always Increase"
     ],
@@ -931,7 +931,7 @@ const GAME_DATA = [
     "updatedDate": "2025-04-01",
     "imageUrl": "https://play-lh.googleusercontent.com/AXikCITwFTT5ElgGQXFu820u2dEHDh5PnbXTne57nLRL7OAGYRJDdnZPg7GY3xGfYf0=s280",
     "youtubeId": "",
-	"downloadUrl": "https://shrinkme.ink/Pro-Wrestler-Story",
+    "downloadUrl": "https://shrinkme.ink/Pro-Wrestler-Story",
     "features": [
       "Currency Always Increase",
       "-PAID APK FOR FREE-"
@@ -947,7 +947,7 @@ const GAME_DATA = [
     "updatedDate": "2025-04-01",
     "imageUrl": "https://play-lh.googleusercontent.com/a56kd9db4Fy0B2iR7Cho6F6DEfyT1O6FXGXZiyMSyLnxMYszWTNryQvgWzs2JN7AUQ=s280",
     "youtubeId": "",
-	"downloadUrl": "https://shrinkme.ink/SRPG-Eldgear",
+    "downloadUrl": "https://shrinkme.ink/SRPG-Eldgear",
     "features": [
       "Unlocked Game",
       "-PAID APK FOR FREE-"
@@ -963,7 +963,7 @@ const GAME_DATA = [
     "updatedDate": "2025-04-01",
     "imageUrl": "https://play-lh.googleusercontent.com/hMLRD1KPXNKq_mVZmvgKuiw8fQtRqAAUXk3oGSKl5UgoNQhYNr3WQf4padGDaZbGGg=w280",
     "youtubeId": "",
-	"downloadUrl": "https://shrinkme.ink/Brawl-Heroes-Idle-RPG",
+    "downloadUrl": "https://shrinkme.ink/Brawl-Heroes-Idle-RPG",
     "features": [
       "ADD GEMS REWARD"
     ],
@@ -978,7 +978,7 @@ const GAME_DATA = [
     "updatedDate": "2025-04-01",
     "imageUrl": "https://play-lh.googleusercontent.com/GWNiqKve5ZfbuDY3K_U-YaOhOOM0QUIDCLcj11mCFLgoIGBhQ47jxze22z-EKZhk0NqC=w280",
     "youtubeId": "",
-	"downloadUrl": "https://shrinkme.ink/Last-Survivor-Survival-Pro",
+    "downloadUrl": "https://shrinkme.ink/Last-Survivor-Survival-Pro",
     "features": [
       "God Mode",
       "Money Multiplier",
@@ -998,7 +998,7 @@ const GAME_DATA = [
     "updatedDate": "2025-04-01",
     "imageUrl": "https://play-lh.googleusercontent.com/FHyo-8OuAN3P6_wJi21bayf8KltZ_ZWpE7n6M5lROrl-U3QeSjvbgi8clOhdaY_M5jY=s280",
     "youtubeId": "",
-	"downloadUrl": "https://shrinkme.ink/Mortal-Kombats",
+    "downloadUrl": "https://shrinkme.ink/Mortal-Kombats",
     "features": [
       "Damage multiplier",
       "Defence Multiplier",
@@ -1017,7 +1017,7 @@ const GAME_DATA = [
     "updatedDate": "2025-04-01",
     "imageUrl": "https://play-lh.googleusercontent.com/OTvXp73fxFlK9tOUyq1nXDUT2Em6MAl4-s3kIlpbvfTp_Vfhfpwe5gdQVPfLL9ziMA=s280",
     "youtubeId": "",
-	"downloadUrl": "https://shrinkme.ink/Blade-Idle",
+    "downloadUrl": "https://shrinkme.ink/Blade-Idle",
     "features": [
       "Godmode",
       "One Shot Kill (With Skill)",
@@ -1036,7 +1036,7 @@ const GAME_DATA = [
     "updatedDate": "2025-04-01",
     "imageUrl": "https://play-lh.googleusercontent.com/T2lUkOOEi8f0CZZn-Q7D48WzCE1WJnKIXE27zE9PF1N9z3FlpdIYG5cnAvS6dovuVA=s280",
     "youtubeId": "",
-	"downloadUrl": "https://shrinkme.ink/Archeros",
+    "downloadUrl": "https://shrinkme.ink/Archeros",
     "features": [
       "One Hit Kill || Kill Enemies with 1 Hit",
       "Godmode || Take No Damage",
@@ -1053,7 +1053,7 @@ const GAME_DATA = [
     "updatedDate": "2025-04-01",
     "imageUrl": "https://play-lh.googleusercontent.com/ganz5FKN-8sFTBZ04hh-9unsONKdlmJ6yeV3bBgjTP95cfjahgcpI5MKZxsoFMfldag=s280",
     "youtubeId": "",
-	"downloadUrl": "https://shrinkme.ink/Zooba-Fun-Battle-Royale-Games",
+    "downloadUrl": "https://shrinkme.ink/Zooba-Fun-Battle-Royale-Games",
     "features": [
       "Show Enemies in grass",
       "Show items in grass",
@@ -1071,7 +1071,7 @@ const GAME_DATA = [
     "updatedDate": "2025-04-01",
     "imageUrl": "https://play-lh.googleusercontent.com/WRixOqWRZQHfCgFhqfWbjCh6myA4hO4bOPQ_KJJEKrB_G8KZvl0IvNEUmRuxnfx8Tbw=w280",
     "youtubeId": "",
-	"downloadUrl": "https://shrinkme.ink/Fate-Grand-Order",
+    "downloadUrl": "https://shrinkme.ink/Fate-Grand-Order",
     "features": [
       "Damage Multiplier",
       "Defense Multiplier",
@@ -1089,7 +1089,7 @@ const GAME_DATA = [
     "updatedDate": "2025-04-01",
     "imageUrl": "https://play-lh.googleusercontent.com/D5ZbNV70GB5sX6qPzNQ7GqWWwEcikSqFAmo8ad62x2DlewBmvR_w2zftO9ZlnPpufA=s280",
     "youtubeId": "",
-	"downloadUrl": "https://shrinkme.ink/Doraemon-Dorayaki-Shop-Story",
+    "downloadUrl": "https://shrinkme.ink/Doraemon-Dorayaki-Shop-Story",
     "features": [
       "Currency Always Increase",
       "-PAID APK FOR FREE-"
@@ -1105,7 +1105,7 @@ const GAME_DATA = [
     "updatedDate": "2025-04-01",
     "imageUrl": "https://play-lh.googleusercontent.com/hdc-if4NpA-cDlriEmtAFtpDG-BYyRBkieB4pvWAoD3Dyn8R3WLXN_R8FgRzypDFPPc=w280",
     "youtubeId": "",
-	"downloadUrl": "https://shrinkme.ink/Knights-Go",
+    "downloadUrl": "https://shrinkme.ink/Knights-Go",
     "features": [
       "Damage Multiplier",
       "Defense Multiplier",
@@ -1122,7 +1122,7 @@ const GAME_DATA = [
     "updatedDate": "2025-04-01",
     "imageUrl": "https://play-lh.googleusercontent.com/fTxtPTiZz9441g5EDb5ChqyM3QeNXWpElvnzwt2n88_9m5uBz36o-WfUW_eHNO7njcjc=s280",
     "youtubeId": "",
-	"downloadUrl": "https://shrinkme.ink/Soccer-Manager-2025",
+    "downloadUrl": "https://shrinkme.ink/Soccer-Manager-2025",
     "features": [
       "Increase Club Money Reward in Season",
       "Free Upgrade in Facility (Scout / Stadium / Club / Training )",
@@ -1140,7 +1140,7 @@ const GAME_DATA = [
     "updatedDate": "2025-04-01",
     "imageUrl": "https://play-lh.googleusercontent.com/MI0aupX4o-83J3FhZILVyrl7WMnBVF9AiMghexepstdhSV6JnaTMgd18YvuFuFdKxBU=s280",
     "youtubeId": "",
-	"downloadUrl": "https://shrinkme.ink/Gardenscapes",
+    "downloadUrl": "https://shrinkme.ink/Gardenscapes",
     "features": [
       "Coins increases when spent"
     ],
@@ -1155,7 +1155,7 @@ const GAME_DATA = [
     "updatedDate": "2025-04-01",
     "imageUrl": "https://play-lh.googleusercontent.com/HRrEOWHevIJLmyT-ajvAx21MEjF_lkA3wxbHoFRkGaczLd9SkTjNasPk7EAZhu1Okw=w280",
     "youtubeId": "",
-	"downloadUrl": "https://shrinkme.ink/Legend-of-Mushroom-Rush",
+    "downloadUrl": "https://shrinkme.ink/Legend-of-Mushroom-Rush",
     "features": [
       "HIGH DAMAGE",
       "DECREASE CD SKILL",
@@ -1172,7 +1172,7 @@ const GAME_DATA = [
     "updatedDate": "2025-04-01",
     "imageUrl": "https://play-lh.googleusercontent.com/3oS4LgX7qdr3U2NHACsuuPkoDF3Jt5TQtXV8EAfCHmxCBho-nqz7EGl0yaJSw6zJo2J5=w280",
     "youtubeId": "",
-	"downloadUrl": "https://shrinkme.ink/Meow-Bakery",
+    "downloadUrl": "https://shrinkme.ink/Meow-Bakery",
     "features": [
       "Unlimited Coins",
       "Unlimited Gems"
@@ -1188,7 +1188,7 @@ const GAME_DATA = [
     "updatedDate": "2025-04-01",
     "imageUrl": "https://play-lh.googleusercontent.com/JvIkACrotFcQvqBcvBy1XH7NWbG0GZZQj7d_m7hoHuGkBH-l-qhjGL-MJ0HiTguhNYXd=s280",
     "youtubeId": "",
-	"downloadUrl": "https://shrinkme.ink/Hero-Random-Defense",
+    "downloadUrl": "https://shrinkme.ink/Hero-Random-Defense",
     "features": [
       "UNLIMITED GOLD",
       "UNLIMITED GEMS",
@@ -1205,7 +1205,7 @@ const GAME_DATA = [
     "updatedDate": "2025-04-01",
     "imageUrl": "https://play-lh.googleusercontent.com/mobKhT4nfrpvkE4Fi8C1P3zlQuYJRdPI_rHIFPs4LtEHWelsA738XvT-mrCAfAv_3AM=w280",
     "youtubeId": "",
-	"downloadUrl": "https://shrinkme.ink/One-Punch-Man-World",
+    "downloadUrl": "https://shrinkme.ink/One-Punch-Man-World",
     "features": [
       "Damage Multiplier",
       "Defense Multiplier",
@@ -1222,7 +1222,7 @@ const GAME_DATA = [
     "updatedDate": "2025-04-01",
     "imageUrl": "https://play-lh.googleusercontent.com/PEWomarNG22TcCuCe6eFAUsaa2PkZqN1OZasGIpC_FhFMsGlKdS1DwbuyigH5EnzPg=s280",
     "youtubeId": "",
-	"downloadUrl": "https://shrinkme.ink/Slime-Survivor-Idle-RPG-Games",
+    "downloadUrl": "https://shrinkme.ink/Slime-Survivor-Idle-RPG-Games",
     "features": [
       "Damage Multiplier",
       "Defense Multiplier",
@@ -1241,7 +1241,7 @@ const GAME_DATA = [
     "updatedDate": "2025-04-01",
     "imageUrl": "https://play-lh.googleusercontent.com/9A91JI8iOf7GKDIuFNDW2b3DnO1_rzOVK0UCTYRO-dALO4dLHAFCwOg5ezI6vkMnzsg=s280",
     "youtubeId": "",
-	"downloadUrl": "https://shrinkme.ink/ONE-PIECE-TREASURE-CRUISE",
+    "downloadUrl": "https://shrinkme.ink/ONE-PIECE-TREASURE-CRUISE",
     "features": [
       "God Mode",
       "High Damage"
@@ -1257,7 +1257,7 @@ const GAME_DATA = [
     "updatedDate": "2025-04-01",
     "imageUrl": "https://play-lh.googleusercontent.com/XkwdHD7ilgHO0-QhRS8X5APzbqgdI4d77z80TANgxxVBAqyBp2RJOHwaPNAZYQtxxOc=s280",
     "youtubeId": "",
-	"downloadUrl": "https://shrinkme.ink/Injustice-2",
+    "downloadUrl": "https://shrinkme.ink/Injustice-2",
     "features": [
       "God Mode",
       "High Damage",
@@ -1274,7 +1274,7 @@ const GAME_DATA = [
     "updatedDate": "2025-04-01",
     "imageUrl": "https://play-lh.googleusercontent.com/1aVKCpCCZEp4SI7Q01qRJjmevmP0bRD2Qkpnt2bxmR-ZaaNiH1JnnAfj5muBQJpl0j8=s280",
     "youtubeId": "",
-	"downloadUrl": "https://shrinkme.ink/Yu-Gi-Oh-Duel-Link",
+    "downloadUrl": "https://shrinkme.ink/Yu-Gi-Oh-Duel-Link",
     "features": [
       "AutoPlay Bot",
       "Show Monster & Status Details",
@@ -1291,7 +1291,7 @@ const GAME_DATA = [
     "updatedDate": "2025-04-01",
     "imageUrl": "https://play-lh.googleusercontent.com/tCcGJq0I0UlcTx7vUgjEb6DYl5-107PkIIe7lJy0edUqwWnayoqmtmNMaHOx5djvWg=s280",
     "youtubeId": "",
-	"downloadUrl": "https://shrinkme.ink/Tap-Titans-2-Clicker-Idle-RPG",
+    "downloadUrl": "https://shrinkme.ink/Tap-Titans-2-Clicker-Idle-RPG",
     "features": [
       "Coins Increase",
       "Coins not decrease",
@@ -1318,7 +1318,7 @@ const GAME_DATA = [
     "updatedDate": "2025-04-01",
     "imageUrl": "https://play-lh.googleusercontent.com/FsG9QR3MmgaAQ9d1yY2jxwovT6Y3_RDrxUEr5EXuKY2POQ7O8LwmlHjqVdZI0QNSIYI=s280",
     "youtubeId": "",
-	"downloadUrl": "https://shrinkme.ink/Harry-Potter-Hogwarts-Mystery",
+    "downloadUrl": "https://shrinkme.ink/Harry-Potter-Hogwarts-Mystery",
     "features": [
       "Gem & Coins Cost 0",
       "Unlock Shop Items",
@@ -1337,7 +1337,7 @@ const GAME_DATA = [
     "updatedDate": "2025-04-01",
     "imageUrl": "https://play-lh.googleusercontent.com/7MfWqr6EP_CzmN_Fh3it6e2FzJ2eThfymLDmqR62VfIFUjnuvoGVaU-t07Uj9oDthA=w280",
     "youtubeId": "",
-	"downloadUrl": "https://shrinkme.ink/What-in-hell-is-bad",
+    "downloadUrl": "https://shrinkme.ink/What-in-hell-is-bad",
     "features": [
       "Damage Multiplier",
       "Defense Multiplier",
@@ -1354,7 +1354,7 @@ const GAME_DATA = [
     "updatedDate": "2025-04-01",
     "imageUrl": "https://play-lh.googleusercontent.com/vQj6EYoC_AM6-rZhylmBaTi1bFSpZg98vu3DihfqJNWw9i2l5CGbm19uKzOaPk2_5g=s280",
     "youtubeId": "",
-	"downloadUrl": "https://shrinkme.ink/Idle-999th-Hero-AFK-RPG",
+    "downloadUrl": "https://shrinkme.ink/Idle-999th-Hero-AFK-RPG",
     "features": [
       "Damage Multiplier",
       "Defense Multiplier",
@@ -1377,7 +1377,7 @@ const GAME_DATA = [
     "updatedDate": "2025-04-01",
     "imageUrl": "https://play-lh.googleusercontent.com/3r0vOhm970sOsnmaajDA8QOCjg371PzJHI-FeYiNh5bWBkhx9lSCdsGvfRT-z3H00ic=s280",
     "youtubeId": "",
-	"downloadUrl": "https://shrinkme.ink/Almost-a-Hero-Idle-RPG",
+    "downloadUrl": "https://shrinkme.ink/Almost-a-Hero-Idle-RPG",
     "features": [
       "Auto Tap",
       "Add Currency"
@@ -1393,7 +1393,7 @@ const GAME_DATA = [
     "updatedDate": "2025-04-01",
     "imageUrl": "https://play-lh.googleusercontent.com/qF2EFUF7WxnoN1ldU_Dc0jNwuDXY8kKIeD-0cYdJ9qTKgRUg9I_8Fbd6HHC5VQeJViU=s280",
     "youtubeId": "",
-	"downloadUrl": "https://shrinkme.ink/DRAGON-BALL-LEGENDS",
+    "downloadUrl": "https://shrinkme.ink/DRAGON-BALL-LEGENDS",
     "features": [
       "One Hit Kill",
       "God Mode",
@@ -1411,7 +1411,7 @@ const GAME_DATA = [
     "updatedDate": "2025-04-01",
     "imageUrl": "https://play-lh.googleusercontent.com/D4O0RC8jtlChCh4lBAWwy7qQbPLGtJtGHMc_El0JLu5S3qRogxMcTXBs6rw9IRYt6rE=s280",
     "youtubeId": "",
-	"downloadUrl": "https://shrinkme.ink/Dragon-Knight-Tales-Idle-RPG",
+    "downloadUrl": "https://shrinkme.ink/Dragon-Knight-Tales-Idle-RPG",
     "features": [
       "Gold Multiplier",
       "Auto Kill"
@@ -1427,7 +1427,7 @@ const GAME_DATA = [
     "updatedDate": "2025-04-01",
     "imageUrl": "https://play-lh.googleusercontent.com/8ddL1kuoNUB5vUvgDVjYY3_6HwQcrg1K2fd_R8soD-e2QYj8fT9cfhfh3G0hnSruLKec=s280",
     "youtubeId": "",
-	"downloadUrl": "https://shrinkme.ink/Among-Usa",
+    "downloadUrl": "https://shrinkme.ink/Among-Usa",
     "features": [
       "[ Player Menu ] No Clip, Move In Meeting, Spam Report and more.",
       "[ ESP Menu ] Crew-mates, Impostor, Scientist and more.",
@@ -1445,7 +1445,7 @@ const GAME_DATA = [
     "updatedDate": "2025-04-01",
     "imageUrl": "https://play-lh.googleusercontent.com/7ejh3wcCGVyFGGm6l_z_KyU2XyW1luBX5Ml0yEcAoGxU5GcJPoIe1001PG5xrbMXUg=s280",
     "youtubeId": "",
-	"downloadUrl": "https://shrinkme.ink/Cavern-Adventurers",
+    "downloadUrl": "https://shrinkme.ink/Cavern-Adventurers",
     "features": [
       "Currency Always Increase",
       "Item Always Increase",
@@ -1463,7 +1463,7 @@ const GAME_DATA = [
     "updatedDate": "2025-04-01",
     "imageUrl": "https://play-lh.googleusercontent.com/GUtKibXMfeu7izarm42mboqwMjp7U41hOYMeP6ybG0anR1k3tDKXSBoOmPWMN-lnDQ4=s280",
     "youtubeId": "",
-	"downloadUrl": "https://shrinkme.ink/Tower-Defense-PvP-Tower-Royale",
+    "downloadUrl": "https://shrinkme.ink/Tower-Defense-PvP-Tower-Royale",
     "features": [
       "SP Multiplier"
     ],
@@ -1493,7 +1493,7 @@ const GAME_DATA = [
     "updatedDate": "2025-04-01",
     "imageUrl": "https://play-lh.googleusercontent.com/0Ctt4RchrW5WwZq5kQp2TiZ8QhL288pUKY_3S0UgMGOABm-H2h7ETlwe5JhFSrwcQCA=s280",
     "youtubeId": "",
-	"downloadUrl": "https://shrinkme.ink/Pocket-Land",
+    "downloadUrl": "https://shrinkme.ink/Pocket-Land",
     "features": [
       "Unlimited Currency Spend",
       "Unlimited Gear Upgrade"
@@ -1509,7 +1509,7 @@ const GAME_DATA = [
     "updatedDate": "2025-04-05",
     "imageUrl": "https://play-lh.googleusercontent.com/wdD4ICcMROvDbazgKbloFjnYsgZZRYIoUYH5wmoh0XN_gkkTznHKXPiuVM1u2Sit6I8=s280",
     "youtubeId": "511NHJjsIO8",
-	"downloadUrl": "https://shrinkme.ink/Legend-of-Survivors",
+    "downloadUrl": "https://shrinkme.ink/Legend-of-Survivors",
     "features": [
       "Unlimited Drop Box"
     ],
@@ -1539,7 +1539,7 @@ const GAME_DATA = [
     "updatedDate": "2025-04-01",
     "imageUrl": "https://play-lh.googleusercontent.com/kEWMdGHlybTz9mE4pyp6OEiVXvSkRH9hZx40BGl1zKXdYeGGS11MRAhTk7AW_ELC8aI=w280",
     "youtubeId": "",
-	"downloadUrl": "https://shrinkme.ink/Evolution-Idle-RPG",
+    "downloadUrl": "https://shrinkme.ink/Evolution-Idle-RPG",
     "features": [
       "Unlimited Resources (increase NOT decrease)",
       "Unlimited Gems (increase NOT decrease)"
@@ -1572,7 +1572,7 @@ const GAME_DATA = [
     "updatedDate": "2025-04-02",
     "imageUrl": "https://play-lh.googleusercontent.com/3uBL__BLPSU1ZTSC5pfUBGmMqzw0yO5TCwuyNeeyJGCgwTrsx9sAaZcSdgWcwU3gIiVS=s280",
     "youtubeId": "https://www.youtube.com/watch?v=WMXILJRTU9c",
-	"downloadUrl": "https://shrinkme.ink/ACE-Alice-Card-Episode",
+    "downloadUrl": "https://shrinkme.ink/ACE-Alice-Card-Episode",
     "features": [
       "Damage Multiplier"
     ],
@@ -1587,7 +1587,7 @@ const GAME_DATA = [
     "updatedDate": "2025-04-02",
     "imageUrl": "https://play-lh.googleusercontent.com/fsiQQWnJ60F0fpqwIQC-tqeKakuUwAHXtJqga-uqbaCKAS7crOPXa0ys8vaa2APSefc=w280",
     "youtubeId": "https://www.youtube.com/watch?v=XiVOw3fkmDU",
-	"downloadUrl": "https://shrinkme.ink/Cube-Kingdom",
+    "downloadUrl": "https://shrinkme.ink/Cube-Kingdom",
     "features": [
       "Unlimited Moves"
     ],
@@ -1602,7 +1602,7 @@ const GAME_DATA = [
     "updatedDate": "2025-04-02",
     "imageUrl": "https://play-lh.googleusercontent.com/bQy5v65zWAKEwS4W28cAVNErtrN4mX696Wl-V-j2CRp7NW-yUwQOvN3zMrOZBp-_CNE=w280",
     "youtubeId": "https://www.youtube.com/watch?v=R7WMJO3GN44",
-	"downloadUrl": "https://shrinkme.ink/Foundation-Galactic-Frontier",
+    "downloadUrl": "https://shrinkme.ink/Foundation-Galactic-Frontier",
     "features": [
       "Damage Multiplier",
       "Defenses Multiplier"
@@ -1618,7 +1618,7 @@ const GAME_DATA = [
     "updatedDate": "2025-04-02",
     "imageUrl": "https://play-lh.googleusercontent.com/VeJoaGjH63RN6tEbSn9MtMc7h2TrUzMAB0VDgDClSdx9pXAj2MceQRuDgskNXUjA07c=w280",
     "youtubeId": "https://www.youtube.com/watch?v=loUdr60jsxw",
-	"downloadUrl": "https://shrinkme.ink/Hexa-Warrior",
+    "downloadUrl": "https://shrinkme.ink/Hexa-Warrior",
     "features": [
       "Unlimited Battle Currency"
     ],
@@ -1633,7 +1633,7 @@ const GAME_DATA = [
     "updatedDate": "2025-04-02",
     "imageUrl": "https://play-lh.googleusercontent.com/g2F0pVr-Zxd837X82nAag9nwZAEvrqAjLruLaQp6paGi6B2Fv-myT9xRVyFyosrHaMk=w280",
     "youtubeId": "",
-	"downloadUrl": "https://shrinkme.ink/Zombies-End-The-Last-Line",
+    "downloadUrl": "https://shrinkme.ink/Zombies-End-The-Last-Line",
     "features": [
       "Damage Multiplier"
     ],
@@ -1648,7 +1648,7 @@ const GAME_DATA = [
     "updatedDate": "2025-04-02",
     "imageUrl": "https://play-lh.googleusercontent.com/mqUiKRsQP28odas6t8HIg4RPb4PJOOGdve479Pey6UmsT8BBon6l1xlgUo_hurEuNA=w280",
     "youtubeId": "",
-	"downloadUrl": "https://shrinkme.ink/My-Purrfect-Poo-Cafe",
+    "downloadUrl": "https://shrinkme.ink/My-Purrfect-Poo-Cafe",
     "features": [
       "Unlimited Gems",
       "Unlocked No Ads"
@@ -1664,7 +1664,7 @@ const GAME_DATA = [
     "updatedDate": "2025-04-02",
     "imageUrl": "https://play-lh.googleusercontent.com/HEbqPm0l1CqhnSpVNjU8cqOH6K3cJJxEkAlgwSkpHk6fEwrhB-QolBIAQNEWTS_Unv3J=s280",
     "youtubeId": "",
-	"downloadUrl": "https://shrinkme.ink/Final-Taptasy",
+    "downloadUrl": "https://shrinkme.ink/Final-Taptasy",
     "features": [
       "Damage Multiplier",
       "God Mode",
@@ -1682,7 +1682,7 @@ const GAME_DATA = [
     "updatedDate": "2025-04-02",
     "imageUrl": "https://play-lh.googleusercontent.com/oGJsWPXd9iPlP__QLgz2GigbFVSWHhvT27z2PaLBJDiKP1iJ9Gz2PZ9SSCGCT1Z8mUY=s280",
     "youtubeId": "",
-	"downloadUrl": "https://shrinkme.ink/Cat-Mall-Idle-Shopping",
+    "downloadUrl": "https://shrinkme.ink/Cat-Mall-Idle-Shopping",
     "features": [
       "Free In-App Purchase"
     ],
@@ -1697,7 +1697,7 @@ const GAME_DATA = [
     "updatedDate": "2025-04-02",
     "imageUrl": "https://play-lh.googleusercontent.com/VuxuzfNh3YmEY2WzEjXKBW7vwnkrgv1w_O9XZ9owkcQBKGnV5IERtUVDcISQyZI6sQ=s280",
     "youtubeId": "",
-	"downloadUrl": "https://shrinkme.ink/Gungoon-io",
+    "downloadUrl": "https://shrinkme.ink/Gungoon-io",
     "features": [
       "Damage Multiplier",
       "God Mode",
@@ -1721,7 +1721,7 @@ const GAME_DATA = [
     "updatedDate": "2025-04-02",
     "imageUrl": "https://play-lh.googleusercontent.com/Y8jVTQfIMMJ5_5Z5hZLn5PVMw-5duP4YCUNoOMAgQpessJTO0QXkG8LBWrESSway5Q=w280",
     "youtubeId": "",
-	"downloadUrl": "https://shrinkme.ink/Regulus-The-Advent",
+    "downloadUrl": "https://shrinkme.ink/Regulus-The-Advent",
     "features": [
       "Damage Multiplier",
       "Defense Multiplier"
@@ -1737,7 +1737,7 @@ const GAME_DATA = [
     "updatedDate": "2025-04-02",
     "imageUrl": "https://play-lh.googleusercontent.com/0da4XEfclsOk_htB9cmMjM-0vPSdIxIzKTKX071x7dknUcX7VZYqt5LUrpPOb4C-NBI=s280",
     "youtubeId": "",
-	"downloadUrl": "https://shrinkme.ink/FINAL-FANTASY-BE-WOTV",
+    "downloadUrl": "https://shrinkme.ink/FINAL-FANTASY-BE-WOTV",
     "features": [
       "Damage Multiplier",
       "Defense Multiplier"
@@ -1753,7 +1753,7 @@ const GAME_DATA = [
     "updatedDate": "2025-04-02",
     "imageUrl": "https://play-lh.googleusercontent.com/2p43pxtCUbUaY-k0peXNCa3dQs5ha_fCgSyhVfV2li6AhtWV7Y9MfVi4ZHf5V9AnTg=s280",
     "youtubeId": "",
-	"downloadUrl": "https://shrinkme.ink/SaGa-Emerald-Beyond",
+    "downloadUrl": "https://shrinkme.ink/SaGa-Emerald-Beyond",
     "features": [
       "Damage Multiplier",
       "Defense Multiplier",
@@ -1771,7 +1771,7 @@ const GAME_DATA = [
     "updatedDate": "2025-04-02",
     "imageUrl": "https://play-lh.googleusercontent.com/8fHAu4mDVSVTgxxcP5aeTWaSL7dOtVzH87CjAE0vkTSXJn5f5Bv26sNCCciukpmZcpoj=s280",
     "youtubeId": "",
-	"downloadUrl": "https://shrinkme.ink/Airline-Commander-Flight-Game",
+    "downloadUrl": "https://shrinkme.ink/Airline-Commander-Flight-Game",
     "features": [
       "Speed Game Multiplier",
       "Intrusive ADS Removed"
@@ -1787,7 +1787,7 @@ const GAME_DATA = [
     "updatedDate": "2025-04-02",
     "imageUrl": "https://play-lh.googleusercontent.com/CoRexq95MRa-WVhM4L2NjMs6ExWmkhr07_Hz-Cdc6UKQ3qvwKh9CQlC6KQu-oBY4VwQ=s280",
     "youtubeId": "",
-	"downloadUrl": "https://shrinkme.ink/The-Legend-of-Fireball",
+    "downloadUrl": "https://shrinkme.ink/The-Legend-of-Fireball",
     "features": [
       "Cheat Menu",
       "Add Offline Earnings",
@@ -1812,7 +1812,7 @@ const GAME_DATA = [
     "updatedDate": "2025-04-02",
     "imageUrl": "https://play-lh.googleusercontent.com/M7Dv4t1PE0tXVKN54zS2v3EHxBFmmz2HTiP-EJTV3DsUzm1OVUUOjJBaz0mXMdtFEV8I=s280",
     "youtubeId": "",
-	"downloadUrl": "https://shrinkme.ink/My-Sushi-Story",
+    "downloadUrl": "https://shrinkme.ink/My-Sushi-Story",
     "features": [
       "Unlimited Diamond"
     ],
@@ -1827,7 +1827,7 @@ const GAME_DATA = [
     "updatedDate": "2025-04-02",
     "imageUrl": "https://play-lh.googleusercontent.com/QuPTJcoifScpiRiRNfiq8F_WE5ByQ2Pkt_NP9lJ2WvKeLEMAE0HEhC10qQXUh0hMvDVL=w280",
     "youtubeId": "",
-	"downloadUrl": "https://shrinkme.ink/Dynamons-World",
+    "downloadUrl": "https://shrinkme.ink/Dynamons-World",
     "features": [
       "UNLIMITED COIN",
       "UNLIMITED CRYSTAL"
@@ -1843,7 +1843,7 @@ const GAME_DATA = [
     "updatedDate": "2025-04-02",
     "imageUrl": "https://play-lh.googleusercontent.com/dzyKVHnvI1GTnCKSMreDrjJcrxwQYHxEfH_c_M-oXlEIWluyAVhhj6X1NQCE6pC9SEA=s280",
     "youtubeId": "",
-	"downloadUrl": "https://shrinkme.ink/Idle-Angels-Season-of-Legends",
+    "downloadUrl": "https://shrinkme.ink/Idle-Angels-Season-of-Legends",
     "features": [
       "GAME SPEED MULTIPLIER"
     ],
@@ -1858,7 +1858,7 @@ const GAME_DATA = [
     "updatedDate": "2025-04-02",
     "imageUrl": "https://play-lh.googleusercontent.com/1NJaEmZal-WWfNTcpQkpO0Z0U4SbLMcit2K3DDW2_BQ7OJkyn1at4zDAgBGCfZLLubDd=w280",
     "youtubeId": "",
-	"downloadUrl": "https://shrinkme.ink/Last-Day-on-Earth-Survival",
+    "downloadUrl": "https://shrinkme.ink/Last-Day-on-Earth-Survival",
     "features": [
       "Move Speed Multiplier",
       "Damage Multiplier",
@@ -1879,7 +1879,7 @@ const GAME_DATA = [
     "updatedDate": "2025-04-02",
     "imageUrl": "https://play-lh.googleusercontent.com/7uF2-_yGi4KDGwZbonDVCJVRpFg_rc-hnQth6fkxTdGc0WpyAgXqxH465BkBiB7xb4I=s280",
     "youtubeId": "",
-	"downloadUrl": "https://shrinkme.ink/Monster-Hunter-Stories",
+    "downloadUrl": "https://shrinkme.ink/Monster-Hunter-Stories",
     "features": [
       "Unlimited Money",
       "Unlimited Items",
@@ -1898,7 +1898,7 @@ const GAME_DATA = [
     "updatedDate": "2025-04-02",
     "imageUrl": "https://play-lh.googleusercontent.com/zpG3Mo0o8vaiJYRswx2QN3lIC1HZME9yZQstc1teXqXWqonawg3hChWXtq8hRn1mRWc=s280",
     "youtubeId": "",
-	"downloadUrl": "https://shrinkme.ink/Summoners-Greed-Tower-Defense",
+    "downloadUrl": "https://shrinkme.ink/Summoners-Greed-Tower-Defense",
     "features": [
       "Free In-App Purchase"
     ],
@@ -1913,7 +1913,7 @@ const GAME_DATA = [
     "updatedDate": "2025-04-02",
     "imageUrl": "https://play-lh.googleusercontent.com/bYf4R4TdB8eXVnXK0zH1PLmYpuLEUR14PNAC6cK3SDT5GCI83lrzZ0U4H2aPelA8Doo=s280",
     "youtubeId": "",
-	"downloadUrl": "https://shrinkme.ink/Vampires-Fall-Origins-RPG",
+    "downloadUrl": "https://shrinkme.ink/Vampires-Fall-Origins-RPG",
     "features": [
       "Damage Multiplier",
       "God Mode",
@@ -1933,7 +1933,7 @@ const GAME_DATA = [
     "updatedDate": "2025-04-02",
     "imageUrl": "https://play-lh.googleusercontent.com/vgl3rWhPcfuucBrz2xjbiN_2LBlc-E1jmmJ5bL3ynra4OjkXTcD2nlK5pzxx7neQFm1r=s280",
     "youtubeId": "",
-	"downloadUrl": "https://shrinkme.ink/Days-After-Survival-games",
+    "downloadUrl": "https://shrinkme.ink/Days-After-Survival-games",
     "features": [
       "Dumb Enemies",
       "Free Craft",
@@ -1950,7 +1950,7 @@ const GAME_DATA = [
     "updatedDate": "2025-04-02",
     "imageUrl": "https://play-lh.googleusercontent.com/DHpX6Dvmqu7nIo7QyzGvna3s2XBnROoOymiM76j5iRyT3gN5QgkpY6ew4jkTlpCBRqnJ=s280",
     "youtubeId": "",
-	"downloadUrl": "https://shrinkme.ink/FarmVille-2-Country-Escape",
+    "downloadUrl": "https://shrinkme.ink/FarmVille-2-Country-Escape",
     "features": [
       "Freeze Key And Coins",
       "Freeze Everything",
@@ -1975,7 +1975,7 @@ const GAME_DATA = [
     "updatedDate": "2025-04-02",
     "imageUrl": "https://play-lh.googleusercontent.com/mlsVnauvVntRa5ic-vSKvRQIRDFS0bXaLfQrXBXkEOPZ8YX4XFR130Qv2zj5byTpS-5Z=w280",
     "youtubeId": "",
-	"downloadUrl": "https://shrinkme.ink/My-Hot-Pot-Story",
+    "downloadUrl": "https://shrinkme.ink/My-Hot-Pot-Story",
     "features": [
       "Unlimited Gem"
     ],
@@ -1990,7 +1990,7 @@ const GAME_DATA = [
     "updatedDate": "2025-04-06",
     "imageUrl": "https://play-lh.googleusercontent.com/LSmgnxtSoGCMcdSunZCyxHsv38bMOvIxTQtJv8qXF9taaLref9-600nfvNh5b_JbWg=w280",
     "youtubeId": "",
-	"downloadUrl": "https://shrinkme.ink/Wacky-Squad",
+    "downloadUrl": "https://shrinkme.ink/Wacky-Squad",
     "features": [
       "Damage Multiplier",
       "Defense Multiplier"
@@ -2011,7 +2011,24 @@ const GAME_DATA = [
       "Speed Game Multiplier"
     ],
     "status": "exclusive",
-    "isNewSave": true,
+    "isNewSave": false,
     "id": 119
+  },
+  {
+    "title": "Button Clash",
+    "version": "v0.1.9",
+    "packageName": "com.hybridfunstudio.buttonclash",
+    "updatedDate": "2025-04-10",
+    "imageUrl": "https://play-lh.googleusercontent.com/qMSuOR2lwgbGpfZ_SmgJyopWGYaePUlBkvva1z4uppBVBjnrfv84bAx3TIWDHTGVUA=w280",
+    "youtubeId": "",
+    "downloadUrl": "https://ko-fi.com/s/add2842932",
+    "features": [
+      "HIGH DAMAGE",
+      "GOD MODE",
+      "Gold Drop Multiplier"
+    ],
+    "status": "exclusive",
+    "isNewSave": true,
+    "id": 120
   }
 ];
