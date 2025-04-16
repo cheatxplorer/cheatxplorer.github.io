@@ -2016,12 +2016,12 @@ const GAME_DATA = [
   },
   {
     "title": "Button Clash",
-    "version": "v0.1.9",
+    "version": "OUTDATED",
     "packageName": "com.hybridfunstudio.buttonclash",
-    "updatedDate": "2025-04-10",
+    "updatedDate": "2025-04-17",
     "imageUrl": "https://play-lh.googleusercontent.com/qMSuOR2lwgbGpfZ_SmgJyopWGYaePUlBkvva1z4uppBVBjnrfv84bAx3TIWDHTGVUA=w280",
     "youtubeId": "",
-    "downloadUrl": "https://ko-fi.com/s/add2842932",
+    "downloadUrl": "NO_LINK",
     "features": [
       "HIGH DAMAGE",
       "GOD MODE",
@@ -2029,7 +2029,7 @@ const GAME_DATA = [
       "Speed Game Multiplier"
     ],
     "status": "exclusive",
-    "isNewSave": false,
+    "isNewSave": true,
     "id": 120
   },
   {
@@ -2045,7 +2045,7 @@ const GAME_DATA = [
       "NO ADS"
     ],
     "status": "exclusive",
-    "isNewSave": true,
+    "isNewSave": false,
     "id": 121
   }
 ];
