@@ -3,9 +3,9 @@
 const GAME_DATA = [
   {
     "title": "Legend of Survivors",
-    "version": "1.2.0",
+    "version": "1.2.1",
     "packageName": "com.abi.legendofsurvivors",
-    "updatedDate": "2025-04-05",
+    "updatedDate": "2025-04-19",
     "imageUrl": "https://play-lh.googleusercontent.com/wdD4ICcMROvDbazgKbloFjnYsgZZRYIoUYH5wmoh0XN_gkkTznHKXPiuVM1u2Sit6I8=s280",
     "youtubeId": "https://www.youtube.com/watch?v=511NHJjsIO8",
     "downloadUrl": "https://ko-fi.com/s/10d7b9be59",
@@ -20,9 +20,9 @@ const GAME_DATA = [
   },
   {
     "title": "Pull Pull Pull Heroes TD Game",
-    "version": "1.5.0",
+    "version": "1.6.0",
     "packageName": "com.fortune.td.game.global",
-    "updatedDate": "2025-04-08",
+    "updatedDate": "2025-04-20",
     "imageUrl": "https://play-lh.googleusercontent.com/fk7QYDtC0StJdheElvUX2Km9GtEhnuve0Aw_5fHrwdC4EgM5SqOt9gUk7NHJN-iZovWE=w280",
     "youtubeId": "https://www.youtube.com/watch?v=Hc_jIS73koo",
     "downloadUrl": "https://ko-fi.com/s/0150787298",
@@ -1506,7 +1506,7 @@ const GAME_DATA = [
     "title": "Legend of Survivors",
     "version": "",
     "packageName": "com.abi.legendofsurvivors",
-    "updatedDate": "2025-04-05",
+    "updatedDate": "2025-04-19",
     "imageUrl": "https://play-lh.googleusercontent.com/wdD4ICcMROvDbazgKbloFjnYsgZZRYIoUYH5wmoh0XN_gkkTznHKXPiuVM1u2Sit6I8=s280",
     "youtubeId": "511NHJjsIO8",
     "downloadUrl": "https://shrinkme.ink/Legend-of-Survivors",
